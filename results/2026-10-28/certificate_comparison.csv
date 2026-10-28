@@ -1,0 +1,6 @@
+method,upper_bound,ratio_to_reference_grid,check_points
+Global M + uniform residual,0.0014159097,52.4915,1001
+Local M + uniform residual,0.0009280069,34.4036,1001
+Global M + Green envelope,0.00065330548,24.2197,1001
+Local M + Green envelope,0.00015831685,5.8692,1001
+Signed error estimate + certified-form remainder,2.7901312075632605e-05,1.0343745366882136,1001

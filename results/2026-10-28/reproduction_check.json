@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-28",
+  "executed_by": "assistant in this conversation runtime",
+  "script_exit_codes": {
+    "01_manual_examples.py": 0,
+    "02_pinn_baseline.py": 0,
+    "03_certificate_diagnostics.py": 0,
+    "04_signed_residual.py": 0
+  },
+  "baseline_reproduced": true,
+  "scope": "ordinary float64; user local reproduction pending"
+}

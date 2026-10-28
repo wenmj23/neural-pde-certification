@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-28",
+  "pde": "-u_second=2",
+  "domain": [
+    0,
+    1
+  ],
+  "boundary": [
+    0,
+    0
+  ],
+  "architecture": {
+    "hidden_layers": 1,
+    "width": 16,
+    "activation": "tanh",
+    "hard_boundary": "x*(1-x)*N(x)"
+  },
+  "optimizer": "Adam",
+  "learning_rate": 0.01,
+  "steps": 2000,
+  "seed": 7,
+  "train_points": 128,
+  "residual_check_points": 1001,
+  "reference_error_points": 10001,
+  "dtype": "float64",
+  "device": "CPU",
+  "original_runtime": {
+    "python": "3.12.14",
+    "pytorch": "2.14.1+cpu"
+  },
+  "validation_status": "ordinary float64; not outward-rounded"
+}

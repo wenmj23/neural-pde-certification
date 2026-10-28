@@ -1,0 +1,20 @@
+Python: 3.12.14
+PyTorch: 2.14.1+cpu
+Device: CPU; dtype: float64; seed: 7
+Number of parameters: 49
+Boundary outputs: [-0.0, -0.0]
+Residual of the analytic solution: 0.0
+Training plus checkpoint evaluation: 2.39 seconds
+step    reference-grid error    grid max residual     bound eta         M
+   0            3.246122e-01         2.826054e+00   3.540000e-01    11.8911
+ 100            3.907852e-03         1.752226e-01   2.243762e-02     8.5567
+ 500            2.840965e-04         3.545665e-02   4.913921e-03     7.7094
+2000            2.697409e-05         7.358162e-03   1.415910e-03     7.9382
+Final bound decomposition:
+  residual term R_grid/8: 9.197703e-04
+  gap term M*h/16:        4.961394e-04
+  bound / grid error:    52.491
+intervals   grid residual term    gap correction       total bound
+      100         9.197703e-04       4.961394e-03       5.881164e-03
+     1000         9.197703e-04       4.961394e-04       1.415910e-03
+    10000         9.197703e-04       4.961394e-05       9.693842e-04

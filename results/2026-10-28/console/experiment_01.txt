@@ -1,0 +1,8 @@
+case                 residual bound    error bound    true max error    ratio
+A: smooth arch             0.200000       0.025000          0.025000    1.000
+B: oscillatory             1.579137       0.197392          0.010000   19.739
+Residual maximum observed at 11 points: 2.225e-13
+Analytic global residual maximum:       39.478418
+Incorrect plug-in bound from sampling:  2.781e-14
+Valid bound from analytic residual:     4.934802
+True maximum solution error:            0.010000

@@ -1,0 +1,14 @@
+Reused weights; no training was performed.
+Reference-grid error: 2.6974090222e-05
+Original global derivative bound M: 7.93823056
+All methods: same fixed weights and 1001 residual samples
+method                              bound          bound / reference
+Global M + uniform residual        1.4159097e-03            52.4915
+Local M + uniform residual         9.2800690e-04            34.4036
+Global M + Green envelope          6.5330548e-04            24.2197
+Local M + Green envelope           1.5831685e-04             5.8692
+Maximum of local derivative bounds: 0.13178559
+Derivative maximum observed on dense grid: 0.13093384
+Global M / max local bound: 60.236
+Max sampled residual at x=1.00000
+Checks passed: old baseline, analytic envelope example, interval bounds at independent points.

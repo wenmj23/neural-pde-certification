@@ -1,0 +1,23 @@
+Reused weights; no training was performed.
+Reference-grid error: 2.6974090222e-05
+Original global derivative bound M: 7.93823056
+All methods: same fixed weights and 1001 residual samples
+method                              bound          bound / reference
+Global M + uniform residual        1.4159097e-03            52.4915
+Local M + uniform residual         9.2800690e-04            34.4036
+Global M + Green envelope          6.5330548e-04            24.2197
+Local M + Green envelope           1.5831685e-04             5.8692
+Maximum of local derivative bounds: 0.13178559
+Derivative maximum observed on dense grid: 0.13093384
+Global M / max local bound: 60.236
+Max sampled residual at x=1.00000
+Checks passed: old baseline, analytic envelope example, interval bounds at independent points.
+Same original PINN; signed residual correction used only for certification
+intervals       lower bound        upper bound      upper / reference
+      100   1.157639355e-05   4.206597182e-05           1.559495
+     1000   2.604381286e-05   2.790131208e-05           1.034375
+    10000   2.688705838e-05   2.706109458e-05           1.003225
+At 1001 residual check points: estimated error norm Z = 2.6972562470e-05
+Remainder bound D_max = 9.2874960589e-07
+Previous unsigned local Green bound: 1.5831684614e-04
+Checks passed: constant-source solver tests, interval interior checks, independent exact-solution comparisons.
