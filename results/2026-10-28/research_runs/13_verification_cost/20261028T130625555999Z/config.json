@@ -1,0 +1,52 @@
+{
+  "case_id": "poisson_1d_sine_k1_seed7",
+  "case_sha256": "db5d0ba498c0d3b800a8727bff52d0d6e3eba41d9ca11ecbb54926a91ab477d8",
+  "repeats": 3,
+  "interval_precision_digits": 30,
+  "cap": 2048,
+  "initial_cells": 32,
+  "targets": [
+    "6/5",
+    "51/50",
+    "501/500"
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "mpmath": "1.3.0",
+  "thread_settings": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "included": [
+    "case/weight loading and validation",
+    "coefficient caching when used",
+    "float pilot when used",
+    "all unsuccessful mesh trials",
+    "grid generation and residual/derivative evaluation",
+    "integration, continuous extrema bounds, stopping tests and safe endpoint export"
+  ],
+  "excluded": [
+    "Python startup and module imports",
+    "warmup and audit checks",
+    "exact-solution reference evaluations",
+    "JSON/figure disk writes and console logging"
+  ],
+  "timing_method": "Sequential, mode order rotated per repeat, warmed implementations, fresh model per request; wall and process CPU time",
+  "sources": {
+    "scripts/13_verification_cost_benchmark.py": "629206fb15ca01ebc429dcfa322b00e32412372c353d89767f451e26b00e2fce",
+    "scripts/interval_cached.py": "1512bf9608bc8ef35bc7c21d9cd45f4c0f61e7be50fbaf416c1649021c4b1b7d",
+    "scripts/interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca",
+    "scripts/certification_core.py": "d0444734c54c287035d374349a3a075c0c03652ea9fffaa7be48874594a84fdc"
+  },
+  "checks_passed": 143,
+  "limitations": [
+    "single small smooth 1D case",
+    "three repeats by default; preliminary measurements",
+    "Float64 is not an outward-rounded certificate",
+    "Interval guarantees retain the audited backend/math assumptions",
+    "FD is a scoped cost comparison, not a substitute guarantee for this PINN"
+  ]
+}

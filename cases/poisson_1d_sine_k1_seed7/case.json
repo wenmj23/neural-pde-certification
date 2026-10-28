@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "case_id": "poisson_1d_sine_k1_seed7",
+  "status": "frozen_solver_output_for_certificate_studies",
+  "selection_reason": "Existing good-accuracy output already used for method comparisons and the interval prototype; retain the same model for continuity. This is one case, not a representative sample of all PINNs.",
+  "problem": {
+    "name": "1D Poisson with sinusoidal source",
+    "operator": "-u_dd",
+    "domain": [
+      0.0,
+      1.0
+    ],
+    "boundary": {
+      "type": "Dirichlet",
+      "values": [
+        0.0,
+        0.0
+      ]
+    },
+    "source": "pi^2*sin(pi*x)",
+    "frequency": 1,
+    "exact_solution_for_reference_only": "sin(pi*x)"
+  },
+  "network": {
+    "architecture": [
+      1,
+      16,
+      1
+    ],
+    "activation": "tanh",
+    "output_transform": "x*(1-x)*raw_network(x)",
+    "formula": "v=x*(1-x)*(c+sum_j a_j*tanh(w_j*x+b_j))",
+    "parameter_count": 49,
+    "parameter_dtype": "float64",
+    "weights_file": "weights.json",
+    "weights_sha256": "100c00368e1e194274d06deaa8a37bfe4ce4ecb3f2326a1811c2b8b32d0a9da1",
+    "weight_semantics": "JSON values load to binary64; those binary64 values define the frozen weights. In real-function interval studies, treat those binary64 weights as exact constants. Floating inference rounding is separate."
+  },
+  "provenance_file": "training_provenance.json",
+  "provenance_sha256": "d2f8af4d5e1c7a48e5ec64425b80c134c8e086ec5ee1450491c57e1386bb0835",
+  "reference": {
+    "kind": "observed_grid_maximum_only",
+    "grid": "np.linspace(0,1,10001)",
+    "points": 10001,
+    "error_grid": 0.00010329992292423817,
+    "historical_certificates_1000_intervals": [
+      {
+        "problem": "PINN_k1_seed7",
+        "intervals": 1000,
+        "method": "constant",
+        "adaptive": false,
+        "reference_error": 0.00010329992292423817,
+        "reference_is_exact": false,
+        "lower": 8.476882506691355e-05,
+        "upper": 0.00012180086967637157,
+        "ratio": 1.179099327747827,
+        "remainder": 1.851602230472901e-05,
+        "certificate_ms": 2.544894000493514,
+        "mesh_ms": 0.0,
+        "total_ms": 2.544894000493514,
+        "interval_bound_evaluations": 1000
+      },
+      {
+        "problem": "PINN_k1_seed7",
+        "intervals": 1000,
+        "method": "linear",
+        "adaptive": false,
+        "reference_error": 0.00010329992292423817,
+        "reference_is_exact": false,
+        "lower": 0.0001032341399679322,
+        "upper": 0.00010335065200125773,
+        "ratio": 1.0004910853327234,
+        "remainder": 5.8256016662761665e-08,
+        "certificate_ms": 3.422621000026993,
+        "mesh_ms": 0.0,
+        "total_ms": 3.422621000026993,
+        "interval_bound_evaluations": 1000
+      }
+    ],
+    "warning": "Reference grids and ordinary float64 formulas are not machine-rigorous continuous certificates."
+  },
+  "reproduction": {
+    "script": "scripts/11_reproduce_frozen_case.py",
+    "interval_budgets": [
+      128,
+      512,
+      1000
+    ],
+    "retraining_required": false
+  },
+  "research_scope": "Step 1 fixes the candidate and reproduces its baseline. Rounding audit and independent review of interval bounds are future work.",
+  "baseline_file": "baseline.json",
+  "baseline_sha256": "0bc46a13ad2ec4a5144c1e48f9a78f4c023cf4716e46e610339230f9d783e06c"
+}

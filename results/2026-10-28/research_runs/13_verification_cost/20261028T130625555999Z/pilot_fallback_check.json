@@ -1,0 +1,79 @@
+{
+  "mode": "float_pilot_interval_cached",
+  "target_numerator": 23,
+  "target_denominator": 20,
+  "target": 1.15,
+  "success": true,
+  "intervals": 256,
+  "gap_display": 1.0306674881400366,
+  "lower": {
+    "numerator": "4221508318648759540087081348395",
+    "denominator": "41538374868278621028243970633760768",
+    "decimal_outward": "0.0001016291160170682373958029",
+    "decimal_rounding": "down"
+  },
+  "upper": {
+    "numerator": "4350971374943986634806326344233",
+    "denominator": "41538374868278621028243970633760768",
+    "decimal_outward": "0.0001047458257272040911838485",
+    "decimal_rounding": "up"
+  },
+  "wall_ms": 3183.404279000115,
+  "cpu_ms": 3183.431227,
+  "setup_ms": 4.387138000311097,
+  "history": [
+    {
+      "stage": "float",
+      "intervals": 32,
+      "lower": 0.0,
+      "upper": 0.0002600485614383225
+    },
+    {
+      "stage": "float",
+      "intervals": 64,
+      "lower": 7.481354416926183e-05,
+      "upper": 0.00012808312241105002
+    },
+    {
+      "stage": "float",
+      "intervals": 128,
+      "lower": 9.78323809169871e-05,
+      "upper": 0.0001078449618415844
+    },
+    {
+      "stage": "interval",
+      "intervals": 128,
+      "lower": {
+        "numerator": "7786670834920572814775681622439",
+        "denominator": "83076749736557242056487941267521536",
+        "decimal_outward": "0.00009372864080037681355522139",
+        "decimal_rounding": "down"
+      },
+      "upper": {
+        "numerator": "9298937414851010026207010416181",
+        "denominator": "83076749736557242056487941267521536",
+        "decimal_outward": "0.0001119318876140274529404393",
+        "decimal_rounding": "up"
+      }
+    },
+    {
+      "stage": "interval",
+      "intervals": 256,
+      "lower": {
+        "numerator": "4221508318648759540087081348395",
+        "denominator": "41538374868278621028243970633760768",
+        "decimal_outward": "0.0001016291160170682373958029",
+        "decimal_rounding": "down"
+      },
+      "upper": {
+        "numerator": "4350971374943986634806326344233",
+        "denominator": "41538374868278621028243970633760768",
+        "decimal_outward": "0.0001047458257272040911838485",
+        "decimal_rounding": "up"
+      }
+    }
+  ],
+  "float_cells": 224,
+  "interval_cells": 384,
+  "conditional_interval_certificate": true
+}

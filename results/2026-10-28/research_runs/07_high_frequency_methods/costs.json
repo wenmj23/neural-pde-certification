@@ -1,0 +1,18 @@
+[
+  {
+    "name": "constant",
+    "median_ms": 2.7376049997656082
+  },
+  {
+    "name": "linear",
+    "median_ms": 3.4501400000408466
+  },
+  {
+    "name": "old_loop_auxiliary_only",
+    "median_ms": 1.4266755001699494
+  },
+  {
+    "name": "vector_auxiliary_only",
+    "median_ms": 0.059172999954171246
+  }
+]

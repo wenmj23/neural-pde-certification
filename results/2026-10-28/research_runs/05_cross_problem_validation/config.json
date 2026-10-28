@@ -1,0 +1,37 @@
+{
+  "python": "3.12.14",
+  "torch": "2.14.1+cpu",
+  "dtype": "float64",
+  "domain": [
+    0,
+    1
+  ],
+  "boundary": [
+    0,
+    0
+  ],
+  "exact": "sin(k*pi*x)",
+  "forcing": "(k*pi)^2*sin(k*pi*x)",
+  "k": [
+    1,
+    5
+  ],
+  "seeds": [
+    7,
+    17,
+    27
+  ],
+  "width": 16,
+  "steps": 2000,
+  "lr": 0.01,
+  "train_points": 128,
+  "residual_check_points": 1001,
+  "reference_points": 10001,
+  "checkpoints": [
+    0,
+    100,
+    500,
+    2000
+  ],
+  "caveat": "ordinary float64; not outward-rounded; empirical checks do not replace proofs"
+}

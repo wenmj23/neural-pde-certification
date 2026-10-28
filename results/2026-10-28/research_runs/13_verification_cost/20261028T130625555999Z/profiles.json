@@ -1,0 +1,164 @@
+[
+  {
+    "implementation": "FrozenNeuralPoisson",
+    "intervals": 512,
+    "times_ms": {
+      "setup": 3.305415000340872,
+      "mesh": 10.148943999865878,
+      "point_residual": 1650.821581999935,
+      "cell_second_derivative": 3132.3837560003085,
+      "signed_integral": 114.87080799997784,
+      "remainder_integral": 54.363275000014255,
+      "final_export": 0.9234019998984877
+    },
+    "wall_ms": 4966.834213000311,
+    "cpu_ms": 4966.73881999999,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "implementation": "CachedFrozenNeuralPoisson",
+    "intervals": 512,
+    "times_ms": {
+      "setup": 5.287234999741486,
+      "mesh": 6.90752699983932,
+      "point_residual": 1469.1238730001714,
+      "cell_second_derivative": 2565.7425869999315,
+      "signed_integral": 112.05758200003402,
+      "remainder_integral": 56.05969399994137,
+      "final_export": 0.17552100007378613
+    },
+    "wall_ms": 4215.376137000021,
+    "cpu_ms": 4215.291107999974,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "implementation": "FrozenNeuralPoisson",
+    "intervals": 512,
+    "times_ms": {
+      "setup": 2.0717689999401045,
+      "mesh": 8.892809999906603,
+      "point_residual": 1377.9637900001944,
+      "cell_second_derivative": 3085.030018999987,
+      "signed_integral": 115.5496060000587,
+      "remainder_integral": 54.10114200003591,
+      "final_export": 0.12085599973943317
+    },
+    "wall_ms": 4643.742345000192,
+    "cpu_ms": 4643.804132000014,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "implementation": "CachedFrozenNeuralPoisson",
+    "intervals": 512,
+    "times_ms": {
+      "setup": 3.0624700002590544,
+      "mesh": 7.619576999786659,
+      "point_residual": 1601.8237869998302,
+      "cell_second_derivative": 1766.4960689999134,
+      "signed_integral": 82.86545600003592,
+      "remainder_integral": 39.3486880002456,
+      "final_export": 0.12141500019424711
+    },
+    "wall_ms": 3501.349859000129,
+    "cpu_ms": 3501.316411999994,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "implementation": "FrozenNeuralPoisson",
+    "intervals": 512,
+    "times_ms": {
+      "setup": 1.458104999983334,
+      "mesh": 6.10680699992372,
+      "point_residual": 1330.2730810000867,
+      "cell_second_derivative": 2739.5523969998976,
+      "signed_integral": 132.59051400018507,
+      "remainder_integral": 64.04215699967608,
+      "final_export": 0.12252499982423615
+    },
+    "wall_ms": 4274.158286000329,
+    "cpu_ms": 4274.2220890000335,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "implementation": "CachedFrozenNeuralPoisson",
+    "intervals": 512,
+    "times_ms": {
+      "setup": 3.1970100003491098,
+      "mesh": 7.027921000371862,
+      "point_residual": 2138.1308149998404,
+      "cell_second_derivative": 2588.156601999799,
+      "signed_integral": 102.0187789999909,
+      "remainder_integral": 48.212166000212164,
+      "final_export": 0.12276500001462409
+    },
+    "wall_ms": 4886.87998100022,
+    "cpu_ms": 4883.831437000026,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    }
+  }
+]

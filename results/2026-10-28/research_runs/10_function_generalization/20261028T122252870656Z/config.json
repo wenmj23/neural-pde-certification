@@ -1,0 +1,127 @@
+{
+  "pde": "-u_dd=2 on [0,1], zero Dirichlet; u=x(1-x), v=u+e, r=-e_dd",
+  "cases": [
+    {
+      "type": "AffineResidualError",
+      "name": "affine_residual",
+      "amplitude": 0.0001
+    },
+    {
+      "type": "MixedSine",
+      "name": "mixed_mild",
+      "frequencies": [
+        1,
+        5,
+        21
+      ],
+      "coefficients": [
+        0.75,
+        0.1875,
+        0.0625
+      ],
+      "amplitude": 0.0001
+    },
+    {
+      "type": "MixedSine",
+      "name": "mixed_signed",
+      "frequencies": [
+        1,
+        3,
+        41
+      ],
+      "coefficients": [
+        0.5,
+        -0.25,
+        0.25
+      ],
+      "amplitude": 0.0001
+    },
+    {
+      "type": "MixedSine",
+      "name": "weak_high_tail",
+      "frequencies": [
+        1,
+        5,
+        81
+      ],
+      "coefficients": [
+        0.9375,
+        0.0546875,
+        0.0078125
+      ],
+      "amplitude": 0.0001
+    },
+    {
+      "type": "BetaError",
+      "name": "broad_polynomial",
+      "p": 2,
+      "q": 2,
+      "amplitude": 0.0001
+    },
+    {
+      "type": "BetaError",
+      "name": "left_peak_1_16",
+      "p": 1,
+      "q": 15,
+      "amplitude": 0.0001
+    },
+    {
+      "type": "BetaError",
+      "name": "left_peak_1_64",
+      "p": 1,
+      "q": 63,
+      "amplitude": 0.0001
+    },
+    {
+      "type": "BetaError",
+      "name": "right_peak_63_64",
+      "p": 63,
+      "q": 1,
+      "amplitude": 0.0001
+    },
+    {
+      "type": "MixedSine",
+      "name": "zero_error",
+      "frequencies": [
+        1
+      ],
+      "coefficients": [
+        1.0
+      ],
+      "amplitude": 0.0
+    }
+  ],
+  "budgets": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1000,
+    2000
+  ],
+  "methods": [
+    [
+      "constant",
+      false
+    ],
+    [
+      "linear",
+      false
+    ],
+    [
+      "linear",
+      true
+    ]
+  ],
+  "matched_gap_target": 1.2,
+  "matched_cap": 65536,
+  "matched_repeats": 3,
+  "arithmetic": "ordinary float64",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8",
+  "mpmath": "1.3.0"
+}

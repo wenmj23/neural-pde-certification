@@ -1,0 +1,82 @@
+{
+  "case_id": "poisson_1d_sine_k1_seed7",
+  "weights_sha256": "100c00368e1e194274d06deaa8a37bfe4ce4ecb3f2326a1811c2b8b32d0a9da1",
+  "parameter_count": 49,
+  "retrained": false,
+  "reference": {
+    "kind": "observed_dense_grid_maximum",
+    "points": 10001,
+    "error_grid": 0.00010329992292423817,
+    "max_error_grid_location": 0.5264,
+    "exact_solution_used_by_certificate": false,
+    "caveat": "Grid maximum is not the exact continuous supremum"
+  },
+  "certificates": [
+    {
+      "intervals": 128,
+      "method": "constant",
+      "lower": 0.0,
+      "upper": 0.0005527691609832013,
+      "reconstructed_maximum": 0.00010237801460685093,
+      "remainder": 0.00045039114637635035,
+      "ratio_to_grid_error": 5.351109132855899
+    },
+    {
+      "intervals": 128,
+      "method": "linear",
+      "lower": 9.78323809169871e-05,
+      "upper": 0.0001078449618415844,
+      "reconstructed_maximum": 0.00010283867137928575,
+      "remainder": 5.006290462298647e-06,
+      "ratio_to_grid_error": 1.0439984734613947
+    },
+    {
+      "intervals": 512,
+      "method": "constant",
+      "lower": 5.6404533600671655e-05,
+      "upper": 0.00015008017130625065,
+      "reconstructed_maximum": 0.00010324235245346115,
+      "remainder": 4.6837818852789495e-05,
+      "ratio_to_grid_error": 1.452858502288737
+    },
+    {
+      "intervals": 512,
+      "method": "linear",
+      "lower": 0.0001030362335950073,
+      "upper": 0.00010350606084178653,
+      "reconstructed_maximum": 0.00010327114721839692,
+      "remainder": 2.3491362338961262e-07,
+      "ratio_to_grid_error": 1.0019955282803021
+    },
+    {
+      "intervals": 1000,
+      "method": "constant",
+      "lower": 8.476882506691355e-05,
+      "upper": 0.00012180086967637157,
+      "reconstructed_maximum": 0.00010328484737164256,
+      "remainder": 1.851602230472901e-05,
+      "ratio_to_grid_error": 1.179099327747827
+    },
+    {
+      "intervals": 1000,
+      "method": "linear",
+      "lower": 0.0001032341399679322,
+      "upper": 0.00010335065200125773,
+      "reconstructed_maximum": 0.00010329239598459497,
+      "remainder": 5.8256016662761665e-08,
+      "ratio_to_grid_error": 1.0004910853327234
+    }
+  ],
+  "torch_numpy_cross_check": {
+    "points": 257,
+    "max_solution_difference": 2.220446049250313e-16,
+    "max_residual_difference": 3.1086244689504383e-15,
+    "boundary_values": [
+      0.0,
+      0.0
+    ],
+    "scope": "Independent evaluation and autograd cross-check; not a rounding-error proof"
+  },
+  "frozen_baseline_checked": true,
+  "arithmetic": "ordinary float64; machine-level rounding audit pending"
+}

@@ -1,0 +1,2984 @@
+[
+  {
+    "mode": "float64",
+    "target_numerator": 6,
+    "target_denominator": 5,
+    "target": 1.2,
+    "success": true,
+    "intervals": 128,
+    "gap_display": 1.1023442425784689,
+    "lower": 9.78323809169871e-05,
+    "upper": 0.0001078449618415844,
+    "wall_ms": 5.533869999908347,
+    "cpu_ms": 4.089139999997826,
+    "setup_ms": 0.9470240001974162,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      }
+    ],
+    "float_cells": 224,
+    "interval_cells": 0,
+    "conditional_interval_certificate": false,
+    "repeat": 0
+  },
+  {
+    "mode": "interval_original",
+    "target_numerator": 6,
+    "target_denominator": 5,
+    "target": 1.2,
+    "success": true,
+    "intervals": 128,
+    "gap_display": 1.1942122136649767,
+    "lower": {
+      "numerator": "7786670834920572814775681622439",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009372864080037681355522139",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "9298937414851010026207010416181",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001119318876140274529404393",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 2077.675315000306,
+    "cpu_ms": 2077.3968000000023,
+    "setup_ms": 1.5852840001571167,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 224,
+    "conditional_interval_certificate": true,
+    "repeat": 0
+  },
+  {
+    "mode": "interval_cached",
+    "target_numerator": 6,
+    "target_denominator": 5,
+    "target": 1.2,
+    "success": true,
+    "intervals": 128,
+    "gap_display": 1.1942122136649767,
+    "lower": {
+      "numerator": "7786670834920572814775681622439",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009372864080037681355522139",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "9298937414851010026207010416181",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001119318876140274529404393",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 1531.5800879998278,
+    "cpu_ms": 1531.596970999999,
+    "setup_ms": 5.759427000157302,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 224,
+    "conditional_interval_certificate": true,
+    "repeat": 0
+  },
+  {
+    "mode": "float_pilot_interval_cached",
+    "target_numerator": 6,
+    "target_denominator": 5,
+    "target": 1.2,
+    "success": true,
+    "intervals": 128,
+    "gap_display": 1.1942122136649767,
+    "lower": {
+      "numerator": "7786670834920572814775681622439",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009372864080037681355522139",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "9298937414851010026207010416181",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001119318876140274529404393",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 964.7094499996456,
+    "cpu_ms": 964.6990869999996,
+    "setup_ms": 6.078739000258793,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 224,
+    "interval_cells": 128,
+    "conditional_interval_certificate": true,
+    "repeat": 0
+  },
+  {
+    "mode": "float64",
+    "target_numerator": 51,
+    "target_denominator": 50,
+    "target": 1.02,
+    "success": true,
+    "intervals": 512,
+    "gap_display": 1.0045598255136725,
+    "lower": 0.0001030362335950073,
+    "upper": 0.00010350606084178653,
+    "wall_ms": 13.507937000213133,
+    "cpu_ms": 13.501574999999377,
+    "setup_ms": 0.521487999776582,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "float",
+        "intervals": 256,
+        "lower": 0.00010214109090173881,
+        "upper": 0.00010422836892889545
+      },
+      {
+        "stage": "float",
+        "intervals": 512,
+        "lower": 0.0001030362335950073,
+        "upper": 0.00010350606084178653
+      }
+    ],
+    "float_cells": 992,
+    "interval_cells": 0,
+    "conditional_interval_certificate": false,
+    "repeat": 0
+  },
+  {
+    "mode": "interval_original",
+    "target_numerator": 51,
+    "target_denominator": 50,
+    "target": 1.02,
+    "success": true,
+    "intervals": 512,
+    "gap_display": 1.005892462052028,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 7936.360106999928,
+    "cpu_ms": 7936.328934000002,
+    "setup_ms": 2.087226000185183,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 256,
+        "lower": {
+          "numerator": "4221508318648759540087081348395",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001016291160170682373958029",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "4350971374943986634806326344233",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001047458257272040911838485",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 992,
+    "conditional_interval_certificate": true,
+    "repeat": 0
+  },
+  {
+    "mode": "interval_cached",
+    "target_numerator": 51,
+    "target_denominator": 50,
+    "target": 1.02,
+    "success": true,
+    "intervals": 512,
+    "gap_display": 1.005892462052028,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 20017.886355999963,
+    "cpu_ms": 19950.630585,
+    "setup_ms": 3.0447669996647164,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 256,
+        "lower": {
+          "numerator": "4221508318648759540087081348395",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001016291160170682373958029",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "4350971374943986634806326344233",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001047458257272040911838485",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 992,
+    "conditional_interval_certificate": true,
+    "repeat": 0
+  },
+  {
+    "mode": "float_pilot_interval_cached",
+    "target_numerator": 51,
+    "target_denominator": 50,
+    "target": 1.02,
+    "success": true,
+    "intervals": 512,
+    "gap_display": 1.005892462052028,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 4623.302137999872,
+    "cpu_ms": 4619.2074840000005,
+    "setup_ms": 2.855233000445878,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "float",
+        "intervals": 256,
+        "lower": 0.00010214109090173881,
+        "upper": 0.00010422836892889545
+      },
+      {
+        "stage": "float",
+        "intervals": 512,
+        "lower": 0.0001030362335950073,
+        "upper": 0.00010350606084178653
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 992,
+    "interval_cells": 512,
+    "conditional_interval_certificate": true,
+    "repeat": 0
+  },
+  {
+    "mode": "float64",
+    "target_numerator": 501,
+    "target_denominator": 500,
+    "target": 1.002,
+    "success": true,
+    "intervals": 1024,
+    "gap_display": 1.0010747885272835,
+    "lower": 0.00010323726657929929,
+    "upper": 0.00010334822480900683,
+    "wall_ms": 18.179837000388943,
+    "cpu_ms": 18.130472000009945,
+    "setup_ms": 0.6503640001938038,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "float",
+        "intervals": 256,
+        "lower": 0.00010214109090173881,
+        "upper": 0.00010422836892889545
+      },
+      {
+        "stage": "float",
+        "intervals": 512,
+        "lower": 0.0001030362335950073,
+        "upper": 0.00010350606084178653
+      },
+      {
+        "stage": "float",
+        "intervals": 1024,
+        "lower": 0.00010323726657929929,
+        "upper": 0.00010334822480900683
+      }
+    ],
+    "float_cells": 2016,
+    "interval_cells": 0,
+    "conditional_interval_certificate": false,
+    "repeat": 0
+  },
+  {
+    "mode": "interval_original",
+    "target_numerator": 501,
+    "target_denominator": 500,
+    "target": 1.002,
+    "success": true,
+    "intervals": 1024,
+    "gap_display": 1.0012280859179714,
+    "lower": {
+      "numerator": "8575963308840445022472960233445",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001032294033653878340921376",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "8586495328613071820902879835699",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001033561779419814615814758",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 16921.484985000006,
+    "cpu_ms": 16918.62873800001,
+    "setup_ms": 2.1532360001401685,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 256,
+        "lower": {
+          "numerator": "4221508318648759540087081348395",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001016291160170682373958029",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "4350971374943986634806326344233",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001047458257272040911838485",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 1024,
+        "lower": {
+          "numerator": "8575963308840445022472960233445",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001032294033653878340921376",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "8586495328613071820902879835699",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001033561779419814615814758",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 2016,
+    "conditional_interval_certificate": true,
+    "repeat": 0
+  },
+  {
+    "mode": "interval_cached",
+    "target_numerator": 501,
+    "target_denominator": 500,
+    "target": 1.002,
+    "success": true,
+    "intervals": 1024,
+    "gap_display": 1.0012280859179714,
+    "lower": {
+      "numerator": "8575963308840445022472960233445",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001032294033653878340921376",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "8586495328613071820902879835699",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001033561779419814615814758",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 12541.540016999988,
+    "cpu_ms": 12541.292272999995,
+    "setup_ms": 2.1838520001438155,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 256,
+        "lower": {
+          "numerator": "4221508318648759540087081348395",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001016291160170682373958029",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "4350971374943986634806326344233",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001047458257272040911838485",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 1024,
+        "lower": {
+          "numerator": "8575963308840445022472960233445",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001032294033653878340921376",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "8586495328613071820902879835699",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001033561779419814615814758",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 2016,
+    "conditional_interval_certificate": true,
+    "repeat": 0
+  },
+  {
+    "mode": "float_pilot_interval_cached",
+    "target_numerator": 501,
+    "target_denominator": 500,
+    "target": 1.002,
+    "success": true,
+    "intervals": 1024,
+    "gap_display": 1.0012280859179714,
+    "lower": {
+      "numerator": "8575963308840445022472960233445",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001032294033653878340921376",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "8586495328613071820902879835699",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001033561779419814615814758",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 9087.862616000166,
+    "cpu_ms": 9084.92423700001,
+    "setup_ms": 4.615286999978707,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "float",
+        "intervals": 256,
+        "lower": 0.00010214109090173881,
+        "upper": 0.00010422836892889545
+      },
+      {
+        "stage": "float",
+        "intervals": 512,
+        "lower": 0.0001030362335950073,
+        "upper": 0.00010350606084178653
+      },
+      {
+        "stage": "float",
+        "intervals": 1024,
+        "lower": 0.00010323726657929929,
+        "upper": 0.00010334822480900683
+      },
+      {
+        "stage": "interval",
+        "intervals": 1024,
+        "lower": {
+          "numerator": "8575963308840445022472960233445",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001032294033653878340921376",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "8586495328613071820902879835699",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001033561779419814615814758",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 2016,
+    "interval_cells": 1024,
+    "conditional_interval_certificate": true,
+    "repeat": 0
+  },
+  {
+    "mode": "interval_original",
+    "target_numerator": 6,
+    "target_denominator": 5,
+    "target": 1.2,
+    "success": true,
+    "intervals": 128,
+    "gap_display": 1.1942122136649767,
+    "lower": {
+      "numerator": "7786670834920572814775681622439",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009372864080037681355522139",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "9298937414851010026207010416181",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001119318876140274529404393",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 2223.6246490001577,
+    "cpu_ms": 2222.3255199999985,
+    "setup_ms": 2.6760129999274795,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 224,
+    "conditional_interval_certificate": true,
+    "repeat": 1
+  },
+  {
+    "mode": "interval_cached",
+    "target_numerator": 6,
+    "target_denominator": 5,
+    "target": 1.2,
+    "success": true,
+    "intervals": 128,
+    "gap_display": 1.1942122136649767,
+    "lower": {
+      "numerator": "7786670834920572814775681622439",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009372864080037681355522139",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "9298937414851010026207010416181",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001119318876140274529404393",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 1641.251863999969,
+    "cpu_ms": 1641.034339000015,
+    "setup_ms": 5.333352999969065,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 224,
+    "conditional_interval_certificate": true,
+    "repeat": 1
+  },
+  {
+    "mode": "float_pilot_interval_cached",
+    "target_numerator": 6,
+    "target_denominator": 5,
+    "target": 1.2,
+    "success": true,
+    "intervals": 128,
+    "gap_display": 1.1942122136649767,
+    "lower": {
+      "numerator": "7786670834920572814775681622439",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009372864080037681355522139",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "9298937414851010026207010416181",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001119318876140274529404393",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 975.9170679999443,
+    "cpu_ms": 975.5586959999789,
+    "setup_ms": 2.7086109998890606,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 224,
+    "interval_cells": 128,
+    "conditional_interval_certificate": true,
+    "repeat": 1
+  },
+  {
+    "mode": "float64",
+    "target_numerator": 6,
+    "target_denominator": 5,
+    "target": 1.2,
+    "success": true,
+    "intervals": 128,
+    "gap_display": 1.1023442425784689,
+    "lower": 9.78323809169871e-05,
+    "upper": 0.0001078449618415844,
+    "wall_ms": 4.043203000037465,
+    "cpu_ms": 3.7813849999963622,
+    "setup_ms": 0.7934229997772491,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      }
+    ],
+    "float_cells": 224,
+    "interval_cells": 0,
+    "conditional_interval_certificate": false,
+    "repeat": 1
+  },
+  {
+    "mode": "interval_original",
+    "target_numerator": 51,
+    "target_denominator": 50,
+    "target": 1.02,
+    "success": true,
+    "intervals": 512,
+    "gap_display": 1.005892462052028,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 8417.799993000244,
+    "cpu_ms": 8417.146801,
+    "setup_ms": 2.502950000234705,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 256,
+        "lower": {
+          "numerator": "4221508318648759540087081348395",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001016291160170682373958029",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "4350971374943986634806326344233",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001047458257272040911838485",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 992,
+    "conditional_interval_certificate": true,
+    "repeat": 1
+  },
+  {
+    "mode": "interval_cached",
+    "target_numerator": 51,
+    "target_denominator": 50,
+    "target": 1.02,
+    "success": true,
+    "intervals": 512,
+    "gap_display": 1.005892462052028,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 7898.11700600012,
+    "cpu_ms": 7897.467371999994,
+    "setup_ms": 4.04826400017555,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 256,
+        "lower": {
+          "numerator": "4221508318648759540087081348395",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001016291160170682373958029",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "4350971374943986634806326344233",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001047458257272040911838485",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 992,
+    "conditional_interval_certificate": true,
+    "repeat": 1
+  },
+  {
+    "mode": "float_pilot_interval_cached",
+    "target_numerator": 51,
+    "target_denominator": 50,
+    "target": 1.02,
+    "success": true,
+    "intervals": 512,
+    "gap_display": 1.005892462052028,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 4207.082148000154,
+    "cpu_ms": 4204.783257999992,
+    "setup_ms": 4.979478999757703,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "float",
+        "intervals": 256,
+        "lower": 0.00010214109090173881,
+        "upper": 0.00010422836892889545
+      },
+      {
+        "stage": "float",
+        "intervals": 512,
+        "lower": 0.0001030362335950073,
+        "upper": 0.00010350606084178653
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 992,
+    "interval_cells": 512,
+    "conditional_interval_certificate": true,
+    "repeat": 1
+  },
+  {
+    "mode": "float64",
+    "target_numerator": 51,
+    "target_denominator": 50,
+    "target": 1.02,
+    "success": true,
+    "intervals": 512,
+    "gap_display": 1.0045598255136725,
+    "lower": 0.0001030362335950073,
+    "upper": 0.00010350606084178653,
+    "wall_ms": 14.279184000315581,
+    "cpu_ms": 14.280085999985204,
+    "setup_ms": 1.8001059997914126,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "float",
+        "intervals": 256,
+        "lower": 0.00010214109090173881,
+        "upper": 0.00010422836892889545
+      },
+      {
+        "stage": "float",
+        "intervals": 512,
+        "lower": 0.0001030362335950073,
+        "upper": 0.00010350606084178653
+      }
+    ],
+    "float_cells": 992,
+    "interval_cells": 0,
+    "conditional_interval_certificate": false,
+    "repeat": 1
+  },
+  {
+    "mode": "interval_original",
+    "target_numerator": 501,
+    "target_denominator": 500,
+    "target": 1.002,
+    "success": true,
+    "intervals": 1024,
+    "gap_display": 1.0012280859179714,
+    "lower": {
+      "numerator": "8575963308840445022472960233445",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001032294033653878340921376",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "8586495328613071820902879835699",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001033561779419814615814758",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 21744.557882999743,
+    "cpu_ms": 21741.21650500001,
+    "setup_ms": 1.3458210000862891,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 256,
+        "lower": {
+          "numerator": "4221508318648759540087081348395",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001016291160170682373958029",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "4350971374943986634806326344233",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001047458257272040911838485",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 1024,
+        "lower": {
+          "numerator": "8575963308840445022472960233445",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001032294033653878340921376",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "8586495328613071820902879835699",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001033561779419814615814758",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 2016,
+    "conditional_interval_certificate": true,
+    "repeat": 1
+  },
+  {
+    "mode": "interval_cached",
+    "target_numerator": 501,
+    "target_denominator": 500,
+    "target": 1.002,
+    "success": true,
+    "intervals": 1024,
+    "gap_display": 1.0012280859179714,
+    "lower": {
+      "numerator": "8575963308840445022472960233445",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001032294033653878340921376",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "8586495328613071820902879835699",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001033561779419814615814758",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 18944.663519000187,
+    "cpu_ms": 18879.83535000001,
+    "setup_ms": 25.810028000250895,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 256,
+        "lower": {
+          "numerator": "4221508318648759540087081348395",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001016291160170682373958029",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "4350971374943986634806326344233",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001047458257272040911838485",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 1024,
+        "lower": {
+          "numerator": "8575963308840445022472960233445",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001032294033653878340921376",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "8586495328613071820902879835699",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001033561779419814615814758",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 2016,
+    "conditional_interval_certificate": true,
+    "repeat": 1
+  },
+  {
+    "mode": "float_pilot_interval_cached",
+    "target_numerator": 501,
+    "target_denominator": 500,
+    "target": 1.002,
+    "success": true,
+    "intervals": 1024,
+    "gap_display": 1.0012280859179714,
+    "lower": {
+      "numerator": "8575963308840445022472960233445",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001032294033653878340921376",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "8586495328613071820902879835699",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001033561779419814615814758",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 8691.036486999565,
+    "cpu_ms": 8689.284412000006,
+    "setup_ms": 3.3856129998639517,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "float",
+        "intervals": 256,
+        "lower": 0.00010214109090173881,
+        "upper": 0.00010422836892889545
+      },
+      {
+        "stage": "float",
+        "intervals": 512,
+        "lower": 0.0001030362335950073,
+        "upper": 0.00010350606084178653
+      },
+      {
+        "stage": "float",
+        "intervals": 1024,
+        "lower": 0.00010323726657929929,
+        "upper": 0.00010334822480900683
+      },
+      {
+        "stage": "interval",
+        "intervals": 1024,
+        "lower": {
+          "numerator": "8575963308840445022472960233445",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001032294033653878340921376",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "8586495328613071820902879835699",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001033561779419814615814758",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 2016,
+    "interval_cells": 1024,
+    "conditional_interval_certificate": true,
+    "repeat": 1
+  },
+  {
+    "mode": "float64",
+    "target_numerator": 501,
+    "target_denominator": 500,
+    "target": 1.002,
+    "success": true,
+    "intervals": 1024,
+    "gap_display": 1.0010747885272835,
+    "lower": 0.00010323726657929929,
+    "upper": 0.00010334822480900683,
+    "wall_ms": 19.326226999965,
+    "cpu_ms": 19.298070000019152,
+    "setup_ms": 1.7054189997907088,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "float",
+        "intervals": 256,
+        "lower": 0.00010214109090173881,
+        "upper": 0.00010422836892889545
+      },
+      {
+        "stage": "float",
+        "intervals": 512,
+        "lower": 0.0001030362335950073,
+        "upper": 0.00010350606084178653
+      },
+      {
+        "stage": "float",
+        "intervals": 1024,
+        "lower": 0.00010323726657929929,
+        "upper": 0.00010334822480900683
+      }
+    ],
+    "float_cells": 2016,
+    "interval_cells": 0,
+    "conditional_interval_certificate": false,
+    "repeat": 1
+  },
+  {
+    "mode": "interval_cached",
+    "target_numerator": 6,
+    "target_denominator": 5,
+    "target": 1.2,
+    "success": true,
+    "intervals": 128,
+    "gap_display": 1.1942122136649767,
+    "lower": {
+      "numerator": "7786670834920572814775681622439",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009372864080037681355522139",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "9298937414851010026207010416181",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001119318876140274529404393",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 9174.42892400004,
+    "cpu_ms": 8865.808192000002,
+    "setup_ms": 2.210306000051787,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 224,
+    "conditional_interval_certificate": true,
+    "repeat": 2
+  },
+  {
+    "mode": "float_pilot_interval_cached",
+    "target_numerator": 6,
+    "target_denominator": 5,
+    "target": 1.2,
+    "success": true,
+    "intervals": 128,
+    "gap_display": 1.1942122136649767,
+    "lower": {
+      "numerator": "7786670834920572814775681622439",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009372864080037681355522139",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "9298937414851010026207010416181",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001119318876140274529404393",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 3518.8354580000123,
+    "cpu_ms": 3469.463321999996,
+    "setup_ms": 5.083736999495159,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 224,
+    "interval_cells": 128,
+    "conditional_interval_certificate": true,
+    "repeat": 2
+  },
+  {
+    "mode": "float64",
+    "target_numerator": 6,
+    "target_denominator": 5,
+    "target": 1.2,
+    "success": true,
+    "intervals": 128,
+    "gap_display": 1.1023442425784689,
+    "lower": 9.78323809169871e-05,
+    "upper": 0.0001078449618415844,
+    "wall_ms": 17.663806000200566,
+    "cpu_ms": 17.66580299999987,
+    "setup_ms": 0.5492450000019744,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      }
+    ],
+    "float_cells": 224,
+    "interval_cells": 0,
+    "conditional_interval_certificate": false,
+    "repeat": 2
+  },
+  {
+    "mode": "interval_original",
+    "target_numerator": 6,
+    "target_denominator": 5,
+    "target": 1.2,
+    "success": true,
+    "intervals": 128,
+    "gap_display": 1.1942122136649767,
+    "lower": {
+      "numerator": "7786670834920572814775681622439",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009372864080037681355522139",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "9298937414851010026207010416181",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001119318876140274529404393",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 2789.0689370001382,
+    "cpu_ms": 2786.1107370000013,
+    "setup_ms": 3.7353620000430965,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 224,
+    "conditional_interval_certificate": true,
+    "repeat": 2
+  },
+  {
+    "mode": "interval_cached",
+    "target_numerator": 51,
+    "target_denominator": 50,
+    "target": 1.02,
+    "success": true,
+    "intervals": 512,
+    "gap_display": 1.005892462052028,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 9994.182543000079,
+    "cpu_ms": 9991.667634000009,
+    "setup_ms": 2.2001769998496457,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 256,
+        "lower": {
+          "numerator": "4221508318648759540087081348395",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001016291160170682373958029",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "4350971374943986634806326344233",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001047458257272040911838485",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 992,
+    "conditional_interval_certificate": true,
+    "repeat": 2
+  },
+  {
+    "mode": "float_pilot_interval_cached",
+    "target_numerator": 51,
+    "target_denominator": 50,
+    "target": 1.02,
+    "success": true,
+    "intervals": 512,
+    "gap_display": 1.005892462052028,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 3651.2287059999835,
+    "cpu_ms": 3651.3295290000087,
+    "setup_ms": 3.547724999862112,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "float",
+        "intervals": 256,
+        "lower": 0.00010214109090173881,
+        "upper": 0.00010422836892889545
+      },
+      {
+        "stage": "float",
+        "intervals": 512,
+        "lower": 0.0001030362335950073,
+        "upper": 0.00010350606084178653
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 992,
+    "interval_cells": 512,
+    "conditional_interval_certificate": true,
+    "repeat": 2
+  },
+  {
+    "mode": "float64",
+    "target_numerator": 51,
+    "target_denominator": 50,
+    "target": 1.02,
+    "success": true,
+    "intervals": 512,
+    "gap_display": 1.0045598255136725,
+    "lower": 0.0001030362335950073,
+    "upper": 0.00010350606084178653,
+    "wall_ms": 13.732603999869752,
+    "cpu_ms": 13.724972000005664,
+    "setup_ms": 0.6763700002920814,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "float",
+        "intervals": 256,
+        "lower": 0.00010214109090173881,
+        "upper": 0.00010422836892889545
+      },
+      {
+        "stage": "float",
+        "intervals": 512,
+        "lower": 0.0001030362335950073,
+        "upper": 0.00010350606084178653
+      }
+    ],
+    "float_cells": 992,
+    "interval_cells": 0,
+    "conditional_interval_certificate": false,
+    "repeat": 2
+  },
+  {
+    "mode": "interval_original",
+    "target_numerator": 51,
+    "target_denominator": 50,
+    "target": 1.02,
+    "success": true,
+    "intervals": 512,
+    "gap_display": 1.005892462052028,
+    "lower": {
+      "numerator": "534625620135615686638783871689",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001029651490855777799852550",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "134443970328576691152231701771",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.0001035718673192459575715768",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 12726.964565999879,
+    "cpu_ms": 12725.817355999992,
+    "setup_ms": 1.7741179999575252,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 256,
+        "lower": {
+          "numerator": "4221508318648759540087081348395",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001016291160170682373958029",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "4350971374943986634806326344233",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001047458257272040911838485",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 992,
+    "conditional_interval_certificate": true,
+    "repeat": 2
+  },
+  {
+    "mode": "interval_cached",
+    "target_numerator": 501,
+    "target_denominator": 500,
+    "target": 1.002,
+    "success": true,
+    "intervals": 1024,
+    "gap_display": 1.0012280859179714,
+    "lower": {
+      "numerator": "8575963308840445022472960233445",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001032294033653878340921376",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "8586495328613071820902879835699",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001033561779419814615814758",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 17051.55941000021,
+    "cpu_ms": 17048.295785999984,
+    "setup_ms": 7.556487999863748,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 256,
+        "lower": {
+          "numerator": "4221508318648759540087081348395",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001016291160170682373958029",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "4350971374943986634806326344233",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001047458257272040911838485",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 1024,
+        "lower": {
+          "numerator": "8575963308840445022472960233445",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001032294033653878340921376",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "8586495328613071820902879835699",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001033561779419814615814758",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 2016,
+    "conditional_interval_certificate": true,
+    "repeat": 2
+  },
+  {
+    "mode": "float_pilot_interval_cached",
+    "target_numerator": 501,
+    "target_denominator": 500,
+    "target": 1.002,
+    "success": true,
+    "intervals": 1024,
+    "gap_display": 1.0012280859179714,
+    "lower": {
+      "numerator": "8575963308840445022472960233445",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001032294033653878340921376",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "8586495328613071820902879835699",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001033561779419814615814758",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 33714.54162500004,
+    "cpu_ms": 33586.693545999995,
+    "setup_ms": 7.223012999929779,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "float",
+        "intervals": 256,
+        "lower": 0.00010214109090173881,
+        "upper": 0.00010422836892889545
+      },
+      {
+        "stage": "float",
+        "intervals": 512,
+        "lower": 0.0001030362335950073,
+        "upper": 0.00010350606084178653
+      },
+      {
+        "stage": "float",
+        "intervals": 1024,
+        "lower": 0.00010323726657929929,
+        "upper": 0.00010334822480900683
+      },
+      {
+        "stage": "interval",
+        "intervals": 1024,
+        "lower": {
+          "numerator": "8575963308840445022472960233445",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001032294033653878340921376",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "8586495328613071820902879835699",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001033561779419814615814758",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 2016,
+    "interval_cells": 1024,
+    "conditional_interval_certificate": true,
+    "repeat": 2
+  },
+  {
+    "mode": "float64",
+    "target_numerator": 501,
+    "target_denominator": 500,
+    "target": 1.002,
+    "success": true,
+    "intervals": 1024,
+    "gap_display": 1.0010747885272835,
+    "lower": 0.00010323726657929929,
+    "upper": 0.00010334822480900683,
+    "wall_ms": 52.803575999860186,
+    "cpu_ms": 52.79507799997418,
+    "setup_ms": 4.856661000303575,
+    "history": [
+      {
+        "stage": "float",
+        "intervals": 32,
+        "lower": 0.0,
+        "upper": 0.0002600485614383225
+      },
+      {
+        "stage": "float",
+        "intervals": 64,
+        "lower": 7.481354416926183e-05,
+        "upper": 0.00012808312241105002
+      },
+      {
+        "stage": "float",
+        "intervals": 128,
+        "lower": 9.78323809169871e-05,
+        "upper": 0.0001078449618415844
+      },
+      {
+        "stage": "float",
+        "intervals": 256,
+        "lower": 0.00010214109090173881,
+        "upper": 0.00010422836892889545
+      },
+      {
+        "stage": "float",
+        "intervals": 512,
+        "lower": 0.0001030362335950073,
+        "upper": 0.00010350606084178653
+      },
+      {
+        "stage": "float",
+        "intervals": 1024,
+        "lower": 0.00010323726657929929,
+        "upper": 0.00010334822480900683
+      }
+    ],
+    "float_cells": 2016,
+    "interval_cells": 0,
+    "conditional_interval_certificate": false,
+    "repeat": 2
+  },
+  {
+    "mode": "interval_original",
+    "target_numerator": 501,
+    "target_denominator": 500,
+    "target": 1.002,
+    "success": true,
+    "intervals": 1024,
+    "gap_display": 1.0012280859179714,
+    "lower": {
+      "numerator": "8575963308840445022472960233445",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001032294033653878340921376",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "8586495328613071820902879835699",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001033561779419814615814758",
+      "decimal_rounding": "up"
+    },
+    "wall_ms": 24097.66448299979,
+    "cpu_ms": 24095.616829999984,
+    "setup_ms": 9.201032999953895,
+    "history": [
+      {
+        "stage": "interval",
+        "intervals": 32,
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "5441088215637012904072794348339",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0005239577362273918311701611",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 64,
+        "lower": {
+          "numerator": "3435528298821196889025255901",
+          "denominator": "81129638414606681695789005144064",
+          "decimal_outward": "0.00004234615568313268942070633",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "3335174286440906137436546121263",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001605828007001718344120683",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 128,
+        "lower": {
+          "numerator": "7786670834920572814775681622439",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00009372864080037681355522139",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9298937414851010026207010416181",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001119318876140274529404393",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 256,
+        "lower": {
+          "numerator": "4221508318648759540087081348395",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001016291160170682373958029",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "4350971374943986634806326344233",
+          "denominator": "41538374868278621028243970633760768",
+          "decimal_outward": "0.0001047458257272040911838485",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 512,
+        "lower": {
+          "numerator": "534625620135615686638783871689",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001029651490855777799852550",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "134443970328576691152231701771",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.0001035718673192459575715768",
+          "decimal_rounding": "up"
+        }
+      },
+      {
+        "stage": "interval",
+        "intervals": 1024,
+        "lower": {
+          "numerator": "8575963308840445022472960233445",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001032294033653878340921376",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "8586495328613071820902879835699",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001033561779419814615814758",
+          "decimal_rounding": "up"
+        }
+      }
+    ],
+    "float_cells": 0,
+    "interval_cells": 2016,
+    "conditional_interval_certificate": true,
+    "repeat": 2
+  }
+]

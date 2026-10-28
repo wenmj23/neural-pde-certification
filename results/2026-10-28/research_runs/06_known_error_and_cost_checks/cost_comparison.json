@@ -1,0 +1,19 @@
+{
+  "pinn_reference_error": 0.00010329992292423817,
+  "signed_upper": 0.00012180086967637415,
+  "certification_median_ms": 10.88223350006956,
+  "finite_difference": [
+    {
+      "intervals": 100,
+      "median_solve_ms": 0.029979499686305644,
+      "interpolated_reference_error": 8.225076220980121e-05
+    },
+    {
+      "intervals": 1000,
+      "median_solve_ms": 0.061537499732366996,
+      "interpolated_reference_error": 8.224670622336561e-07
+    }
+  ],
+  "repeats": 30,
+  "scope": "Same machine, CPU, same 1D Poisson PDE. Certification excludes PINN training and reference checks. FD includes grid/system assembly and solve; reference interpolation/error evaluation excluded. Current Python certificate loops versus compiled band solver; not an optimized universal performance comparison."
+}

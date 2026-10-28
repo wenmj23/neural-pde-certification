@@ -1,0 +1,574 @@
+[
+  {
+    "name": "cached_exact_identity_30_128_lower",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_128_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_128_z_lower",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_128_z_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_128_remainder_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_512_lower",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_512_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_512_z_lower",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_512_z_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_512_remainder_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_1000_lower",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_1000_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_1000_z_lower",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_1000_z_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_30_1000_remainder_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_128_lower",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_128_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_128_z_lower",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_128_z_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_128_remainder_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_512_lower",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_512_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_512_z_lower",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_512_z_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_512_remainder_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_1000_lower",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_1000_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_1000_z_lower",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_1000_z_upper",
+    "passed": true
+  },
+  {
+    "name": "cached_exact_identity_50_1000_remainder_upper",
+    "passed": true
+  },
+  {
+    "name": "precision_mutation_rejected",
+    "passed": true
+  },
+  {
+    "name": "pilot_is_proposal_final_interval_must_pass",
+    "passed": true
+  },
+  {
+    "name": "run_success_0_6/5_float64",
+    "passed": true
+  },
+  {
+    "name": "run_success_0_6/5_interval_original",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_0_6/5_interval_original",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_0_6/5_interval_original",
+    "passed": true
+  },
+  {
+    "name": "run_success_0_6/5_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_0_6/5_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_0_6/5_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_0_6/5_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_0_6/5_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_0_6/5_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_0_51/50_float64",
+    "passed": true
+  },
+  {
+    "name": "run_success_0_51/50_interval_original",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_0_51/50_interval_original",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_0_51/50_interval_original",
+    "passed": true
+  },
+  {
+    "name": "run_success_0_51/50_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_0_51/50_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_0_51/50_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_0_51/50_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_0_51/50_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_0_51/50_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_0_501/500_float64",
+    "passed": true
+  },
+  {
+    "name": "run_success_0_501/500_interval_original",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_0_501/500_interval_original",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_0_501/500_interval_original",
+    "passed": true
+  },
+  {
+    "name": "run_success_0_501/500_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_0_501/500_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_0_501/500_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_0_501/500_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_0_501/500_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_0_501/500_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_1_6/5_interval_original",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_1_6/5_interval_original",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_1_6/5_interval_original",
+    "passed": true
+  },
+  {
+    "name": "run_success_1_6/5_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_1_6/5_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_1_6/5_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_1_6/5_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_1_6/5_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_1_6/5_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_1_6/5_float64",
+    "passed": true
+  },
+  {
+    "name": "run_success_1_51/50_interval_original",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_1_51/50_interval_original",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_1_51/50_interval_original",
+    "passed": true
+  },
+  {
+    "name": "run_success_1_51/50_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_1_51/50_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_1_51/50_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_1_51/50_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_1_51/50_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_1_51/50_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_1_51/50_float64",
+    "passed": true
+  },
+  {
+    "name": "run_success_1_501/500_interval_original",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_1_501/500_interval_original",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_1_501/500_interval_original",
+    "passed": true
+  },
+  {
+    "name": "run_success_1_501/500_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_1_501/500_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_1_501/500_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_1_501/500_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_1_501/500_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_1_501/500_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_1_501/500_float64",
+    "passed": true
+  },
+  {
+    "name": "run_success_2_6/5_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_2_6/5_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_2_6/5_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_2_6/5_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_2_6/5_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_2_6/5_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_2_6/5_float64",
+    "passed": true
+  },
+  {
+    "name": "run_success_2_6/5_interval_original",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_2_6/5_interval_original",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_2_6/5_interval_original",
+    "passed": true
+  },
+  {
+    "name": "run_success_2_51/50_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_2_51/50_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_2_51/50_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_2_51/50_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_2_51/50_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_2_51/50_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_2_51/50_float64",
+    "passed": true
+  },
+  {
+    "name": "run_success_2_51/50_interval_original",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_2_51/50_interval_original",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_2_51/50_interval_original",
+    "passed": true
+  },
+  {
+    "name": "run_success_2_501/500_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_2_501/500_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_2_501/500_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_2_501/500_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_2_501/500_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_2_501/500_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "run_success_2_501/500_float64",
+    "passed": true
+  },
+  {
+    "name": "run_success_2_501/500_interval_original",
+    "passed": true
+  },
+  {
+    "name": "continuous_reference_contained_2_501/500_interval_original",
+    "passed": true
+  },
+  {
+    "name": "exact_gap_stop_2_501/500_interval_original",
+    "passed": true
+  },
+  {
+    "name": "deterministic_grid_6/5_float64",
+    "passed": true
+  },
+  {
+    "name": "deterministic_grid_6/5_interval_original",
+    "passed": true
+  },
+  {
+    "name": "deterministic_grid_6/5_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "deterministic_grid_6/5_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "all_interval_modes_same_exact_endpoints_6/5",
+    "passed": true
+  },
+  {
+    "name": "deterministic_grid_51/50_float64",
+    "passed": true
+  },
+  {
+    "name": "deterministic_grid_51/50_interval_original",
+    "passed": true
+  },
+  {
+    "name": "deterministic_grid_51/50_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "deterministic_grid_51/50_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "all_interval_modes_same_exact_endpoints_51/50",
+    "passed": true
+  },
+  {
+    "name": "deterministic_grid_501/500_float64",
+    "passed": true
+  },
+  {
+    "name": "deterministic_grid_501/500_interval_original",
+    "passed": true
+  },
+  {
+    "name": "deterministic_grid_501/500_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "deterministic_grid_501/500_float_pilot_interval_cached",
+    "passed": true
+  },
+  {
+    "name": "all_interval_modes_same_exact_endpoints_501/500",
+    "passed": true
+  },
+  {
+    "name": "profile_endpoint_identity_0",
+    "passed": true
+  },
+  {
+    "name": "profile_endpoint_identity_1",
+    "passed": true
+  },
+  {
+    "name": "profile_endpoint_identity_2",
+    "passed": true
+  },
+  {
+    "name": "profile_endpoint_identity_3",
+    "passed": true
+  },
+  {
+    "name": "profile_endpoint_identity_4",
+    "passed": true
+  },
+  {
+    "name": "profile_endpoint_identity_5",
+    "passed": true
+  }
+]

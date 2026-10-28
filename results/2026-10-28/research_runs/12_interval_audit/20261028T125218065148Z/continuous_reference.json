@@ -1,0 +1,19 @@
+{
+  "lower": {
+    "numerator": "38649096861482448935977424656878278727115885529",
+    "denominator": "374144419156711147060143317175368453031918731001856",
+    "decimal_outward": "0.0001032999421683053262583500",
+    "decimal_rounding": "down"
+  },
+  "upper": {
+    "numerator": "316615688678011887471465701856686357722169421377951",
+    "denominator": "3064991081731777716716694054300618367237478244367204352",
+    "decimal_outward": "0.0001033006883984530412341462",
+    "decimal_rounding": "up"
+  },
+  "intervals": 2048,
+  "precision_digits": 50,
+  "elapsed_s": 7.60526799399986,
+  "method": "endpoint error enclosures + per-cell interpolation remainder",
+  "scope": "continuous error enclosure for the audit; shares the interval backend"
+}

@@ -2,7 +2,7 @@
 
 - Use clear Chinese explanations suitable for an AI student learning PDE and numerical analysis.
 - Preserve the project scope and confirmed decisions in README and daily notes.
-- After meaningful completed work, update the dated research log and save code/config/results together.
+- Save meaningful working progress locally with its code/config/results. Summarize and sync when the user requests the day's closing update; do not commit after every exchange.
 - Distinguish executed experiments from plans, and assistant execution from the student's own reproduction or understanding.
 - Do not invent measurements, paper-reading status, or scientific novelty.
 - Distinguish sampled maxima, continuous mathematical guarantees, and machine-level validated numerics.
@@ -17,6 +17,6 @@
 - Record meaningful discussions as well as executed work: useful derivations, verified literature findings, confirmed decisions, experiment designs, results, limitations, and next steps.
 - Put dated summaries in notes/daily/, reusable theory in notes/theory.md, literature updates in literature/reading_list.md, and executable work in scripts/ or notebooks/ with corresponding configurations and results.
 - Label hypotheses and unrun experiments as pending. Never turn a discussion or a proposed method into a claimed result.
-- For this project, the user has asked for ongoing repository updates after meaningful progress. Save and commit these updates without asking for the same routine authorization again.
+- The user's latest workflow preference is one consolidated summary and GitHub sync at the requested end of the day's discussion. Do not create a background schedule or repeatedly sync after individual exchanges. A closing sync already requested in the conversation is authorized without asking again.
 - Read the latest repository state before editing, preserve unrelated changes, and verify the remote commit before reporting that work has been saved to GitHub.
 - In each progress report, briefly identify what was recorded and link the relevant file or commit when useful.

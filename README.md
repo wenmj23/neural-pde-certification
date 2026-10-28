@@ -1,72 +1,75 @@
 # neural-pde-certification
 
-wmj graduation project — Neural PDE Solver Certification
+一维 Poisson 神经求解器的后验最大误差认证：学习、推导、实验与中期报告记录。
 
-一维 Poisson 神经求解器的后验最大误差认证：学习、实验与中期报告记录。
+更新：2026-10-28 日终。中期报告截止：2026-11-13。
 
-中期报告截止日期：2026-11-13。当前记录日期：2026-10-28。
+先读 [今天的完整总结](reports/research_summary_2026-10-28.md)，或查看 [固定主案例](cases/poisson_1d_sine_k1_seed7/README.md)。
 
-## 当前已完成
+## 当前进展
 
-- 手写近似函数：检查最大误差界与采样遗漏反例。
-- 一个单隐藏层、硬边界 tanh PINN 的训练基线。
-- 固定同一个已训练网络的 2×2 认证对照。
-- 带符号残差的误差辅助问题与剩余量认证。
+- 从全域残差上界、局部导数界、空间包络，推进到保留符号的误差重构与剩余量估计。
+- 使用分段直线近似残差，将局部余项改为 K h²/8，并测试正弦、混合频率、局部窄峰和多组固定 PINN 输出。
+- 固定一维正弦源项、单隐层 16 神经元、seed 7 的 PINN，保存权重、训练来源、哈希与复现基准。
+- 实现考虑验证计算舍入的区间版本，完成一次助手审查与可执行检查；保留精确有理数和向外十进制端点。
+- 比较相同上下界紧度要求下的完整验证成本，并实现浮点预估网格与固定系数缓存的初步方案。
 
-当前只研究 `-u''=2`、`x∈[0,1]`、`u(0)=u(1)=0`。后续正弦源项实验尚未运行。
+研究范围包括早期 `-u''=2` 基线和后续正弦源项，均在 `[0,1]` 上采用零 Dirichlet 边界。当前主要网络适配器是单隐层 tanh；受控人工误差测试用于检验算法，不全部属于 PINN 训练实验。
 
-所有实验最初由助手在本会话执行，用户仍需理解代码并在自己的环境复现。结果是普通 float64 对理论上界公式的实现，尚未完成向外舍入的机器级数值认证。经典推导与初步对照不直接作为新的理论贡献。
+## 代表结果与限制
+
+同样 1001 个残差检查点，已知最大误差的 `A sin(20*pi*x)` 测试中，上界/真实误差约从常数残差方法的 11.18 降到直线方法的 1.16。局部加密对窄峰很有效，全域高频仍可能得到偏松的界。
+
+固定正弦 PINN 的区间版本，1000 个区间时上界与连续真实最大误差之比约为 1.00058。该结论针对精确二进制权重定义的实函数，以本例数学条件和所用区间后端的包围正确性为前提；后端区间支持属实验性，尚无独立审查/形式化验证，也不认证任意浮点推理程序。
+
+成本方面，先用浮点选网格再区间核验，三档要求的 wall time 中位数由约 2.22/8.42/21.74 秒降到 0.98/4.21/9.09 秒，端点保持一致。但每配置仅重复 3 次且有明显慢样本；缓存单独使用的收益不稳定。当前区间实现仍为秒级，没有展示比本例直接传统求解更便宜的优势。
+
+所有实验由助手执行；学生理解与本地复现仍待完成。经典方法的实现和初步对照不直接作为首创理论贡献。
 
 ## 文件入口
 
-| 目录/文件 | 用途 |
+| 路径 | 用途 |
 |---|---|
-| `notebooks/` | 4 份包含已执行输出和图的独立实验笔记 |
-| `scripts/` | 从笔记整理的可直接运行 Python 脚本 |
-| `configs/baseline.json` | 基线实验配置 |
-| `results/2026-10-28/` | 历史结果表、原始控制台输出、图和固定网络权重 |
-| `notes/daily/2026-10-28.md` | 当天研究日志、结论和未解决问题 |
-| `notes/daily/TEMPLATE.md` | 后续研究日志模板 |
-| `notes/theory.md` | 核心公式、条件、证明线索 |
-| `literature/reading_list.md` | 文献与阅读状态 |
-| `reports/` | 报告说明；含个人信息的原始开题报告保留在下载包中 |
-| `NEXT_STEPS.md` | 下一步实验和中期报告准备 |
+| [日终总结](reports/research_summary_2026-10-28.md) | 完整结论、证据、局限与明日起点 |
+| [研究日志](notes/daily/2026-10-28.md) | 当天工作索引；早期版本另行保留 |
+| [理论笔记](notes/theory.md) | 基本界、重构余项、区间与停止规则 |
+| [工作记录](notes/working/) | 高频、补充函数、区间审查、成本的详细记录 |
+| [固定案例](cases/poisson_1d_sine_k1_seed7/) | 49 个权重、来源、基准和说明 |
+| [文献清单](literature/reading_list.md) | 原始来源及实际查阅范围 |
+| [历史结果](results/2026-10-28/) | 早期结果及本次选定运行的 JSON/CSV、图与校验清单 |
+| `scripts/` | 实验、区间实现、成本测量及归档恢复 |
+| `notebooks/` | 早期 4 份已执行笔记 |
+| [下一步](NEXT_STEPS.md) | 明天的待办，不代表已经执行 |
 
-## 运行
+## 运行与复现
 
-建议使用独立 Python 环境。Windows PowerShell 示例：
+建议 Python 3.12、独立虚拟环境。Windows PowerShell：
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-python scripts/02_pinn_baseline.py
-python scripts/03_certificate_diagnostics.py
-python scripts/04_signed_residual.py
+python -m pip install -r requirements-interval.txt
+python scripts/14_restore_archived_results.py
+python scripts/11_reproduce_frozen_case.py
 ```
 
-macOS/Linux 环境激活命令为 `source .venv/bin/activate`。脚本自动将新图和结果写入 `results/generated/`，不会覆盖历史结果目录。
+macOS/Linux 激活命令为 `source .venv/bin/activate`。恢复脚本只校验并复制归档字节，恢复旧脚本需要的 `results/generated/` 历史路径，不训练、不运行实验。遇到不同内容的已有文件会拒绝覆盖。
 
-`01_manual_examples.py`、`03_certificate_diagnostics.py`、`04_signed_residual.py` 只需要 NumPy 与 Matplotlib；第 2 个脚本还需要 PyTorch。第 3、4 个脚本嵌入原始网络权重，因此不依赖重新训练结果。
+后续可按需运行：
 
-如果使用 Jupyter，可额外安装 `jupyterlab` 并打开 `notebooks/`。运行笔记时，图和输出显示在笔记中。
+```bash
+python scripts/07_high_frequency_methods.py
+python scripts/10_function_generalization.py
+python scripts/12_audit_interval_case.py
+python scripts/13_verification_cost_benchmark.py
+```
 
-## 每次有意义进展后的记录规则
+脚本 12、13 需要一些运行时间，计时时不要并行执行其他实验。脚本 10–13 每次创建新的时间戳目录；较早脚本 01–09 的输出路径固定，重跑前自行保留旧运行。已归档的证据不会随生成目录被覆盖。区间入口锁定本次检查的 `mpmath==1.3.0`，其他依赖与具体运行版本记录在结果中。
 
-1. 保存对应代码、配置、结果和图。
-2. 写入当天日志：做了什么、为什么做、结论、局限、下一步。
-3. 保留过去结果，新的实验使用新的目录或编号。
-4. 分开记录：计划、已经运行、已经理解、尚未验证。
-5. 将相关变更作为一次说明清楚的 GitHub 提交保存。
+`requirements.txt` 是早期基础依赖，`requirements-experiments.txt` 补充 SciPy/mpmath，`requirements-interval.txt` 固定区间后端版本。新克隆无需重新训练即可加载主案例。
 
-这是研究过程中的记录流程，不是后台定时任务。
+## 记录与同步约定
 
-## 当前最重要的结果
+平时保存有意义的工作记录；用户在当天讨论结束时要求总结，再合并更新文档、代码和结果并同步 GitHub。每次交流不单独提交。保存推导、实际运行、计划和学生已掌握内容时分别标注，不创建后台定时任务。
 
-固定同一个网络、同样 1001 个残差检查点，基线误差界相对密集网格参考误差约为 52.49 倍；局部导数界加空间护栏约为 5.87 倍；带符号误差估计加剩余认证约为 1.034 倍。完整数值见结果表。
-
-参考误差来自已知精确解在密集网格上的比较，不应直接称为精确连续最大误差。认证公式本身不使用精确解。
-
-## GitHub
-
-仓库：https://github.com/wenmj23/neural-pde-certification 。本仓库公开；原始开题报告 PDF 保留在个人下载包，不随此次提交上传。
+本仓库公开，原始开题报告 PDF 及其中个人信息不纳入公开提交。工作脚本或历史记录中的 working/uncommitted 等措辞描述生成当时状态，日终进度以当前总结和归档索引为准。

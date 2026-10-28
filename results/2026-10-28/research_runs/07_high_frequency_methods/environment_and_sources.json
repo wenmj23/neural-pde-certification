@@ -1,0 +1,19 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "torch": "2.14.1+cpu",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.8"
+  },
+  "result_scope": "Working run 2026-10-28. Script 08 final timing run executed alone, five repetitions. Script 07 timing data had concurrent work; use 08 for timing conclusions. Frozen-data loaders introduced after runs and checked bit-for-bit against original data and one saved certificate.",
+  "sha256": {
+    "scripts/certification_core.py": "d0444734c54c287035d374349a3a075c0c03652ea9fffaa7be48874594a84fdc",
+    "scripts/07_high_frequency_methods.py": "5b3da5856832831bbe7470471bec2a8df4028b03f2432b39d6c9adcd627333f8",
+    "scripts/08_matched_tolerance_benchmark.py": "8c8f0dc94f8929900725daca70728be55956389777845f5cd295edf4d0700016",
+    "scripts/09_interval_prototype.py": "214818023c22fb1b1705504dcd54fa569299871dfa892f25a6564fc19040a141",
+    "configs/frozen_networks_round07.json": "00eb9250c0e01da1380d22939205871472ac76face48c69b1d330c665606fcbb"
+  }
+}

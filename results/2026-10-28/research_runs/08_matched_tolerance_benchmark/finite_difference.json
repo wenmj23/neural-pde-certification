@@ -1,0 +1,12 @@
+[
+  {
+    "intervals": 100,
+    "median_solve_ms": 0.03163549990858883,
+    "reference_error": 8.225076220980121e-05
+  },
+  {
+    "intervals": 1000,
+    "median_solve_ms": 0.05917650014453102,
+    "reference_error": 8.224670622336561e-07
+  }
+]

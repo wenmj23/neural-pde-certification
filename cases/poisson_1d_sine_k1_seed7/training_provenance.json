@@ -1,0 +1,129 @@
+{
+  "source_script": "scripts/05_cross_problem_validation.py",
+  "source_script_sha256": "2c54f20cad7456aed36501225ec5ec298a2ac9fc4f288a0a10fdd89fc194ae0e",
+  "source_batch_configuration": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "dtype": "float64",
+    "domain": [
+      0,
+      1
+    ],
+    "boundary": [
+      0,
+      0
+    ],
+    "exact": "sin(k*pi*x)",
+    "forcing": "(k*pi)^2*sin(k*pi*x)",
+    "k": [
+      1,
+      5
+    ],
+    "seeds": [
+      7,
+      17,
+      27
+    ],
+    "width": 16,
+    "steps": 2000,
+    "lr": 0.01,
+    "train_points": 128,
+    "residual_check_points": 1001,
+    "reference_points": 10001,
+    "checkpoints": [
+      0,
+      100,
+      500,
+      2000
+    ],
+    "caveat": "ordinary float64; not outward-rounded; empirical checks do not replace proofs"
+  },
+  "selected_run": {
+    "k": 1,
+    "seed": 7,
+    "training_steps": 2000,
+    "optimizer_class": "torch.optim.Adam",
+    "explicit_optimizer_kwargs": {
+      "lr": 0.01
+    },
+    "other_optimizer_options": "defaults in the recorded torch environment",
+    "loss": "mean((-v_dd-pi^2*sin(pi*x))^2)",
+    "training_nodes": "x=j/129, j=1,...,128; fixed interior points",
+    "initialization": "torch.manual_seed(7), default nn.Linear initialization in recorded environment",
+    "dtype": "float64",
+    "device": "cpu"
+  },
+  "validation_snapshots": [
+    {
+      "k": 1,
+      "seed": 7,
+      "step": 0,
+      "error_grid": 1.0744594554645341,
+      "reference_gap_bound": 1.3138576103643995e-08,
+      "lower": 1.0735336645390003,
+      "upper": 1.0753818858620627,
+      "ratio": 1.0008585064730338,
+      "unsigned_ratio": 1.0017091765354054,
+      "remainder": 0.0009241106615311779,
+      "residual_grid_max": 10.510795565438064,
+      "local_M_max": 32.7558783770899,
+      "certification_ms": 17.287527999542363,
+      "covers_reference_grid": true,
+      "lower_consistent": true
+    },
+    {
+      "k": 1,
+      "seed": 7,
+      "step": 100,
+      "error_grid": 0.09108636044915586,
+      "reference_gap_bound": 4.634909435847098e-09,
+      "lower": 0.09062581034894568,
+      "upper": 0.09154528871579407,
+      "ratio": 1.0050383862564625,
+      "unsigned_ratio": 1.6063924478212377,
+      "remainder": 0.00045973918342419724,
+      "residual_grid_max": 3.697928350946657,
+      "local_M_max": 19.998395462041316,
+      "certification_ms": 13.337719999981346,
+      "covers_reference_grid": true,
+      "lower_consistent": true
+    },
+    {
+      "k": 1,
+      "seed": 7,
+      "step": 500,
+      "error_grid": 0.0011255643078763589,
+      "reference_gap_bound": 5.099024002865217e-10,
+      "lower": 0.0010708318991167402,
+      "upper": 0.0011801479521873996,
+      "ratio": 1.048494469777587,
+      "unsigned_ratio": 7.668199132425033,
+      "remainder": 5.465802653532964e-05,
+      "residual_grid_max": 0.4041349866030499,
+      "local_M_max": 7.57386725233491,
+      "certification_ms": 14.538330000505084,
+      "covers_reference_grid": true,
+      "lower_consistent": true
+    },
+    {
+      "k": 1,
+      "seed": 7,
+      "step": 2000,
+      "error_grid": 0.00010329992292423817,
+      "reference_gap_bound": 1.162600062807127e-10,
+      "lower": 8.476882506691634e-05,
+      "upper": 0.00012180086967637415,
+      "ratio": 1.1790993277478519,
+      "unsigned_ratio": 15.499388590403344,
+      "remainder": 1.8516022304728902e-05,
+      "residual_grid_max": 0.09156412054418173,
+      "local_M_max": 2.887768960776871,
+      "certification_ms": 10.621345999425102,
+      "covers_reference_grid": true,
+      "lower_consistent": true
+    }
+  ],
+  "record_scope": "Snapshots at steps 0,100,500,2000; per-step losses and optimizer state were not saved. Frozen inference is reproducible without retraining; bitwise-identical retraining across software/platforms is not asserted.",
+  "upstream_fixture": "configs/frozen_networks_round07.json",
+  "upstream_fixture_sha256": "00eb9250c0e01da1380d22939205871472ac76face48c69b1d330c665606fcbb"
+}

@@ -1,0 +1,19 @@
+{
+  "archive_files_verified": 44,
+  "restore_first_copy": {
+    "verified": 44,
+    "copied": 44,
+    "already_present": 0
+  },
+  "restore_second_copy": {
+    "verified": 44,
+    "copied": 0,
+    "already_present": 44
+  },
+  "conflicting_restore_rejected": true,
+  "cost_checks_passed": 143,
+  "interval_checks_passed": 94,
+  "source_hashes_unchanged": true,
+  "markdown_links_checked": true,
+  "scope": "Packaging and static consistency checks only; no additional research experiments run."
+}

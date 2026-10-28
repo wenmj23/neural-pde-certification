@@ -1,0 +1,470 @@
+[
+  {
+    "problem": "zero",
+    "lower": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "up"
+    },
+    "intervals": 1,
+    "precision_digits": 30,
+    "elapsed_s": 0.0008243239999501384,
+    "auxiliary_norm_lower": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "problem": "zero",
+    "lower": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "up"
+    },
+    "intervals": 32,
+    "precision_digits": 30,
+    "elapsed_s": 0.007794067000304494,
+    "auxiliary_norm_lower": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "problem": "constant",
+    "lower": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "6760803201217223474649083762007",
+      "denominator": "20282409603651670423947251286016",
+      "decimal_outward": "0.3333333333333333333333334",
+      "decimal_rounding": "up"
+    },
+    "intervals": 1,
+    "precision_digits": 30,
+    "elapsed_s": 0.00029220899978099624,
+    "auxiliary_norm_lower": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "6760803201217223474649083762007",
+      "denominator": "20282409603651670423947251286016",
+      "decimal_outward": "0.3333333333333333333333334",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "problem": "constant",
+    "lower": {
+      "numerator": "1",
+      "denominator": "4",
+      "decimal_outward": "0.25",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "5070602400912917605986812821505",
+      "denominator": "20282409603651670423947251286016",
+      "decimal_outward": "0.2500000000000000000000001",
+      "decimal_rounding": "up"
+    },
+    "intervals": 8,
+    "precision_digits": 30,
+    "elapsed_s": 0.0020829439999943133,
+    "auxiliary_norm_lower": {
+      "numerator": "1",
+      "denominator": "4",
+      "decimal_outward": "0.25",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "5070602400912917605986812821505",
+      "denominator": "20282409603651670423947251286016",
+      "decimal_outward": "0.2500000000000000000000001",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "problem": "constant",
+    "lower": {
+      "numerator": "1",
+      "denominator": "4",
+      "decimal_outward": "0.25",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "5070602400912917605986812821505",
+      "denominator": "20282409603651670423947251286016",
+      "decimal_outward": "0.2500000000000000000000001",
+      "decimal_rounding": "up"
+    },
+    "intervals": 64,
+    "precision_digits": 30,
+    "elapsed_s": 0.016665573999944172,
+    "auxiliary_norm_lower": {
+      "numerator": "1",
+      "denominator": "4",
+      "decimal_outward": "0.25",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "5070602400912917605986812821505",
+      "denominator": "20282409603651670423947251286016",
+      "decimal_outward": "0.2500000000000000000000001",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "problem": "linear",
+    "lower": {
+      "numerator": "195",
+      "denominator": "512",
+      "decimal_outward": "0.380859375",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "3934998738208462100479349533355",
+      "denominator": "10141204801825835211973625643008",
+      "decimal_outward": "0.3880208333333333333333334",
+      "decimal_rounding": "up"
+    },
+    "intervals": 8,
+    "precision_digits": 30,
+    "elapsed_s": 0.003237360000184708,
+    "auxiliary_norm_lower": {
+      "numerator": "195",
+      "denominator": "512",
+      "decimal_outward": "0.380859375",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "3934998738208462100479349533355",
+      "denominator": "10141204801825835211973625643008",
+      "decimal_outward": "0.3880208333333333333333334",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "problem": "linear",
+    "lower": {
+      "numerator": "100899",
+      "denominator": "262144",
+      "decimal_outward": "0.384899139404296875",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "7806965696083310255295085324971",
+      "denominator": "20282409603651670423947251286016",
+      "decimal_outward": "0.3849131266276041666666667",
+      "decimal_rounding": "up"
+    },
+    "intervals": 64,
+    "precision_digits": 30,
+    "elapsed_s": 0.13282534900008613,
+    "auxiliary_norm_lower": {
+      "numerator": "100899",
+      "denominator": "262144",
+      "decimal_outward": "0.384899139404296875",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "7806965696083310255295085324971",
+      "denominator": "20282409603651670423947251286016",
+      "decimal_outward": "0.3849131266276041666666667",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "problem": "quartic",
+    "lower": {
+      "numerator": "7983156419997297478865638106153",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009609374999999999999999999",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "4186289342193704775502712665445",
+      "denominator": "41538374868278621028243970633760768",
+      "decimal_outward": "0.0001007812500000000000000001",
+      "decimal_rounding": "up"
+    },
+    "intervals": 16,
+    "precision_digits": 30,
+    "elapsed_s": 0.004787297999882867,
+    "auxiliary_norm_lower": {
+      "numerator": "2044466888048088378733882929625",
+      "denominator": "20769187434139310514121985316880384",
+      "decimal_outward": "0.00009843749999999999999999999",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "8177867552192353514935531718543",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009843750000000000000000001",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "3115378115120896577118297797543",
+      "denominator": "1329227995784915872903807060280344576",
+      "decimal_outward": "0.000002343750000000000000000001",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "problem": "quartic",
+    "lower": {
+      "numerator": "4151302185627405644021403656913",
+      "denominator": "41538374868278621028243970633760768",
+      "decimal_outward": "0.00009993896484374999999999999",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "8308689094135906789169991489435",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001000122070312500000000001",
+      "decimal_rounding": "up"
+    },
+    "intervals": 128,
+    "precision_digits": 30,
+    "elapsed_s": 0.0325557299997854,
+    "auxiliary_norm_lower": {
+      "numerator": "8305646732695359038606399401519",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009997558593749999999999999",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "4152823366347679519303199700871",
+      "denominator": "41538374868278621028243970633760768",
+      "decimal_outward": "0.00009997558593750000000000001",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "3115378115120896577118297797611",
+      "denominator": "85070591730234615865843651857942052864",
+      "decimal_outward": "3.662109375000000000000001E-8",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "problem": "sine_1",
+    "lower": {
+      "numerator": "8303470708800868863790286532369",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009994939300263687025774250",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "8308543317852915234607451631449",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001000104523130712818585350",
+      "decimal_rounding": "up"
+    },
+    "intervals": 64,
+    "precision_digits": 30,
+    "elapsed_s": 0.02629088599996976,
+    "auxiliary_norm_lower": {
+      "numerator": "8306007013326892049198869081823",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009997992265785407605813873",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "8306007013326892049198869081995",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009997992265785407605813874",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "2597175834647741858388530640537",
+      "denominator": "85070591730234615865843651857942052864",
+      "decimal_outward": "3.052965521720580039623333E-8",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "problem": "sine_20",
+    "lower": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "3776379346212801013759342469287",
+      "denominator": "10384593717069655257060992658440192",
+      "decimal_outward": "0.0003636521032118362973053182",
+      "decimal_rounding": "up"
+    },
+    "intervals": 256,
+    "precision_digits": 30,
+    "elapsed_s": 0.13229727099997035,
+    "auxiliary_norm_lower": {
+      "numerator": "8266096852469423305752702288331",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009949952157109963596918705",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "2073144473025910105951081457603",
+      "denominator": "20769187434139310514121985316880384",
+      "decimal_outward": "0.00009981827549103741073559687",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "5479614219399691921567603480971",
+      "denominator": "20769187434139310514121985316880384",
+      "decimal_outward": "0.0002638338277207988865697214",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "problem": "sine_20",
+    "lower": {
+      "numerator": "872119205859480069719599869461",
+      "denominator": "10384593717069655257060992658440192",
+      "decimal_outward": "0.00008398202468199943735958414",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "9632931148563235878626575705399",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001159521909452404054182842",
+      "decimal_rounding": "up"
+    },
+    "intervals": 1000,
+    "precision_digits": 30,
+    "elapsed_s": 0.6015351089999967,
+    "auxiliary_norm_lower": {
+      "numerator": "519058899857471138636980422857",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.00009996710781361992138893412",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "8304942397719538218191687895375",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.00009996710781361992138893414",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "5311955003374790641739551240093",
+      "denominator": "332306998946228968225951765070086144",
+      "decimal_outward": "0.00001598508313162048402934998",
+      "decimal_rounding": "up"
+    }
+  },
+  {
+    "problem": "sine_200",
+    "lower": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "3858771647404357140977005757647",
+      "denominator": "158456325028528675187087900672",
+      "decimal_outward": "24.35227275850060930911009",
+      "decimal_rounding": "up"
+    },
+    "intervals": 100,
+    "precision_digits": 30,
+    "elapsed_s": 0.05270730900019771,
+    "auxiliary_norm_lower": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "down"
+    },
+    "auxiliary_norm_upper": {
+      "numerator": "1486058058517560329267599262505",
+      "denominator": "784637716923335095479473677900958302012794430558004314112",
+      "decimal_outward": "1.893941657998017428526782E-27",
+      "decimal_rounding": "up"
+    },
+    "remainder_norm_upper": {
+      "numerator": "7717543294808714281954011514693",
+      "denominator": "316912650057057350374175801344",
+      "decimal_outward": "24.35227275850060930911009",
+      "decimal_rounding": "up"
+    }
+  }
+]

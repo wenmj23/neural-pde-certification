@@ -1,0 +1,32 @@
+[
+  {
+    "k": 1,
+    "seed": 7,
+    "training_plus_validation_s": 2.7324679120001747
+  },
+  {
+    "k": 1,
+    "seed": 17,
+    "training_plus_validation_s": 2.7292886859995633
+  },
+  {
+    "k": 1,
+    "seed": 27,
+    "training_plus_validation_s": 2.5064629959997546
+  },
+  {
+    "k": 5,
+    "seed": 7,
+    "training_plus_validation_s": 2.508142991000568
+  },
+  {
+    "k": 5,
+    "seed": 17,
+    "training_plus_validation_s": 2.5586616450000292
+  },
+  {
+    "k": 5,
+    "seed": 27,
+    "training_plus_validation_s": 2.539229355000316
+  }
+]
