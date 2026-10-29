@@ -1,0 +1,14 @@
+{"problem": "sine_20", "method": "constant", "adaptive": false, "success": true, "intervals": 131072, "gap": 1.1629037566741849, "median_total_ms": 61.202099999718484, "ratio_to_reference": 1.0753171134391606}
+{"problem": "sine_20", "method": "linear", "adaptive": false, "success": true, "intervals": 2048, "gap": 1.0779825507158731, "median_total_ms": 3.4968999989359872, "ratio_to_reference": 1.0374466340650532}
+{"problem": "sine_20", "method": "linear", "adaptive": true, "success": true, "intervals": 2048, "gap": 1.0689255506324644, "median_total_ms": 5.1731339990510605, "ratio_to_reference": 1.033648834921579}
+{"problem": "sine_50", "method": "constant", "adaptive": false, "success": false, "intervals": 131072, "gap": null, "median_total_ms": 59.092419998705736, "ratio_to_reference": 2.177253079432585}
+{"problem": "sine_50", "method": "linear", "adaptive": false, "success": true, "intervals": 16384, "gap": 1.0463877128588943, "median_total_ms": 10.365264999563806, "ratio_to_reference": 1.0226602624506609}
+{"problem": "sine_50", "method": "linear", "adaptive": true, "success": true, "intervals": 8192, "gap": 1.1745621841141372, "median_total_ms": 13.803117000861675, "ratio_to_reference": 1.0802870641918896}
+{"problem": "bump_0.005", "method": "constant", "adaptive": false, "success": false, "intervals": 131072, "gap": 1.806130492846054, "median_total_ms": 119.81859799925587, "ratio_to_reference": 1.2872737711728204}
+{"problem": "bump_0.005", "method": "linear", "adaptive": false, "success": true, "intervals": 8192, "gap": 1.1682283637713322, "median_total_ms": 14.257659999202588, "ratio_to_reference": 1.077480895816918}
+{"problem": "bump_0.005", "method": "linear", "adaptive": true, "success": true, "intervals": 512, "gap": 1.039886480930574, "median_total_ms": 8.433744000285515, "ratio_to_reference": 1.0199548214582113}
+{"problem": "PINN_k1_seed7", "method": "constant", "adaptive": false, "success": true, "intervals": 2048, "gap": 1.1590974249813513, "median_total_ms": 16.573000999414944, "ratio_to_reference": 1.073649819885329}
+{"problem": "PINN_k1_seed7", "method": "linear", "adaptive": false, "success": true, "intervals": 128, "gap": 1.1023442425784689, "median_total_ms": 2.7343959991412703, "ratio_to_reference": 1.0439984734613947}
+{"problem": "PINN_k1_seed7", "method": "linear", "adaptive": true, "success": true, "intervals": 128, "gap": 1.1023442425784689, "median_total_ms": 6.10693400085438, "ratio_to_reference": 1.0439984734613947}
+FD scoped benchmark: [{"intervals": 100, "median_solve_ms": 0.03163549990858883, "reference_error": 8.225076220980121e-05}, {"intervals": 1000, "median_solve_ms": 0.05917650014453102, "reference_error": 8.224670622336561e-07}]
+Tolerance decisions: 24 reference-consistent decisions; statuses: {'accept': 6, 'reject': 18, 'uncertain': 0}

@@ -6,3 +6,8 @@ results/generated/
 
 # Personal report PDFs stay outside the public repository.
 reports/*.pdf
+
+# Full raw archives remain local; this public sync includes curated examples.
+results/2026-10-29/bundles/
+results/2026-10-29/archive_manifest.json
+scripts/restore_research_archive.py

@@ -27,3 +27,16 @@
 | NIST DLMF 3.1，https://dlmf.nist.gov/3.1 | 定向舍入、区间与有理数表示的背景；不提供对本项目代码的正确性证明 |
 
 Führer–Rojas 的残差有限维部分加剩余量框架是本轮的重要方法线索。分段直线残差加 Kh²/8 在本项目按经典插值和比较原理自行实现；尚没有首创性或完整复现某篇论文的证据。更详细的对应关系见 notes/working/high_frequency_round_2026-10-28.md。
+
+## 2026-10-29 多层网络与高阶实现补充
+
+以下是助手实际查阅状态，不代表学生精读或已完整复现。
+
+| 原始来源 | 核对状态、借鉴点与边界 |
+|---|---|
+| python-flint 0.9.0，arb_series官方文档，https://python-flint.readthedocs.io/en/latest/arb_series.html | 核对支持的形式级数运算和截断精度；该绑定未提供tanh方法，实验用exp形式或显式tanh导数复合。文档不保证本项目实现无误 |
+| L. B. Rall，Mean Value and Taylor Forms in Interval Analysis，https://doi.org/10.1137/0514019 | 核对原始摘要；均值/Taylor区间形式和中心展开背景。没有逐定理精读付费全文，不声称复现论文全部方法 |
+| Ivanov et al.，Verisig 2.0: Verification of Neural Network Controllers Using Taylor Model Preconditioning，CAV 2021，https://www.cs.rpi.edu/~ivanor/cpub/cav21-ivanov.pdf | 阅读摘要及Taylor模型/区间膨胀相关正文；对象是神经控制器闭环可达性。当前导数jet与均值收缩不等于完整Taylor模型或Verisig工具，没有运行工具性能对照 |
+| NIST DLMF §3.3，https://dlmf.nist.gov/3.3 | 核对经典插值余项背景；二次、三次残差及形状包络常数按当前节点配置自行推导与核对，不据此声称数学首创 |
+
+实验显示更紧的范围传播常有额外成本，因此方法比较必须同时记录连续保证条件、导数阶数、网络规模和完整请求耗时。详见 notes/working/depth_higher_order_2026-10-29.md。

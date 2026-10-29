@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "case_name": "shallow_sine",
+  "error_norm": "Linf_absolute",
+  "problem": {
+    "operator": "-u_dd",
+    "source": "(k*pi)^2*sin(k*pi*x)",
+    "frequency": 1,
+    "domain": [
+      0,
+      1
+    ],
+    "boundary": [
+      0,
+      0
+    ]
+  },
+  "settings": {
+    "degree": 2,
+    "mesh": "uniform",
+    "goal": "enclosure",
+    "gap_ratio": "1.02",
+    "error_tolerance": "0.001",
+    "initial_intervals": 16,
+    "max_intervals": 2048,
+    "max_attempts": 9,
+    "time_limit_seconds": "30",
+    "precision_bits": 103
+  },
+  "network": {
+    "label": "depth1_k1_seed7",
+    "hidden_widths": [
+      16
+    ],
+    "fixture_sha256": "58c6c7532f4bb61d9d6c715cb32be568a103ed2ea2fe249fee6d4bf9b5a910d8",
+    "output_transform": "x*(1-x)*raw_network(x)"
+  },
+  "stop_reason": "goal_met",
+  "enclosure": {
+    "lower": {
+      "numerator": "8563070906235448189793411729579",
+      "denominator": "83076749736557242056487941267521536",
+      "decimal_outward": "0.0001030742167139374628133664",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "537556214783059301175442203981",
+      "denominator": "5192296858534827628530496329220096",
+      "decimal_outward": "0.0001035295610842150411458560",
+      "decimal_rounding": "up"
+    },
+    "z_lower": {
+      "numerator": "2145317890031558681282343430967",
+      "denominator": "20769187434139310514121985316880384",
+      "decimal_outward": "0.0001032932991160355493124359",
+      "decimal_rounding": "down"
+    },
+    "z_upper": {
+      "numerator": "268209336957442571358472289669",
+      "denominator": "2596148429267413814265248164610048",
+      "decimal_outward": "0.0001033104786821169546467865",
+      "decimal_rounding": "up"
+    },
+    "remainder_upper": {
+      "numerator": "9318734792082706092012541075309",
+      "denominator": "42535295865117307932921825928971026432",
+      "decimal_outward": "2.190824020980864990694915E-7",
+      "decimal_rounding": "up"
+    },
+    "intervals": 64,
+    "residual_evaluations": 129,
+    "derivative_interval_evaluations": 112
+  },
+  "attempts": 3,
+  "accuracy_decision": "within_tolerance",
+  "gap_target_met": true,
+  "goal_met": true,
+  "gap_ratio_upper": "8600899436528948818807075263696/8563070906235448189793411729579",
+  "work": {
+    "residual_evaluations": 129,
+    "derivative_interval_evaluations": 112
+  },
+  "wall_seconds": 0.09765848600000027,
+  "versions": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "flint": "3.6.0",
+    "mpmath": "1.3.0"
+  },
+  "input_sha256": {
+    "original_case": "89e9e6eb2e2eefb35f1795f7a3dc734201696da5c1a0c71ccf1569770dcfcb4c",
+    "replay_case": "772215fb31685e82ae4187b904ba2aa247d614f31740c22eb5d17f1ae6dc141f"
+  },
+  "source_sha256": {
+    "certify.py": "d815702c618606235933823974588e53889b75cb9067a2b95401d1a486fbc8d5",
+    "certification_pipeline.py": "7af6d1ce359347d7ca4127df7d2dbd5830b996fb80097899fd33228d1fb79f64",
+    "arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+    "arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+    "arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+    "arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+    "arb_problem_families.py": "ec72ac0d015bee596abd52b295d87f40af899cdb16e87573e0de872c31ed7fab",
+    "interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca"
+  },
+  "assumptions": [
+    "Unit interval, -u_dd=(k*pi)^2*sin(k*pi*x), zero Dirichlet data.",
+    "Exact mathematical dense tanh network with frozen binary64 weights and output x*(1-x)*N(x).",
+    "Quadratic requires residual C3; cubic requires residual C4. These tanh/sine cases are smooth.",
+    "Bounds are conditional on the stated mathematics and interval backend inclusion correctness; no independent/formal software audit."
+  ],
+  "trace": [
+    {
+      "attempt": 1,
+      "intervals": 16,
+      "status": "finite",
+      "enclosure": {
+        "lower": {
+          "numerator": "1480705787056527857195548018237",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.00007129339035299092473547048",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "1415426355974231238727518870411",
+          "denominator": "10384593717069655257060992658440192",
+          "decimal_outward": "0.0001363006001522839533719569",
+          "decimal_rounding": "up"
+        },
+        "z_lower": {
+          "numerator": "8609112405270302192680486264867",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001036284210994105962070115",
+          "decimal_rounding": "down"
+        },
+        "z_upper": {
+          "numerator": "8637121590749659145921856771369",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001039655694058642819004158",
+          "decimal_rounding": "up"
+        },
+        "remainder_upper": {
+          "numerator": "2686289257044190763898294191919",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.00003233503074641967147154110",
+          "decimal_rounding": "up"
+        },
+        "intervals": 16,
+        "residual_evaluations": 33,
+        "derivative_interval_evaluations": 16
+      },
+      "accuracy_decision": "within_tolerance",
+      "gap_target_met": false,
+      "goal_met": false,
+      "gap_ratio_upper": "2830852711948462477455037740822/1480705787056527857195548018237",
+      "elapsed_seconds": 0.019480342999941058
+    },
+    {
+      "attempt": 2,
+      "intervals": 32,
+      "status": "finite",
+      "enclosure": {
+        "lower": {
+          "numerator": "8373978989576931452420225159911",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001007981055605986317084573",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "8791998565942088089030307983223",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001058298331822343942831171",
+          "decimal_rounding": "up"
+        },
+        "z_lower": {
+          "numerator": "8578355055019686836659853798999",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001032581929628001814110841",
+          "decimal_rounding": "down"
+        },
+        "z_upper": {
+          "numerator": "8587622500499332704790679344135",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001033697457800328445804904",
+          "decimal_rounding": "up"
+        },
+        "remainder_upper": {
+          "numerator": "12773504090172211514976789943",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.000002460087402201549702626727",
+          "decimal_rounding": "up"
+        },
+        "intervals": 32,
+        "residual_evaluations": 65,
+        "derivative_interval_evaluations": 48
+      },
+      "accuracy_decision": "within_tolerance",
+      "gap_target_met": false,
+      "goal_met": false,
+      "gap_ratio_upper": "8791998565942088089030307983223/8373978989576931452420225159911",
+      "elapsed_seconds": 0.022385374999885244
+    },
+    {
+      "attempt": 3,
+      "intervals": 64,
+      "status": "finite",
+      "enclosure": {
+        "lower": {
+          "numerator": "8563070906235448189793411729579",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001030742167139374628133664",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "537556214783059301175442203981",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001035295610842150411458560",
+          "decimal_rounding": "up"
+        },
+        "z_lower": {
+          "numerator": "2145317890031558681282343430967",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001032932991160355493124359",
+          "decimal_rounding": "down"
+        },
+        "z_upper": {
+          "numerator": "268209336957442571358472289669",
+          "denominator": "2596148429267413814265248164610048",
+          "decimal_outward": "0.0001033104786821169546467865",
+          "decimal_rounding": "up"
+        },
+        "remainder_upper": {
+          "numerator": "9318734792082706092012541075309",
+          "denominator": "42535295865117307932921825928971026432",
+          "decimal_outward": "2.190824020980864990694915E-7",
+          "decimal_rounding": "up"
+        },
+        "intervals": 64,
+        "residual_evaluations": 129,
+        "derivative_interval_evaluations": 112
+      },
+      "accuracy_decision": "within_tolerance",
+      "gap_target_met": true,
+      "goal_met": true,
+      "gap_ratio_upper": "8600899436528948818807075263696/8563070906235448189793411729579",
+      "elapsed_seconds": 0.04424546099994586
+    }
+  ]
+}

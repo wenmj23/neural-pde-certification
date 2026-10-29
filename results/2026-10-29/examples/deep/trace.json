@@ -1,0 +1,227 @@
+[
+  {
+    "attempt": 1,
+    "intervals": 16,
+    "status": "finite",
+    "enclosure": {
+      "lower": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal_outward": "0",
+        "decimal_rounding": "down"
+      },
+      "upper": {
+        "numerator": "2542082811514910509270560291069",
+        "denominator": "309485009821345068724781056",
+        "decimal_outward": "8213.912567146197143618431",
+        "decimal_rounding": "up"
+      },
+      "z_lower": {
+        "numerator": "2907114854350823831927243657499",
+        "denominator": "649037107316853453566312041152512",
+        "decimal_outward": "0.004479119639813751519626998",
+        "decimal_rounding": "down"
+      },
+      "z_upper": {
+        "numerator": "182376473429529436317989210107",
+        "denominator": "40564819207303340847894502572032",
+        "decimal_outward": "0.004495927185019824953601041",
+        "decimal_rounding": "up"
+      },
+      "remainder_upper": {
+        "numerator": "5084162840185682994715493171413",
+        "denominator": "618970019642690137449562112",
+        "decimal_outward": "8213.908071219012123793477",
+        "decimal_rounding": "up"
+      },
+      "intervals": 16,
+      "residual_evaluations": 49,
+      "derivative_interval_evaluations": 16
+    },
+    "accuracy_decision": "undetermined",
+    "gap_target_met": false,
+    "goal_met": false,
+    "gap_ratio_upper": null,
+    "elapsed_seconds": 0.07201553799995963
+  },
+  {
+    "attempt": 2,
+    "intervals": 32,
+    "status": "finite",
+    "enclosure": {
+      "lower": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal_outward": "0",
+        "decimal_rounding": "down"
+      },
+      "upper": {
+        "numerator": "519397312766121810286869939959",
+        "denominator": "1267650600228229401496703205376",
+        "decimal_outward": "0.4097322343180438424235794",
+        "decimal_rounding": "up"
+      },
+      "z_lower": {
+        "numerator": "9512941576235978137484716459927",
+        "denominator": "2596148429267413814265248164610048",
+        "decimal_outward": "0.003664251808175836230291316",
+        "decimal_rounding": "down"
+      },
+      "z_upper": {
+        "numerator": "4759249175552741265822578199741",
+        "denominator": "1298074214633706907132624082305024",
+        "decimal_outward": "0.003666392199998915627813318",
+        "decimal_rounding": "up"
+      },
+      "remainder_upper": {
+        "numerator": "8235993735889937382311441254973",
+        "denominator": "20282409603651670423947251286016",
+        "decimal_outward": "0.4060658421180449267957661",
+        "decimal_rounding": "up"
+      },
+      "intervals": 32,
+      "residual_evaluations": 97,
+      "derivative_interval_evaluations": 48
+    },
+    "accuracy_decision": "undetermined",
+    "gap_target_met": false,
+    "goal_met": false,
+    "gap_ratio_upper": null,
+    "elapsed_seconds": 0.10455544100000225
+  },
+  {
+    "attempt": 3,
+    "intervals": 64,
+    "status": "finite",
+    "enclosure": {
+      "lower": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal_outward": "0",
+        "decimal_rounding": "down"
+      },
+      "upper": {
+        "numerator": "405909327528400398637905071987",
+        "denominator": "40564819207303340847894502572032",
+        "decimal_outward": "0.01000643748599081578069910",
+        "decimal_rounding": "up"
+      },
+      "z_lower": {
+        "numerator": "2384943579615942820930214580737",
+        "denominator": "649037107316853453566312041152512",
+        "decimal_outward": "0.003674587404525142368131429",
+        "decimal_rounding": "down"
+      },
+      "z_upper": {
+        "numerator": "9543363741231181396372028623545",
+        "denominator": "2596148429267413814265248164610048",
+        "decimal_outward": "0.003675969999883306455425554",
+        "decimal_rounding": "up"
+      },
+      "remainder_upper": {
+        "numerator": "8217416610293222058226947991811",
+        "denominator": "1298074214633706907132624082305024",
+        "decimal_outward": "0.006330467486107509325273540",
+        "decimal_rounding": "up"
+      },
+      "intervals": 64,
+      "residual_evaluations": 193,
+      "derivative_interval_evaluations": 112
+    },
+    "accuracy_decision": "undetermined",
+    "gap_target_met": false,
+    "goal_met": false,
+    "gap_ratio_upper": null,
+    "elapsed_seconds": 0.22127004999993005
+  },
+  {
+    "attempt": 4,
+    "intervals": 128,
+    "status": "finite",
+    "enclosure": {
+      "lower": {
+        "numerator": "9158797682424046706261016818283",
+        "denominator": "2596148429267413814265248164610048",
+        "decimal_outward": "0.003527840542232977778152650",
+        "decimal_rounding": "down"
+      },
+      "upper": {
+        "numerator": "2482005918110392533484477192367",
+        "denominator": "649037107316853453566312041152512",
+        "decimal_outward": "0.003824135615868110845456993",
+        "decimal_rounding": "up"
+      },
+      "z_lower": {
+        "numerator": "4771577208121433366052744896525",
+        "denominator": "1298074214633706907132624082305024",
+        "decimal_outward": "0.003675889370830685711396423",
+        "decimal_rounding": "down"
+      },
+      "z_upper": {
+        "numerator": "4771833469311375054046717897351",
+        "denominator": "1298074214633706907132624082305024",
+        "decimal_outward": "0.003676086787270402912213220",
+        "decimal_rounding": "up"
+      },
+      "remainder_upper": {
+        "numerator": "6149707741101120413511567596241",
+        "denominator": "41538374868278621028243970633760768",
+        "decimal_outward": "0.0001480488285977079332437730",
+        "decimal_rounding": "up"
+      },
+      "intervals": 128,
+      "residual_evaluations": 385,
+      "derivative_interval_evaluations": 240
+    },
+    "accuracy_decision": "exceeds_tolerance",
+    "gap_target_met": false,
+    "goal_met": false,
+    "gap_ratio_upper": "9928023672441570133937908769468/9158797682424046706261016818283",
+    "elapsed_seconds": 0.42605449000006956
+  },
+  {
+    "attempt": 5,
+    "intervals": 256,
+    "status": "finite",
+    "enclosure": {
+      "lower": {
+        "numerator": "9532394475450334259697477815961",
+        "denominator": "2596148429267413814265248164610048",
+        "decimal_outward": "0.003671744792396251308385509",
+        "decimal_rounding": "down"
+      },
+      "upper": {
+        "numerator": "9554510509038842850847650660525",
+        "denominator": "2596148429267413814265248164610048",
+        "decimal_outward": "0.003680263578664087826611556",
+        "decimal_rounding": "up"
+      },
+      "z_lower": {
+        "numerator": "9543292072257646896530588444757",
+        "denominator": "2596148429267413814265248164610048",
+        "decimal_outward": "0.003675942393998863737513994",
+        "decimal_rounding": "down"
+      },
+      "z_upper": {
+        "numerator": "4771806456115765107007270015865",
+        "denominator": "1298074214633706907132624082305024",
+        "decimal_outward": "0.003676065977061475397483071",
+        "decimal_rounding": "up"
+      },
+      "remainder_upper": {
+        "numerator": "5579569565344070058552641943015",
+        "denominator": "1329227995784915872903807060280344576",
+        "decimal_outward": "0.000004197601602612429128484981",
+        "decimal_rounding": "up"
+      },
+      "intervals": 256,
+      "residual_evaluations": 769,
+      "derivative_interval_evaluations": 496
+    },
+    "accuracy_decision": "exceeds_tolerance",
+    "gap_target_met": true,
+    "goal_met": true,
+    "gap_ratio_upper": "3184836836346280950282550220175/3177464825150111419899159271987",
+    "elapsed_seconds": 0.8314063190000525
+  }
+]

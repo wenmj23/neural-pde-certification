@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "name": "deep_sine",
+  "problem": {
+    "operator": "-u_dd",
+    "source": "(k*pi)^2*sin(k*pi*x)",
+    "frequency": 5,
+    "domain": [
+      0,
+      1
+    ],
+    "boundary": [
+      0,
+      0
+    ]
+  },
+  "network": {
+    "fixture": "../frozen_networks_depth_2026-10-29.json",
+    "label": "depth3_k5_seed7",
+    "sha256": "58c6c7532f4bb61d9d6c715cb32be568a103ed2ea2fe249fee6d4bf9b5a910d8",
+    "output_transform": "x*(1-x)*raw_network(x)"
+  },
+  "verification": {
+    "degree": 3,
+    "mesh": "uniform",
+    "goal": "enclosure",
+    "gap_ratio": "1.02",
+    "error_tolerance": "0.001",
+    "initial_intervals": 16,
+    "max_intervals": 2048,
+    "max_attempts": 9,
+    "time_limit_seconds": "30",
+    "precision_bits": 103
+  }
+}

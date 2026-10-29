@@ -1,0 +1,222 @@
+{
+  "totals": {
+    "networks": 18,
+    "checks": 7983,
+    "fixed_grid_configurations": 891,
+    "timed_requests": 933,
+    "successful_requests": 933
+  },
+  "quadratic_vs_linear": {
+    "min": 2.699787598178912,
+    "median": 5.554463388925312,
+    "max": 5.949446590966831,
+    "faster_cases": 18,
+    "cases": 18
+  },
+  "cubic_vs_quadratic": {
+    "min": 0.9709642945108835,
+    "median": 1.1535110063250886,
+    "max": 2.2670108941700415,
+    "faster_cases": 16,
+    "cases": 18
+  },
+  "derivative_alternatives": {
+    "centered": {
+      "median_speed_ratio": 0.42426921672847806,
+      "wins_over_5percent": []
+    },
+    "value_centered": {
+      "median_speed_ratio": 0.8583738115696709,
+      "wins_over_5percent": []
+    },
+    "centered_lite": {
+      "median_speed_ratio": 0.5001164762793266,
+      "wins_over_5percent": []
+    },
+    "split": {
+      "median_speed_ratio": 0.6327161313316485,
+      "wins_over_5percent": [
+        {
+          "label": "depth3_k1_seed17",
+          "speed_ratio": 1.249667234407402
+        }
+      ]
+    }
+  },
+  "studies": {
+    "23_depth_derivatives": "results/generated/23_depth_derivatives/20261029T051319322996Z",
+    "24_depth_reference": "results/generated/24_depth_reference/20261029T044806546934Z",
+    "25_depth_certification": "results/generated/25_depth_certification/20261029T045058284717Z",
+    "26_depth_interior_audit": "results/generated/26_depth_interior_audit/20261029T045940976672Z",
+    "27_depth_refinements": "results/generated/27_depth_refinements/20261029T050050929682Z",
+    "28_cubic_depth": "results/generated/28_cubic_depth/20261029T050544799713Z",
+    "30_cubic_adaptivity": "results/generated/30_cubic_adaptivity/20261029T050834365120Z",
+    "31_budget_sensitivity": "results/generated/31_budget_sensitivity/20261029T051040431465Z"
+  },
+  "manifest_validation": [
+    {
+      "study": "23_depth_derivatives",
+      "source_hashes_match": true,
+      "completed": true
+    },
+    {
+      "study": "24_depth_reference",
+      "source_hashes_match": true,
+      "completed": true
+    },
+    {
+      "study": "25_depth_certification",
+      "source_hashes_match": true,
+      "completed": true
+    },
+    {
+      "study": "26_depth_interior_audit",
+      "source_hashes_match": true,
+      "completed": true
+    },
+    {
+      "study": "27_depth_refinements",
+      "source_hashes_match": true,
+      "completed": true
+    },
+    {
+      "study": "28_cubic_depth",
+      "source_hashes_match": true,
+      "completed": true
+    },
+    {
+      "study": "30_cubic_adaptivity",
+      "source_hashes_match": true,
+      "completed": true
+    },
+    {
+      "study": "31_budget_sensitivity",
+      "source_hashes_match": true,
+      "completed": true
+    }
+  ],
+  "selected_cubic": [
+    {
+      "label": "depth1_k1_seed7",
+      "target": "51/50",
+      "method": "quadratic_moment",
+      "successes": 3,
+      "intervals": 48,
+      "median_wall_ms": 47.4689769998804,
+      "min_wall_ms": 42.06677799993486,
+      "max_wall_ms": 52.07976900055655
+    },
+    {
+      "label": "depth1_k1_seed7",
+      "target": "51/50",
+      "method": "cubic_constant",
+      "successes": 3,
+      "intervals": 32,
+      "median_wall_ms": 41.275062001659535,
+      "min_wall_ms": 41.24447399954079,
+      "max_wall_ms": 48.048988999653375
+    },
+    {
+      "label": "depth1_k1_seed7",
+      "target": "51/50",
+      "method": "cubic_moment",
+      "successes": 3,
+      "intervals": 32,
+      "median_wall_ms": 45.379907000096864,
+      "min_wall_ms": 42.79973800112202,
+      "max_wall_ms": 49.08654800055956
+    },
+    {
+      "label": "depth2_k1_seed7",
+      "target": "51/50",
+      "method": "quadratic_moment",
+      "successes": 3,
+      "intervals": 96,
+      "median_wall_ms": 185.42606699884345,
+      "min_wall_ms": 181.66821200065897,
+      "max_wall_ms": 185.4740100006893
+    },
+    {
+      "label": "depth2_k1_seed7",
+      "target": "51/50",
+      "method": "cubic_constant",
+      "successes": 3,
+      "intervals": 64,
+      "median_wall_ms": 171.1967330011248,
+      "min_wall_ms": 168.22983399833902,
+      "max_wall_ms": 172.74066600111837
+    },
+    {
+      "label": "depth2_k1_seed7",
+      "target": "51/50",
+      "method": "cubic_moment",
+      "successes": 3,
+      "intervals": 64,
+      "median_wall_ms": 168.41448199920706,
+      "min_wall_ms": 167.63836800055287,
+      "max_wall_ms": 168.57827000058023
+    },
+    {
+      "label": "depth3_k1_seed7",
+      "target": "51/50",
+      "method": "quadratic_moment",
+      "successes": 3,
+      "intervals": 192,
+      "median_wall_ms": 581.4071749991854,
+      "min_wall_ms": 577.5823860003584,
+      "max_wall_ms": 591.5529649992095
+    },
+    {
+      "label": "depth3_k1_seed7",
+      "target": "51/50",
+      "method": "cubic_constant",
+      "successes": 3,
+      "intervals": 64,
+      "median_wall_ms": 273.00458699937735,
+      "min_wall_ms": 269.7240180004883,
+      "max_wall_ms": 299.2560090006009
+    },
+    {
+      "label": "depth3_k1_seed7",
+      "target": "51/50",
+      "method": "cubic_moment",
+      "successes": 3,
+      "intervals": 64,
+      "median_wall_ms": 258.841716000461,
+      "min_wall_ms": 249.01719399895228,
+      "max_wall_ms": 285.64073300003656
+    },
+    {
+      "label": "depth3_k5_seed7",
+      "target": "51/50",
+      "method": "quadratic_moment",
+      "successes": 3,
+      "intervals": 768,
+      "median_wall_ms": 2347.0808460006083,
+      "min_wall_ms": 2330.194960000881,
+      "max_wall_ms": 2670.3297110016138
+    },
+    {
+      "label": "depth3_k5_seed7",
+      "target": "51/50",
+      "method": "cubic_constant",
+      "successes": 3,
+      "intervals": 256,
+      "median_wall_ms": 1092.9481240000314,
+      "min_wall_ms": 1060.1737729994056,
+      "max_wall_ms": 1097.0425839987001
+    },
+    {
+      "label": "depth3_k5_seed7",
+      "target": "51/50",
+      "method": "cubic_moment",
+      "successes": 3,
+      "intervals": 256,
+      "median_wall_ms": 1074.5553969991306,
+      "min_wall_ms": 1027.7752769998187,
+      "max_wall_ms": 1139.9508199992852
+    }
+  ],
+  "elapsed_since_first_workspace_check_min": 32.92619208333333,
+  "caution": "All ratios compare observed three-repeat medians, not population speedups; exact scope and trust conditions remain in source study configs."
+}

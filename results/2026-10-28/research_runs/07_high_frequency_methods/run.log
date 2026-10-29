@@ -1,0 +1,17 @@
+Vectorized auxiliary-solves checked against independent loop implementations and analytic solutions.
+Local first/second residual derivative enclosures cross-checked with PyTorch AD.
+sine_1 [('constant', False, 1.000897), ('linear', False, 1.0), ('linear', True, 1.0)]
+sine_5 [('constant', False, 1.153707), ('linear', False, 1.000596), ('linear', True, 1.000563)]
+sine_20 [('constant', False, 11.175762), ('linear', False, 1.159522), ('linear', True, 1.144642)]
+sine_50 [('constant', False, 167.003068), ('linear', False, 7.517033), ('linear', True, 6.975391)]
+bump_0.05 [('constant', False, 1.365038), ('linear', False, 1.00478), ('linear', True, 1.000325)]
+bump_0.02 [('constant', False, 3.545865), ('linear', False, 1.08365), ('linear', True, 1.001157)]
+bump_0.005 [('constant', False, 57.298349), ('linear', False, 8.384331), ('linear', True, 1.004868)]
+PINN_k1_seed7 [('constant', False, 1.179099), ('linear', False, 1.000491), ('linear', True, 1.000487)]
+PINN_k1_seed17 [('constant', False, 1.211812), ('linear', False, 1.000553), ('linear', True, 1.000544)]
+PINN_k1_seed27 [('constant', False, 1.195026), ('linear', False, 1.000504), ('linear', True, 1.000496)]
+PINN_k5_seed7 [('constant', False, 1.151442), ('linear', False, 1.001412), ('linear', True, 1.001358)]
+PINN_k5_seed17 [('constant', False, 1.034991), ('linear', False, 1.000136), ('linear', True, 1.000112)]
+PINN_k5_seed27 [('constant', False, 1.034991), ('linear', False, 1.000136), ('linear', True, 1.000112)]
+Total method/problem/grid checks: 219
+Median cost measurements: [{"name": "constant", "median_ms": 2.7376049997656082}, {"name": "linear", "median_ms": 3.4501400000408466}, {"name": "old_loop_auxiliary_only", "median_ms": 1.4266755001699494}, {"name": "vector_auxiliary_only", "median_ms": 0.059172999954171246}]

@@ -1,0 +1,20 @@
+{
+  "archive_files": 476,
+  "restore_idempotent": true,
+  "conflict_no_writes": true,
+  "workflow_checks": 60,
+  "clean_examples": [
+    {
+      "case": "shallow",
+      "exact_endpoints_match": true,
+      "decision": "within_tolerance",
+      "intervals": 64
+    },
+    {
+      "case": "deep",
+      "exact_endpoints_match": true,
+      "decision": "exceeds_tolerance",
+      "intervals": 256
+    }
+  ]
+}

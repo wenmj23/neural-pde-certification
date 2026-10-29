@@ -1,0 +1,137 @@
+[
+  {
+    "attempt": 1,
+    "intervals": 16,
+    "status": "finite",
+    "enclosure": {
+      "lower": {
+        "numerator": "1480705787056527857195548018237",
+        "denominator": "20769187434139310514121985316880384",
+        "decimal_outward": "0.00007129339035299092473547048",
+        "decimal_rounding": "down"
+      },
+      "upper": {
+        "numerator": "1415426355974231238727518870411",
+        "denominator": "10384593717069655257060992658440192",
+        "decimal_outward": "0.0001363006001522839533719569",
+        "decimal_rounding": "up"
+      },
+      "z_lower": {
+        "numerator": "8609112405270302192680486264867",
+        "denominator": "83076749736557242056487941267521536",
+        "decimal_outward": "0.0001036284210994105962070115",
+        "decimal_rounding": "down"
+      },
+      "z_upper": {
+        "numerator": "8637121590749659145921856771369",
+        "denominator": "83076749736557242056487941267521536",
+        "decimal_outward": "0.0001039655694058642819004158",
+        "decimal_rounding": "up"
+      },
+      "remainder_upper": {
+        "numerator": "2686289257044190763898294191919",
+        "denominator": "83076749736557242056487941267521536",
+        "decimal_outward": "0.00003233503074641967147154110",
+        "decimal_rounding": "up"
+      },
+      "intervals": 16,
+      "residual_evaluations": 33,
+      "derivative_interval_evaluations": 16
+    },
+    "accuracy_decision": "within_tolerance",
+    "gap_target_met": false,
+    "goal_met": false,
+    "gap_ratio_upper": "2830852711948462477455037740822/1480705787056527857195548018237",
+    "elapsed_seconds": 0.019480342999941058
+  },
+  {
+    "attempt": 2,
+    "intervals": 32,
+    "status": "finite",
+    "enclosure": {
+      "lower": {
+        "numerator": "8373978989576931452420225159911",
+        "denominator": "83076749736557242056487941267521536",
+        "decimal_outward": "0.0001007981055605986317084573",
+        "decimal_rounding": "down"
+      },
+      "upper": {
+        "numerator": "8791998565942088089030307983223",
+        "denominator": "83076749736557242056487941267521536",
+        "decimal_outward": "0.0001058298331822343942831171",
+        "decimal_rounding": "up"
+      },
+      "z_lower": {
+        "numerator": "8578355055019686836659853798999",
+        "denominator": "83076749736557242056487941267521536",
+        "decimal_outward": "0.0001032581929628001814110841",
+        "decimal_rounding": "down"
+      },
+      "z_upper": {
+        "numerator": "8587622500499332704790679344135",
+        "denominator": "83076749736557242056487941267521536",
+        "decimal_outward": "0.0001033697457800328445804904",
+        "decimal_rounding": "up"
+      },
+      "remainder_upper": {
+        "numerator": "12773504090172211514976789943",
+        "denominator": "5192296858534827628530496329220096",
+        "decimal_outward": "0.000002460087402201549702626727",
+        "decimal_rounding": "up"
+      },
+      "intervals": 32,
+      "residual_evaluations": 65,
+      "derivative_interval_evaluations": 48
+    },
+    "accuracy_decision": "within_tolerance",
+    "gap_target_met": false,
+    "goal_met": false,
+    "gap_ratio_upper": "8791998565942088089030307983223/8373978989576931452420225159911",
+    "elapsed_seconds": 0.022385374999885244
+  },
+  {
+    "attempt": 3,
+    "intervals": 64,
+    "status": "finite",
+    "enclosure": {
+      "lower": {
+        "numerator": "8563070906235448189793411729579",
+        "denominator": "83076749736557242056487941267521536",
+        "decimal_outward": "0.0001030742167139374628133664",
+        "decimal_rounding": "down"
+      },
+      "upper": {
+        "numerator": "537556214783059301175442203981",
+        "denominator": "5192296858534827628530496329220096",
+        "decimal_outward": "0.0001035295610842150411458560",
+        "decimal_rounding": "up"
+      },
+      "z_lower": {
+        "numerator": "2145317890031558681282343430967",
+        "denominator": "20769187434139310514121985316880384",
+        "decimal_outward": "0.0001032932991160355493124359",
+        "decimal_rounding": "down"
+      },
+      "z_upper": {
+        "numerator": "268209336957442571358472289669",
+        "denominator": "2596148429267413814265248164610048",
+        "decimal_outward": "0.0001033104786821169546467865",
+        "decimal_rounding": "up"
+      },
+      "remainder_upper": {
+        "numerator": "9318734792082706092012541075309",
+        "denominator": "42535295865117307932921825928971026432",
+        "decimal_outward": "2.190824020980864990694915E-7",
+        "decimal_rounding": "up"
+      },
+      "intervals": 64,
+      "residual_evaluations": 129,
+      "derivative_interval_evaluations": 112
+    },
+    "accuracy_decision": "within_tolerance",
+    "gap_target_met": true,
+    "goal_met": true,
+    "gap_ratio_upper": "8600899436528948818807075263696/8563070906235448189793411729579",
+    "elapsed_seconds": 0.04424546099994586
+  }
+]
