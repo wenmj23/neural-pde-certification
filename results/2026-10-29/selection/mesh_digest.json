@@ -1,0 +1,107 @@
+{
+  "status": "complete",
+  "stages": [
+    {
+      "directory": "results/generated/38_mesh_selection/20261029T115310645789Z",
+      "suite": "development",
+      "cases": 15,
+      "requests": 405,
+      "checks": 1379,
+      "successes": 405,
+      "relative_costs": {
+        "cubic_uniform16": {
+          "median_cost_over_best_fixed": 1.0907748412538476,
+          "max_cost_over_best_fixed": 16.81323556707357
+        },
+        "cubic_uniform1": {
+          "median_cost_over_best_fixed": 1.0843164247976338,
+          "max_cost_over_best_fixed": 16.87913114331361
+        },
+        "cubic_adaptive16": {
+          "median_cost_over_best_fixed": 1.0970142166961578,
+          "max_cost_over_best_fixed": 4.029640962359135
+        },
+        "cubic_adaptive1": {
+          "median_cost_over_best_fixed": 1.2503153039153125,
+          "max_cost_over_best_fixed": 1.9515490238114774
+        },
+        "quadratic_adaptive1": {
+          "median_cost_over_best_fixed": 1.9072421164570939,
+          "max_cost_over_best_fixed": 2.6019983486946656
+        },
+        "cubic_heap16": {
+          "median_cost_over_best_fixed": 1.0435416676191274,
+          "max_cost_over_best_fixed": 4.665845717016848
+        },
+        "cubic_heap1": {
+          "median_cost_over_best_fixed": 1.1633319288637531,
+          "max_cost_over_best_fixed": 1.4984378601841541
+        },
+        "auto_heap16": {
+          "median_cost_over_best_fixed": 1.0169038267061847,
+          "max_cost_over_best_fixed": 4.938627617037939
+        },
+        "auto_heap1": {
+          "median_cost_over_best_fixed": 1.132352848128219,
+          "max_cost_over_best_fixed": 1.4481442498261914
+        }
+      }
+    },
+    {
+      "directory": "results/generated/38_mesh_selection/20261029T115506215623Z",
+      "suite": "evaluation",
+      "cases": 25,
+      "requests": 675,
+      "checks": 2516,
+      "successes": 675,
+      "relative_costs": {
+        "cubic_uniform16": {
+          "median_cost_over_best_fixed": 1.0209716711947157,
+          "max_cost_over_best_fixed": 16.580630905067274
+        },
+        "cubic_uniform1": {
+          "median_cost_over_best_fixed": 1.3634467122475515,
+          "max_cost_over_best_fixed": 17.438850210665425
+        },
+        "cubic_adaptive16": {
+          "median_cost_over_best_fixed": 1.094359667938336,
+          "max_cost_over_best_fixed": 1.782553502969446
+        },
+        "cubic_adaptive1": {
+          "median_cost_over_best_fixed": 1.3732176881040463,
+          "max_cost_over_best_fixed": 1.7430949453224602
+        },
+        "quadratic_adaptive1": {
+          "median_cost_over_best_fixed": 2.0058880137943973,
+          "max_cost_over_best_fixed": 4.563837686645007
+        },
+        "cubic_heap16": {
+          "median_cost_over_best_fixed": 1.0073964549849228,
+          "max_cost_over_best_fixed": 1.1720442917568459
+        },
+        "cubic_heap1": {
+          "median_cost_over_best_fixed": 1.2137954059525957,
+          "max_cost_over_best_fixed": 1.9815939612718023
+        },
+        "auto_heap16": {
+          "median_cost_over_best_fixed": 1.0353705526940615,
+          "max_cost_over_best_fixed": 1.1978133520009462
+        },
+        "auto_heap1": {
+          "median_cost_over_best_fixed": 1.1342704851193617,
+          "max_cost_over_best_fixed": 1.373382923889097
+        }
+      }
+    }
+  ],
+  "unique_cases": 40,
+  "requests": 1080,
+  "successful_requests": 1080,
+  "comparison_checks": 3895,
+  "intermediate_ranges_checked": 5523,
+  "original_final_meshes_checked": 60,
+  "latest_procedure_checks": 100,
+  "public_cli_sources_unchanged": true,
+  "note": "Within-stage matched-target ratios; three-repeat medians/min/max, no confidence intervals. Models include older fixtures; synthetic peaks are not PINNs. All guarantees conditional on backend inclusion.",
+  "source_sha256": "61926fae2fe80af99c999f0f56b9cbbedd876964e58b1d60440fb2bb711df5d4"
+}

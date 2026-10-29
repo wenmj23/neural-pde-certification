@@ -1,0 +1,686 @@
+[
+  {
+    "suite": "development",
+    "label": "sine_50",
+    "policy": "cubic_uniform16",
+    "median_wall_ms": 128.52393400044093,
+    "min_wall_ms": 116.39271100011683,
+    "max_wall_ms": 146.55473899983917,
+    "relative_to_best_fixed": 1.0258260893799187,
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "sine_50",
+    "policy": "cubic_uniform1",
+    "median_wall_ms": 125.28822900003433,
+    "min_wall_ms": 110.30285599963463,
+    "max_wall_ms": 156.03456700000606,
+    "relative_to_best_fixed": 1.0,
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "sine_50",
+    "policy": "cubic_adaptive16",
+    "median_wall_ms": 222.01914199968087,
+    "min_wall_ms": 210.76194000033865,
+    "max_wall_ms": 230.886100999669,
+    "relative_to_best_fixed": 1.7720670470936262,
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "sine_50",
+    "policy": "cubic_adaptive1",
+    "median_wall_ms": 244.50612100008584,
+    "min_wall_ms": 215.55281000019022,
+    "max_wall_ms": 247.62813500001357,
+    "relative_to_best_fixed": 1.9515490238114774,
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "sine_50",
+    "policy": "quadratic_adaptive1",
+    "median_wall_ms": 290.43480600012117,
+    "min_wall_ms": 278.22957699982,
+    "max_wall_ms": 394.90068700024494,
+    "relative_to_best_fixed": 2.3181332222362374,
+    "final_intervals": [
+      1024,
+      1024,
+      1024
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "sine_50",
+    "policy": "cubic_heap16",
+    "median_wall_ms": 152.7798640004221,
+    "min_wall_ms": 152.24970200006283,
+    "max_wall_ms": 153.37788700026067,
+    "relative_to_best_fixed": 1.2194271179328444,
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "sine_50",
+    "policy": "cubic_heap1",
+    "median_wall_ms": 148.23064200027147,
+    "min_wall_ms": 144.23186900012297,
+    "max_wall_ms": 183.2025890003024,
+    "relative_to_best_fixed": 1.1831170668094515,
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "sine_50",
+    "policy": "auto_heap16",
+    "median_wall_ms": 123.28055099987978,
+    "min_wall_ms": 119.34686700033126,
+    "max_wall_ms": 124.90290000005189,
+    "relative_to_best_fixed": 0.9839755257442899,
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "selected_meshes": [
+      "uniform",
+      "uniform",
+      "uniform"
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "sine_50",
+    "policy": "auto_heap1",
+    "median_wall_ms": 124.58764600023642,
+    "min_wall_ms": 114.67602899983831,
+    "max_wall_ms": 155.27695199989466,
+    "relative_to_best_fixed": 0.9944082296845482,
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "selected_meshes": [
+      "uniform",
+      "uniform",
+      "uniform"
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "bump_0005",
+    "policy": "cubic_uniform16",
+    "median_wall_ms": 346.439946999908,
+    "min_wall_ms": 320.3190680001171,
+    "max_wall_ms": 397.60562399987975,
+    "relative_to_best_fixed": 16.81323556707357,
+    "final_intervals": [
+      1024,
+      1024,
+      1024
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "bump_0005",
+    "policy": "cubic_uniform1",
+    "median_wall_ms": 347.79773800028124,
+    "min_wall_ms": 282.9564019998543,
+    "max_wall_ms": 443.4235369999442,
+    "relative_to_best_fixed": 16.87913114331361,
+    "final_intervals": [
+      1024,
+      1024,
+      1024
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "bump_0005",
+    "policy": "cubic_adaptive16",
+    "median_wall_ms": 64.66784999975062,
+    "min_wall_ms": 62.132238000231155,
+    "max_wall_ms": 66.68449500011775,
+    "relative_to_best_fixed": 3.13842501442905,
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "bump_0005",
+    "policy": "cubic_adaptive1",
+    "median_wall_ms": 29.05625699986558,
+    "min_wall_ms": 27.11842799999431,
+    "max_wall_ms": 37.89881700004116,
+    "relative_to_best_fixed": 1.4101425019450777,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "bump_0005",
+    "policy": "quadratic_adaptive1",
+    "median_wall_ms": 39.29908999998588,
+    "min_wall_ms": 36.674196000149095,
+    "max_wall_ms": 40.84318700006406,
+    "relative_to_best_fixed": 1.9072421164570939,
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "bump_0005",
+    "policy": "cubic_heap16",
+    "median_wall_ms": 20.605191999948147,
+    "min_wall_ms": 19.206314999792085,
+    "max_wall_ms": 21.471825999924476,
+    "relative_to_best_fixed": 1.0,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "bump_0005",
+    "policy": "cubic_heap1",
+    "median_wall_ms": 25.81654699997671,
+    "min_wall_ms": 23.252951999893412,
+    "max_wall_ms": 26.09850999988339,
+    "relative_to_best_fixed": 1.2529146537456033,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "bump_0005",
+    "policy": "auto_heap16",
+    "median_wall_ms": 20.676752999861492,
+    "min_wall_ms": 19.505170000229555,
+    "max_wall_ms": 22.782666999773937,
+    "relative_to_best_fixed": 1.0034729596265604,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      "heap",
+      "heap",
+      "heap"
+    ]
+  },
+  {
+    "suite": "development",
+    "label": "bump_0005",
+    "policy": "auto_heap1",
+    "median_wall_ms": 24.26621399990836,
+    "min_wall_ms": 22.81405000030645,
+    "max_wall_ms": 25.227722999716207,
+    "relative_to_best_fixed": 1.1776747336287585,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      "heap",
+      "heap",
+      "heap"
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "shift_0733",
+    "policy": "cubic_uniform16",
+    "median_wall_ms": 146.82256800006144,
+    "min_wall_ms": 146.46136200008186,
+    "max_wall_ms": 147.06345600006898,
+    "relative_to_best_fixed": 6.885572712369369,
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "shift_0733",
+    "policy": "cubic_uniform1",
+    "median_wall_ms": 153.56553399988115,
+    "min_wall_ms": 151.54720999998972,
+    "max_wall_ms": 164.34389000005467,
+    "relative_to_best_fixed": 7.201799184370415,
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "shift_0733",
+    "policy": "cubic_adaptive16",
+    "median_wall_ms": 24.844122999638785,
+    "min_wall_ms": 23.295295000025362,
+    "max_wall_ms": 34.851762000016606,
+    "relative_to_best_fixed": 1.1651207148821254,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "shift_0733",
+    "policy": "cubic_adaptive1",
+    "median_wall_ms": 27.511409999988246,
+    "min_wall_ms": 25.21132999982001,
+    "max_wall_ms": 28.018971999699716,
+    "relative_to_best_fixed": 1.2902091044657766,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "shift_0733",
+    "policy": "quadratic_adaptive1",
+    "median_wall_ms": 37.096500000188826,
+    "min_wall_ms": 37.018727000031504,
+    "max_wall_ms": 37.70749299974341,
+    "relative_to_best_fixed": 1.739723338210537,
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "shift_0733",
+    "policy": "cubic_heap16",
+    "median_wall_ms": 21.323217999906774,
+    "min_wall_ms": 18.507150000004913,
+    "max_wall_ms": 21.4575450004304,
+    "relative_to_best_fixed": 1.0,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "shift_0733",
+    "policy": "cubic_heap1",
+    "median_wall_ms": 25.444585000059305,
+    "min_wall_ms": 24.3950579997545,
+    "max_wall_ms": 25.580487999832258,
+    "relative_to_best_fixed": 1.1932807233959972,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "shift_0733",
+    "policy": "auto_heap16",
+    "median_wall_ms": 19.613598999967508,
+    "min_wall_ms": 18.984872000146424,
+    "max_wall_ms": 22.76872899983573,
+    "relative_to_best_fixed": 0.9198235932331255,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      "heap",
+      "heap",
+      "heap"
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "shift_0733",
+    "policy": "auto_heap1",
+    "median_wall_ms": 22.231612000268797,
+    "min_wall_ms": 21.890536000228167,
+    "max_wall_ms": 26.140820999899006,
+    "relative_to_best_fixed": 1.0426011683773995,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      "heap",
+      "heap",
+      "heap"
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "boundary_097",
+    "policy": "cubic_uniform16",
+    "median_wall_ms": 297.6441870000599,
+    "min_wall_ms": 290.85984399989684,
+    "max_wall_ms": 321.08266100021865,
+    "relative_to_best_fixed": 15.83289556394097,
+    "final_intervals": [
+      1024,
+      1024,
+      1024
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "boundary_097",
+    "policy": "cubic_uniform1",
+    "median_wall_ms": 327.83468899970103,
+    "min_wall_ms": 300.1463540003897,
+    "max_wall_ms": 358.88364599986744,
+    "relative_to_best_fixed": 17.438850210665425,
+    "final_intervals": [
+      1024,
+      1024,
+      1024
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "boundary_097",
+    "policy": "cubic_adaptive16",
+    "median_wall_ms": 26.40732999998363,
+    "min_wall_ms": 24.47224399975312,
+    "max_wall_ms": 27.246613999977853,
+    "relative_to_best_fixed": 1.4047124596193843,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "boundary_097",
+    "policy": "cubic_adaptive1",
+    "median_wall_ms": 28.574266999839892,
+    "min_wall_ms": 27.828619000047183,
+    "max_wall_ms": 30.095750000327826,
+    "relative_to_best_fixed": 1.5199805841480747,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "boundary_097",
+    "policy": "quadratic_adaptive1",
+    "median_wall_ms": 18.813435999618378,
+    "min_wall_ms": 18.54555199997776,
+    "max_wall_ms": 25.053354000192485,
+    "relative_to_best_fixed": 1.0007625896647705,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "boundary_097",
+    "policy": "cubic_heap16",
+    "median_wall_ms": 18.7991000002512,
+    "min_wall_ms": 18.316564000087965,
+    "max_wall_ms": 20.220912999775464,
+    "relative_to_best_fixed": 1.0,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "boundary_097",
+    "policy": "cubic_heap1",
+    "median_wall_ms": 24.15937599971585,
+    "min_wall_ms": 23.78119400009382,
+    "max_wall_ms": 24.289364999731333,
+    "relative_to_best_fixed": 1.2851347138635905,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "boundary_097",
+    "policy": "auto_heap16",
+    "median_wall_ms": 19.563874999676045,
+    "min_wall_ms": 18.02657600001112,
+    "max_wall_ms": 21.03618399996776,
+    "relative_to_best_fixed": 1.0406814687625805,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      "heap",
+      "heap",
+      "heap"
+    ]
+  },
+  {
+    "suite": "evaluation",
+    "label": "boundary_097",
+    "policy": "auto_heap1",
+    "median_wall_ms": 22.31536799990863,
+    "min_wall_ms": 21.947169000213762,
+    "max_wall_ms": 23.566745000152878,
+    "relative_to_best_fixed": 1.1870444861514884,
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "selected_meshes": [
+      "heap",
+      "heap",
+      "heap"
+    ]
+  }
+]

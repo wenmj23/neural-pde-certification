@@ -1,0 +1,43 @@
+{
+  "evidence": "User-pasted Windows PowerShell output; no direct access to student filesystem or result hashes. Timings are whole CLI commands including startup and output saving, three repeats each.",
+  "python": "3.14.2",
+  "platform": "Windows",
+  "shallow": {
+    "degree2_seconds": [
+      0.3532,
+      0.3128,
+      0.3291
+    ],
+    "degree3_seconds": [
+      0.3067,
+      0.3132,
+      0.2949
+    ]
+  },
+  "deep": {
+    "degree2_seconds": [
+      1.3979,
+      1.4341,
+      1.441
+    ],
+    "degree3_seconds": [
+      1.0428,
+      1.0474,
+      0.9977
+    ]
+  },
+  "paths_reproduced": [
+    "shallow default enclosure",
+    "shallow decision accepts tolerance 0.001",
+    "shallow decision rejects tolerance 0.0001",
+    "shallow decision unknown with max_intervals 16",
+    "deep default enclosure",
+    "shallow cubic enclosure"
+  ],
+  "shallow_cubic_report": {
+    "intervals": 32,
+    "lower": "0.0001031812868285795734690269",
+    "upper": "0.0001033654624393088467956106"
+  },
+  "limits": "Observed displayed endpoints match earlier runs. Not a new independent audit; three timings are not confidence intervals."
+}

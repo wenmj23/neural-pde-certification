@@ -2,6 +2,8 @@
 
 本次公开同步包括代码、方法和研究记录、两个完整示例以及汇总图表。普通复现请先看[使用教程](../../docs/certifier_quickstart.md)。
 
+新增晚间[选阶、网格与学生复现精选证据](selection/README.md)；简明结论已写入[当天总结](../../reports/research_summary_2026-10-29.md)。新研究原型未改变日常入口。
+
 ## 两个可直接查看和重放的示例
 
 - [浅层报告](examples/shallow/report.md)及[result.json](examples/shallow/result.json)：64段，证明最大误差低于0.001。

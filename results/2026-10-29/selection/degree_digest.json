@@ -1,0 +1,420 @@
+{
+  "status": "complete",
+  "stages": [
+    {
+      "directory": "results/generated/33_degree_selection/20261029T111118884677Z",
+      "suite": "development",
+      "case_count": 13,
+      "requests": 195,
+      "checks": 675,
+      "successes": 195,
+      "policies": {
+        "fixed2": {
+          "median_cost_over_best_fixed": 1.416211704484507,
+          "maximum_cost_over_best_fixed": 2.658935216039288,
+          "selected_degrees": [
+            2
+          ],
+          "median_total_ms": 3487.1783220000907
+        },
+        "fixed3": {
+          "median_cost_over_best_fixed": 1.0,
+          "maximum_cost_over_best_fixed": 1.7165569739349378,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 2108.263520999799
+        },
+        "probe_cubic": {
+          "median_cost_over_best_fixed": 1.0545706091702631,
+          "maximum_cost_over_best_fixed": 1.4205411965181076,
+          "selected_degrees": [
+            2,
+            3
+          ],
+          "median_total_ms": 2157.4458140000843
+        },
+        "forecast_once": {
+          "median_cost_over_best_fixed": 1.0495396265901675,
+          "maximum_cost_over_best_fixed": 2.7326109256678484,
+          "selected_degrees": [
+            2,
+            3
+          ],
+          "median_total_ms": 2607.958591000056
+        },
+        "forecast_race": {
+          "median_cost_over_best_fixed": 1.0594378594808653,
+          "maximum_cost_over_best_fixed": 2.8003927550765733,
+          "selected_degrees": [
+            2,
+            3
+          ],
+          "median_total_ms": 2748.5477810000702
+        }
+      },
+      "source_sha256": {
+        "scripts/33_degree_selection_study.py": "b26def72c6a4431615c28a2a3f482b240509d855cf399761cbef27ac6fd869aa",
+        "scripts/arb_degree_selection.py": "7cfd285a8219a536be4877270de92a66a468721bbd8217010b4ebc319d43b395",
+        "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+        "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+        "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+        "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+        "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+        "scripts/arb_problem_families.py": "ec72ac0d015bee596abd52b295d87f40af899cdb16e87573e0de872c31ed7fab",
+        "scripts/interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca",
+        "configs/frozen_networks_depth_2026-10-29.json": "58c6c7532f4bb61d9d6c715cb32be568a103ed2ea2fe249fee6d4bf9b5a910d8",
+        "results/generated/24_depth_reference/20261029T044806546934Z/references.json": "2e261c13ec30385c6acdbee14ad2207ccae314eea065b1d22407efb30a90d430"
+      }
+    },
+    {
+      "directory": "results/generated/33_degree_selection/20261029T111316598020Z",
+      "suite": "development",
+      "case_count": 13,
+      "requests": 195,
+      "checks": 675,
+      "successes": 195,
+      "policies": {
+        "fixed2": {
+          "median_cost_over_best_fixed": 1.4356215746272127,
+          "maximum_cost_over_best_fixed": 2.536210271564902,
+          "selected_degrees": [
+            2
+          ],
+          "median_total_ms": 3251.9131390004077
+        },
+        "fixed3": {
+          "median_cost_over_best_fixed": 1.0,
+          "maximum_cost_over_best_fixed": 1.5691644761770334,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 2043.4193249996042
+        },
+        "probe_cubic": {
+          "median_cost_over_best_fixed": 1.0833986157418698,
+          "maximum_cost_over_best_fixed": 1.4864241930665036,
+          "selected_degrees": [
+            2,
+            3
+          ],
+          "median_total_ms": 2199.681126999394
+        },
+        "forecast_once": {
+          "median_cost_over_best_fixed": 1.0746099783740197,
+          "maximum_cost_over_best_fixed": 2.6505250839624743,
+          "selected_degrees": [
+            2,
+            3
+          ],
+          "median_total_ms": 2589.089946000513
+        },
+        "forecast_guarded": {
+          "median_cost_over_best_fixed": 1.157540485067305,
+          "maximum_cost_over_best_fixed": 1.768590050975124,
+          "selected_degrees": [
+            2,
+            3
+          ],
+          "median_total_ms": 2404.23227999986
+        }
+      },
+      "source_sha256": {
+        "scripts/33_degree_selection_study.py": "b26def72c6a4431615c28a2a3f482b240509d855cf399761cbef27ac6fd869aa",
+        "scripts/arb_degree_selection.py": "fb52ca2e0fbdc866fbdad987fc4d6b83f2010fd4798200c2543824d36edfbf31",
+        "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+        "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+        "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+        "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+        "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+        "scripts/arb_problem_families.py": "ec72ac0d015bee596abd52b295d87f40af899cdb16e87573e0de872c31ed7fab",
+        "scripts/interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca",
+        "configs/frozen_networks_depth_2026-10-29.json": "58c6c7532f4bb61d9d6c715cb32be568a103ed2ea2fe249fee6d4bf9b5a910d8",
+        "results/generated/24_depth_reference/20261029T044806546934Z/references.json": "2e261c13ec30385c6acdbee14ad2207ccae314eea065b1d22407efb30a90d430"
+      }
+    },
+    {
+      "directory": "results/generated/33_degree_selection/20261029T111423682613Z",
+      "suite": "evaluation",
+      "case_count": 14,
+      "requests": 210,
+      "checks": 810,
+      "successes": 210,
+      "policies": {
+        "fixed2": {
+          "median_cost_over_best_fixed": 1.6812131499718617,
+          "maximum_cost_over_best_fixed": 3.3987427055706125,
+          "selected_degrees": [
+            2
+          ],
+          "median_total_ms": 4610.510123999802
+        },
+        "fixed3": {
+          "median_cost_over_best_fixed": 1.0,
+          "maximum_cost_over_best_fixed": 1.0,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 2244.673890999593
+        },
+        "probe_cubic": {
+          "median_cost_over_best_fixed": 1.0749229940181206,
+          "maximum_cost_over_best_fixed": 2.013708965771966,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 2397.8417200000877
+        },
+        "forecast_once": {
+          "median_cost_over_best_fixed": 1.183540022934158,
+          "maximum_cost_over_best_fixed": 1.851616740742882,
+          "selected_degrees": [
+            2,
+            3
+          ],
+          "median_total_ms": 2662.961320000022
+        },
+        "forecast_guarded": {
+          "median_cost_over_best_fixed": 1.2815554857728344,
+          "maximum_cost_over_best_fixed": 1.5876016098021428,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 2655.2920929998436
+        }
+      },
+      "source_sha256": {
+        "scripts/33_degree_selection_study.py": "b26def72c6a4431615c28a2a3f482b240509d855cf399761cbef27ac6fd869aa",
+        "scripts/arb_degree_selection.py": "fb52ca2e0fbdc866fbdad987fc4d6b83f2010fd4798200c2543824d36edfbf31",
+        "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+        "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+        "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+        "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+        "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+        "scripts/arb_problem_families.py": "ec72ac0d015bee596abd52b295d87f40af899cdb16e87573e0de872c31ed7fab",
+        "scripts/interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca",
+        "configs/frozen_networks_depth_2026-10-29.json": "58c6c7532f4bb61d9d6c715cb32be568a103ed2ea2fe249fee6d4bf9b5a910d8",
+        "results/generated/24_depth_reference/20261029T044806546934Z/references.json": "2e261c13ec30385c6acdbee14ad2207ccae314eea065b1d22407efb30a90d430"
+      }
+    },
+    {
+      "directory": "results/generated/33_degree_selection/20261029T111744395532Z",
+      "suite": "development",
+      "case_count": 13,
+      "requests": 117,
+      "checks": 405,
+      "successes": 117,
+      "policies": {
+        "fixed2": {
+          "median_cost_over_best_fixed": 1.3752940264774165,
+          "maximum_cost_over_best_fixed": 2.6887135671963645,
+          "selected_degrees": [
+            2
+          ],
+          "median_total_ms": 3313.802341000155
+        },
+        "fixed3": {
+          "median_cost_over_best_fixed": 1.0,
+          "maximum_cost_over_best_fixed": 1.4715114918138248,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 2121.572660000311
+        },
+        "microprobe_cubic": {
+          "median_cost_over_best_fixed": 0.9791635777795629,
+          "maximum_cost_over_best_fixed": 1.6513819095272193,
+          "selected_degrees": [
+            2,
+            3
+          ],
+          "median_total_ms": 2083.8802660002784
+        }
+      },
+      "source_sha256": {
+        "scripts/33_degree_selection_study.py": "625af619684c51256858b587f4ad604cbe83b7888669694ed16a32d009bd9ee7",
+        "scripts/arb_degree_selection.py": "4e5768fa5ec76e3a152b740a8a71f48bd60dc43b2b2a095acdd5b9e9323cf51c",
+        "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+        "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+        "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+        "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+        "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+        "scripts/arb_problem_families.py": "ec72ac0d015bee596abd52b295d87f40af899cdb16e87573e0de872c31ed7fab",
+        "scripts/interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca",
+        "configs/frozen_networks_depth_2026-10-29.json": "58c6c7532f4bb61d9d6c715cb32be568a103ed2ea2fe249fee6d4bf9b5a910d8",
+        "results/generated/24_depth_reference/20261029T044806546934Z/references.json": "2e261c13ec30385c6acdbee14ad2207ccae314eea065b1d22407efb30a90d430"
+      }
+    },
+    {
+      "directory": "results/generated/33_degree_selection/20261029T112008819669Z",
+      "suite": "development",
+      "case_count": 13,
+      "requests": 273,
+      "checks": 945,
+      "successes": 273,
+      "policies": {
+        "fixed2": {
+          "median_cost_over_best_fixed": 1.4956790571875547,
+          "maximum_cost_over_best_fixed": 2.9730190043468236,
+          "selected_degrees": [
+            2
+          ],
+          "median_total_ms": 3425.75899700023
+        },
+        "fixed3": {
+          "median_cost_over_best_fixed": 1.0,
+          "maximum_cost_over_best_fixed": 4.722770011075991,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 2320.9443120003925
+        },
+        "fixed2_from1": {
+          "median_cost_over_best_fixed": 1.4992775188867238,
+          "maximum_cost_over_best_fixed": 2.549539957214156,
+          "selected_degrees": [
+            2
+          ],
+          "median_total_ms": 3487.075530999846
+        },
+        "fixed3_from1": {
+          "median_cost_over_best_fixed": 1.0656821442074498,
+          "maximum_cost_over_best_fixed": 1.3853061593303586,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 2237.3873149997507
+        },
+        "probe_cubic": {
+          "median_cost_over_best_fixed": 1.0437108420581436,
+          "maximum_cost_over_best_fixed": 3.0018151679122203,
+          "selected_degrees": [
+            2,
+            3
+          ],
+          "median_total_ms": 2167.468348000284
+        },
+        "microprobe_cubic": {
+          "median_cost_over_best_fixed": 1.011471156941067,
+          "maximum_cost_over_best_fixed": 2.305198569755419,
+          "selected_degrees": [
+            2,
+            3
+          ],
+          "median_total_ms": 2089.555279000024
+        },
+        "forecast_guarded": {
+          "median_cost_over_best_fixed": 1.1990076863356416,
+          "maximum_cost_over_best_fixed": 3.2328841491498594,
+          "selected_degrees": [
+            2,
+            3
+          ],
+          "median_total_ms": 2408.593488999486
+        }
+      },
+      "source_sha256": {
+        "scripts/33_degree_selection_study.py": "1db38d3b130c97e1f230cf7409aad28aa35ccc738902fb750286245a50cb1d3c",
+        "scripts/arb_degree_selection.py": "57d6d54b755c9595867cc2881fb8d0e1d5a20995c3737e936face5cc04133a07",
+        "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+        "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+        "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+        "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+        "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+        "scripts/arb_problem_families.py": "ec72ac0d015bee596abd52b295d87f40af899cdb16e87573e0de872c31ed7fab",
+        "scripts/interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca",
+        "configs/frozen_networks_depth_2026-10-29.json": "58c6c7532f4bb61d9d6c715cb32be568a103ed2ea2fe249fee6d4bf9b5a910d8",
+        "results/generated/24_depth_reference/20261029T044806546934Z/references.json": "2e261c13ec30385c6acdbee14ad2207ccae314eea065b1d22407efb30a90d430"
+      }
+    },
+    {
+      "directory": "results/generated/33_degree_selection/20261029T112202142098Z",
+      "suite": "fresh",
+      "case_count": 6,
+      "requests": 126,
+      "checks": 504,
+      "successes": 126,
+      "policies": {
+        "fixed2": {
+          "median_cost_over_best_fixed": 1.716803470758763,
+          "maximum_cost_over_best_fixed": 2.893985076574838,
+          "selected_degrees": [
+            2
+          ],
+          "median_total_ms": 1257.8769490000923
+        },
+        "fixed3": {
+          "median_cost_over_best_fixed": 1.0,
+          "maximum_cost_over_best_fixed": 1.0,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 547.4899409996397
+        },
+        "fixed2_from1": {
+          "median_cost_over_best_fixed": 2.158812636087246,
+          "maximum_cost_over_best_fixed": 3.1577647258570045,
+          "selected_degrees": [
+            2
+          ],
+          "median_total_ms": 1350.9582330000285
+        },
+        "fixed3_from1": {
+          "median_cost_over_best_fixed": 1.346948288938453,
+          "maximum_cost_over_best_fixed": 1.7752509135060686,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 661.0809919995972
+        },
+        "probe_cubic": {
+          "median_cost_over_best_fixed": 1.326306858726121,
+          "maximum_cost_over_best_fixed": 1.913005083038126,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 629.8100280000654
+        },
+        "microprobe_cubic": {
+          "median_cost_over_best_fixed": 1.0435930505412256,
+          "maximum_cost_over_best_fixed": 1.326401276170194,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 583.0030369997985
+        },
+        "forecast_guarded": {
+          "median_cost_over_best_fixed": 1.7976281820864566,
+          "maximum_cost_over_best_fixed": 1.9552804815160776,
+          "selected_degrees": [
+            3
+          ],
+          "median_total_ms": 754.7075099996619
+        }
+      },
+      "source_sha256": {
+        "scripts/33_degree_selection_study.py": "1db38d3b130c97e1f230cf7409aad28aa35ccc738902fb750286245a50cb1d3c",
+        "scripts/arb_degree_selection.py": "57d6d54b755c9595867cc2881fb8d0e1d5a20995c3737e936face5cc04133a07",
+        "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+        "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+        "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+        "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+        "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+        "scripts/arb_problem_families.py": "ec72ac0d015bee596abd52b295d87f40af899cdb16e87573e0de872c31ed7fab",
+        "scripts/interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca",
+        "configs/frozen_networks_selection_fresh_2026-10-29.json": "3eb8b32ac34c1bcc3438d3c1cb9c07f29ba7fba5b4bd5dc6ac59f4b6f2c0138f",
+        "results/generated/35_fresh_selection_cases/20261029T111900086450Z/references.json": "b8d1258d14ad4fd4b93f96be712c27ed290d23555c8d6b468c52618d8440c903"
+      }
+    }
+  ],
+  "unique_case_count": 33,
+  "timed_requests": 1116,
+  "successful_requests": 1116,
+  "recorded_comparison_checks": 4014,
+  "intermediate_continuous_enclosures_checked": 5041,
+  "latest_scheduler_checks": 44,
+  "public_pipeline_sources_unchanged": true,
+  "fresh_selection_source_lock_verified": true,
+  "interpretation": "Different stage protocols and repeated cases; not a single full-factorial dataset. Ratios compare only within the same stage/case. Tiny variations are not confidence intervals.",
+  "source_sha256": "0c4f5cf2633d13f419023e723e38598756d54c5b42de37726411cece97813fb6"
+}

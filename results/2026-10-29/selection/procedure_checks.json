@@ -1,0 +1,610 @@
+{
+  "degree": {
+    "source_directory": "results/generated/34_degree_selection_checks/20261029T111853864818Z",
+    "config": {
+      "status": "complete",
+      "source_sha256": {
+        "scripts/34_degree_selection_checks.py": "0bbf914381a664a39e1a8146a08d6f47f5a7c6dc11efa66c62ca8400cfd41d6d",
+        "scripts/arb_degree_selection.py": "57d6d54b755c9595867cc2881fb8d0e1d5a20995c3737e936face5cc04133a07"
+      },
+      "checks_passed": 44
+    },
+    "checks": [
+      {
+        "name": "zero_success_fixed2",
+        "passed": true
+      },
+      {
+        "name": "zero_stops_first_fixed2",
+        "passed": true
+      },
+      {
+        "name": "zero_success_fixed3",
+        "passed": true
+      },
+      {
+        "name": "zero_stops_first_fixed3",
+        "passed": true
+      },
+      {
+        "name": "zero_success_probe_cubic",
+        "passed": true
+      },
+      {
+        "name": "zero_stops_first_probe_cubic",
+        "passed": true
+      },
+      {
+        "name": "zero_success_forecast_once",
+        "passed": true
+      },
+      {
+        "name": "zero_stops_first_forecast_once",
+        "passed": true
+      },
+      {
+        "name": "zero_success_forecast_race",
+        "passed": true
+      },
+      {
+        "name": "zero_stops_first_forecast_race",
+        "passed": true
+      },
+      {
+        "name": "zero_success_forecast_guarded",
+        "passed": true
+      },
+      {
+        "name": "zero_stops_first_forecast_guarded",
+        "passed": true
+      },
+      {
+        "name": "zero_success_microprobe_cubic",
+        "passed": true
+      },
+      {
+        "name": "zero_stops_first_microprobe_cubic",
+        "passed": true
+      },
+      {
+        "name": "zero_success_fixed2_from1",
+        "passed": true
+      },
+      {
+        "name": "zero_stops_first_fixed2_from1",
+        "passed": true
+      },
+      {
+        "name": "zero_success_fixed3_from1",
+        "passed": true
+      },
+      {
+        "name": "zero_stops_first_fixed3_from1",
+        "passed": true
+      },
+      {
+        "name": "zero_lower_not_success",
+        "passed": true
+      },
+      {
+        "name": "exact_gap_equality",
+        "passed": true
+      },
+      {
+        "name": "arithmetic_fallback_probe_cubic",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_probe_cubic",
+        "passed": true
+      },
+      {
+        "name": "arithmetic_fallback_forecast_once",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_forecast_once",
+        "passed": true
+      },
+      {
+        "name": "arithmetic_fallback_forecast_race",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_forecast_race",
+        "passed": true
+      },
+      {
+        "name": "arithmetic_fallback_forecast_guarded",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_forecast_guarded",
+        "passed": true
+      },
+      {
+        "name": "no_time_not_zero",
+        "passed": true
+      },
+      {
+        "name": "finite_budget_unresolved",
+        "passed": true
+      },
+      {
+        "name": "attempt_budget_respected",
+        "passed": true
+      },
+      {
+        "name": "shared_cache_same_certificate",
+        "passed": true
+      },
+      {
+        "name": "shared_cache_saves_residual_calls",
+        "passed": true
+      },
+      {
+        "name": "shared_cache_derivative_unchanged",
+        "passed": true
+      },
+      {
+        "name": "actual_calls_shared",
+        "passed": true
+      },
+      {
+        "name": "actual_calls_separate",
+        "passed": true
+      },
+      {
+        "name": "no_training_or_reference_metadata_needed",
+        "passed": true
+      },
+      {
+        "name": "reject_{'policy': 'degree4'}",
+        "passed": true
+      },
+      {
+        "name": "reject_{'target': 1.02}",
+        "passed": true
+      },
+      {
+        "name": "reject_{'initial': True}",
+        "passed": true
+      },
+      {
+        "name": "reject_{'cap': 0}",
+        "passed": true
+      },
+      {
+        "name": "reject_{'max_attempts': 0}",
+        "passed": true
+      },
+      {
+        "name": "reject_{'seconds': nan}",
+        "passed": true
+      },
+      {
+        "name": "reject_{'seconds': -1}",
+        "passed": true
+      }
+    ]
+  },
+  "mesh": {
+    "source_directory": "results/generated/37_mesh_selection_checks/20261029T115230360839Z",
+    "config": {
+      "status": "complete",
+      "source_sha256": {
+        "scripts/37_mesh_selection_checks.py": "b464eef3aa360e3d825b2acf804085a6b24333a966b979672398411311201e8e",
+        "scripts/arb_mesh_selection.py": "1871b5ca7b45a9d1bc44bae1b5d575f732fb20e64d1880cd466a50177a3ea32f",
+        "scripts/mesh_problem_families.py": "34c76cb6b6e92a52161be378dba9f8e423257f0df4d9cc52bf29b8abd5b8fef4",
+        "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+        "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+        "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+        "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+        "scripts/34_degree_selection_checks.py": "0bbf914381a664a39e1a8146a08d6f47f5a7c6dc11efa66c62ca8400cfd41d6d"
+      },
+      "checks_passed": 100
+    },
+    "checks": [
+      {
+        "name": "cached_cell_no_extra_calls_sine_0",
+        "passed": true
+      },
+      {
+        "name": "child_builder_matches_original_sine_0",
+        "passed": true
+      },
+      {
+        "name": "finite_scaled_scores_sine_0",
+        "passed": true
+      },
+      {
+        "name": "indicators_no_oracle_calls_sine_0",
+        "passed": true
+      },
+      {
+        "name": "cached_cell_no_extra_calls_sine_1",
+        "passed": true
+      },
+      {
+        "name": "child_builder_matches_original_sine_1",
+        "passed": true
+      },
+      {
+        "name": "finite_scaled_scores_sine_1",
+        "passed": true
+      },
+      {
+        "name": "indicators_no_oracle_calls_sine_1",
+        "passed": true
+      },
+      {
+        "name": "heap_valid_mesh_sine",
+        "passed": true
+      },
+      {
+        "name": "stale_indicator_rejected_sine",
+        "passed": true
+      },
+      {
+        "name": "heap_mesh_original_certificate_sine",
+        "passed": true
+      },
+      {
+        "name": "cached_cell_no_extra_calls_narrow_0",
+        "passed": true
+      },
+      {
+        "name": "child_builder_matches_original_narrow_0",
+        "passed": true
+      },
+      {
+        "name": "finite_scaled_scores_narrow_0",
+        "passed": true
+      },
+      {
+        "name": "indicators_no_oracle_calls_narrow_0",
+        "passed": true
+      },
+      {
+        "name": "cached_cell_no_extra_calls_narrow_1",
+        "passed": true
+      },
+      {
+        "name": "child_builder_matches_original_narrow_1",
+        "passed": true
+      },
+      {
+        "name": "finite_scaled_scores_narrow_1",
+        "passed": true
+      },
+      {
+        "name": "indicators_no_oracle_calls_narrow_1",
+        "passed": true
+      },
+      {
+        "name": "heap_valid_mesh_narrow",
+        "passed": true
+      },
+      {
+        "name": "stale_indicator_rejected_narrow",
+        "passed": true
+      },
+      {
+        "name": "heap_mesh_original_certificate_narrow",
+        "passed": true
+      },
+      {
+        "name": "cached_cell_no_extra_calls_depth1_k1_seed7_0",
+        "passed": true
+      },
+      {
+        "name": "child_builder_matches_original_depth1_k1_seed7_0",
+        "passed": true
+      },
+      {
+        "name": "finite_scaled_scores_depth1_k1_seed7_0",
+        "passed": true
+      },
+      {
+        "name": "indicators_no_oracle_calls_depth1_k1_seed7_0",
+        "passed": true
+      },
+      {
+        "name": "cached_cell_no_extra_calls_depth1_k1_seed7_1",
+        "passed": true
+      },
+      {
+        "name": "child_builder_matches_original_depth1_k1_seed7_1",
+        "passed": true
+      },
+      {
+        "name": "finite_scaled_scores_depth1_k1_seed7_1",
+        "passed": true
+      },
+      {
+        "name": "indicators_no_oracle_calls_depth1_k1_seed7_1",
+        "passed": true
+      },
+      {
+        "name": "heap_valid_mesh_depth1_k1_seed7",
+        "passed": true
+      },
+      {
+        "name": "stale_indicator_rejected_depth1_k1_seed7",
+        "passed": true
+      },
+      {
+        "name": "heap_mesh_original_certificate_depth1_k1_seed7",
+        "passed": true
+      },
+      {
+        "name": "cached_cell_no_extra_calls_depth2_k1_seed7_0",
+        "passed": true
+      },
+      {
+        "name": "child_builder_matches_original_depth2_k1_seed7_0",
+        "passed": true
+      },
+      {
+        "name": "finite_scaled_scores_depth2_k1_seed7_0",
+        "passed": true
+      },
+      {
+        "name": "indicators_no_oracle_calls_depth2_k1_seed7_0",
+        "passed": true
+      },
+      {
+        "name": "cached_cell_no_extra_calls_depth2_k1_seed7_1",
+        "passed": true
+      },
+      {
+        "name": "child_builder_matches_original_depth2_k1_seed7_1",
+        "passed": true
+      },
+      {
+        "name": "finite_scaled_scores_depth2_k1_seed7_1",
+        "passed": true
+      },
+      {
+        "name": "indicators_no_oracle_calls_depth2_k1_seed7_1",
+        "passed": true
+      },
+      {
+        "name": "heap_valid_mesh_depth2_k1_seed7",
+        "passed": true
+      },
+      {
+        "name": "stale_indicator_rejected_depth2_k1_seed7",
+        "passed": true
+      },
+      {
+        "name": "heap_mesh_original_certificate_depth2_k1_seed7",
+        "passed": true
+      },
+      {
+        "name": "cached_cell_no_extra_calls_depth3_k1_seed7_0",
+        "passed": true
+      },
+      {
+        "name": "child_builder_matches_original_depth3_k1_seed7_0",
+        "passed": true
+      },
+      {
+        "name": "finite_scaled_scores_depth3_k1_seed7_0",
+        "passed": true
+      },
+      {
+        "name": "indicators_no_oracle_calls_depth3_k1_seed7_0",
+        "passed": true
+      },
+      {
+        "name": "cached_cell_no_extra_calls_depth3_k1_seed7_1",
+        "passed": true
+      },
+      {
+        "name": "child_builder_matches_original_depth3_k1_seed7_1",
+        "passed": true
+      },
+      {
+        "name": "finite_scaled_scores_depth3_k1_seed7_1",
+        "passed": true
+      },
+      {
+        "name": "indicators_no_oracle_calls_depth3_k1_seed7_1",
+        "passed": true
+      },
+      {
+        "name": "heap_valid_mesh_depth3_k1_seed7",
+        "passed": true
+      },
+      {
+        "name": "stale_indicator_rejected_depth3_k1_seed7",
+        "passed": true
+      },
+      {
+        "name": "heap_mesh_original_certificate_depth3_k1_seed7",
+        "passed": true
+      },
+      {
+        "name": "zero_cubic_uniform16",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_cubic_uniform16",
+        "passed": true
+      },
+      {
+        "name": "zero_cubic_uniform1",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_cubic_uniform1",
+        "passed": true
+      },
+      {
+        "name": "zero_cubic_adaptive16",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_cubic_adaptive16",
+        "passed": true
+      },
+      {
+        "name": "zero_cubic_adaptive1",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_cubic_adaptive1",
+        "passed": true
+      },
+      {
+        "name": "zero_cubic_bulk16",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_cubic_bulk16",
+        "passed": true
+      },
+      {
+        "name": "zero_quadratic_adaptive16",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_quadratic_adaptive16",
+        "passed": true
+      },
+      {
+        "name": "zero_auto_mesh16",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_auto_mesh16",
+        "passed": true
+      },
+      {
+        "name": "zero_auto_mesh1",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_auto_mesh1",
+        "passed": true
+      },
+      {
+        "name": "zero_cubic_heap16",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_cubic_heap16",
+        "passed": true
+      },
+      {
+        "name": "zero_cubic_heap1",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_cubic_heap1",
+        "passed": true
+      },
+      {
+        "name": "zero_quadratic_adaptive1",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_quadratic_adaptive1",
+        "passed": true
+      },
+      {
+        "name": "zero_auto_heap16",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_auto_heap16",
+        "passed": true
+      },
+      {
+        "name": "zero_auto_heap1",
+        "passed": true
+      },
+      {
+        "name": "invalid_not_zero_auto_heap1",
+        "passed": true
+      },
+      {
+        "name": "no_time_no_fake_zero",
+        "passed": true
+      },
+      {
+        "name": "attempt_limit_keeps_completed_mesh",
+        "passed": true
+      },
+      {
+        "name": "mesh_limit_not_rejection",
+        "passed": true
+      },
+      {
+        "name": "shifted_derivative_0.17_residual",
+        "passed": true
+      },
+      {
+        "name": "shifted_derivative_0.17_r_third",
+        "passed": true
+      },
+      {
+        "name": "shifted_derivative_0.17_r_fourth",
+        "passed": true
+      },
+      {
+        "name": "shifted_error_value_0.17",
+        "passed": true
+      },
+      {
+        "name": "shifted_derivative_0.81_residual",
+        "passed": true
+      },
+      {
+        "name": "shifted_derivative_0.81_r_third",
+        "passed": true
+      },
+      {
+        "name": "shifted_derivative_0.81_r_fourth",
+        "passed": true
+      },
+      {
+        "name": "shifted_error_value_0.81",
+        "passed": true
+      },
+      {
+        "name": "independent_shifted_reference_converged",
+        "passed": true
+      },
+      {
+        "name": "shifted_continuous_range_cubic_uniform16",
+        "passed": true
+      },
+      {
+        "name": "shifted_continuous_range_cubic_adaptive1",
+        "passed": true
+      },
+      {
+        "name": "shifted_continuous_range_cubic_heap1",
+        "passed": true
+      },
+      {
+        "name": "shifted_continuous_range_auto_heap1",
+        "passed": true
+      },
+      {
+        "name": "invalid_marking_[-1.0]",
+        "passed": true
+      },
+      {
+        "name": "invalid_marking_[nan]",
+        "passed": true
+      },
+      {
+        "name": "invalid_marking_[inf]",
+        "passed": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "scope": "Clean publish copy with no historical generated results; existing installed Linux Python dependencies. Not a fresh dependency installation or independent audit.",
+  "compile_passed": true,
+  "locked_degree_sources_match": true,
+  "procedure_checks": {
+    "34_degree_selection_checks": {
+      "count": 44,
+      "passed": true,
+      "source_sha256": {
+        "scripts/34_degree_selection_checks.py": "0bbf914381a664a39e1a8146a08d6f47f5a7c6dc11efa66c62ca8400cfd41d6d",
+        "scripts/arb_degree_selection.py": "57d6d54b755c9595867cc2881fb8d0e1d5a20995c3737e936face5cc04133a07"
+      }
+    },
+    "37_mesh_selection_checks": {
+      "count": 100,
+      "passed": true,
+      "source_sha256": {
+        "scripts/37_mesh_selection_checks.py": "b464eef3aa360e3d825b2acf804085a6b24333a966b979672398411311201e8e",
+        "scripts/arb_mesh_selection.py": "1871b5ca7b45a9d1bc44bae1b5d575f732fb20e64d1880cd466a50177a3ea32f",
+        "scripts/mesh_problem_families.py": "34c76cb6b6e92a52161be378dba9f8e423257f0df4d9cc52bf29b8abd5b8fef4",
+        "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+        "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+        "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+        "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+        "scripts/34_degree_selection_checks.py": "0bbf914381a664a39e1a8146a08d6f47f5a7c6dc11efa66c62ca8400cfd41d6d"
+      }
+    }
+  },
+  "examples": {
+    "shallow_sine": {
+      "exact_enclosure_matches": true,
+      "public_source_sha256_matches": true,
+      "goal_met": true,
+      "enclosure": {
+        "lower": {
+          "numerator": "8563070906235448189793411729579",
+          "denominator": "83076749736557242056487941267521536",
+          "decimal_outward": "0.0001030742167139374628133664",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "537556214783059301175442203981",
+          "denominator": "5192296858534827628530496329220096",
+          "decimal_outward": "0.0001035295610842150411458560",
+          "decimal_rounding": "up"
+        },
+        "z_lower": {
+          "numerator": "2145317890031558681282343430967",
+          "denominator": "20769187434139310514121985316880384",
+          "decimal_outward": "0.0001032932991160355493124359",
+          "decimal_rounding": "down"
+        },
+        "z_upper": {
+          "numerator": "268209336957442571358472289669",
+          "denominator": "2596148429267413814265248164610048",
+          "decimal_outward": "0.0001033104786821169546467865",
+          "decimal_rounding": "up"
+        },
+        "remainder_upper": {
+          "numerator": "9318734792082706092012541075309",
+          "denominator": "42535295865117307932921825928971026432",
+          "decimal_outward": "2.190824020980864990694915E-7",
+          "decimal_rounding": "up"
+        },
+        "intervals": 64,
+        "residual_evaluations": 129,
+        "derivative_interval_evaluations": 112
+      }
+    },
+    "deep_sine": {
+      "exact_enclosure_matches": true,
+      "public_source_sha256_matches": true,
+      "goal_met": true,
+      "enclosure": {
+        "lower": {
+          "numerator": "9532394475450334259697477815961",
+          "denominator": "2596148429267413814265248164610048",
+          "decimal_outward": "0.003671744792396251308385509",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "9554510509038842850847650660525",
+          "denominator": "2596148429267413814265248164610048",
+          "decimal_outward": "0.003680263578664087826611556",
+          "decimal_rounding": "up"
+        },
+        "z_lower": {
+          "numerator": "9543292072257646896530588444757",
+          "denominator": "2596148429267413814265248164610048",
+          "decimal_outward": "0.003675942393998863737513994",
+          "decimal_rounding": "down"
+        },
+        "z_upper": {
+          "numerator": "4771806456115765107007270015865",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.003676065977061475397483071",
+          "decimal_rounding": "up"
+        },
+        "remainder_upper": {
+          "numerator": "5579569565344070058552641943015",
+          "denominator": "1329227995784915872903807060280344576",
+          "decimal_outward": "0.000004197601602612429128484981",
+          "decimal_rounding": "up"
+        },
+        "intervals": 256,
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496
+      }
+    }
+  }
+}
