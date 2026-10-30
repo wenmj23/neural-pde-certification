@@ -1,0 +1,7 @@
+{
+  "configurations": 105,
+  "passed": 105,
+  "failures": [],
+  "caveat": "mpmath approximate integration and bisection, not formal proof",
+  "script_sha256": "6123d3d783c4144927a36a070cae0faa285a6f15aba9e78081f37a047afb6979"
+}

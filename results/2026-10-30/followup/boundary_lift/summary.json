@@ -1,0 +1,12 @@
+{
+  "synthetic_residuals": 9,
+  "boundary_pairs": 4,
+  "cases": 288,
+  "compatible": 288,
+  "triangle_overlap": 288,
+  "known_exact_checks": 32,
+  "known_exact_passed": 32,
+  "lift_tighter_width": 191,
+  "failures": [],
+  "script_sha256": "88784cc823b7e88ae0e8568004a0b214737ceccdab91a2ec0e3873685b2c2a66"
+}

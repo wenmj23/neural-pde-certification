@@ -1,0 +1,37 @@
+{
+  "sources": {
+    "constant_2": [
+      2
+    ],
+    "linear_6x": [
+      0,
+      6
+    ],
+    "quartic_30x4": [
+      0,
+      0,
+      0,
+      0,
+      30
+    ]
+  },
+  "seeds": [
+    101,
+    102
+  ],
+  "architecture": "1-16-1 tanh, hard x*(1-x) boundary",
+  "dtype": "float64",
+  "device": "cpu",
+  "collocation": "64 equally spaced interior nodes i/65",
+  "adam_steps": 2000,
+  "adam_lr": "0.01",
+  "lbfgs_max_iter": 80,
+  "lbfgs_history": 30,
+  "lbfgs_line_search": "strong_wolfe",
+  "max_iter_stopping": "torch LBFGS internal criteria may stop early",
+  "sampling": "same deterministic collocation on every step",
+  "selection": "retain every planned network; no reference accuracy used",
+  "torch_version": "2.14.1+cpu",
+  "python": "3.12.14",
+  "script_sha256": "f70494ec9a40cd32963aa7a5420ed8b1c984faf0fd8808c43908f933ec6c2882"
+}

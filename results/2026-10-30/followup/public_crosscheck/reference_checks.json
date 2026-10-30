@@ -1,0 +1,50 @@
+[
+  {
+    "case": "holdout_shallow_k2",
+    "method": "d2_uniform",
+    "reference_label": "depth1_k2_seed49",
+    "contained": true
+  },
+  {
+    "case": "holdout_shallow_k2",
+    "method": "d2_adaptive",
+    "reference_label": "depth1_k2_seed49",
+    "contained": true
+  },
+  {
+    "case": "holdout_shallow_k2",
+    "method": "d3_uniform",
+    "reference_label": "depth1_k2_seed49",
+    "contained": true
+  },
+  {
+    "case": "holdout_shallow_k2",
+    "method": "d3_adaptive",
+    "reference_label": "depth1_k2_seed49",
+    "contained": true
+  },
+  {
+    "case": "holdout_deep_k5",
+    "method": "d2_uniform",
+    "reference_label": "depth3_k5_seed49",
+    "contained": true
+  },
+  {
+    "case": "holdout_deep_k5",
+    "method": "d2_adaptive",
+    "reference_label": "depth3_k5_seed49",
+    "contained": true
+  },
+  {
+    "case": "holdout_deep_k5",
+    "method": "d3_uniform",
+    "reference_label": "depth3_k5_seed49",
+    "contained": true
+  },
+  {
+    "case": "holdout_deep_k5",
+    "method": "d3_adaptive",
+    "reference_label": "depth3_k5_seed49",
+    "contained": true
+  }
+]

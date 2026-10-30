@@ -1,0 +1,9 @@
+{
+  "networks": 4,
+  "sources": 4,
+  "checks": 576,
+  "passed": 576,
+  "failures": [],
+  "caveat": "90-digit mpmath point diagnostics, not an interval proof",
+  "script_sha256": "3114618d7c79d8dc7ea9bd0b1ca52f9ba0efc056de86a0e6815bfd3abbc93360"
+}

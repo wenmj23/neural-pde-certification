@@ -1,0 +1,157 @@
+{
+  "requests": 18,
+  "networks": 6,
+  "goal_met": 18,
+  "reference_checked": 6,
+  "reference_contained": 6,
+  "overlap_checked": 18,
+  "overlap_passed": 18,
+  "unexpected": [],
+  "checks": [
+    {
+      "name": "depth1_k1_seed7",
+      "precision_pair": [
+        80,
+        103
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth1_k1_seed7",
+      "precision_pair": [
+        80,
+        160
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth1_k1_seed7",
+      "precision_pair": [
+        103,
+        160
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth1_k5_seed37",
+      "precision_pair": [
+        80,
+        103
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth1_k5_seed37",
+      "precision_pair": [
+        80,
+        160
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth1_k5_seed37",
+      "precision_pair": [
+        103,
+        160
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth2_k1_seed17",
+      "precision_pair": [
+        80,
+        103
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth2_k1_seed17",
+      "precision_pair": [
+        80,
+        160
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth2_k1_seed17",
+      "precision_pair": [
+        103,
+        160
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth3_k5_seed7",
+      "precision_pair": [
+        80,
+        103
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth3_k5_seed7",
+      "precision_pair": [
+        80,
+        160
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth3_k5_seed7",
+      "precision_pair": [
+        103,
+        160
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth1_k2_seed49",
+      "precision_pair": [
+        80,
+        103
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth1_k2_seed49",
+      "precision_pair": [
+        80,
+        160
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth1_k2_seed49",
+      "precision_pair": [
+        103,
+        160
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth3_k5_seed49",
+      "precision_pair": [
+        80,
+        103
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth3_k5_seed49",
+      "precision_pair": [
+        80,
+        160
+      ],
+      "overlap": true
+    },
+    {
+      "name": "depth3_k5_seed49",
+      "precision_pair": [
+        103,
+        160
+      ],
+      "overlap": true
+    }
+  ],
+  "script_sha256": "e309d4fabce65c4994e930c44c8823b9f289f63a5f8b649efd6839c15fe065a4"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "network": "depth1_k2_seed49",
+    "radius": "small",
+    "match": true
+  },
+  {
+    "network": "depth1_k2_seed49",
+    "radius": "large",
+    "match": true
+  },
+  {
+    "network": "depth3_k5_seed49",
+    "radius": "small",
+    "match": true
+  },
+  {
+    "network": "depth3_k5_seed49",
+    "radius": "large",
+    "match": true
+  }
+]

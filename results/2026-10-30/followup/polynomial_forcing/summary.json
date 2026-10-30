@@ -1,0 +1,14 @@
+{
+  "fixture_sha256": "5e420cdbdb224be4ba2aa49456741715630ee09361f984203232b464c7cd82c7",
+  "networks": 4,
+  "sources": 4,
+  "reference_cases": 16,
+  "reference_converged": 16,
+  "certificates": 64,
+  "reference_overlap": 64,
+  "reference_contained": 62,
+  "gap_1_02": 64,
+  "failures": [],
+  "script_sha256": "26329a98a05f0201bc02034482edc3d0843a7c5ce7260daf4140d7afc12fbd85",
+  "scope": "existing sine-trained frozen networks transferred to polynomial PDE, no retraining; true solution for validation only"
+}

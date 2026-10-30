@@ -1,0 +1,10 @@
+{
+  "networks": 2,
+  "uncertain_certificates": 4,
+  "scenario_references": 20,
+  "converged": 20,
+  "contained": 20,
+  "overlap": 20,
+  "lost_decisions": 2,
+  "script_sha256": "2f3db8b270db1a4ea3ec3fd652a912033e7fa5ba683db2ec0797a665ebe37753"
+}

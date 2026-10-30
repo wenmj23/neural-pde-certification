@@ -1,0 +1,9 @@
+{
+  "inputs": 6,
+  "requests": 12,
+  "compatible": 12,
+  "reference_contained": 12,
+  "determined": 10,
+  "errors": [],
+  "prior_records_sha256": "8c97cfa9185629fe259ba10c3fbda7ecbb1bd1b5121e5d2526c275aee21529e8"
+}

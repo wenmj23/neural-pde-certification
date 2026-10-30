@@ -1,0 +1,462 @@
+{
+  "depth1_k2_seed49__small__0": {
+    "lower": {
+      "numerator": "435521689042058812756753855143327307782412724557337",
+      "denominator": "383123885216472214589586756787577295904684780545900544",
+      "decimal_outward": "0.001136764649366564164072460",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "217760854971695716659003311300849608446439589759033",
+      "denominator": "191561942608236107294793378393788647952342390272950272",
+      "decimal_outward": "0.001136764703921587818501122",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 50,
+    "error_point_evaluations": 115,
+    "residual_interval_evaluations": 164,
+    "elapsed_s": 0.38602866799999447,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth1_k2_seed49__small__1": {
+    "lower": {
+      "numerator": "439065776832384424762078547153557330758225736337181",
+      "denominator": "383123885216472214589586756787577295904684780545900544",
+      "decimal_outward": "0.001146015150123840457666984",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "219532898874862998367680529219086371787755560300847",
+      "denominator": "191561942608236107294793378393788647952342390272950272",
+      "decimal_outward": "0.001146015204720649424966401",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 48,
+    "error_point_evaluations": 113,
+    "residual_interval_evaluations": 160,
+    "elapsed_s": 0.37528682500001764,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth1_k2_seed49__small__2": {
+    "lower": {
+      "numerator": "436097134915963870833812413977675914779924006363781",
+      "denominator": "383123885216472214589586756787577295904684780545900544",
+      "decimal_outward": "0.001138266633179397760481666",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "436097155792888365387862642062618212284176440837405",
+      "denominator": "383123885216472214589586756787577295904684780545900544",
+      "decimal_outward": "0.001138266687670713233434220",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 52,
+    "error_point_evaluations": 117,
+    "residual_interval_evaluations": 168,
+    "elapsed_s": 0.3525898599999948,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth1_k2_seed49__small__3": {
+    "lower": {
+      "numerator": "219820224929077541236887962760061433146235720246485",
+      "denominator": "191561942608236107294793378393788647952342390272950272",
+      "decimal_outward": "0.001147515116708920259264879",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "219820235375702077665290532415254153429302521084703",
+      "denominator": "191561942608236107294793378393788647952342390272950272",
+      "decimal_outward": "0.001147515171242844869712296",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 51,
+    "error_point_evaluations": 116,
+    "residual_interval_evaluations": 166,
+    "elapsed_s": 0.36235534200000075,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth1_k2_seed49__small__4": {
+    "lower": {
+      "numerator": "109395254667739840138419187287161424390953468207003",
+      "denominator": "95780971304118053647396689196894323976171195136475136",
+      "decimal_outward": "0.001142139750497982759264879",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "437581039564208433410481888459031138129947474504447",
+      "denominator": "383123885216472214589586756787577295904684780545900544",
+      "decimal_outward": "0.001142139805031907369712296",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 52,
+    "error_point_evaluations": 117,
+    "residual_interval_evaluations": 168,
+    "elapsed_s": 0.39197146499998325,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth1_k2_seed49__large__0": {
+    "lower": {
+      "numerator": "334729769639555334251278131758627774802986287661975",
+      "denominator": "383123885216472214589586756787577295904684780545900544",
+      "decimal_outward": "0.0008736854645604429149154904",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "334729790819605766672154654616011428841940866407521",
+      "denominator": "383123885216472214589586756787577295904684780545900544",
+      "decimal_outward": "0.0008736855198429540025595013",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 33,
+    "error_point_evaluations": 98,
+    "residual_interval_evaluations": 130,
+    "elapsed_s": 0.3008501609999996,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth1_k2_seed49__large__1": {
+    "lower": {
+      "numerator": "256425147524577096992594161692723394724283973016647",
+      "denominator": "191561942608236107294793378393788647952342390272950272",
+      "decimal_outward": "0.001338601728679442977888210",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "512850316497314556715390256498401393576871875392765",
+      "denominator": "383123885216472214589586756787577295904684780545900544",
+      "decimal_outward": "0.001338601784661753635997107",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 31,
+    "error_point_evaluations": 96,
+    "residual_interval_evaluations": 126,
+    "elapsed_s": 0.32825328300000933,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth1_k2_seed49__large__2": {
+    "lower": {
+      "numerator": "289802794265688840243622197836733327617425970729923",
+      "denominator": "191561942608236107294793378393788647952342390272950272",
+      "decimal_outward": "0.001512841174608285257645779",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "579605606643477929935768689929743695661153022230159",
+      "denominator": "383123885216472214589586756787577295904684780545900544",
+      "decimal_outward": "0.001512841221883072730671239",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 31,
+    "error_point_evaluations": 96,
+    "residual_interval_evaluations": 126,
+    "elapsed_s": 0.35966757999997867,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth1_k2_seed49__large__3": {
+    "lower": {
+      "numerator": "590709204416038053526644655944438504688198116058377",
+      "denominator": "383123885216472214589586756787577295904684780545900544",
+      "decimal_outward": "0.001541822964345530746352935",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "590709224569245560471109906287596238542001438734487",
+      "denominator": "383123885216472214589586756787577295904684780545900544",
+      "decimal_outward": "0.001541823016947856742179386",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 45,
+    "error_point_evaluations": 110,
+    "residual_interval_evaluations": 154,
+    "elapsed_s": 0.39158740999999964,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth1_k2_seed49__large__4": {
+    "lower": {
+      "numerator": "109395254667739840138419187287161424390953468207003",
+      "denominator": "95780971304118053647396689196894323976171195136475136",
+      "decimal_outward": "0.001142139750497982759264879",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "437581039564208433410481888459031138129947474504447",
+      "denominator": "383123885216472214589586756787577295904684780545900544",
+      "decimal_outward": "0.001142139805031907369712296",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 52,
+    "error_point_evaluations": 117,
+    "residual_interval_evaluations": 168,
+    "elapsed_s": 0.36096782300000996,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth3_k5_seed49__small__0": {
+    "lower": {
+      "numerator": "470616568010820328499230868330876178281933661890009",
+      "denominator": "47890485652059026823698344598447161988085597568237568",
+      "decimal_outward": "0.009826932460656439615121490",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "470616600487354903769047255280661622084399597424271",
+      "denominator": "47890485652059026823698344598447161988085597568237568",
+      "decimal_outward": "0.009826933138798123356294922",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 84,
+    "error_point_evaluations": 149,
+    "residual_interval_evaluations": 232,
+    "elapsed_s": 3.5124036040000135,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth3_k5_seed49__small__1": {
+    "lower": {
+      "numerator": "470404708733472840812208062177525625895404337908579",
+      "denominator": "47890485652059026823698344598447161988085597568237568",
+      "decimal_outward": "0.009822508632531439615121490",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "470404741210007416082024449127311069697870273442841",
+      "denominator": "47890485652059026823698344598447161988085597568237568",
+      "decimal_outward": "0.009822509310673123356294922",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 84,
+    "error_point_evaluations": 149,
+    "residual_interval_evaluations": 232,
+    "elapsed_s": 3.608982358999981,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth3_k5_seed49__small__2": {
+    "lower": {
+      "numerator": "7345038700819908177137539277275130309612978092211",
+      "denominator": "748288838313422294120286634350736906063837462003712",
+      "decimal_outward": "0.009815780116906439615121490",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "235041254664504349303309450347696891808848266717883",
+      "denominator": "23945242826029513411849172299223580994042798784118784",
+      "decimal_outward": "0.009815780795048123356294922",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 84,
+    "error_point_evaluations": 149,
+    "residual_interval_evaluations": 232,
+    "elapsed_s": 3.3153072140000006,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth3_k5_seed49__small__3": {
+    "lower": {
+      "numerator": "234935308787563317824889853796128893714350636960037",
+      "denominator": "23945242826029513411849172299223580994042798784118784",
+      "decimal_outward": "0.009811356288781439615121490",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "1835432226764301605154672244304856371996746911931",
+      "denominator": "187072209578355573530071658587684226515959365500928",
+      "decimal_outward": "0.009811356966923123356294922",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 83,
+    "error_point_evaluations": 148,
+    "residual_interval_evaluations": 230,
+    "elapsed_s": 3.328405793999991,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth3_k5_seed49__small__4": {
+    "lower": {
+      "numerator": "235121796396486741037252643980783491427658733952521",
+      "denominator": "23945242826029513411849172299223580994042798784118784",
+      "decimal_outward": "0.009819144374718939615121490",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "470243625269508057344321674911352426657783403439303",
+      "denominator": "47890485652059026823698344598447161988085597568237568",
+      "decimal_outward": "0.009819145052860623356294922",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 84,
+    "error_point_evaluations": 149,
+    "residual_interval_evaluations": 232,
+    "elapsed_s": 3.86434310300001,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth3_k5_seed49__large__0": {
+    "lower": {
+      "numerator": "488893916017286881301623413305268311796828364952517",
+      "denominator": "47890485652059026823698344598447161988085597568237568",
+      "decimal_outward": "0.01020858129460767200601819",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "488893948288300347102336173054477506655956185863679",
+      "denominator": "47890485652059026823698344598447161988085597568237568",
+      "decimal_outward": "0.01020858196845787474275401",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 87,
+    "error_point_evaluations": 152,
+    "residual_interval_evaluations": 238,
+    "elapsed_s": 3.7219901779999987,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth3_k5_seed49__large__1": {
+    "lower": {
+      "numerator": "29894648855528755448936899766680506981132186873423",
+      "denominator": "2993155353253689176481146537402947624255349848014848",
+      "decimal_outward": "0.009987670310206912802689834",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "119578603355245278276983959406865390735029923300773",
+      "denominator": "11972621413014756705924586149611790497021399392059392",
+      "decimal_outward": "0.009987670972812868742930378",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 87,
+    "error_point_evaluations": 152,
+    "residual_interval_evaluations": 238,
+    "elapsed_s": 3.211802657999982,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth3_k5_seed49__large__2": {
+    "lower": {
+      "numerator": "57775382083243594703772211208433983495856262684977",
+      "denominator": "5986310706507378352962293074805895248510699696029696",
+      "decimal_outward": "0.009651250146511650058747892",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "7221923278356611186235896940207654783173836008821",
+      "denominator": "748288838313422294120286634350736906063837462003712",
+      "decimal_outward": "0.009651250838692443528394007",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 83,
+    "error_point_evaluations": 148,
+    "residual_interval_evaluations": 230,
+    "elapsed_s": 3.4555807479999885,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth3_k5_seed49__large__3": {
+    "lower": {
+      "numerator": "451596608722597110283474534383548273619861028459289",
+      "denominator": "47890485652059026823698344598447161988085597568237568",
+      "decimal_outward": "0.009429777179617742008200810",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "112899160361946410064833252793100054919621796787163",
+      "denominator": "11972621413014756705924586149611790497021399392059392",
+      "decimal_outward": "0.009429777862951562586586526",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 84,
+    "error_point_evaluations": 149,
+    "residual_interval_evaluations": 232,
+    "elapsed_s": 3.3786594510000043,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth3_k5_seed49__large__4": {
+    "lower": {
+      "numerator": "235121796396486741037252643980783491427658733952521",
+      "denominator": "23945242826029513411849172299223580994042798784118784",
+      "decimal_outward": "0.009819144374718939615121490",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "470243625269508057344321674911352426657783403439303",
+      "denominator": "47890485652059026823698344598447161988085597568237568",
+      "decimal_outward": "0.009819145052860623356294922",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 84,
+    "error_point_evaluations": 149,
+    "residual_interval_evaluations": 232,
+    "elapsed_s": 3.3219514849999996,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  }
+}

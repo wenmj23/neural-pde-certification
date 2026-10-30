@@ -1,0 +1,78 @@
+{
+  "networks": 4,
+  "boxes": 2,
+  "paired_configurations": 8,
+  "trials": 48,
+  "exact_match_prior": 48,
+  "median_of_median_time_ratios": 1.1391875876263753,
+  "min_time_ratio": 1.0550364520644229,
+  "max_time_ratio": 1.272533299444352,
+  "groups": [
+    {
+      "network": "depth1_k2_seed49",
+      "box": "equal_small",
+      "baseline_median_s": 0.30944827499999406,
+      "refined_median_s": 0.39018139499998483,
+      "time_ratio": 1.2608937471052062,
+      "upper_reduction_percent": 0.40142614083001615
+    },
+    {
+      "network": "depth1_k2_seed49",
+      "box": "equal_large",
+      "baseline_median_s": 0.30411715500000014,
+      "refined_median_s": 0.37172142199997893,
+      "time_ratio": 1.222296788880518,
+      "upper_reduction_percent": 6.108916498939104
+    },
+    {
+      "network": "depth1_k5_seed49",
+      "box": "equal_small",
+      "baseline_median_s": 0.3050899069999957,
+      "refined_median_s": 0.36255535999998756,
+      "time_ratio": 1.1883557983450193,
+      "upper_reduction_percent": 0.004021438334118007
+    },
+    {
+      "network": "depth1_k5_seed49",
+      "box": "equal_large",
+      "baseline_median_s": 0.29254684899999006,
+      "refined_median_s": 0.37227560700000595,
+      "time_ratio": 1.272533299444352,
+      "upper_reduction_percent": 0.1998421792993714
+    },
+    {
+      "network": "depth3_k2_seed49",
+      "box": "equal_small",
+      "baseline_median_s": 0.9018072229999916,
+      "refined_median_s": 0.951439492999981,
+      "time_ratio": 1.0550364520644229,
+      "upper_reduction_percent": 0.04248772048711705
+    },
+    {
+      "network": "depth3_k2_seed49",
+      "box": "equal_large",
+      "baseline_median_s": 0.8706890339999802,
+      "refined_median_s": 0.9296368669999993,
+      "time_ratio": 1.067702509964103,
+      "upper_reduction_percent": 2.0115755924286898
+    },
+    {
+      "network": "depth3_k5_seed49",
+      "box": "equal_small",
+      "baseline_median_s": 0.9273156609999944,
+      "refined_median_s": 1.0107920389999947,
+      "time_ratio": 1.090019376907731,
+      "upper_reduction_percent": 0.022506017213194694
+    },
+    {
+      "network": "depth3_k5_seed49",
+      "box": "equal_large",
+      "baseline_median_s": 0.8869711199999983,
+      "refined_median_s": 0.9631567369999914,
+      "time_ratio": 1.0858941348620157,
+      "upper_reduction_percent": 1.070921630161879
+    }
+  ],
+  "timing_scope": "fresh fixture+problem setup, 256-cell prepare, D and all lift calculations; excludes Python import, file writing, reference; three paired repeats on one machine",
+  "script_sha256": "ceb5340e3c0c0e00c6a33b4cd8e07fc78708c7ab5e31e0f9863e269e9a0fa455"
+}

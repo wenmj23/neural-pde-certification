@@ -1,0 +1,9 @@
+{
+  "families": 9,
+  "configurations": 180,
+  "compatible": 180,
+  "exact_checks": 60,
+  "exact_pass": 60,
+  "failures": [],
+  "script_sha256": "1c76c8306f442ce597faeb2ae872c0be87254d89310a14ebac87e0602ba9e68c"
+}

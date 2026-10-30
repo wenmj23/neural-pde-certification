@@ -1,0 +1,17 @@
+{
+  "networks": 9,
+  "intervals_per_network": 3,
+  "points_per_interval": 3,
+  "derivative_orders": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "comparisons": 324,
+  "passed": 324,
+  "failures": [],
+  "mp_decimal_digits": 90,
+  "arb_precision_bits": 103,
+  "script_sha256": "dcaa692a2355d7e47c503da549e7cc2b258d6fa334e36c43641ef70e3f9488df"
+}

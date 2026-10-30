@@ -1,0 +1,23 @@
+{
+  "network_count": 4,
+  "boundary_conditions": 4,
+  "reference_cases": 16,
+  "reference_converged": 16,
+  "certificates": 32,
+  "direct_reference_contained": 32,
+  "triangle_reference_contained": 32,
+  "direct_overlap": 32,
+  "triangle_overlap": 32,
+  "range_overlap": 32,
+  "width_relation": {
+    "equal": 8,
+    "narrower": 24
+  },
+  "decision_pairs": 64,
+  "direct_determined": 64,
+  "triangle_determined": 56,
+  "direct_only": 8,
+  "triangle_only": 0,
+  "opposed": 0,
+  "script_sha256": "7d003e7a78a882887efff74b8be7fe845d0f66028f6a74175c2d08bd7a142d6c"
+}

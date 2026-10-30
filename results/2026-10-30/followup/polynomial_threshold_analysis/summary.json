@@ -1,0 +1,72 @@
+{
+  "underlying_certificates": 48,
+  "post_hoc_threshold_comparisons": 192,
+  "outcomes": {
+    "exceeds": 83,
+    "within": 83,
+    "unknown": 26
+  },
+  "compatible": 192,
+  "failures": [],
+  "groups": [
+    {
+      "degree": 2,
+      "intervals": 32,
+      "total": 24,
+      "decided": 8,
+      "unknown": 16
+    },
+    {
+      "degree": 2,
+      "intervals": 64,
+      "total": 24,
+      "decided": 18,
+      "unknown": 6
+    },
+    {
+      "degree": 2,
+      "intervals": 128,
+      "total": 24,
+      "decided": 22,
+      "unknown": 2
+    },
+    {
+      "degree": 2,
+      "intervals": 256,
+      "total": 24,
+      "decided": 24,
+      "unknown": 0
+    },
+    {
+      "degree": 3,
+      "intervals": 32,
+      "total": 24,
+      "decided": 22,
+      "unknown": 2
+    },
+    {
+      "degree": 3,
+      "intervals": 64,
+      "total": 24,
+      "decided": 24,
+      "unknown": 0
+    },
+    {
+      "degree": 3,
+      "intervals": 128,
+      "total": 24,
+      "decided": 24,
+      "unknown": 0
+    },
+    {
+      "degree": 3,
+      "intervals": 256,
+      "total": 24,
+      "decided": 24,
+      "unknown": 0
+    }
+  ],
+  "source_records_sha256": "f5b389fc25861d7a1f164a6ac5e04aaeaf76874724a5f46ac55a688b82a34aed",
+  "script_sha256": "1d963450fa6cddf6d4f8e2b909f8b1849e432a2d1d855766f972a591091a8fc4",
+  "limitation": "thresholds chosen after knowing reference, not blind and no new verification runs"
+}

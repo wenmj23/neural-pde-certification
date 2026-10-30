@@ -1,0 +1,18 @@
+{
+  "networks": 4,
+  "boxes_per_network": 4,
+  "certificates": 16,
+  "valid_order": 16,
+  "subset_baseline": 16,
+  "improved_lower": 4,
+  "improved_upper": 16,
+  "reference_checks": 20,
+  "reference_contained": 20,
+  "reference_overlaps": 20,
+  "decision_pairs": 32,
+  "baseline_decided": 29,
+  "refined_decided": 29,
+  "gained_decision": 0,
+  "contradictions": 0,
+  "script_sha256": "1421f462ba2d647ffc8a1094a949e2cef8668fe48b2f4cc5af24c66e21fe285c"
+}

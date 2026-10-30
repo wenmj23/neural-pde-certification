@@ -1,0 +1,10 @@
+{
+  "families": 5,
+  "certificates": 180,
+  "scenario_comparisons": 900,
+  "scenario_passed": 900,
+  "exact_radius_checks": 60,
+  "exact_radius_passed": 60,
+  "failures": [],
+  "script_sha256": "c7717a82c209a488a3724d61823aa2c745729267a337b28e2c582b42ac171aae"
+}

@@ -1,0 +1,17 @@
+{
+  "fixture_sha256": "ca3361299180addfa4e90b1f5f592e54d35b205ba62d08605f9a4f51729439a9",
+  "networks": 6,
+  "sources": 3,
+  "reference_cases": 6,
+  "reference_converged": 6,
+  "certificates": 48,
+  "reference_overlap": 48,
+  "reference_contained": 48,
+  "gap_1_02": 45,
+  "decisions": {
+    "within": 48
+  },
+  "failures": [],
+  "script_sha256": "459b8d561ac9bf46123db77f5a43a743489b9e028c831a9e3671e91e7d593c85",
+  "reference_role": "validation after freeze only"
+}

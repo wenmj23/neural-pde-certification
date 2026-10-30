@@ -1,0 +1,46 @@
+{
+  "base_commit": "1948ea20ae6d88395dc417c97581a78a427484da",
+  "base_tree": "cf35b15f7886e2d9bfbf4651234dfb5b824ced1c",
+  "new_scripts_sha256": {
+    "scripts/54_public_crosscheck_2026_10_30.py": "4d605c84f30d97bd6bdac10963ed6a3f7ee0ee7ee8bcbfaae172a12a9e587878",
+    "scripts/55_near_threshold_budget_check_2026_10_30.py": "d9d01214c400186f24954b0fa0c0cc3ed688cde97ffccdacaefae36c57180237",
+    "scripts/56_reference_guided_budget_curves.py": "22ae0e303ef8446bcf26913fde111b722354ce050918abd212d75abd48f56677",
+    "scripts/57_tight_budget_followup.py": "141ea6430958ad14db847723da28ca9de61a961cacf2ce3f24f68e8400ca6bad",
+    "scripts/58_frozen_portfolio_2026_10_30.py": "f30029d5b7d267ee32b47e642b2f725af4cac2e7c7d57ef0a73d394acb0e56fa",
+    "scripts/59_precision_crosscheck.py": "e309d4fabce65c4994e930c44c8823b9f289f63a5f8b649efd6839c15fe065a4",
+    "scripts/60_portable_replay.py": "5de6fecddfc16617b066854cef605eeb799c27eb7a05758e34982b9701a11e4c",
+    "scripts/61_exact_polynomial_audit.py": "1c76c8306f442ce597faeb2ae872c0be87254d89310a14ebac87e0602ba9e68c",
+    "scripts/62_derivative_crosscheck.py": "dcaa692a2355d7e47c503da549e7cc2b258d6fa334e36c43641ef70e3f9488df",
+    "scripts/63_remainder_shape_crosscheck.py": "6123d3d783c4144927a36a070cae0faa285a6f15aba9e78081f37a047afb6979",
+    "scripts/64_guard_and_decision_checks.py": "2178e210d74ca5768e7c8692090ca85196e2936b2a72f425d554931d1c15c97b",
+    "scripts/65_exact_shape_identities.py": "7057a46d6a49c47bc358c0d7e9b04c3dd672b8d237b25d06a8eccd4d183550f5",
+    "scripts/66_prepare_derivative_inputs.py": "74659824fd5b86d43a76ccbf9cd06a5f5b4fb69b26729378c117f46b957e2049",
+    "scripts/67_boundary_lift_prototype.py": "88784cc823b7e88ae0e8568004a0b214737ceccdab91a2ec0e3873685b2c2a66",
+    "scripts/68_uncertain_boundary_study.py": "c7717a82c209a488a3724d61823aa2c745729267a337b28e2c582b42ac171aae",
+    "scripts/69_network_boundary_lift.py": "b4939a7fa6b2c73fd2d6dc8d625eb0c953d760b635a2db0a865575090c575f7c",
+    "scripts/70_boundary_network_comparison.py": "7d003e7a78a882887efff74b8be7fe845d0f66028f6a74175c2d08bd7a142d6c",
+    "scripts/71_network_uncertain_boundary.py": "2f3db8b270db1a4ea3ec3fd652a912033e7fa5ba683db2ec0797a665ebe37753",
+    "scripts/72_boundary_interval_envelope.py": "1421f462ba2d647ffc8a1094a949e2cef8668fe48b2f4cc5af24c66e21fe285c",
+    "scripts/73_boundary_envelope_timing.py": "ceb5340e3c0c0e00c6a33b4cd8e07fc78708c7ab5e31e0f9863e269e9a0fa455",
+    "scripts/74_polynomial_forcing_prototype.py": "26329a98a05f0201bc02034482edc3d0843a7c5ce7260daf4140d7afc12fbd85",
+    "scripts/75_poly_reference_followup.py": "4c67ff6659b2071b2ac7cce9fe376fcd54c0aeff7c77eea8b1bfefae03cac4f9",
+    "scripts/76_polynomial_derivative_checks.py": "3114618d7c79d8dc7ea9bd0b1ca52f9ba0efc056de86a0e6815bfd3abbc93360",
+    "scripts/77_train_polynomial_pinns.py": "f70494ec9a40cd32963aa7a5420ed8b1c984faf0fd8808c43908f933ec6c2882",
+    "scripts/78_certify_polynomial_pinns.py": "459b8d561ac9bf46123db77f5a43a743489b9e028c831a9e3671e91e7d593c85",
+    "scripts/79_polynomial_threshold_analysis.py": "1d963450fa6cddf6d4f8e2b909f8b1849e432a2d1d855766f972a591091a8fc4"
+  },
+  "new_fixture_sha256": "ca3361299180addfa4e90b1f5f592e54d35b205ba62d08605f9a4f51729439a9",
+  "fixture_matches_recorded_sha": true,
+  "source_hash_checks": "21 summaries with run-time script hashes matched; budget_followup did not record its script hash at runtime",
+  "clean_replay": {
+    "method": "clean copy of required baseline scripts/configs plus staged files, same machine and dependencies; not a complete fresh git clone",
+    "records_match": 48,
+    "records_total": 48,
+    "student_has_reproduced": false
+  },
+  "markdown_local_links": {
+    "checked": 73,
+    "missing": 0
+  },
+  "scope": "No full historical archive, old execution snapshots, or personal opening report published."
+}

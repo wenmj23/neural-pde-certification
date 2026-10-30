@@ -1,0 +1,30 @@
+[
+  {
+    "case": "shallow_sine",
+    "threshold": "8571108577508531496243925634847/83076749736557242056487941267521536",
+    "selection": "midpoint of previous 16-cell enclosure; post-hoc",
+    "returncode": 2,
+    "passed": true
+  },
+  {
+    "case": "deep_sine",
+    "threshold": "2542082811514910509270560291069/618970019642690137449562112",
+    "selection": "midpoint of previous 16-cell enclosure; post-hoc",
+    "returncode": 2,
+    "passed": true
+  },
+  {
+    "case": "holdout_shallow_k2",
+    "threshold": "5321161043953686342078379461353/20769187434139310514121985316880384",
+    "selection": "midpoint of previous 16-cell enclosure; post-hoc",
+    "returncode": 2,
+    "passed": true
+  },
+  {
+    "case": "holdout_deep_k5",
+    "threshold": "8906374890968652037969068601515/633825300114114700748351602688",
+    "selection": "midpoint of previous 16-cell enclosure; post-hoc",
+    "returncode": 2,
+    "passed": true
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "networks": 2,
+  "reference_cases": 6,
+  "converged": 6,
+  "certificates": 24,
+  "overlap": 24,
+  "contained": 24,
+  "failures": [],
+  "script_sha256": "b4939a7fa6b2c73fd2d6dc8d625eb0c953d760b635a2db0a865575090c575f7c",
+  "reference_only": "known sine solution and mpmath interval backend; certifier uses neither"
+}

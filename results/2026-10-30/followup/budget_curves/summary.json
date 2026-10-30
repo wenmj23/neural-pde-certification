@@ -1,0 +1,204 @@
+{
+  "repository_commit": "1948ea20ae6d88395dc417c97581a78a427484da",
+  "script_sha256": "22ae0e303ef8446bcf26913fde111b722354ce050918abd212d75abd48f56677",
+  "reference_sha256": "13874bbb99b0a16b82fd0475839afe13a0b46d4f9073c5f9e17828490dab97d9",
+  "python": "3.12.14",
+  "requests": 48,
+  "decision_compatible": 48,
+  "reference_contained": 48,
+  "errors": [],
+  "grouped": [
+    {
+      "case": "holdout_shallow_k2",
+      "relative_distance": "1/100",
+      "cap": 64,
+      "degree": 2,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "relative_distance": "1/100",
+      "cap": 64,
+      "degree": 3,
+      "determined": 2,
+      "total": 2
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "relative_distance": "1/100",
+      "cap": 256,
+      "degree": 2,
+      "determined": 2,
+      "total": 2
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "relative_distance": "1/100",
+      "cap": 256,
+      "degree": 3,
+      "determined": 2,
+      "total": 2
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "relative_distance": "1/1000",
+      "cap": 64,
+      "degree": 2,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "relative_distance": "1/1000",
+      "cap": 64,
+      "degree": 3,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "relative_distance": "1/1000",
+      "cap": 256,
+      "degree": 2,
+      "determined": 2,
+      "total": 2
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "relative_distance": "1/1000",
+      "cap": 256,
+      "degree": 3,
+      "determined": 2,
+      "total": 2
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "relative_distance": "1/10000",
+      "cap": 64,
+      "degree": 2,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "relative_distance": "1/10000",
+      "cap": 64,
+      "degree": 3,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "relative_distance": "1/10000",
+      "cap": 256,
+      "degree": 2,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "relative_distance": "1/10000",
+      "cap": 256,
+      "degree": 3,
+      "determined": 2,
+      "total": 2
+    },
+    {
+      "case": "holdout_deep_k5",
+      "relative_distance": "1/100",
+      "cap": 64,
+      "degree": 2,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_deep_k5",
+      "relative_distance": "1/100",
+      "cap": 64,
+      "degree": 3,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_deep_k5",
+      "relative_distance": "1/100",
+      "cap": 256,
+      "degree": 2,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_deep_k5",
+      "relative_distance": "1/100",
+      "cap": 256,
+      "degree": 3,
+      "determined": 2,
+      "total": 2
+    },
+    {
+      "case": "holdout_deep_k5",
+      "relative_distance": "1/1000",
+      "cap": 64,
+      "degree": 2,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_deep_k5",
+      "relative_distance": "1/1000",
+      "cap": 64,
+      "degree": 3,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_deep_k5",
+      "relative_distance": "1/1000",
+      "cap": 256,
+      "degree": 2,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_deep_k5",
+      "relative_distance": "1/1000",
+      "cap": 256,
+      "degree": 3,
+      "determined": 2,
+      "total": 2
+    },
+    {
+      "case": "holdout_deep_k5",
+      "relative_distance": "1/10000",
+      "cap": 64,
+      "degree": 2,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_deep_k5",
+      "relative_distance": "1/10000",
+      "cap": 64,
+      "degree": 3,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_deep_k5",
+      "relative_distance": "1/10000",
+      "cap": 256,
+      "degree": 2,
+      "determined": 0,
+      "total": 2
+    },
+    {
+      "case": "holdout_deep_k5",
+      "relative_distance": "1/10000",
+      "cap": 256,
+      "degree": 3,
+      "determined": 0,
+      "total": 2
+    }
+  ]
+}

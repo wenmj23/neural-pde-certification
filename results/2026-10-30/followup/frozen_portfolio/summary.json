@@ -1,0 +1,128 @@
+{
+  "commit": "1948ea20ae6d88395dc417c97581a78a427484da",
+  "networks": 28,
+  "requests": 56,
+  "goal_met": 56,
+  "stop_reasons": {
+    "goal_met": 56
+  },
+  "unexpected_exit": [],
+  "reference_checked": 8,
+  "reference_contained": 8,
+  "overlaps": [
+    {
+      "name": "depth3_k1_seed17",
+      "overlap": true
+    },
+    {
+      "name": "depth2_k5_seed7",
+      "overlap": true
+    },
+    {
+      "name": "depth1_k5_seed17",
+      "overlap": true
+    },
+    {
+      "name": "depth2_k5_seed37",
+      "overlap": true
+    },
+    {
+      "name": "depth1_k5_seed37",
+      "overlap": true
+    },
+    {
+      "name": "depth3_k5_seed49",
+      "overlap": true
+    },
+    {
+      "name": "depth2_k1_seed27",
+      "overlap": true
+    },
+    {
+      "name": "depth1_k1_seed17",
+      "overlap": true
+    },
+    {
+      "name": "depth3_k1_seed37",
+      "overlap": true
+    },
+    {
+      "name": "depth3_k5_seed7",
+      "overlap": true
+    },
+    {
+      "name": "depth3_k5_seed37",
+      "overlap": true
+    },
+    {
+      "name": "depth1_k5_seed7",
+      "overlap": true
+    },
+    {
+      "name": "depth1_k1_seed37",
+      "overlap": true
+    },
+    {
+      "name": "depth2_k5_seed17",
+      "overlap": true
+    },
+    {
+      "name": "depth2_k1_seed7",
+      "overlap": true
+    },
+    {
+      "name": "depth1_k1_seed27",
+      "overlap": true
+    },
+    {
+      "name": "depth1_k2_seed49",
+      "overlap": true
+    },
+    {
+      "name": "depth1_k5_seed49",
+      "overlap": true
+    },
+    {
+      "name": "depth3_k1_seed27",
+      "overlap": true
+    },
+    {
+      "name": "depth3_k5_seed17",
+      "overlap": true
+    },
+    {
+      "name": "depth2_k1_seed17",
+      "overlap": true
+    },
+    {
+      "name": "depth2_k1_seed37",
+      "overlap": true
+    },
+    {
+      "name": "depth1_k5_seed27",
+      "overlap": true
+    },
+    {
+      "name": "depth1_k1_seed7",
+      "overlap": true
+    },
+    {
+      "name": "depth3_k1_seed7",
+      "overlap": true
+    },
+    {
+      "name": "depth2_k5_seed27",
+      "overlap": true
+    },
+    {
+      "name": "depth3_k5_seed27",
+      "overlap": true
+    },
+    {
+      "name": "depth3_k2_seed49",
+      "overlap": true
+    }
+  ],
+  "python": "3.12.14",
+  "script_sha256": "f30029d5b7d267ee32b47e642b2f725af4cac2e7c7d57ef0a73d394acb0e56fa"
+}

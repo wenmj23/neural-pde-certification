@@ -1,0 +1,170 @@
+[
+  {
+    "label": "poly_constant_2_seed101",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 1.9876960546607254
+      },
+      {
+        "step": 500,
+        "loss_before_update": 1.1480242943332398e-05
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 5.8867164241828475e-06
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 3.49436383367423e-06
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 2.649620677139922e-06
+      }
+    ],
+    "lbfgs_closure_calls": 100,
+    "final_training_collocation_loss": 4.149589459902642e-09,
+    "training_wall_seconds": 6.247469729000045
+  },
+  {
+    "label": "poly_constant_2_seed102",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 5.926142383199542
+      },
+      {
+        "step": 500,
+        "loss_before_update": 7.608564891702725e-05
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 3.137650983289255e-05
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 1.4939197278647176e-05
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 7.032850790171414e-06
+      }
+    ],
+    "lbfgs_closure_calls": 100,
+    "final_training_collocation_loss": 6.791687247248022e-07,
+    "training_wall_seconds": 3.1196972220000134
+  },
+  {
+    "label": "poly_linear_6x_seed101",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 9.015662902426751
+      },
+      {
+        "step": 500,
+        "loss_before_update": 0.0005540007333880404
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 0.00019201300069297133
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 7.774162457536629e-05
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 2.986646380646648e-05
+      }
+    ],
+    "lbfgs_closure_calls": 93,
+    "final_training_collocation_loss": 8.1892133759035e-08,
+    "training_wall_seconds": 3.3567882810000356
+  },
+  {
+    "label": "poly_linear_6x_seed102",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 17.176159584397407
+      },
+      {
+        "step": 500,
+        "loss_before_update": 0.0011722466312350896
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 0.00019286044214224482
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 5.899224609885438e-05
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 4.381505800546784e-05
+      }
+    ],
+    "lbfgs_closure_calls": 99,
+    "final_training_collocation_loss": 2.2199563339560245e-08,
+    "training_wall_seconds": 3.3872275410000157
+  },
+  {
+    "label": "poly_quartic_30x4_seed101",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 89.35797440621873
+      },
+      {
+        "step": 500,
+        "loss_before_update": 0.023969314391853055
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 0.006805487344729443
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 0.003346463187992405
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 0.002110910694617189
+      }
+    ],
+    "lbfgs_closure_calls": 97,
+    "final_training_collocation_loss": 7.312206391476159e-06,
+    "training_wall_seconds": 3.160005780000006
+  },
+  {
+    "label": "poly_quartic_30x4_seed102",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 109.90398931239002
+      },
+      {
+        "step": 500,
+        "loss_before_update": 0.060705196572036935
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 0.02848703920866586
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 0.018886553494796652
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 0.01096327107790818
+      }
+    ],
+    "lbfgs_closure_calls": 95,
+    "final_training_collocation_loss": 5.849379830530691e-06,
+    "training_wall_seconds": 4.143977818000053
+  }
+]

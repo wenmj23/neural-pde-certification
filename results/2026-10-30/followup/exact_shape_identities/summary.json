@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "quadratic_symmetry": true,
+    "cubic_symmetry": true,
+    "quadratic_mass_1_32": true,
+    "quadratic_first_half_mass": true,
+    "cubic_average_49_90": true,
+    "cubic_first_half_mass": true,
+    "cubic_code_average_matches": true,
+    "cubic_vertex_minus_1_81": true,
+    "cubic_center_1_144": true
+  },
+  "passed": 9,
+  "total": 9,
+  "quadratic_mass_without_12sqrt3": "1/32",
+  "cubic_mass": "49/90",
+  "cubic_first_moment": "49/180",
+  "script_sha256": "7057a46d6a49c47bc358c0d7e9b04c3dd672b8d237b25d06a8eccd4d183550f5"
+}

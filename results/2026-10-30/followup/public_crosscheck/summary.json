@@ -1,0 +1,271 @@
+{
+  "repository_commit": "1948ea20ae6d88395dc417c97581a78a427484da",
+  "python": "3.12.14",
+  "case_count": 4,
+  "request_count": 28,
+  "checks": [
+    {
+      "case": "shallow_sine",
+      "check": "d2_uniform_goal_met",
+      "passed": true
+    },
+    {
+      "case": "shallow_sine",
+      "check": "d2_adaptive_goal_met",
+      "passed": true
+    },
+    {
+      "case": "shallow_sine",
+      "check": "d3_uniform_goal_met",
+      "passed": true
+    },
+    {
+      "case": "shallow_sine",
+      "check": "d3_adaptive_goal_met",
+      "passed": true
+    },
+    {
+      "case": "shallow_sine",
+      "check": "overlap_d2_uniform_d2_adaptive",
+      "passed": true
+    },
+    {
+      "case": "shallow_sine",
+      "check": "overlap_d2_uniform_d3_uniform",
+      "passed": true
+    },
+    {
+      "case": "shallow_sine",
+      "check": "overlap_d2_uniform_d3_adaptive",
+      "passed": true
+    },
+    {
+      "case": "shallow_sine",
+      "check": "overlap_d2_adaptive_d3_uniform",
+      "passed": true
+    },
+    {
+      "case": "shallow_sine",
+      "check": "overlap_d2_adaptive_d3_adaptive",
+      "passed": true
+    },
+    {
+      "case": "shallow_sine",
+      "check": "overlap_d3_uniform_d3_adaptive",
+      "passed": true
+    },
+    {
+      "case": "shallow_sine",
+      "check": "limited_budget_not_success",
+      "passed": true
+    },
+    {
+      "case": "shallow_sine",
+      "check": "decision_100",
+      "passed": true
+    },
+    {
+      "case": "shallow_sine",
+      "check": "decision_1e-12",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "d2_uniform_goal_met",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "d2_adaptive_goal_met",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "d3_uniform_goal_met",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "d3_adaptive_goal_met",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "overlap_d2_uniform_d2_adaptive",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "overlap_d2_uniform_d3_uniform",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "overlap_d2_uniform_d3_adaptive",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "overlap_d2_adaptive_d3_uniform",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "overlap_d2_adaptive_d3_adaptive",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "overlap_d3_uniform_d3_adaptive",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "limited_budget_not_success",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "decision_100",
+      "passed": true
+    },
+    {
+      "case": "deep_sine",
+      "check": "decision_1e-12",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "d2_uniform_goal_met",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "d2_adaptive_goal_met",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "d3_uniform_goal_met",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "d3_adaptive_goal_met",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "overlap_d2_uniform_d2_adaptive",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "overlap_d2_uniform_d3_uniform",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "overlap_d2_uniform_d3_adaptive",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "overlap_d2_adaptive_d3_uniform",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "overlap_d2_adaptive_d3_adaptive",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "overlap_d3_uniform_d3_adaptive",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "limited_budget_not_success",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "decision_100",
+      "passed": true
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "check": "decision_1e-12",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "d2_uniform_goal_met",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "d2_adaptive_goal_met",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "d3_uniform_goal_met",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "d3_adaptive_goal_met",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "overlap_d2_uniform_d2_adaptive",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "overlap_d2_uniform_d3_uniform",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "overlap_d2_uniform_d3_adaptive",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "overlap_d2_adaptive_d3_uniform",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "overlap_d2_adaptive_d3_adaptive",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "overlap_d3_uniform_d3_adaptive",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "limited_budget_not_success",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "decision_100",
+      "passed": true
+    },
+    {
+      "case": "holdout_deep_k5",
+      "check": "decision_1e-12",
+      "passed": true
+    }
+  ],
+  "check_count": 52,
+  "passed_count": 52,
+  "failed_checks": []
+}
