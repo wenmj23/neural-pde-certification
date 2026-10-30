@@ -2,7 +2,9 @@
 
 一维 Poisson 神经求解器的后验最大误差认证：学习、推导、实验与中期报告记录。
 
-工作入口与阶段归档更新：2026-10-29。中期报告截止：2026-11-13。
+工作入口与阶段归档更新：2026-10-30。中期报告截止：2026-11-13。
+
+**新对话接续：**先读[接续说明](HANDOFF.md)和[10月30日日终总结](reports/research_summary_2026-10-30.md)；今天的[精选结果](results/2026-10-30/README.md)与[两个新冻结网络案例](docs/holdout_cases_2026-10-30.md)可直接查看。
 
 先用 [统一验证入口教程](docs/certifier_quickstart.md) 复现两个冻结案例；查看 [10月29日阶段总结](reports/research_summary_2026-10-29.md)、[多层与高阶重构工作记录](notes/working/depth_higher_order_2026-10-29.md)及[当天示例与结果](results/2026-10-29/README.md)。[10月28日日终总结](reports/research_summary_2026-10-28.md)与[早期固定主案例](cases/poisson_1d_sine_k1_seed7/README.md)继续保留。
 
@@ -19,6 +21,8 @@ python scripts/certify.py --case configs/examples/deep_sine.json
 程序保存连续最大误差范围、容差判断、网格过程、有效输入与执行源码。支持二/三次残差重构、均匀/局部加密网格；明确区分“判断容差”和“收紧范围”两个目标。当前限定一维正弦源项Poisson、严格零边界和光滑tanh网络，保证依赖区间后端包含正确性，尚无独立或形式化审计。
 
 ## 当前进展
+
+- 10月30日完成网格增长、节点复用、检查频率及新网络/人工峰对照。4个新seed49网络（包含k=2）全部保留；预测策略没有稳定战胜固定基线，尖峰对局部细化有收益。完整范围和反例见[今天总结](reports/research_summary_2026-10-30.md)。
 
 - 已实现二次/三次带符号残差重构、形状余项包络、连续范数区间界、均匀/局部加密网格，并支持一/二/三隐层tanh网络。
 - 18个冻结网络的多路径研究轮完成7983项检查与933次达标计时请求；统一入口另完成60项流程检查。这些是有限问题上的方法、预算和重复测试。
@@ -54,7 +58,7 @@ python scripts/certify.py --case configs/examples/deep_sine.json
 | [最新阶段总结](reports/research_summary_2026-10-29.md) | 今天的方法、结论、限制与学生复现起点 |
 | [最新示例结果](results/2026-10-29/README.md) | 两个完整示例、汇总图表与复现核验 |
 | [上次日终总结](reports/research_summary_2026-10-28.md) | 昨天的完整结论与历史证据 |
-| [研究日志](notes/daily/2026-10-29.md) | 当天工作索引；早期版本另行保留 |
+| [研究日志](notes/daily/2026-10-30.md) | 当天工作索引；早期版本另行保留 |
 | [理论笔记](notes/theory.md) | 基本界、重构余项、区间与停止规则 |
 | [工作记录](notes/working/) | 高频、补充函数、区间审查、成本的详细记录 |
 | [固定案例](cases/poisson_1d_sine_k1_seed7/) | 49 个权重、来源、基准和说明 |

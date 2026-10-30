@@ -1,0 +1,30 @@
+{
+  "suites": [
+    {
+      "suite": "development",
+      "requests": 252,
+      "original_kernel_meshes": 28
+    },
+    {
+      "suite": "evaluation",
+      "requests": 252,
+      "original_kernel_meshes": 25
+    }
+  ],
+  "finite_certificates_checked": 3288,
+  "predictions_recomputed_from_certificates": 744,
+  "nested_steps_verified": 4404,
+  "intermediate_grids_not_certified": 2079,
+  "same_locked_sources_across_suites": true,
+  "reference_and_exact_stopping_passed": true,
+  "safety": [
+    {
+      "policy": "nested_left_fcguard_125_16",
+      "zero_invalid_attempt_cap": true
+    },
+    {
+      "policy": "nested_left_fcfast_125_16",
+      "zero_invalid_attempt_cap": true
+    }
+  ]
+}

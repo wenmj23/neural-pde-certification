@@ -1,0 +1,23 @@
+{
+  "study": [
+    {
+      "directory": "results/generated/40_mesh_network_diagnosis/20261030T023033827081Z",
+      "requests": 252,
+      "successes": 252,
+      "original_kernel_meshes": 21
+    },
+    {
+      "directory": "results/generated/42_mesh_recheck_shapes/20261030T023214552676Z",
+      "requests": 90,
+      "successes": 90,
+      "original_kernel_meshes": 5
+    }
+  ],
+  "finite_ranges_checked": 1248,
+  "exact_stopping_and_repeated_grid_checked": true,
+  "safety_checks": [
+    "zero error",
+    "invalid derivatives with exhausted mesh budget",
+    "attempt budget keeps last completed mesh"
+  ]
+}

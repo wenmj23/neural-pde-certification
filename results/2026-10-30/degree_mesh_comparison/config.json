@@ -1,0 +1,54 @@
+{
+  "status": "complete",
+  "cases": [
+    "depth1_k2_seed49",
+    "depth1_k5_seed49",
+    "depth3_k2_seed49",
+    "depth3_k5_seed49",
+    "shift_034_sigma003",
+    "shift_031_sigma040",
+    "double_021_068"
+  ],
+  "targets": [
+    "51/50",
+    "201/200"
+  ],
+  "policies": [
+    "fixed2",
+    "fixed3",
+    "quadratic_adaptive16",
+    "cubic_adaptive16",
+    "cubic_heap16",
+    "auto_heap16"
+  ],
+  "repeats": 3,
+  "cap": 4096,
+  "soft_seconds": 30,
+  "max_attempts": 40,
+  "flint": "0.9.0",
+  "python": "3.12.14",
+  "source_sha256": {
+    "scripts/50_new_cases_degree_mesh.py": "6827ef40c4ba97c2c0c72234c2740f50d0db805c6663eef80257096ad5f34481",
+    "scripts/arb_degree_selection.py": "57d6d54b755c9595867cc2881fb8d0e1d5a20995c3737e936face5cc04133a07",
+    "scripts/arb_mesh_selection.py": "1871b5ca7b45a9d1bc44bae1b5d575f732fb20e64d1880cd466a50177a3ea32f",
+    "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+    "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+    "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+    "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+    "scripts/arb_problem_families.py": "ec72ac0d015bee596abd52b295d87f40af899cdb16e87573e0de872c31ed7fab",
+    "scripts/mesh_problem_families.py": "34c76cb6b6e92a52161be378dba9f8e423257f0df4d9cc52bf29b8abd5b8fef4",
+    "scripts/interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca",
+    "scripts/18_continuous_reference_crosscheck.py": "01623b8c7218d03d83f60136f80d0577069e9969cdbad7adfc850f61e88a1c4d",
+    "configs/frozen_networks_holdout_2026-10-30.json": "5e420cdbdb224be4ba2aa49456741715630ee09361f984203232b464c7cd82c7",
+    "results/generated/47_new_cases/20261030T031028111446Z/config.json": "d29bf96bf4e81f537295f3000838d8df9aa2a4bf4cbd39e081e8f75d4323872f",
+    "results/generated/47_new_cases/20261030T031028111446Z/network_references.json": "13874bbb99b0a16b82fd0475839afe13a0b46d4f9073c5f9e17828490dab97d9",
+    "results/generated/48_holdout_study/20261030T031050542385Z/shape_references.json": "f6bd64a0075f11aef3b059073c5a89160e8d1a76c8d73b0746a77e112133db0d"
+  },
+  "timing": "Sequential; includes factory, caches, all attempts, mesh marking and exports; excludes imports, pre-request GC, output writes and validation-only references.",
+  "limitations": "Four networks already generated and observed in preceding study; three manufactured shapes; no fresh holdout. Frozen candidate, zero BC, 1D Poisson and tanh; no formal audit.",
+  "requests": 252,
+  "successful": 246,
+  "reference_checks": 252,
+  "original_meshes_checked": 34
+}

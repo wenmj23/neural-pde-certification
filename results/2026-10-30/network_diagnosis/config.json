@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "cases": [
+    "depth1_k1_seed7",
+    "depth1_k1_seed17",
+    "depth1_k5_seed7",
+    "depth1_k5_seed17",
+    "depth3_k1_seed7",
+    "depth3_k1_seed17",
+    "depth3_k5_seed7",
+    "depth3_k5_seed17",
+    "narrow_peak",
+    "global_sine_50"
+  ],
+  "targets": [
+    "51/50",
+    "201/200"
+  ],
+  "policies": [
+    "cubic_uniform16",
+    "cubic_heap16",
+    "auto_heap16"
+  ],
+  "repeats": 3,
+  "max_intervals": 4096,
+  "seconds": 30,
+  "source_sha256": {
+    "scripts/40_mesh_network_diagnosis.py": "91fddf85e82ba19ace44634ec063e97d712cdefac2b44d76cb3b3f825f9151ad",
+    "scripts/arb_mesh_selection.py": "1871b5ca7b45a9d1bc44bae1b5d575f732fb20e64d1880cd466a50177a3ea32f",
+    "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "scripts/arb_degree_selection.py": "57d6d54b755c9595867cc2881fb8d0e1d5a20995c3737e936face5cc04133a07",
+    "configs/frozen_networks_depth_2026-10-29.json": "58c6c7532f4bb61d9d6c715cb32be568a103ed2ea2fe249fee6d4bf9b5a910d8",
+    "results/generated/24_depth_reference/20261029T044806546934Z/references.json": "2e261c13ec30385c6acdbee14ad2207ccae314eea065b1d22407efb30a90d430"
+  },
+  "python": "3.12.14",
+  "flint": "0.9.0",
+  "timing": "Sequential; fresh cache per request; all attempts and selection included; imports, garbage collection, references, diagnostic probes and file writes excluded.",
+  "limitations": "Eight previously studied networks; two manufactured controls; no independent holdout; no formal audit. Both targets are certificate enclosure ratios, not solution error.",
+  "requests": 180,
+  "successes": 180,
+  "reference_checks": 180,
+  "original_meshes_checked": 15
+}

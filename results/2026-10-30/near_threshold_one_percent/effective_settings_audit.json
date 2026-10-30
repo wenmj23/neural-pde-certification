@@ -1,0 +1,136 @@
+{
+  "requests": 16,
+  "decisions_verified": 16,
+  "effective_cap": 4096,
+  "records_original_cap_field_note": "Original records cap=null represented no per-case override in the case list, while the executed CLI was explicitly passed --max-intervals 4096; effective settings checked from result.json. Raw records and executed source preserved. Future driver corrected.",
+  "results": [
+    {
+      "label": "depth1_k2_seed49",
+      "degree": 2,
+      "decision": "exceeds_tolerance",
+      "intervals": 128,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.000182295390323858678905661370"
+    },
+    {
+      "label": "depth1_k2_seed49",
+      "degree": 2,
+      "decision": "within_tolerance",
+      "intervals": 128,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.000185978126308165595773101423"
+    },
+    {
+      "label": "depth1_k2_seed49",
+      "degree": 3,
+      "decision": "exceeds_tolerance",
+      "intervals": 64,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.000182295390323858678905661370"
+    },
+    {
+      "label": "depth1_k2_seed49",
+      "degree": 3,
+      "decision": "within_tolerance",
+      "intervals": 64,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.000185978126308165595773101423"
+    },
+    {
+      "label": "depth1_k5_seed49",
+      "degree": 2,
+      "decision": "exceeds_tolerance",
+      "intervals": 128,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.0828155344708197528907246065"
+    },
+    {
+      "label": "depth1_k5_seed49",
+      "degree": 2,
+      "decision": "within_tolerance",
+      "intervals": 128,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.0844885764054438883717701775"
+    },
+    {
+      "label": "depth1_k5_seed49",
+      "degree": 3,
+      "decision": "exceeds_tolerance",
+      "intervals": 64,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.0828155344708197528907246065"
+    },
+    {
+      "label": "depth1_k5_seed49",
+      "degree": 3,
+      "decision": "within_tolerance",
+      "intervals": 64,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.0844885764054438883717701775"
+    },
+    {
+      "label": "depth3_k2_seed49",
+      "degree": 2,
+      "decision": "exceeds_tolerance",
+      "intervals": 256,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.00768284918452688940551279196"
+    },
+    {
+      "label": "depth3_k2_seed49",
+      "degree": 2,
+      "decision": "within_tolerance",
+      "intervals": 256,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.00783805827839817274071811968"
+    },
+    {
+      "label": "depth3_k2_seed49",
+      "degree": 3,
+      "decision": "exceeds_tolerance",
+      "intervals": 128,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.00768284918452688940551279196"
+    },
+    {
+      "label": "depth3_k2_seed49",
+      "degree": 3,
+      "decision": "within_tolerance",
+      "intervals": 128,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.00783805827839817274071811968"
+    },
+    {
+      "label": "depth3_k5_seed49",
+      "degree": 2,
+      "decision": "exceeds_tolerance",
+      "intervals": 512,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.0107109529501057089433019604"
+    },
+    {
+      "label": "depth3_k5_seed49",
+      "degree": 2,
+      "decision": "within_tolerance",
+      "intervals": 512,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.0109273358683395360313722413"
+    },
+    {
+      "label": "depth3_k5_seed49",
+      "degree": 3,
+      "decision": "exceeds_tolerance",
+      "intervals": 256,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.0107109529501057089433019604"
+    },
+    {
+      "label": "depth3_k5_seed49",
+      "degree": 3,
+      "decision": "within_tolerance",
+      "intervals": 256,
+      "effective_max_intervals": 4096,
+      "tolerance": "0.0109273358683395360313722413"
+    }
+  ]
+}

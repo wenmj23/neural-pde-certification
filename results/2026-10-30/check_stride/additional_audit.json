@@ -1,0 +1,29 @@
+{
+  "finite_certificates_checked": 3144,
+  "unique_original_kernel_meshes": 59,
+  "nested_steps_verified": 3993,
+  "intermediate_grids_not_certified": 1584,
+  "reference_and_exact_stopping_passed": true,
+  "repeated_grid_endpoints_equal": true,
+  "old_nodes_preserved": true,
+  "safety": [
+    {
+      "policy": "nested_left_stride2_125_16",
+      "zero_invalid_attempt_cap": true
+    },
+    {
+      "policy": "nested_left_stride3_125_16",
+      "zero_invalid_attempt_cap": true
+    },
+    {
+      "policy": "nested_spread_stride2_125_16",
+      "zero_invalid_attempt_cap": true
+    },
+    {
+      "policy": "nested_spread_stride3_125_16",
+      "zero_invalid_attempt_cap": true
+    }
+  ],
+  "requests": 384,
+  "successful": 384
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "name": "holdout_shallow_k2",
+  "problem": {
+    "operator": "-u_dd",
+    "source": "(k*pi)^2*sin(k*pi*x)",
+    "frequency": 2,
+    "domain": [
+      0,
+      1
+    ],
+    "boundary": [
+      0,
+      0
+    ]
+  },
+  "network": {
+    "fixture": "../frozen_networks_holdout_2026-10-30.json",
+    "label": "depth1_k2_seed49",
+    "sha256": "5e420cdbdb224be4ba2aa49456741715630ee09361f984203232b464c7cd82c7",
+    "output_transform": "x*(1-x)*raw_network(x)"
+  },
+  "verification": {
+    "degree": 3,
+    "mesh": "uniform",
+    "goal": "enclosure",
+    "gap_ratio": "1.02",
+    "error_tolerance": "0.001",
+    "initial_intervals": 16,
+    "max_intervals": 2048,
+    "max_attempts": 9,
+    "time_limit_seconds": "30",
+    "precision_bits": 103
+  }
+}

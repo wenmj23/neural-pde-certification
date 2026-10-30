@@ -1,0 +1,94 @@
+{
+  "depth1_k2_seed49": {
+    "lower": {
+      "numerator": "68893740330975805028984527195846871950753600137",
+      "denominator": "374144419156711147060143317175368453031918731001856",
+      "decimal_outward": "0.0001841367579028875544501630",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "564377523298726393212520246639568573462136959200105",
+      "denominator": "3064991081731777716716694054300618367237478244367204352",
+      "decimal_outward": "0.0001841367587209560354189123",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 80,
+    "error_point_evaluations": 145,
+    "residual_interval_evaluations": 224,
+    "elapsed_s": 0.4348724490000677,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth1_k5_seed49": {
+    "lower": {
+      "numerator": "244515230758660403253983065029046710068863375767",
+      "denominator": "2923003274661805836407369665432566039311865085952",
+      "decimal_outward": "0.08365205502103005342497435",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "500767197538094475626653114732563267021712982333919",
+      "denominator": "5986310706507378352962293074805895248510699696029696",
+      "decimal_outward": "0.08365205584697414690274275",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 26,
+    "error_point_evaluations": 91,
+    "residual_interval_evaluations": 116,
+    "elapsed_s": 0.26413145100013935,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth3_k2_seed49": {
+    "lower": {
+      "numerator": "1451765225057285320656633604278439014731531838215",
+      "denominator": "187072209578355573530071658587684226515959365500928",
+      "decimal_outward": "0.007760453721744332732841204",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "743303797072534987854485033679461481607508835538805",
+      "denominator": "95780971304118053647396689196894323976171195136475136",
+      "decimal_outward": "0.007760453740988289842295168",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 35,
+    "error_point_evaluations": 100,
+    "residual_interval_evaluations": 134,
+    "elapsed_s": 1.7041754279998713,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  },
+  "depth3_k5_seed49": {
+    "lower": {
+      "numerator": "8095844990165984210289113221060446997314523935765",
+      "denominator": "748288838313422294120286634350736906063837462003712",
+      "decimal_outward": "0.01081914439404617064979996",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "518134080809846056735209918405168050685485524275517",
+      "denominator": "47890485652059026823698344598447161988085597568237568",
+      "decimal_outward": "0.01081914442409855052611113",
+      "decimal_rounding": "up"
+    },
+    "converged": true,
+    "splits": 88,
+    "error_point_evaluations": 153,
+    "residual_interval_evaluations": 240,
+    "elapsed_s": 3.242364192000423,
+    "bits": 169,
+    "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+    "known_solution_used": true,
+    "used_by_certifier": false
+  }
+}

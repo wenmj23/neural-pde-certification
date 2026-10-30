@@ -1,0 +1,58 @@
+{
+  "scope": "Clean publish copy with existing Python dependencies; historical generated data absent; not a fresh install or independent audit.",
+  "compile_passed": true,
+  "checks": [
+    {
+      "case": "shallow_sine",
+      "goal_met": true,
+      "decision": "within_tolerance",
+      "lower": "0.0001030742167139374628133664",
+      "upper": "0.0001035295610842150411458560",
+      "intervals": 64
+    },
+    {
+      "case": "deep_sine",
+      "goal_met": true,
+      "decision": "exceeds_tolerance",
+      "lower": "0.003671744792396251308385509",
+      "upper": "0.003680263578664087826611556",
+      "intervals": 256
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "goal_met": true,
+      "decision": "within_tolerance",
+      "lower": "0.0001836783543401900180740277",
+      "upper": "0.0001845464793282729712700930",
+      "intervals": 64
+    },
+    {
+      "case": "holdout_deep_k5",
+      "goal_met": true,
+      "decision": "exceeds_tolerance",
+      "lower": "0.01081584656156792789260274",
+      "upper": "0.01082243993834075527085091",
+      "intervals": 256
+    },
+    {
+      "case": "holdout_deep_k5",
+      "tolerance": "0.01",
+      "cap": null,
+      "decision": "exceeds_tolerance",
+      "exit_code": 0
+    },
+    {
+      "case": "holdout_shallow_k2",
+      "tolerance": "0.00018",
+      "cap": 16,
+      "decision": "undetermined",
+      "exit_code": 2
+    }
+  ],
+  "previous_commit": "74fae9fc76a2285285a57991750a034ceaedd17b",
+  "previous_published_files_verified_by_blob_sha": 208,
+  "degree_procedure_checks": 44,
+  "mesh_procedure_checks": 100,
+  "prelocked_fixture_and_source_hashes_match": true,
+  "all_curated_json_readable": true
+}

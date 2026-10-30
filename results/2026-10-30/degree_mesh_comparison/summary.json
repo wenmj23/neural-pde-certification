@@ -1,0 +1,3110 @@
+[
+  {
+    "label": "depth1_k2_seed49",
+    "target": "51/50",
+    "policy": "fixed2",
+    "successes": 3,
+    "median_ms": 124.51891900036571,
+    "wall_ms": [
+      134.54493700010062,
+      124.51891900036571,
+      105.54196100019908
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 497
+      },
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 497
+      },
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 497
+      }
+    ]
+  },
+  {
+    "label": "depth1_k2_seed49",
+    "target": "51/50",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 76.86749799995596,
+    "wall_ms": [
+      72.23552300001757,
+      79.68868100033433,
+      76.86749799995596
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k2_seed49",
+    "target": "51/50",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 117.72565499995835,
+    "wall_ms": [
+      113.65773800025636,
+      117.72565499995835,
+      144.3167369998264
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 497
+      },
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 497
+      },
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 497
+      }
+    ]
+  },
+  {
+    "label": "depth1_k2_seed49",
+    "target": "51/50",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 80.06855199982965,
+    "wall_ms": [
+      80.06855199982965,
+      78.3152579997477,
+      88.92202200058819
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k2_seed49",
+    "target": "51/50",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 76.23582699943654,
+    "wall_ms": [
+      74.14630800030864,
+      76.23582699943654,
+      76.66428899938182
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k2_seed49",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 71.88095499986957,
+    "wall_ms": [
+      73.22934599960718,
+      71.34654600031354,
+      71.88095499986957
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k2_seed49",
+    "target": "201/200",
+    "policy": "fixed2",
+    "successes": 3,
+    "median_ms": 216.93693999986863,
+    "wall_ms": [
+      216.93693999986863,
+      235.48274699987815,
+      210.33615000033024
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      }
+    ]
+  },
+  {
+    "label": "depth1_k2_seed49",
+    "target": "201/200",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 72.0227360006902,
+    "wall_ms": [
+      72.0227360006902,
+      75.88161500007118,
+      69.01324200043746
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k2_seed49",
+    "target": "201/200",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 266.2016739996034,
+    "wall_ms": [
+      266.2016739996034,
+      267.26757399956114,
+      236.7040730005101
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      }
+    ]
+  },
+  {
+    "label": "depth1_k2_seed49",
+    "target": "201/200",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 82.30585199999041,
+    "wall_ms": [
+      82.30585199999041,
+      83.12570300040534,
+      80.78233000014734
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k2_seed49",
+    "target": "201/200",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 81.95628700013913,
+    "wall_ms": [
+      81.95628700013913,
+      78.59956700031034,
+      85.5174509997596
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k2_seed49",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 74.49806700060435,
+    "wall_ms": [
+      73.56504099971062,
+      74.49806700060435,
+      104.17749499993079
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k5_seed49",
+    "target": "51/50",
+    "policy": "fixed2",
+    "successes": 3,
+    "median_ms": 116.08127300041815,
+    "wall_ms": [
+      116.08127300041815,
+      126.10480100011046,
+      101.15235700050107
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 497
+      },
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 497
+      },
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 497
+      }
+    ]
+  },
+  {
+    "label": "depth1_k5_seed49",
+    "target": "51/50",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 80.41339299961692,
+    "wall_ms": [
+      80.45044600021356,
+      80.41339299961692,
+      69.91945499976282
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k5_seed49",
+    "target": "51/50",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 121.46656400000211,
+    "wall_ms": [
+      121.46656400000211,
+      129.49449600000662,
+      114.80547599967394
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 497
+      },
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 497
+      },
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 497
+      }
+    ]
+  },
+  {
+    "label": "depth1_k5_seed49",
+    "target": "51/50",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 81.4715790002083,
+    "wall_ms": [
+      86.48922100019263,
+      81.4715790002083,
+      77.66553700002987
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k5_seed49",
+    "target": "51/50",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 81.50755299993762,
+    "wall_ms": [
+      85.42888700048934,
+      81.50755299993762,
+      73.58020899937401
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k5_seed49",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 72.24567600042064,
+    "wall_ms": [
+      125.40416699994239,
+      72.24567600042064,
+      70.27733200084185
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k5_seed49",
+    "target": "201/200",
+    "policy": "fixed2",
+    "successes": 3,
+    "median_ms": 248.51316800049972,
+    "wall_ms": [
+      290.25158200056467,
+      248.51316800049972,
+      222.51317300015216
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      }
+    ]
+  },
+  {
+    "label": "depth1_k5_seed49",
+    "target": "201/200",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 76.43309400009457,
+    "wall_ms": [
+      105.16762699990068,
+      71.65475199963112,
+      76.43309400009457
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k5_seed49",
+    "target": "201/200",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 290.1953689997754,
+    "wall_ms": [
+      290.1953689997754,
+      260.87480499973026,
+      297.1360850006022
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      }
+    ]
+  },
+  {
+    "label": "depth1_k5_seed49",
+    "target": "201/200",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 92.8117920002478,
+    "wall_ms": [
+      87.60213200002909,
+      96.29103900078917,
+      92.8117920002478
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k5_seed49",
+    "target": "201/200",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 85.65898899996682,
+    "wall_ms": [
+      98.52603699982865,
+      85.65898899996682,
+      83.00707200032775
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth1_k5_seed49",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 85.01715100010188,
+    "wall_ms": [
+      99.84817200074758,
+      85.01715100010188,
+      73.59850600005302
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": 305
+      }
+    ]
+  },
+  {
+    "label": "depth3_k2_seed49",
+    "target": "51/50",
+    "policy": "fixed2",
+    "successes": 3,
+    "median_ms": 679.3695480000679,
+    "wall_ms": [
+      730.2409009998883,
+      678.1362140000056,
+      679.3695480000679
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      }
+    ]
+  },
+  {
+    "label": "depth3_k2_seed49",
+    "target": "51/50",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 474.8164069997074,
+    "wall_ms": [
+      487.50765200020396,
+      451.5260349999153,
+      474.8164069997074
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k2_seed49",
+    "target": "51/50",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 751.3040470003034,
+    "wall_ms": [
+      776.472016000298,
+      742.4962949999099,
+      751.3040470003034
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      }
+    ]
+  },
+  {
+    "label": "depth3_k2_seed49",
+    "target": "51/50",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 472.70829700028116,
+    "wall_ms": [
+      470.80292199916585,
+      510.5509590002839,
+      472.70829700028116
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k2_seed49",
+    "target": "51/50",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 481.4343559992267,
+    "wall_ms": [
+      495.5796709991773,
+      481.4343559992267,
+      471.7649940002957
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k2_seed49",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 489.48423199999525,
+    "wall_ms": [
+      540.4769819997455,
+      474.42018800029473,
+      489.48423199999525
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k2_seed49",
+    "target": "201/200",
+    "policy": "fixed2",
+    "successes": 3,
+    "median_ms": 700.6107729994255,
+    "wall_ms": [
+      862.4903589998212,
+      700.6107729994255,
+      674.611580000601
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      }
+    ]
+  },
+  {
+    "label": "depth3_k2_seed49",
+    "target": "201/200",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 465.1749290005682,
+    "wall_ms": [
+      496.9163269997807,
+      436.2607540006138,
+      465.1749290005682
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k2_seed49",
+    "target": "201/200",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 693.8346150000143,
+    "wall_ms": [
+      710.402730000169,
+      692.593644000226,
+      693.8346150000143
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1009
+      }
+    ]
+  },
+  {
+    "label": "depth3_k2_seed49",
+    "target": "201/200",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 463.30200000011246,
+    "wall_ms": [
+      473.94709199943463,
+      444.361740000204,
+      463.30200000011246
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k2_seed49",
+    "target": "201/200",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 455.0357319994873,
+    "wall_ms": [
+      449.4337939995603,
+      459.3154299991511,
+      455.0357319994873
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k2_seed49",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 467.32642199913244,
+    "wall_ms": [
+      438.5585229993012,
+      467.32642199913244,
+      470.9555179997551
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed49",
+    "target": "51/50",
+    "policy": "fixed2",
+    "successes": 3,
+    "median_ms": 1352.5520759994833,
+    "wall_ms": [
+      1352.5520759994833,
+      1384.573500999977,
+      1350.6144749999294
+    ],
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1025,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": 2033
+      },
+      {
+        "residual_evaluations": 1025,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": 2033
+      },
+      {
+        "residual_evaluations": 1025,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": 2033
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed49",
+    "target": "51/50",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 933.4882319999451,
+    "wall_ms": [
+      973.2153069999185,
+      933.4882319999451,
+      923.5085620002792
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed49",
+    "target": "51/50",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 1432.561405999877,
+    "wall_ms": [
+      1468.8994669995736,
+      1432.561405999877,
+      1406.4559720000034
+    ],
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1025,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": 2033
+      },
+      {
+        "residual_evaluations": 1025,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": 2033
+      },
+      {
+        "residual_evaluations": 1025,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": 2033
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed49",
+    "target": "51/50",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 965.0692889999846,
+    "wall_ms": [
+      933.9955590003228,
+      1016.1249169996154,
+      965.0692889999846
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed49",
+    "target": "51/50",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 975.0400040002205,
+    "wall_ms": [
+      1016.3518749996001,
+      964.1145899995536,
+      975.0400040002205
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed49",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 914.5085589998416,
+    "wall_ms": [
+      881.4606599999024,
+      931.507352999688,
+      914.5085589998416
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed49",
+    "target": "201/200",
+    "policy": "fixed2",
+    "successes": 3,
+    "median_ms": 1375.8395220002058,
+    "wall_ms": [
+      1292.8091310004675,
+      1375.8395220002058,
+      1382.6538630000869
+    ],
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1025,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": 2033
+      },
+      {
+        "residual_evaluations": 1025,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": 2033
+      },
+      {
+        "residual_evaluations": 1025,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": 2033
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed49",
+    "target": "201/200",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 941.0949210005128,
+    "wall_ms": [
+      941.0949210005128,
+      918.3784400001969,
+      988.62564799947
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed49",
+    "target": "201/200",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 1461.9247810005618,
+    "wall_ms": [
+      1461.9247810005618,
+      1371.3442450007278,
+      1499.3829799996092
+    ],
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1025,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": 2033
+      },
+      {
+        "residual_evaluations": 1025,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": 2033
+      },
+      {
+        "residual_evaluations": 1025,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": 2033
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed49",
+    "target": "201/200",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 984.3600110007173,
+    "wall_ms": [
+      945.6716360000428,
+      984.3600110007173,
+      1054.8912160002146
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed49",
+    "target": "201/200",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 991.7601090000971,
+    "wall_ms": [
+      955.6445589996656,
+      997.3555010001292,
+      991.7601090000971
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed49",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 906.4499469996008,
+    "wall_ms": [
+      871.3350149992038,
+      947.4635520000447,
+      906.4499469996008
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "shift_034_sigma003",
+    "target": "51/50",
+    "policy": "fixed2",
+    "successes": 0,
+    "median_ms": 785.3170600001249,
+    "wall_ms": [
+      726.0478909993253,
+      785.3170600001249,
+      901.066988999446
+    ],
+    "final_intervals": [
+      4096,
+      4096,
+      4096
+    ],
+    "work": [
+      {
+        "residual_evaluations": 8193,
+        "derivative_interval_evaluations": 8176,
+        "polynomial_cell_visits": 8176,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 8193,
+        "derivative_interval_evaluations": 8176,
+        "polynomial_cell_visits": 8176,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 8193,
+        "derivative_interval_evaluations": 8176,
+        "polynomial_cell_visits": 8176,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_034_sigma003",
+    "target": "51/50",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 617.8571189993818,
+    "wall_ms": [
+      585.6431470001553,
+      617.8571189993818,
+      671.4496149998013
+    ],
+    "final_intervals": [
+      2048,
+      2048,
+      2048
+    ],
+    "work": [
+      {
+        "residual_evaluations": 6145,
+        "derivative_interval_evaluations": 4080,
+        "polynomial_cell_visits": 4080,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6145,
+        "derivative_interval_evaluations": 4080,
+        "polynomial_cell_visits": 4080,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6145,
+        "derivative_interval_evaluations": 4080,
+        "polynomial_cell_visits": 4080,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_034_sigma003",
+    "target": "51/50",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 81.07793799990759,
+    "wall_ms": [
+      78.1659740005125,
+      85.45008300006884,
+      81.07793799990759
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_034_sigma003",
+    "target": "51/50",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 57.49322799965739,
+    "wall_ms": [
+      55.436483999983466,
+      60.057546999814804,
+      57.49322799965739
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_034_sigma003",
+    "target": "51/50",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 19.534639000085008,
+    "wall_ms": [
+      19.315811000524263,
+      19.534639000085008,
+      23.43599899995752
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_034_sigma003",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 21.082756999931007,
+    "wall_ms": [
+      19.514032999722986,
+      27.068493000115268,
+      21.082756999931007
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_034_sigma003",
+    "target": "201/200",
+    "policy": "fixed2",
+    "successes": 0,
+    "median_ms": 747.7041920001284,
+    "wall_ms": [
+      747.7041920001284,
+      720.9887589997379,
+      781.9472680002946
+    ],
+    "final_intervals": [
+      4096,
+      4096,
+      4096
+    ],
+    "work": [
+      {
+        "residual_evaluations": 8193,
+        "derivative_interval_evaluations": 8176,
+        "polynomial_cell_visits": 8176,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 8193,
+        "derivative_interval_evaluations": 8176,
+        "polynomial_cell_visits": 8176,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 8193,
+        "derivative_interval_evaluations": 8176,
+        "polynomial_cell_visits": 8176,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_034_sigma003",
+    "target": "201/200",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 1268.6870959996668,
+    "wall_ms": [
+      1268.6870959996668,
+      1319.0961049995167,
+      1265.0971550001486
+    ],
+    "final_intervals": [
+      4096,
+      4096,
+      4096
+    ],
+    "work": [
+      {
+        "residual_evaluations": 12289,
+        "derivative_interval_evaluations": 8176,
+        "polynomial_cell_visits": 8176,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 12289,
+        "derivative_interval_evaluations": 8176,
+        "polynomial_cell_visits": 8176,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 12289,
+        "derivative_interval_evaluations": 8176,
+        "polynomial_cell_visits": 8176,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_034_sigma003",
+    "target": "201/200",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 80.53877700058365,
+    "wall_ms": [
+      77.04366500001925,
+      80.53877700058365,
+      111.53333400034171
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_034_sigma003",
+    "target": "201/200",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 57.179498000550666,
+    "wall_ms": [
+      55.524253999465145,
+      57.179498000550666,
+      85.67678699910175
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_034_sigma003",
+    "target": "201/200",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 39.54792200056545,
+    "wall_ms": [
+      38.41592699973262,
+      39.54792200056545,
+      41.052440000385104
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_034_sigma003",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 39.10759500013228,
+    "wall_ms": [
+      39.069397000275785,
+      39.10759500013228,
+      41.41601300034381
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_031_sigma040",
+    "target": "51/50",
+    "policy": "fixed2",
+    "successes": 3,
+    "median_ms": 44.04718800014962,
+    "wall_ms": [
+      42.715315999885206,
+      44.04718800014962,
+      45.89555199981987
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_031_sigma040",
+    "target": "51/50",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 35.35674399972777,
+    "wall_ms": [
+      33.246789000259014,
+      35.35674399972777,
+      39.05375699923752
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_031_sigma040",
+    "target": "51/50",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 14.553311999407015,
+    "wall_ms": [
+      14.553311999407015,
+      16.08654400024534,
+      14.41049799996108
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 129,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 129,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 129,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_031_sigma040",
+    "target": "51/50",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 22.511287999805063,
+    "wall_ms": [
+      22.511287999805063,
+      22.787007000260928,
+      21.924030000263883
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_031_sigma040",
+    "target": "51/50",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 18.58467800047947,
+    "wall_ms": [
+      18.58467800047947,
+      17.45499599928735,
+      21.442471999762347
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_031_sigma040",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 22.415488000660844,
+    "wall_ms": [
+      22.415488000660844,
+      17.524558000332036,
+      23.243040000124893
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_031_sigma040",
+    "target": "201/200",
+    "policy": "fixed2",
+    "successes": 3,
+    "median_ms": 48.698513000090315,
+    "wall_ms": [
+      43.27547899993078,
+      52.074000999709824,
+      48.698513000090315
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_031_sigma040",
+    "target": "201/200",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 34.69974400013598,
+    "wall_ms": [
+      34.69974400013598,
+      34.55508099978033,
+      37.87109699987923
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_031_sigma040",
+    "target": "201/200",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 34.094024000296486,
+    "wall_ms": [
+      34.094024000296486,
+      33.817655999882845,
+      38.309242000650556
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 257,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_031_sigma040",
+    "target": "201/200",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 25.22354299981089,
+    "wall_ms": [
+      21.85190000000148,
+      26.224811999782105,
+      25.22354299981089
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_031_sigma040",
+    "target": "201/200",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 20.525410000118427,
+    "wall_ms": [
+      20.525410000118427,
+      19.115416999738954,
+      21.607134000078076
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_031_sigma040",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 20.12536300026113,
+    "wall_ms": [
+      18.415338000522752,
+      21.14608300053078,
+      20.12536300026113
+    ],
+    "final_intervals": [
+      64,
+      64,
+      64
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "double_021_068",
+    "target": "51/50",
+    "policy": "fixed2",
+    "successes": 3,
+    "median_ms": 241.57169999944017,
+    "wall_ms": [
+      241.57169999944017,
+      248.0775480007651,
+      238.7762139996994
+    ],
+    "final_intervals": [
+      1024,
+      1024,
+      1024
+    ],
+    "work": [
+      {
+        "residual_evaluations": 2049,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2049,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2049,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "double_021_068",
+    "target": "51/50",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 210.9423070005505,
+    "wall_ms": [
+      184.1669820005336,
+      225.77569199984282,
+      210.9423070005505
+    ],
+    "final_intervals": [
+      512,
+      512,
+      512
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "double_021_068",
+    "target": "51/50",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 88.14510000047449,
+    "wall_ms": [
+      83.81780200033973,
+      89.62913200048206,
+      88.14510000047449
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "double_021_068",
+    "target": "51/50",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 62.678653999682865,
+    "wall_ms": [
+      61.507168000389356,
+      62.678653999682865,
+      64.2218689999936
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "double_021_068",
+    "target": "51/50",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 50.96789399976842,
+    "wall_ms": [
+      48.758488000203215,
+      50.96789399976842,
+      54.709166000066034
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "double_021_068",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 50.309176000155276,
+    "wall_ms": [
+      49.824414999420696,
+      50.309176000155276,
+      53.65364299996145
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "double_021_068",
+    "target": "201/200",
+    "policy": "fixed2",
+    "successes": 3,
+    "median_ms": 484.50325499925384,
+    "wall_ms": [
+      484.50325499925384,
+      482.9611119994297,
+      506.2959189999674
+    ],
+    "final_intervals": [
+      2048,
+      2048,
+      2048
+    ],
+    "work": [
+      {
+        "residual_evaluations": 4097,
+        "derivative_interval_evaluations": 4080,
+        "polynomial_cell_visits": 4080,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 4097,
+        "derivative_interval_evaluations": 4080,
+        "polynomial_cell_visits": 4080,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 4097,
+        "derivative_interval_evaluations": 4080,
+        "polynomial_cell_visits": 4080,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "double_021_068",
+    "target": "201/200",
+    "policy": "fixed3",
+    "successes": 3,
+    "median_ms": 374.60361200010084,
+    "wall_ms": [
+      374.60361200010084,
+      368.5161440007505,
+      379.26921599955676
+    ],
+    "final_intervals": [
+      1024,
+      1024,
+      1024
+    ],
+    "work": [
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "double_021_068",
+    "target": "201/200",
+    "policy": "quadratic_adaptive16",
+    "successes": 3,
+    "median_ms": 87.67724799963617,
+    "wall_ms": [
+      85.30714500011527,
+      118.30697100049292,
+      87.67724799963617
+    ],
+    "final_intervals": [
+      256,
+      256,
+      256
+    ],
+    "work": [
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 513,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "double_021_068",
+    "target": "201/200",
+    "policy": "cubic_adaptive16",
+    "successes": 3,
+    "median_ms": 63.77207200057455,
+    "wall_ms": [
+      61.43148499995732,
+      95.71905799930391,
+      63.77207200057455
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "double_021_068",
+    "target": "201/200",
+    "policy": "cubic_heap16",
+    "successes": 3,
+    "median_ms": 65.58408599994436,
+    "wall_ms": [
+      49.21879999983503,
+      65.58408599994436,
+      69.65696699990076
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "double_021_068",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_ms": 55.119088000537886,
+    "wall_ms": [
+      48.90824399990379,
+      55.119088000537886,
+      55.18033299995295
+    ],
+    "final_intervals": [
+      128,
+      128,
+      128
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "finite_ranges_checked": 3714,
+  "original_auto_and_nested_meshes": 65,
+  "reconstructed_nested_steps": 2025,
+  "max_segment_width_ratio": "2",
+  "nested_original_nodes_preserved": true,
+  "reference_and_exact_stopping_passed": true,
+  "repeated_grid_endpoints_equal": true,
+  "safety": [
+    {
+      "policy": "nested_left15_16",
+      "zero_invalid_and_budget": true
+    },
+    {
+      "policy": "nested_left125_16",
+      "zero_invalid_and_budget": true
+    },
+    {
+      "policy": "nested_spread15_16",
+      "zero_invalid_and_budget": true
+    },
+    {
+      "policy": "nested_spread125_16",
+      "zero_invalid_and_budget": true
+    }
+  ],
+  "requests": 384,
+  "successful": 384
+}

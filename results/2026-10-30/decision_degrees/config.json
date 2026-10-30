@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "fixture_sha256": "5e420cdbdb224be4ba2aa49456741715630ee09361f984203232b464c7cd82c7",
+  "case_labels": [
+    "depth1_k2_seed49",
+    "depth1_k5_seed49",
+    "depth3_k2_seed49",
+    "depth3_k5_seed49"
+  ],
+  "degrees": [
+    2,
+    3
+  ],
+  "tolerances": [
+    "0.001",
+    "0.01",
+    "0.1"
+  ],
+  "extra_budget_case": "depth1_k2_seed49, tolerance 0.00018, max_intervals 16",
+  "scope": "Public CLI decision; degree and tolerance varied. Non-pre-registered; no timed speed claims.",
+  "driver_sha256": "247bc481d49e3ece1bcca828fd3c6f0aff39c602a40d8ce18a61cb647ffdce2d",
+  "requests": 26,
+  "goal_met": 24
+}

@@ -1,0 +1,6018 @@
+[
+  {
+    "label": "depth1_k1_seed7",
+    "target": "51/50",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 36.58674200005407,
+    "wall_ms": [
+      36.58674200005407,
+      37.898997999946005,
+      33.45856899977662
+    ],
+    "intervals": [
+      32,
+      32,
+      32
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 48,
+        "problem_forward_calls": 145
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 48,
+        "problem_forward_calls": 145
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 48,
+        "problem_forward_calls": 145
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "51/50",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 32.29877800004033,
+    "wall_ms": [
+      32.29877800004033,
+      35.321771999861085,
+      30.400006000036228
+    ],
+    "intervals": [
+      24,
+      24,
+      24
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 40,
+        "polynomial_cell_visits": 40,
+        "problem_forward_calls": 137
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 40,
+        "polynomial_cell_visits": 40,
+        "problem_forward_calls": 137
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 40,
+        "polynomial_cell_visits": 40,
+        "problem_forward_calls": 137
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "51/50",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 32.92275500007236,
+    "wall_ms": [
+      32.92275500007236,
+      39.44394500013004,
+      29.670791000171448
+    ],
+    "intervals": [
+      20,
+      20,
+      20
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 36,
+        "polynomial_cell_visits": 36,
+        "problem_forward_calls": 133
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 36,
+        "polynomial_cell_visits": 36,
+        "problem_forward_calls": 133
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 36,
+        "polynomial_cell_visits": 36,
+        "problem_forward_calls": 133
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 36.15430599984393,
+    "wall_ms": [
+      36.15430599984393,
+      37.04387500010853,
+      36.05244899972604
+    ],
+    "intervals": [
+      32,
+      32,
+      32
+    ],
+    "routes": [
+      "uniform",
+      "uniform",
+      "uniform"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 48,
+        "problem_forward_calls": 145
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 48,
+        "problem_forward_calls": 145
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 48,
+        "problem_forward_calls": 145
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "51/50",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 26.865158000418887,
+    "wall_ms": [
+      25.60272199980318,
+      26.865158000418887,
+      31.842288999996526
+    ],
+    "intervals": [
+      24,
+      24,
+      24
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 73,
+        "derivative_interval_evaluations": 32,
+        "polynomial_cell_visits": 40,
+        "problem_forward_calls": 105
+      },
+      {
+        "residual_evaluations": 73,
+        "derivative_interval_evaluations": 32,
+        "polynomial_cell_visits": 40,
+        "problem_forward_calls": 105
+      },
+      {
+        "residual_evaluations": 73,
+        "derivative_interval_evaluations": 32,
+        "polynomial_cell_visits": 40,
+        "problem_forward_calls": 105
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "51/50",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 22.28935899984208,
+    "wall_ms": [
+      21.353566000016144,
+      22.28935899984208,
+      32.03349000023081
+    ],
+    "intervals": [
+      20,
+      20,
+      20
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 61,
+        "derivative_interval_evaluations": 24,
+        "polynomial_cell_visits": 36,
+        "problem_forward_calls": 85
+      },
+      {
+        "residual_evaluations": 61,
+        "derivative_interval_evaluations": 24,
+        "polynomial_cell_visits": 36,
+        "problem_forward_calls": 85
+      },
+      {
+        "residual_evaluations": 61,
+        "derivative_interval_evaluations": 24,
+        "polynomial_cell_visits": 36,
+        "problem_forward_calls": 85
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "51/50",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 26.67027200004668,
+    "wall_ms": [
+      26.67027200004668,
+      27.873939000073733,
+      26.173881999966397
+    ],
+    "intervals": [
+      24,
+      24,
+      24
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 73,
+        "derivative_interval_evaluations": 32,
+        "polynomial_cell_visits": 40,
+        "problem_forward_calls": 105
+      },
+      {
+        "residual_evaluations": 73,
+        "derivative_interval_evaluations": 32,
+        "polynomial_cell_visits": 40,
+        "problem_forward_calls": 105
+      },
+      {
+        "residual_evaluations": 73,
+        "derivative_interval_evaluations": 32,
+        "polynomial_cell_visits": 40,
+        "problem_forward_calls": 105
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "51/50",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 21.412460999727045,
+    "wall_ms": [
+      20.864116000211652,
+      22.74112299983244,
+      21.412460999727045
+    ],
+    "intervals": [
+      20,
+      20,
+      20
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 61,
+        "derivative_interval_evaluations": 24,
+        "polynomial_cell_visits": 36,
+        "problem_forward_calls": 85
+      },
+      {
+        "residual_evaluations": 61,
+        "derivative_interval_evaluations": 24,
+        "polynomial_cell_visits": 36,
+        "problem_forward_calls": 85
+      },
+      {
+        "residual_evaluations": 61,
+        "derivative_interval_evaluations": 24,
+        "polynomial_cell_visits": 36,
+        "problem_forward_calls": 85
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "201/200",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 33.92836399962107,
+    "wall_ms": [
+      33.92836399962107,
+      33.466554999904474,
+      40.513448000183416
+    ],
+    "intervals": [
+      32,
+      32,
+      32
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 48,
+        "problem_forward_calls": 145
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 48,
+        "problem_forward_calls": 145
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 48,
+        "problem_forward_calls": 145
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "201/200",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 55.926055999862,
+    "wall_ms": [
+      55.926055999862,
+      55.47674699982963,
+      59.239983999759716
+    ],
+    "intervals": [
+      36,
+      36,
+      36
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 169,
+        "derivative_interval_evaluations": 76,
+        "polynomial_cell_visits": 76,
+        "problem_forward_calls": 245
+      },
+      {
+        "residual_evaluations": 169,
+        "derivative_interval_evaluations": 76,
+        "polynomial_cell_visits": 76,
+        "problem_forward_calls": 245
+      },
+      {
+        "residual_evaluations": 169,
+        "derivative_interval_evaluations": 76,
+        "polynomial_cell_visits": 76,
+        "problem_forward_calls": 245
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "201/200",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 48.42277399984596,
+    "wall_ms": [
+      48.42277399984596,
+      46.82666500002597,
+      59.34869400016396
+    ],
+    "intervals": [
+      25,
+      25,
+      25
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 157,
+        "derivative_interval_evaluations": 61,
+        "polynomial_cell_visits": 61,
+        "problem_forward_calls": 218
+      },
+      {
+        "residual_evaluations": 157,
+        "derivative_interval_evaluations": 61,
+        "polynomial_cell_visits": 61,
+        "problem_forward_calls": 218
+      },
+      {
+        "residual_evaluations": 157,
+        "derivative_interval_evaluations": 61,
+        "polynomial_cell_visits": 61,
+        "problem_forward_calls": 218
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 37.486081999759335,
+    "wall_ms": [
+      35.38287199990009,
+      37.486081999759335,
+      37.85314000015205
+    ],
+    "intervals": [
+      32,
+      32,
+      32
+    ],
+    "routes": [
+      "uniform",
+      "uniform",
+      "uniform"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 48,
+        "problem_forward_calls": 145
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 48,
+        "problem_forward_calls": 145
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 48,
+        "problem_forward_calls": 145
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "201/200",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 43.32475599994723,
+    "wall_ms": [
+      40.738986999713234,
+      43.32475599994723,
+      44.2619279997416
+    ],
+    "intervals": [
+      36,
+      36,
+      36
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 109,
+        "derivative_interval_evaluations": 56,
+        "polynomial_cell_visits": 76,
+        "problem_forward_calls": 165
+      },
+      {
+        "residual_evaluations": 109,
+        "derivative_interval_evaluations": 56,
+        "polynomial_cell_visits": 76,
+        "problem_forward_calls": 165
+      },
+      {
+        "residual_evaluations": 109,
+        "derivative_interval_evaluations": 56,
+        "polynomial_cell_visits": 76,
+        "problem_forward_calls": 165
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "201/200",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 44.401032000223495,
+    "wall_ms": [
+      39.21037999998589,
+      44.401032000223495,
+      45.2745889997459
+    ],
+    "intervals": [
+      32,
+      32,
+      32
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 93,
+        "problem_forward_calls": 145
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 93,
+        "problem_forward_calls": 145
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 93,
+        "problem_forward_calls": 145
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "201/200",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 45.2006639998217,
+    "wall_ms": [
+      40.808779999679246,
+      45.2006639998217,
+      45.349875000283646
+    ],
+    "intervals": [
+      36,
+      36,
+      36
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 109,
+        "derivative_interval_evaluations": 56,
+        "polynomial_cell_visits": 76,
+        "problem_forward_calls": 165
+      },
+      {
+        "residual_evaluations": 109,
+        "derivative_interval_evaluations": 56,
+        "polynomial_cell_visits": 76,
+        "problem_forward_calls": 165
+      },
+      {
+        "residual_evaluations": 109,
+        "derivative_interval_evaluations": 56,
+        "polynomial_cell_visits": 76,
+        "problem_forward_calls": 165
+      }
+    ]
+  },
+  {
+    "label": "depth1_k1_seed7",
+    "target": "201/200",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 40.129871999852185,
+    "wall_ms": [
+      40.129871999852185,
+      37.86690000015369,
+      41.98574599968197
+    ],
+    "intervals": [
+      32,
+      32,
+      32
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 93,
+        "problem_forward_calls": 145
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 93,
+        "problem_forward_calls": 145
+      },
+      {
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48,
+        "polynomial_cell_visits": 93,
+        "problem_forward_calls": 145
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "51/50",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 1004.7560620000695,
+    "wall_ms": [
+      902.2993220000899,
+      1004.7560620000695,
+      1012.3629049999181
+    ],
+    "intervals": [
+      256,
+      256,
+      256
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "51/50",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 1199.1098509997755,
+    "wall_ms": [
+      1181.9199080000544,
+      1237.4948330002553,
+      1199.1098509997755
+    ],
+    "intervals": [
+      183,
+      183,
+      183
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1159,
+        "derivative_interval_evaluations": 516,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 1675
+      },
+      {
+        "residual_evaluations": 1159,
+        "derivative_interval_evaluations": 516,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 1675
+      },
+      {
+        "residual_evaluations": 1159,
+        "derivative_interval_evaluations": 516,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 1675
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "51/50",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 2210.8124400001543,
+    "wall_ms": [
+      2210.8124400001543,
+      2254.847334999795,
+      2175.7757970003695
+    ],
+    "intervals": [
+      194,
+      194,
+      194
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 2299,
+        "derivative_interval_evaluations": 897,
+        "polynomial_cell_visits": 897,
+        "problem_forward_calls": 3196
+      },
+      {
+        "residual_evaluations": 2299,
+        "derivative_interval_evaluations": 897,
+        "polynomial_cell_visits": 897,
+        "problem_forward_calls": 3196
+      },
+      {
+        "residual_evaluations": 2299,
+        "derivative_interval_evaluations": 897,
+        "polynomial_cell_visits": 897,
+        "problem_forward_calls": 3196
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 996.6941819998283,
+    "wall_ms": [
+      960.3592220000792,
+      996.6941819998283,
+      1112.388111999735
+    ],
+    "intervals": [
+      256,
+      256,
+      256
+    ],
+    "routes": [
+      "heap",
+      "heap",
+      "heap"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "51/50",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 1062.3072230000616,
+    "wall_ms": [
+      984.4519749999563,
+      1102.0002990003377,
+      1062.3072230000616
+    ],
+    "intervals": [
+      275,
+      275,
+      275
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      },
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      },
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "51/50",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 974.99119899976,
+    "wall_ms": [
+      996.113766000235,
+      967.7594959998714,
+      974.99119899976
+    ],
+    "intervals": [
+      243,
+      243,
+      243
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 730,
+        "derivative_interval_evaluations": 470,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 1200
+      },
+      {
+        "residual_evaluations": 730,
+        "derivative_interval_evaluations": 470,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 1200
+      },
+      {
+        "residual_evaluations": 730,
+        "derivative_interval_evaluations": 470,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 1200
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "51/50",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 1110.1575810002942,
+    "wall_ms": [
+      1110.1575810002942,
+      1081.1508190004133,
+      1163.1126440001935
+    ],
+    "intervals": [
+      275,
+      275,
+      275
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      },
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      },
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "51/50",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 1006.9581809998454,
+    "wall_ms": [
+      966.2589229997138,
+      1006.9581809998454,
+      1008.409331999701
+    ],
+    "intervals": [
+      243,
+      243,
+      243
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 730,
+        "derivative_interval_evaluations": 470,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 1200
+      },
+      {
+        "residual_evaluations": 730,
+        "derivative_interval_evaluations": 470,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 1200
+      },
+      {
+        "residual_evaluations": 730,
+        "derivative_interval_evaluations": 470,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 1200
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "201/200",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 968.1930850001663,
+    "wall_ms": [
+      966.2730529998953,
+      968.1930850001663,
+      1042.8215299998556
+    ],
+    "intervals": [
+      256,
+      256,
+      256
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "201/200",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 1874.5941649999622,
+    "wall_ms": [
+      1936.9754240001384,
+      1859.6629870003198,
+      1874.5941649999622
+    ],
+    "intervals": [
+      275,
+      275,
+      275
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1981,
+        "derivative_interval_evaluations": 791,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 2772
+      },
+      {
+        "residual_evaluations": 1981,
+        "derivative_interval_evaluations": 791,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 2772
+      },
+      {
+        "residual_evaluations": 1981,
+        "derivative_interval_evaluations": 791,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 2772
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "201/200",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 2704.9154700002873,
+    "wall_ms": [
+      2665.1956010000504,
+      2901.417357000355,
+      2704.9154700002873
+    ],
+    "intervals": [
+      243,
+      243,
+      243
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 3001,
+        "derivative_interval_evaluations": 1140,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 4141
+      },
+      {
+        "residual_evaluations": 3001,
+        "derivative_interval_evaluations": 1140,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 4141
+      },
+      {
+        "residual_evaluations": 3001,
+        "derivative_interval_evaluations": 1140,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 4141
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 958.09484099982,
+    "wall_ms": [
+      958.09484099982,
+      970.7667740003671,
+      957.0287339997776
+    ],
+    "intervals": [
+      256,
+      256,
+      256
+    ],
+    "routes": [
+      "heap",
+      "heap",
+      "heap"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "201/200",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 1065.68168900003,
+    "wall_ms": [
+      1071.9603509996887,
+      1065.68168900003,
+      1047.1452920000957
+    ],
+    "intervals": [
+      275,
+      275,
+      275
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      },
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      },
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "201/200",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 966.2341869998272,
+    "wall_ms": [
+      1027.688637999745,
+      963.5080329999255,
+      966.2341869998272
+    ],
+    "intervals": [
+      243,
+      243,
+      243
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 730,
+        "derivative_interval_evaluations": 470,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 1200
+      },
+      {
+        "residual_evaluations": 730,
+        "derivative_interval_evaluations": 470,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 1200
+      },
+      {
+        "residual_evaluations": 730,
+        "derivative_interval_evaluations": 470,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 1200
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "201/200",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 1055.2453289997175,
+    "wall_ms": [
+      1055.2453289997175,
+      1008.4802810001747,
+      1115.6295139999202
+    ],
+    "intervals": [
+      275,
+      275,
+      275
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      },
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      },
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed7",
+    "target": "201/200",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 1221.7968519998976,
+    "wall_ms": [
+      1221.7968519998976,
+      1203.2693589999326,
+      1310.4711010000756
+    ],
+    "intervals": [
+      304,
+      304,
+      304
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 913,
+        "derivative_interval_evaluations": 592,
+        "polynomial_cell_visits": 1444,
+        "problem_forward_calls": 1505
+      },
+      {
+        "residual_evaluations": 913,
+        "derivative_interval_evaluations": 592,
+        "polynomial_cell_visits": 1444,
+        "problem_forward_calls": 1505
+      },
+      {
+        "residual_evaluations": 913,
+        "derivative_interval_evaluations": 592,
+        "polynomial_cell_visits": 1444,
+        "problem_forward_calls": 1505
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "51/50",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 466.91794800017306,
+    "wall_ms": [
+      466.91794800017306,
+      461.67101699984414,
+      500.2467370004524
+    ],
+    "intervals": [
+      128,
+      128,
+      128
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "51/50",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 749.8176380004224,
+    "wall_ms": [
+      740.4832580000402,
+      798.5085740001523,
+      749.8176380004224
+    ],
+    "intervals": [
+      122,
+      122,
+      122
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 799,
+        "derivative_interval_evaluations": 333,
+        "polynomial_cell_visits": 333,
+        "problem_forward_calls": 1132
+      },
+      {
+        "residual_evaluations": 799,
+        "derivative_interval_evaluations": 333,
+        "polynomial_cell_visits": 333,
+        "problem_forward_calls": 1132
+      },
+      {
+        "residual_evaluations": 799,
+        "derivative_interval_evaluations": 333,
+        "polynomial_cell_visits": 333,
+        "problem_forward_calls": 1132
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "51/50",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 964.3562729997939,
+    "wall_ms": [
+      992.6822249999532,
+      964.3562729997939,
+      955.077123999672
+    ],
+    "intervals": [
+      99,
+      99,
+      99
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1003,
+        "derivative_interval_evaluations": 424,
+        "polynomial_cell_visits": 424,
+        "problem_forward_calls": 1427
+      },
+      {
+        "residual_evaluations": 1003,
+        "derivative_interval_evaluations": 424,
+        "polynomial_cell_visits": 424,
+        "problem_forward_calls": 1427
+      },
+      {
+        "residual_evaluations": 1003,
+        "derivative_interval_evaluations": 424,
+        "polynomial_cell_visits": 424,
+        "problem_forward_calls": 1427
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 481.53107099960835,
+    "wall_ms": [
+      548.7748260002263,
+      481.53107099960835,
+      443.22066299992
+    ],
+    "intervals": [
+      128,
+      128,
+      128
+    ],
+    "routes": [
+      "heap",
+      "heap",
+      "heap"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "51/50",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 453.637455000262,
+    "wall_ms": [
+      478.21855099982713,
+      453.637455000262,
+      434.5253110000158
+    ],
+    "intervals": [
+      122,
+      122,
+      122
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 367,
+        "derivative_interval_evaluations": 228,
+        "polynomial_cell_visits": 333,
+        "problem_forward_calls": 595
+      },
+      {
+        "residual_evaluations": 367,
+        "derivative_interval_evaluations": 228,
+        "polynomial_cell_visits": 333,
+        "problem_forward_calls": 595
+      },
+      {
+        "residual_evaluations": 367,
+        "derivative_interval_evaluations": 228,
+        "polynomial_cell_visits": 333,
+        "problem_forward_calls": 595
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "51/50",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 510.71391100003893,
+    "wall_ms": [
+      517.4626259999968,
+      510.71391100003893,
+      452.6692350000303
+    ],
+    "intervals": [
+      124,
+      124,
+      124
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 373,
+        "derivative_interval_evaluations": 232,
+        "polynomial_cell_visits": 548,
+        "problem_forward_calls": 605
+      },
+      {
+        "residual_evaluations": 373,
+        "derivative_interval_evaluations": 232,
+        "polynomial_cell_visits": 548,
+        "problem_forward_calls": 605
+      },
+      {
+        "residual_evaluations": 373,
+        "derivative_interval_evaluations": 232,
+        "polynomial_cell_visits": 548,
+        "problem_forward_calls": 605
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "51/50",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 670.7241419999264,
+    "wall_ms": [
+      670.7241419999264,
+      687.0083620001424,
+      658.9581889998044
+    ],
+    "intervals": [
+      183,
+      183,
+      183
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 550,
+        "derivative_interval_evaluations": 350,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 900
+      },
+      {
+        "residual_evaluations": 550,
+        "derivative_interval_evaluations": 350,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 900
+      },
+      {
+        "residual_evaluations": 550,
+        "derivative_interval_evaluations": 350,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 900
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "51/50",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 604.0196250000918,
+    "wall_ms": [
+      626.1065019998568,
+      604.0196250000918,
+      592.242836999958
+    ],
+    "intervals": [
+      155,
+      155,
+      155
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 466,
+        "derivative_interval_evaluations": 294,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 760
+      },
+      {
+        "residual_evaluations": 466,
+        "derivative_interval_evaluations": 294,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 760
+      },
+      {
+        "residual_evaluations": 466,
+        "derivative_interval_evaluations": 294,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 760
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "201/200",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 484.7842449999007,
+    "wall_ms": [
+      466.87890799967136,
+      503.65558899966345,
+      484.7842449999007
+    ],
+    "intervals": [
+      128,
+      128,
+      128
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "201/200",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 1118.3900089999952,
+    "wall_ms": [
+      1125.9353320001537,
+      1118.3900089999952,
+      1116.0313820000738
+    ],
+    "intervals": [
+      183,
+      183,
+      183
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1159,
+        "derivative_interval_evaluations": 516,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 1675
+      },
+      {
+        "residual_evaluations": 1159,
+        "derivative_interval_evaluations": 516,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 1675
+      },
+      {
+        "residual_evaluations": 1159,
+        "derivative_interval_evaluations": 516,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 1675
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "201/200",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 1650.4179660000773,
+    "wall_ms": [
+      1735.1517840002089,
+      1538.5948840003039,
+      1650.4179660000773
+    ],
+    "intervals": [
+      155,
+      155,
+      155
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1723,
+        "derivative_interval_evaluations": 703,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 2426
+      },
+      {
+        "residual_evaluations": 1723,
+        "derivative_interval_evaluations": 703,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 2426
+      },
+      {
+        "residual_evaluations": 1723,
+        "derivative_interval_evaluations": 703,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 2426
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 481.2087860000247,
+    "wall_ms": [
+      474.47725400024865,
+      526.0224700000435,
+      481.2087860000247
+    ],
+    "intervals": [
+      128,
+      128,
+      128
+    ],
+    "routes": [
+      "heap",
+      "heap",
+      "heap"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "201/200",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 676.9716070002687,
+    "wall_ms": [
+      676.9716070002687,
+      752.7941420003117,
+      667.4825170002805
+    ],
+    "intervals": [
+      183,
+      183,
+      183
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 550,
+        "derivative_interval_evaluations": 350,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 900
+      },
+      {
+        "residual_evaluations": 550,
+        "derivative_interval_evaluations": 350,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 900
+      },
+      {
+        "residual_evaluations": 550,
+        "derivative_interval_evaluations": 350,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 900
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "201/200",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 609.3161369999507,
+    "wall_ms": [
+      613.4339199998067,
+      609.3161369999507,
+      595.3820249997079
+    ],
+    "intervals": [
+      155,
+      155,
+      155
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 466,
+        "derivative_interval_evaluations": 294,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 760
+      },
+      {
+        "residual_evaluations": 466,
+        "derivative_interval_evaluations": 294,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 760
+      },
+      {
+        "residual_evaluations": 466,
+        "derivative_interval_evaluations": 294,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 760
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "201/200",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 688.7956760001543,
+    "wall_ms": [
+      688.7956760001543,
+      676.5589050000926,
+      714.744139999766
+    ],
+    "intervals": [
+      183,
+      183,
+      183
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 550,
+        "derivative_interval_evaluations": 350,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 900
+      },
+      {
+        "residual_evaluations": 550,
+        "derivative_interval_evaluations": 350,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 900
+      },
+      {
+        "residual_evaluations": 550,
+        "derivative_interval_evaluations": 350,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 900
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed17",
+    "target": "201/200",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 632.0748520001871,
+    "wall_ms": [
+      638.5555860001659,
+      632.0748520001871,
+      621.9980989999385
+    ],
+    "intervals": [
+      155,
+      155,
+      155
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 466,
+        "derivative_interval_evaluations": 294,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 760
+      },
+      {
+        "residual_evaluations": 466,
+        "derivative_interval_evaluations": 294,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 760
+      },
+      {
+        "residual_evaluations": 466,
+        "derivative_interval_evaluations": 294,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 760
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "51/50",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 482.2705540000243,
+    "wall_ms": [
+      463.757373000135,
+      482.2705540000243,
+      489.0819490001377
+    ],
+    "intervals": [
+      128,
+      128,
+      128
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "51/50",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 782.0036319999417,
+    "wall_ms": [
+      782.0036319999417,
+      725.643497999954,
+      805.2037369998288
+    ],
+    "intervals": [
+      122,
+      122,
+      122
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 799,
+        "derivative_interval_evaluations": 333,
+        "polynomial_cell_visits": 333,
+        "problem_forward_calls": 1132
+      },
+      {
+        "residual_evaluations": 799,
+        "derivative_interval_evaluations": 333,
+        "polynomial_cell_visits": 333,
+        "problem_forward_calls": 1132
+      },
+      {
+        "residual_evaluations": 799,
+        "derivative_interval_evaluations": 333,
+        "polynomial_cell_visits": 333,
+        "problem_forward_calls": 1132
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "51/50",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 1342.1636409998428,
+    "wall_ms": [
+      1374.200381999799,
+      1342.1636409998428,
+      1325.069529999837
+    ],
+    "intervals": [
+      124,
+      124,
+      124
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1363,
+        "derivative_interval_evaluations": 548,
+        "polynomial_cell_visits": 548,
+        "problem_forward_calls": 1911
+      },
+      {
+        "residual_evaluations": 1363,
+        "derivative_interval_evaluations": 548,
+        "polynomial_cell_visits": 548,
+        "problem_forward_calls": 1911
+      },
+      {
+        "residual_evaluations": 1363,
+        "derivative_interval_evaluations": 548,
+        "polynomial_cell_visits": 548,
+        "problem_forward_calls": 1911
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 516.8162449999727,
+    "wall_ms": [
+      501.45667300012065,
+      516.8162449999727,
+      517.9857769999217
+    ],
+    "intervals": [
+      128,
+      128,
+      128
+    ],
+    "routes": [
+      "heap",
+      "heap",
+      "heap"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": 625
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "51/50",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 464.4949160001488,
+    "wall_ms": [
+      430.8230750002622,
+      472.41620500017234,
+      464.4949160001488
+    ],
+    "intervals": [
+      122,
+      122,
+      122
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 367,
+        "derivative_interval_evaluations": 228,
+        "polynomial_cell_visits": 333,
+        "problem_forward_calls": 595
+      },
+      {
+        "residual_evaluations": 367,
+        "derivative_interval_evaluations": 228,
+        "polynomial_cell_visits": 333,
+        "problem_forward_calls": 595
+      },
+      {
+        "residual_evaluations": 367,
+        "derivative_interval_evaluations": 228,
+        "polynomial_cell_visits": 333,
+        "problem_forward_calls": 595
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "51/50",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 490.73937700040915,
+    "wall_ms": [
+      524.81249199991,
+      455.14005699988047,
+      490.73937700040915
+    ],
+    "intervals": [
+      124,
+      124,
+      124
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 373,
+        "derivative_interval_evaluations": 232,
+        "polynomial_cell_visits": 548,
+        "problem_forward_calls": 605
+      },
+      {
+        "residual_evaluations": 373,
+        "derivative_interval_evaluations": 232,
+        "polynomial_cell_visits": 548,
+        "problem_forward_calls": 605
+      },
+      {
+        "residual_evaluations": 373,
+        "derivative_interval_evaluations": 232,
+        "polynomial_cell_visits": 548,
+        "problem_forward_calls": 605
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "51/50",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 698.3134049996806,
+    "wall_ms": [
+      746.9172370001615,
+      656.553628000438,
+      698.3134049996806
+    ],
+    "intervals": [
+      183,
+      183,
+      183
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 550,
+        "derivative_interval_evaluations": 350,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 900
+      },
+      {
+        "residual_evaluations": 550,
+        "derivative_interval_evaluations": 350,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 900
+      },
+      {
+        "residual_evaluations": 550,
+        "derivative_interval_evaluations": 350,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 900
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "51/50",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 625.8778869996604,
+    "wall_ms": [
+      625.8778869996604,
+      701.7058420001376,
+      589.7507869999572
+    ],
+    "intervals": [
+      155,
+      155,
+      155
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 466,
+        "derivative_interval_evaluations": 294,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 760
+      },
+      {
+        "residual_evaluations": 466,
+        "derivative_interval_evaluations": 294,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 760
+      },
+      {
+        "residual_evaluations": 466,
+        "derivative_interval_evaluations": 294,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 760
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "201/200",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 999.8334549995889,
+    "wall_ms": [
+      1030.7645309999316,
+      999.8334549995889,
+      989.5370649996948
+    ],
+    "intervals": [
+      256,
+      256,
+      256
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "201/200",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 1174.25359400022,
+    "wall_ms": [
+      1284.7868720000406,
+      1174.25359400022,
+      1148.600437999903
+    ],
+    "intervals": [
+      183,
+      183,
+      183
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1159,
+        "derivative_interval_evaluations": 516,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 1675
+      },
+      {
+        "residual_evaluations": 1159,
+        "derivative_interval_evaluations": 516,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 1675
+      },
+      {
+        "residual_evaluations": 1159,
+        "derivative_interval_evaluations": 516,
+        "polynomial_cell_visits": 516,
+        "problem_forward_calls": 1675
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "201/200",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 1692.1961939997345,
+    "wall_ms": [
+      1661.4136329999383,
+      1692.1961939997345,
+      1704.8923119996289
+    ],
+    "intervals": [
+      155,
+      155,
+      155
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1723,
+        "derivative_interval_evaluations": 703,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 2426
+      },
+      {
+        "residual_evaluations": 1723,
+        "derivative_interval_evaluations": 703,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 2426
+      },
+      {
+        "residual_evaluations": 1723,
+        "derivative_interval_evaluations": 703,
+        "polynomial_cell_visits": 703,
+        "problem_forward_calls": 2426
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 1040.9589010000673,
+    "wall_ms": [
+      930.1346839997677,
+      1063.6578359999476,
+      1040.9589010000673
+    ],
+    "intervals": [
+      256,
+      256,
+      256
+    ],
+    "routes": [
+      "heap",
+      "heap",
+      "heap"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      },
+      {
+        "residual_evaluations": 769,
+        "derivative_interval_evaluations": 496,
+        "polynomial_cell_visits": 496,
+        "problem_forward_calls": 1265
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "201/200",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 1102.7749310001127,
+    "wall_ms": [
+      1363.269013000263,
+      1086.0263869999471,
+      1102.7749310001127
+    ],
+    "intervals": [
+      275,
+      275,
+      275
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      },
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      },
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "201/200",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 827.4341299998014,
+    "wall_ms": [
+      844.5140490002814,
+      827.4341299998014,
+      798.5811290000129
+    ],
+    "intervals": [
+      194,
+      194,
+      194
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 583,
+        "derivative_interval_evaluations": 372,
+        "polynomial_cell_visits": 897,
+        "problem_forward_calls": 955
+      },
+      {
+        "residual_evaluations": 583,
+        "derivative_interval_evaluations": 372,
+        "polynomial_cell_visits": 897,
+        "problem_forward_calls": 955
+      },
+      {
+        "residual_evaluations": 583,
+        "derivative_interval_evaluations": 372,
+        "polynomial_cell_visits": 897,
+        "problem_forward_calls": 955
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "201/200",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 1168.9485790002436,
+    "wall_ms": [
+      1187.7585130000625,
+      1038.1586209996385,
+      1168.9485790002436
+    ],
+    "intervals": [
+      275,
+      275,
+      275
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      },
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      },
+      {
+        "residual_evaluations": 826,
+        "derivative_interval_evaluations": 534,
+        "polynomial_cell_visits": 791,
+        "problem_forward_calls": 1360
+      }
+    ]
+  },
+  {
+    "label": "depth3_k5_seed27",
+    "target": "201/200",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 1020.8826389998649,
+    "wall_ms": [
+      1027.387009999984,
+      918.4165100000428,
+      1020.8826389998649
+    ],
+    "intervals": [
+      243,
+      243,
+      243
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 730,
+        "derivative_interval_evaluations": 470,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 1200
+      },
+      {
+        "residual_evaluations": 730,
+        "derivative_interval_evaluations": 470,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 1200
+      },
+      {
+        "residual_evaluations": 730,
+        "derivative_interval_evaluations": 470,
+        "polynomial_cell_visits": 1140,
+        "problem_forward_calls": 1200
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "51/50",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 321.16590599980555,
+    "wall_ms": [
+      316.1501419999695,
+      321.16590599980555,
+      323.8729979998425
+    ],
+    "intervals": [
+      1024,
+      1024,
+      1024
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "51/50",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 648.3931689999736,
+    "wall_ms": [
+      641.5784450000501,
+      648.3931689999736,
+      723.6528450002879
+    ],
+    "intervals": [
+      1395,
+      1395,
+      1395
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 9673,
+        "derivative_interval_evaluations": 4149,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 9673,
+        "derivative_interval_evaluations": 4149,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 9673,
+        "derivative_interval_evaluations": 4149,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "51/50",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 971.23300200019,
+    "wall_ms": [
+      1097.893403999933,
+      971.23300200019,
+      898.1417439999859
+    ],
+    "intervals": [
+      1162,
+      1162,
+      1162
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 15709,
+        "derivative_interval_evaluations": 5727,
+        "polynomial_cell_visits": 5727,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 15709,
+        "derivative_interval_evaluations": 5727,
+        "polynomial_cell_visits": 5727,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 15709,
+        "derivative_interval_evaluations": 5727,
+        "polynomial_cell_visits": 5727,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 21.77982900002462,
+    "wall_ms": [
+      29.9690990000272,
+      21.77982900002462,
+      18.979354000293824
+    ],
+    "intervals": [
+      64,
+      64,
+      64
+    ],
+    "routes": [
+      "heap",
+      "heap",
+      "heap"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "51/50",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 361.78952599993863,
+    "wall_ms": [
+      504.12060899998323,
+      361.78952599993863,
+      337.848392000069
+    ],
+    "intervals": [
+      930,
+      930,
+      930
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 2791,
+        "derivative_interval_evaluations": 1844,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2791,
+        "derivative_interval_evaluations": 1844,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2791,
+        "derivative_interval_evaluations": 1844,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "51/50",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 542.2601720001694,
+    "wall_ms": [
+      552.6311360004001,
+      542.2601720001694,
+      484.9213590000545
+    ],
+    "intervals": [
+      929,
+      929,
+      929
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 2788,
+        "derivative_interval_evaluations": 1842,
+        "polynomial_cell_visits": 4565,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2788,
+        "derivative_interval_evaluations": 1842,
+        "polynomial_cell_visits": 4565,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2788,
+        "derivative_interval_evaluations": 1842,
+        "polynomial_cell_visits": 4565,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "51/50",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 595.9561639997446,
+    "wall_ms": [
+      581.2617210003737,
+      595.9561639997446,
+      612.817922999966
+    ],
+    "intervals": [
+      1395,
+      1395,
+      1395
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 4186,
+        "derivative_interval_evaluations": 2774,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 4186,
+        "derivative_interval_evaluations": 2774,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 4186,
+        "derivative_interval_evaluations": 2774,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "51/50",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 722.0939439998801,
+    "wall_ms": [
+      722.0939439998801,
+      683.3878550000918,
+      777.6276390000021
+    ],
+    "intervals": [
+      1162,
+      1162,
+      1162
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 3487,
+        "derivative_interval_evaluations": 2308,
+        "polynomial_cell_visits": 5727,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3487,
+        "derivative_interval_evaluations": 2308,
+        "polynomial_cell_visits": 5727,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3487,
+        "derivative_interval_evaluations": 2308,
+        "polynomial_cell_visits": 5727,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "201/200",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 649.4574719999946,
+    "wall_ms": [
+      662.753045000045,
+      649.4574719999946,
+      641.8881300000976
+    ],
+    "intervals": [
+      2048,
+      2048,
+      2048
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 6145,
+        "derivative_interval_evaluations": 4080,
+        "polynomial_cell_visits": 4080,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6145,
+        "derivative_interval_evaluations": 4080,
+        "polynomial_cell_visits": 4080,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6145,
+        "derivative_interval_evaluations": 4080,
+        "polynomial_cell_visits": 4080,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "201/200",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 738.749762000225,
+    "wall_ms": [
+      752.3702670000603,
+      738.749762000225,
+      662.5156969998898
+    ],
+    "intervals": [
+      1395,
+      1395,
+      1395
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 9673,
+        "derivative_interval_evaluations": 4149,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 9673,
+        "derivative_interval_evaluations": 4149,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 9673,
+        "derivative_interval_evaluations": 4149,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "201/200",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 1187.1578210002554,
+    "wall_ms": [
+      1184.4998780002243,
+      1187.1578210002554,
+      1208.9283989998876
+    ],
+    "intervals": [
+      1453,
+      1453,
+      1453
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 20065,
+        "derivative_interval_evaluations": 7180,
+        "polynomial_cell_visits": 7180,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 20065,
+        "derivative_interval_evaluations": 7180,
+        "polynomial_cell_visits": 7180,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 20065,
+        "derivative_interval_evaluations": 7180,
+        "polynomial_cell_visits": 7180,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 44.53495699999621,
+    "wall_ms": [
+      52.468750000116415,
+      40.29405599976599,
+      44.53495699999621
+    ],
+    "intervals": [
+      128,
+      128,
+      128
+    ],
+    "routes": [
+      "heap",
+      "heap",
+      "heap"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 385,
+        "derivative_interval_evaluations": 240,
+        "polynomial_cell_visits": 240,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "201/200",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 912.3668900001576,
+    "wall_ms": [
+      915.927419000127,
+      880.9367949997977,
+      912.3668900001576
+    ],
+    "intervals": [
+      2093,
+      2093,
+      2093
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 6280,
+        "derivative_interval_evaluations": 4170,
+        "polynomial_cell_visits": 6242,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6280,
+        "derivative_interval_evaluations": 4170,
+        "polynomial_cell_visits": 6242,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6280,
+        "derivative_interval_evaluations": 4170,
+        "polynomial_cell_visits": 6242,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "201/200",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 1111.0812619999706,
+    "wall_ms": [
+      1102.4772259997917,
+      1111.0812619999706,
+      1162.7757169999313
+    ],
+    "intervals": [
+      1817,
+      1817,
+      1817
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 5452,
+        "derivative_interval_evaluations": 3618,
+        "polynomial_cell_visits": 8997,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 5452,
+        "derivative_interval_evaluations": 3618,
+        "polynomial_cell_visits": 8997,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 5452,
+        "derivative_interval_evaluations": 3618,
+        "polynomial_cell_visits": 8997,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "201/200",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 899.0173069996672,
+    "wall_ms": [
+      899.0173069996672,
+      881.9347920002656,
+      907.8153419995942
+    ],
+    "intervals": [
+      2093,
+      2093,
+      2093
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 6280,
+        "derivative_interval_evaluations": 4170,
+        "polynomial_cell_visits": 6242,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6280,
+        "derivative_interval_evaluations": 4170,
+        "polynomial_cell_visits": 6242,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6280,
+        "derivative_interval_evaluations": 4170,
+        "polynomial_cell_visits": 6242,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "narrow_peak",
+    "target": "201/200",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 1426.132800999767,
+    "wall_ms": [
+      1440.0560970002516,
+      1426.132800999767,
+      1368.6925990000418
+    ],
+    "intervals": [
+      2272,
+      2272,
+      2272
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 6817,
+        "derivative_interval_evaluations": 4528,
+        "polynomial_cell_visits": 11269,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6817,
+        "derivative_interval_evaluations": 4528,
+        "polynomial_cell_visits": 11269,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6817,
+        "derivative_interval_evaluations": 4528,
+        "polynomial_cell_visits": 11269,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "51/50",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 121.50452300011239,
+    "wall_ms": [
+      121.50452300011239,
+      125.961868000104,
+      121.07965599989257
+    ],
+    "intervals": [
+      512,
+      512,
+      512
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "51/50",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 264.9613329999738,
+    "wall_ms": [
+      217.25117200003297,
+      264.9613329999738,
+      281.08626599987474
+    ],
+    "intervals": [
+      620,
+      620,
+      620
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 5053,
+        "derivative_interval_evaluations": 1824,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 5053,
+        "derivative_interval_evaluations": 1824,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 5053,
+        "derivative_interval_evaluations": 1824,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "51/50",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 297.9921170003763,
+    "wall_ms": [
+      289.5372450002469,
+      299.59975899964775,
+      297.9921170003763
+    ],
+    "intervals": [
+      475,
+      475,
+      475
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 5809,
+        "derivative_interval_evaluations": 2299,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 5809,
+        "derivative_interval_evaluations": 2299,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 5809,
+        "derivative_interval_evaluations": 2299,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 111.0554429997137,
+    "wall_ms": [
+      127.39040599990403,
+      111.0554429997137,
+      109.01295600024241
+    ],
+    "intervals": [
+      512,
+      512,
+      512
+    ],
+    "routes": [
+      "uniform",
+      "uniform",
+      "uniform"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "51/50",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 193.19532200006506,
+    "wall_ms": [
+      199.60139399972832,
+      188.34863500023857,
+      193.19532200006506
+    ],
+    "intervals": [
+      620,
+      620,
+      620
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "51/50",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 287.8859049997118,
+    "wall_ms": [
+      287.8859049997118,
+      299.31916099985756,
+      283.6127079999642
+    ],
+    "intervals": [
+      594,
+      594,
+      594
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1783,
+        "derivative_interval_evaluations": 1172,
+        "polynomial_cell_visits": 2893,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1783,
+        "derivative_interval_evaluations": 1172,
+        "polynomial_cell_visits": 2893,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1783,
+        "derivative_interval_evaluations": 1172,
+        "polynomial_cell_visits": 2893,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "51/50",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 208.2272190000367,
+    "wall_ms": [
+      187.3526839999613,
+      208.2272190000367,
+      218.5311879998153
+    ],
+    "intervals": [
+      620,
+      620,
+      620
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "51/50",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 299.6835959997952,
+    "wall_ms": [
+      375.63191299977916,
+      282.3342500000763,
+      299.6835959997952
+    ],
+    "intervals": [
+      594,
+      594,
+      594
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1783,
+        "derivative_interval_evaluations": 1172,
+        "polynomial_cell_visits": 2893,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1783,
+        "derivative_interval_evaluations": 1172,
+        "polynomial_cell_visits": 2893,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1783,
+        "derivative_interval_evaluations": 1172,
+        "polynomial_cell_visits": 2893,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "201/200",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 244.9787649998143,
+    "wall_ms": [
+      241.9482639998023,
+      275.25104999995165,
+      244.9787649998143
+    ],
+    "intervals": [
+      1024,
+      1024,
+      1024
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "201/200",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 357.2386020000522,
+    "wall_ms": [
+      318.96899100001974,
+      383.3310800000618,
+      357.2386020000522
+    ],
+    "intervals": [
+      930,
+      930,
+      930
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 6901,
+        "derivative_interval_evaluations": 2754,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6901,
+        "derivative_interval_evaluations": 2754,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6901,
+        "derivative_interval_evaluations": 2754,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "201/200",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 471.83691300006103,
+    "wall_ms": [
+      425.7556399998066,
+      474.9606479999784,
+      471.83691300006103
+    ],
+    "intervals": [
+      743,
+      743,
+      743
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 9463,
+        "derivative_interval_evaluations": 3636,
+        "polynomial_cell_visits": 3636,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 9463,
+        "derivative_interval_evaluations": 3636,
+        "polynomial_cell_visits": 3636,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 9463,
+        "derivative_interval_evaluations": 3636,
+        "polynomial_cell_visits": 3636,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 244.51458900011858,
+    "wall_ms": [
+      237.2689070002707,
+      244.51458900011858,
+      259.4364900000983
+    ],
+    "intervals": [
+      1024,
+      1024,
+      1024
+    ],
+    "routes": [
+      "uniform",
+      "uniform",
+      "uniform"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "201/200",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 319.3295489995762,
+    "wall_ms": [
+      292.5170460002846,
+      319.3295489995762,
+      320.0915759998679
+    ],
+    "intervals": [
+      930,
+      930,
+      930
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 2791,
+        "derivative_interval_evaluations": 1844,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2791,
+        "derivative_interval_evaluations": 1844,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2791,
+        "derivative_interval_evaluations": 1844,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "201/200",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 463.8388359999226,
+    "wall_ms": [
+      463.8388359999226,
+      496.2633380000625,
+      446.60551699962525
+    ],
+    "intervals": [
+      929,
+      929,
+      929
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 2788,
+        "derivative_interval_evaluations": 1842,
+        "polynomial_cell_visits": 4565,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2788,
+        "derivative_interval_evaluations": 1842,
+        "polynomial_cell_visits": 4565,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2788,
+        "derivative_interval_evaluations": 1842,
+        "polynomial_cell_visits": 4565,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "201/200",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 302.01104000025225,
+    "wall_ms": [
+      302.01104000025225,
+      377.7981389998786,
+      301.6326219999428
+    ],
+    "intervals": [
+      930,
+      930,
+      930
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 2791,
+        "derivative_interval_evaluations": 1844,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2791,
+        "derivative_interval_evaluations": 1844,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2791,
+        "derivative_interval_evaluations": 1844,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "global_sine_50",
+    "target": "201/200",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 514.7325960001581,
+    "wall_ms": [
+      514.7325960001581,
+      494.4364440002573,
+      517.5584549997438
+    ],
+    "intervals": [
+      929,
+      929,
+      929
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 2788,
+        "derivative_interval_evaluations": 1842,
+        "polynomial_cell_visits": 4565,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2788,
+        "derivative_interval_evaluations": 1842,
+        "polynomial_cell_visits": 4565,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 2788,
+        "derivative_interval_evaluations": 1842,
+        "polynomial_cell_visits": 4565,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "51/50",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 145.10922499994194,
+    "wall_ms": [
+      148.37130800015075,
+      139.093025999955,
+      145.10922499994194
+    ],
+    "intervals": [
+      512,
+      512,
+      512
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "51/50",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 199.52282999975068,
+    "wall_ms": [
+      199.74462499976653,
+      182.6012639999135,
+      199.52282999975068
+    ],
+    "intervals": [
+      413,
+      413,
+      413
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 3217,
+        "derivative_interval_evaluations": 1204,
+        "polynomial_cell_visits": 1204,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3217,
+        "derivative_interval_evaluations": 1204,
+        "polynomial_cell_visits": 1204,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3217,
+        "derivative_interval_evaluations": 1204,
+        "polynomial_cell_visits": 1204,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "51/50",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 292.8004680002232,
+    "wall_ms": [
+      306.0222240001167,
+      285.3154760000507,
+      292.8004680002232
+    ],
+    "intervals": [
+      380,
+      380,
+      380
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 4729,
+        "derivative_interval_evaluations": 1824,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 4729,
+        "derivative_interval_evaluations": 1824,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 4729,
+        "derivative_interval_evaluations": 1824,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 20.370732999708707,
+    "wall_ms": [
+      21.842470000137837,
+      20.370732999708707,
+      18.054385000141338
+    ],
+    "intervals": [
+      64,
+      64,
+      64
+    ],
+    "routes": [
+      "heap",
+      "heap",
+      "heap"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "51/50",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 235.63886900001307,
+    "wall_ms": [
+      232.94934800014744,
+      235.63886900001307,
+      240.8861139997498
+    ],
+    "intervals": [
+      620,
+      620,
+      620
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "51/50",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 258.68939500014676,
+    "wall_ms": [
+      281.7612410003676,
+      239.52258500003154,
+      258.68939500014676
+    ],
+    "intervals": [
+      475,
+      475,
+      475
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1426,
+        "derivative_interval_evaluations": 934,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1426,
+        "derivative_interval_evaluations": 934,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1426,
+        "derivative_interval_evaluations": 934,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "51/50",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 253.72972600007415,
+    "wall_ms": [
+      254.16093000012552,
+      234.803999000178,
+      253.72972600007415
+    ],
+    "intervals": [
+      620,
+      620,
+      620
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "51/50",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 283.4809780001706,
+    "wall_ms": [
+      283.4809780001706,
+      250.87090899978648,
+      297.80624599970906
+    ],
+    "intervals": [
+      475,
+      475,
+      475
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1426,
+        "derivative_interval_evaluations": 934,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1426,
+        "derivative_interval_evaluations": 934,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1426,
+        "derivative_interval_evaluations": 934,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "201/200",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 163.2130849998248,
+    "wall_ms": [
+      163.2130849998248,
+      175.1410280003256,
+      150.5827760001921
+    ],
+    "intervals": [
+      512,
+      512,
+      512
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1537,
+        "derivative_interval_evaluations": 1008,
+        "polynomial_cell_visits": 1008,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "201/200",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 314.5943959998476,
+    "wall_ms": [
+      314.5943959998476,
+      321.0475589999078,
+      301.59225900024467
+    ],
+    "intervals": [
+      620,
+      620,
+      620
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 5053,
+        "derivative_interval_evaluations": 1824,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 5053,
+        "derivative_interval_evaluations": 1824,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 5053,
+        "derivative_interval_evaluations": 1824,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "201/200",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 383.54991599999266,
+    "wall_ms": [
+      389.34972700008075,
+      383.54991599999266,
+      342.79605400024593
+    ],
+    "intervals": [
+      475,
+      475,
+      475
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 5809,
+        "derivative_interval_evaluations": 2299,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 5809,
+        "derivative_interval_evaluations": 2299,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 5809,
+        "derivative_interval_evaluations": 2299,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 19.111018999865337,
+    "wall_ms": [
+      21.600666999802343,
+      19.111018999865337,
+      18.759713000235934
+    ],
+    "intervals": [
+      64,
+      64,
+      64
+    ],
+    "routes": [
+      "heap",
+      "heap",
+      "heap"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "201/200",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 232.07580100006453,
+    "wall_ms": [
+      252.46205599978566,
+      223.5641269999178,
+      232.07580100006453
+    ],
+    "intervals": [
+      620,
+      620,
+      620
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "201/200",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 252.86642499986556,
+    "wall_ms": [
+      286.0766919998241,
+      252.86642499986556,
+      249.6566489999168
+    ],
+    "intervals": [
+      475,
+      475,
+      475
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1426,
+        "derivative_interval_evaluations": 934,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1426,
+        "derivative_interval_evaluations": 934,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1426,
+        "derivative_interval_evaluations": 934,
+        "polynomial_cell_visits": 2299,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "201/200",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 254.947011999775,
+    "wall_ms": [
+      254.947011999775,
+      266.7283050000151,
+      247.58789600036835
+    ],
+    "intervals": [
+      620,
+      620,
+      620
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1861,
+        "derivative_interval_evaluations": 1224,
+        "polynomial_cell_visits": 1824,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "shift_0733",
+    "target": "201/200",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 399.87386500024513,
+    "wall_ms": [
+      399.87386500024513,
+      400.74342500020066,
+      336.75651099974857
+    ],
+    "intervals": [
+      594,
+      594,
+      594
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 1783,
+        "derivative_interval_evaluations": 1172,
+        "polynomial_cell_visits": 2893,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1783,
+        "derivative_interval_evaluations": 1172,
+        "polynomial_cell_visits": 2893,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 1783,
+        "derivative_interval_evaluations": 1172,
+        "polynomial_cell_visits": 2893,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "51/50",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 331.45601400019586,
+    "wall_ms": [
+      331.45601400019586,
+      369.9570879998646,
+      312.82744999998613
+    ],
+    "intervals": [
+      1024,
+      1024,
+      1024
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3073,
+        "derivative_interval_evaluations": 2032,
+        "polynomial_cell_visits": 2032,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "51/50",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 455.1340540001547,
+    "wall_ms": [
+      465.5718379999598,
+      455.1340540001547,
+      435.3259499998785
+    ],
+    "intervals": [
+      930,
+      930,
+      930
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 6901,
+        "derivative_interval_evaluations": 2754,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6901,
+        "derivative_interval_evaluations": 2754,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6901,
+        "derivative_interval_evaluations": 2754,
+        "polynomial_cell_visits": 2754,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "51/50",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 723.8494550001633,
+    "wall_ms": [
+      723.8494550001633,
+      825.7287820001693,
+      719.3878969997058
+    ],
+    "intervals": [
+      929,
+      929,
+      929
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 12247,
+        "derivative_interval_evaluations": 4565,
+        "polynomial_cell_visits": 4565,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 12247,
+        "derivative_interval_evaluations": 4565,
+        "polynomial_cell_visits": 4565,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 12247,
+        "derivative_interval_evaluations": 4565,
+        "polynomial_cell_visits": 4565,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "51/50",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 20.20756599995366,
+    "wall_ms": [
+      19.82098999997106,
+      20.20756599995366,
+      22.430914999858942
+    ],
+    "intervals": [
+      64,
+      64,
+      64
+    ],
+    "routes": [
+      "heap",
+      "heap",
+      "heap"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "51/50",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 573.10997400009,
+    "wall_ms": [
+      616.5041079998446,
+      559.416322999823,
+      573.10997400009
+    ],
+    "intervals": [
+      1395,
+      1395,
+      1395
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 4186,
+        "derivative_interval_evaluations": 2774,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 4186,
+        "derivative_interval_evaluations": 2774,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 4186,
+        "derivative_interval_evaluations": 2774,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "51/50",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 660.5503330001739,
+    "wall_ms": [
+      694.3403479999688,
+      660.5503330001739,
+      658.189210999808
+    ],
+    "intervals": [
+      1162,
+      1162,
+      1162
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 3487,
+        "derivative_interval_evaluations": 2308,
+        "polynomial_cell_visits": 5727,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3487,
+        "derivative_interval_evaluations": 2308,
+        "polynomial_cell_visits": 5727,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3487,
+        "derivative_interval_evaluations": 2308,
+        "polynomial_cell_visits": 5727,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "51/50",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 570.4664459999549,
+    "wall_ms": [
+      584.9086560001524,
+      570.4664459999549,
+      567.2435760002372
+    ],
+    "intervals": [
+      1395,
+      1395,
+      1395
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 4186,
+        "derivative_interval_evaluations": 2774,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 4186,
+        "derivative_interval_evaluations": 2774,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 4186,
+        "derivative_interval_evaluations": 2774,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "51/50",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 739.6727870000177,
+    "wall_ms": [
+      739.6727870000177,
+      803.030857000067,
+      677.8004239999973
+    ],
+    "intervals": [
+      1162,
+      1162,
+      1162
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 3487,
+        "derivative_interval_evaluations": 2308,
+        "polynomial_cell_visits": 5727,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3487,
+        "derivative_interval_evaluations": 2308,
+        "polynomial_cell_visits": 5727,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 3487,
+        "derivative_interval_evaluations": 2308,
+        "polynomial_cell_visits": 5727,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "201/200",
+    "policy": "cubic_uniform16",
+    "successes": 3,
+    "median_wall_ms": 652.9000649998125,
+    "wall_ms": [
+      652.9000649998125,
+      643.3235909998984,
+      688.6788890001299
+    ],
+    "intervals": [
+      2048,
+      2048,
+      2048
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 6145,
+        "derivative_interval_evaluations": 4080,
+        "polynomial_cell_visits": 4080,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6145,
+        "derivative_interval_evaluations": 4080,
+        "polynomial_cell_visits": 4080,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6145,
+        "derivative_interval_evaluations": 4080,
+        "polynomial_cell_visits": 4080,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "201/200",
+    "policy": "cubic_uniform15_16",
+    "successes": 3,
+    "median_wall_ms": 664.3867980001232,
+    "wall_ms": [
+      665.0466680002864,
+      664.3867980001232,
+      658.1243480000012
+    ],
+    "intervals": [
+      1395,
+      1395,
+      1395
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 9673,
+        "derivative_interval_evaluations": 4149,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 9673,
+        "derivative_interval_evaluations": 4149,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 9673,
+        "derivative_interval_evaluations": 4149,
+        "polynomial_cell_visits": 4149,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "201/200",
+    "policy": "cubic_uniform125_16",
+    "successes": 3,
+    "median_wall_ms": 1213.6513980003656,
+    "wall_ms": [
+      1116.5330160001758,
+      1277.9085490001307,
+      1213.6513980003656
+    ],
+    "intervals": [
+      1453,
+      1453,
+      1453
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 20065,
+        "derivative_interval_evaluations": 7180,
+        "polynomial_cell_visits": 7180,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 20065,
+        "derivative_interval_evaluations": 7180,
+        "polynomial_cell_visits": 7180,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 20065,
+        "derivative_interval_evaluations": 7180,
+        "polynomial_cell_visits": 7180,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "201/200",
+    "policy": "auto_heap16",
+    "successes": 3,
+    "median_wall_ms": 20.906567000110954,
+    "wall_ms": [
+      19.67273899981592,
+      20.906567000110954,
+      20.96457500010729
+    ],
+    "intervals": [
+      64,
+      64,
+      64
+    ],
+    "routes": [
+      "heap",
+      "heap",
+      "heap"
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 193,
+        "derivative_interval_evaluations": 112,
+        "polynomial_cell_visits": 112,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "201/200",
+    "policy": "nested_left15_16",
+    "successes": 3,
+    "median_wall_ms": 824.3708679997326,
+    "wall_ms": [
+      824.3708679997326,
+      856.2413280001238,
+      795.7945009998184
+    ],
+    "intervals": [
+      2093,
+      2093,
+      2093
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 6280,
+        "derivative_interval_evaluations": 4170,
+        "polynomial_cell_visits": 6242,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6280,
+        "derivative_interval_evaluations": 4170,
+        "polynomial_cell_visits": 6242,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6280,
+        "derivative_interval_evaluations": 4170,
+        "polynomial_cell_visits": 6242,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "201/200",
+    "policy": "nested_left125_16",
+    "successes": 3,
+    "median_wall_ms": 1390.140275000249,
+    "wall_ms": [
+      1390.140275000249,
+      1310.5564269999377,
+      1428.000111000074
+    ],
+    "intervals": [
+      2272,
+      2272,
+      2272
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 6817,
+        "derivative_interval_evaluations": 4528,
+        "polynomial_cell_visits": 11269,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6817,
+        "derivative_interval_evaluations": 4528,
+        "polynomial_cell_visits": 11269,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6817,
+        "derivative_interval_evaluations": 4528,
+        "polynomial_cell_visits": 11269,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "201/200",
+    "policy": "nested_spread15_16",
+    "successes": 3,
+    "median_wall_ms": 827.6629840001988,
+    "wall_ms": [
+      919.9030919999132,
+      789.069217999895,
+      827.6629840001988
+    ],
+    "intervals": [
+      2093,
+      2093,
+      2093
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 6280,
+        "derivative_interval_evaluations": 4170,
+        "polynomial_cell_visits": 6242,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6280,
+        "derivative_interval_evaluations": 4170,
+        "polynomial_cell_visits": 6242,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 6280,
+        "derivative_interval_evaluations": 4170,
+        "polynomial_cell_visits": 6242,
+        "problem_forward_calls": null
+      }
+    ]
+  },
+  {
+    "label": "boundary_097",
+    "target": "201/200",
+    "policy": "nested_spread125_16",
+    "successes": 3,
+    "median_wall_ms": 1075.9970310000426,
+    "wall_ms": [
+      1077.419137999641,
+      1075.9970310000426,
+      1063.6527830001796
+    ],
+    "intervals": [
+      1817,
+      1817,
+      1817
+    ],
+    "routes": [
+      null,
+      null,
+      null
+    ],
+    "recheck_switched": [
+      false,
+      false,
+      false
+    ],
+    "work": [
+      {
+        "residual_evaluations": 5452,
+        "derivative_interval_evaluations": 3618,
+        "polynomial_cell_visits": 8997,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 5452,
+        "derivative_interval_evaluations": 3618,
+        "polynomial_cell_visits": 8997,
+        "problem_forward_calls": null
+      },
+      {
+        "residual_evaluations": 5452,
+        "derivative_interval_evaluations": 3618,
+        "polynomial_cell_visits": 8997,
+        "problem_forward_calls": null
+      }
+    ]
+  }
+]

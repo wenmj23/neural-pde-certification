@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "fixture_sha256": "5e420cdbdb224be4ba2aa49456741715630ee09361f984203232b464c7cd82c7",
+  "case_labels": [
+    "depth1_k2_seed49",
+    "depth1_k5_seed49",
+    "depth3_k2_seed49",
+    "depth3_k5_seed49"
+  ],
+  "degrees": [
+    2,
+    3
+  ],
+  "tolerances": "For each case: 0.9999 \u00d7 reference lower decimal, 1.0001 \u00d7 reference upper decimal",
+  "scope": "Public CLI decision; thresholds explicitly selected from independent reference after fixture generation. Stress test, not blind holdout. Degree 2/3, cap 256; no timing claims.",
+  "driver_sha256": "0d48af654499342dfc0e5fc689288513b234d416f6525a4b22099f259570cf5d",
+  "requests": 16,
+  "goal_met": 6
+}

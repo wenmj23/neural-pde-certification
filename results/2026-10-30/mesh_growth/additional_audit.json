@@ -1,0 +1,26 @@
+{
+  "finite_ranges_checked": 1665,
+  "original_auto_meshes": 30,
+  "reference_and_exact_stopping_passed": true,
+  "repeated_grid_endpoints_equal": true,
+  "safety": [
+    {
+      "policy": "cubic_uniform15_16",
+      "zero_invalid_and_budget": true
+    },
+    {
+      "policy": "cubic_uniform125_16",
+      "zero_invalid_and_budget": true
+    },
+    {
+      "policy": "auto_heap15_16",
+      "zero_invalid_and_budget": true
+    },
+    {
+      "policy": "auto_heap125_16",
+      "zero_invalid_and_budget": true
+    }
+  ],
+  "requests": 216,
+  "successful": 216
+}

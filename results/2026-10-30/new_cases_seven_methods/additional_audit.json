@@ -1,0 +1,13 @@
+{
+  "finite_certificates": 1875,
+  "predictions": 426,
+  "skipped_intermediate": 1137,
+  "nested_steps": 2445,
+  "requests": 294,
+  "unique_original_kernel_meshes": 32,
+  "decision_requests": 13,
+  "decision_success": 12,
+  "decision_undetermined": 1,
+  "prelocked_sources_match": true,
+  "all_4_networks_retained": true
+}

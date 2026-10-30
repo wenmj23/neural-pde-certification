@@ -1,0 +1,59 @@
+{
+  "status": "complete",
+  "suite": "prelocked_seed49_and_new_shapes",
+  "cases": [
+    "depth1_k2_seed49",
+    "depth1_k5_seed49",
+    "depth3_k2_seed49",
+    "depth3_k5_seed49",
+    "shift_034_sigma003",
+    "shift_031_sigma040",
+    "double_021_068"
+  ],
+  "targets": [
+    "51/50",
+    "201/200"
+  ],
+  "policies": [
+    "cubic_uniform16",
+    "auto_heap16",
+    "nested_left125_16",
+    "nested_left_stride2_125_16",
+    "nested_left_stride3_125_16",
+    "nested_left_fcguard_125_16",
+    "nested_left_fcfast_125_16"
+  ],
+  "repeats": 3,
+  "max_intervals": 4096,
+  "seconds": 30,
+  "source_sha256": {
+    "scripts/47_new_cases_2026_10_30.py": "76bf31126a78038133ef6c44c79a2558ec671b1a67a31b0d73510c0c564c6f43",
+    "scripts/arb_mesh_check_forecast.py": "fd909f8d420ad43c423417ab40100887f50d2a0f53f607d6c275e2676d986b03",
+    "scripts/arb_mesh_check_stride.py": "a310c57111270c9ee29a5c838a77dbef077f0168f2a24d9f90f600a0676412c7",
+    "scripts/arb_mesh_selection.py": "1871b5ca7b45a9d1bc44bae1b5d575f732fb20e64d1880cd466a50177a3ea32f",
+    "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+    "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+    "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+    "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+    "scripts/arb_problem_families.py": "ec72ac0d015bee596abd52b295d87f40af899cdb16e87573e0de872c31ed7fab",
+    "scripts/arb_degree_selection.py": "57d6d54b755c9595867cc2881fb8d0e1d5a20995c3737e936face5cc04133a07",
+    "scripts/interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca",
+    "scripts/18_continuous_reference_crosscheck.py": "01623b8c7218d03d83f60136f80d0577069e9969cdbad7adfc850f61e88a1c4d",
+    "scripts/24_depth_continuous_reference.py": "564a2f20fa7f52cd8e0fff9ec028870d9582a2b2f8a49931a6bf92a3238250b1",
+    "scripts/22_freeze_depth_networks.py": "0f2d2a4a8a61447d178e5bfdce119314f57e4dc82b333da88dc28ecf6689b69d",
+    "scripts/mesh_problem_families.py": "34c76cb6b6e92a52161be378dba9f8e423257f0df4d9cc52bf29b8abd5b8fef4",
+    "scripts/48_holdout_study.py": "b302014c5ee8c037436caf34ac11abd6d52eee22de679d78fa740e9c54aa191b",
+    "configs/frozen_networks_holdout_2026-10-30.json": "5e420cdbdb224be4ba2aa49456741715630ee09361f984203232b464c7cd82c7",
+    "results/generated/47_new_cases/20261030T031028111446Z/config.json": "d29bf96bf4e81f537295f3000838d8df9aa2a4bf4cbd39e081e8f75d4323872f",
+    "results/generated/47_new_cases/20261030T031028111446Z/network_references.json": "13874bbb99b0a16b82fd0475839afe13a0b46d4f9073c5f9e17828490dab97d9"
+  },
+  "python": "3.12.14",
+  "flint": "0.9.0",
+  "timing": "Sequential; fresh cache per request; all attempts and selection included; imports, garbage collection, references, diagnostic probes and file writes excluded.",
+  "limitations": "Four seed49 frozen networks generated after rules were locked; k2 is a new source frequency. Three new manufactured peak parameters were preselected. Same training and PDE family; not independent software audit. Forecast uses only completed certificate components; exact goal remains mandatory. Intermediate planned grids are not certified. Both targets are certificate enclosure ratios, not solution error.",
+  "requests": 294,
+  "successes": 294,
+  "reference_checks": 294,
+  "original_meshes_checked": 32
+}

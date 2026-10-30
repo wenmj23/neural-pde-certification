@@ -1,0 +1,92 @@
+"""Compare matched 2x, 1.5x and 1.25x mesh budget growth.
+
+All timings include mesh selection and all certificate attempts; reference
+checks and diagnostic-only probes are outside timings. No policy sees the
+reference value or the case label. Outputs are written to a new directory.
+"""
+from datetime import datetime, timezone
+from fractions import Fraction as F
+from pathlib import Path
+import gc, hashlib, json, platform, statistics
+
+import flint
+from arb_mesh_selection import request as old_request, RecordedCubic, indicators
+from arb_mesh_growth import request as growth_request
+from arb_cubic_reconstruction import SixthOrderDeep, BumpSix, SineSix, CubicVerifier
+from arb_degree_selection import fraction, pack
+from mesh_problem_families import GaussianMixture
+
+ROOT = Path(__file__).resolve().parents[1]
+FIXTURE = ROOT/'configs/frozen_networks_depth_2026-10-29.json'
+REFERENCE = ROOT/'results/generated/38_mesh_selection/20261029T115506215623Z/references.json'
+POLICIES = ('cubic_uniform16', 'cubic_uniform15_16', 'cubic_uniform125_16', 'auto_heap16', 'auto_heap15_16', 'auto_heap125_16')
+TARGETS = (F(51, 50), F(201, 200))
+
+def main():
+    out = ROOT/'results/generated/43_mesh_growth_study'/datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')
+    out.mkdir(parents=True, exist_ok=False)
+    sources = [Path(__file__), ROOT/'scripts/arb_mesh_selection.py', ROOT/'scripts/arb_mesh_growth.py', ROOT/'scripts/mesh_problem_families.py', ROOT/'scripts/arb_cubic_reconstruction.py', ROOT/'scripts/arb_degree_selection.py', FIXTURE, REFERENCE, ROOT/'results/generated/24_depth_reference/20261029T044806546934Z/references.json']
+    config = dict(status='running', cases=[], targets=[str(t) for t in TARGETS], policies=list(POLICIES), repeats=3,
+                  max_intervals=4096, seconds=30, source_sha256={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sources},
+                  python=platform.python_version(), flint=flint.__version__,
+                  timing='Sequential; fresh cache per request; all attempts and selection included; imports, garbage collection, references, diagnostic probes and file writes excluded.',
+                  limitations='Three previously studied frozen networks, three manufactured controls; no fresh-network holdout or formal audit. Growth affects all local, global fallback and uniform refinements. Both targets are certificate enclosure ratios, not solution error.')
+    def save(name, data):
+        p=out/name; p.write_text(json.dumps(data,indent=2)+'\n'); assert json.loads(p.read_text()) == data
+    def checkpoint(): save('config.json',config);save('runs.json',runs);save('checks.json',checks)
+    sha=hashlib.sha256(FIXTURE.read_bytes()).hexdigest()
+    labels = ('depth1_k1_seed7','depth3_k5_seed7','depth3_k5_seed27')
+    cases = [(label, lambda label=label: SixthOrderDeep(FIXTURE,label,sha)) for label in labels]
+    terms = [dict(center='0.733',width='0.013',weight='1')]
+    cases += [('narrow_peak',lambda:BumpSix('0.005')),('global_sine_50',lambda:SineSix(50)),('shift_0733',lambda:GaussianMixture(terms))]
+    refs=json.loads(REFERENCE.read_text())
+    refs.update(json.loads((ROOT/'results/generated/24_depth_reference/20261029T044806546934Z/references.json').read_text()))
+    runs=[]; checks=[]; diagnostics=[]
+    config['cases']=[x[0] for x in cases]; checkpoint()
+    try:
+        for label,factory in cases:
+            v=RecordedCubic(factory(),'moment');v.uniform(16);result=v.certify();_,c=indicators(v)
+            diagnostics.append({'label':label,'effective_cell_fraction':c,'initial_enclosure':pack(result)})
+        save('diagnostics.json',diagnostics)
+        for repeat in range(3):
+            for label,factory in cases:
+                for target in TARGETS:
+                    shift=2*repeat; order=POLICIES[shift:]+POLICIES[:shift]
+                    for policy in order:
+                        gc.collect(); r=growth_request(factory,policy,target,cap=4096,seconds=30)
+                        r.update(label=label,repeat=repeat);runs.append(r)
+                        if label in refs: lo,hi=fraction(refs[label]['lower']),fraction(refs[label]['upper'])
+                        else: lo=hi=F(1,10000)
+                        if r['final']:
+                            final=r['final'];check=fraction(final['lower'])<=lo<=hi<=fraction(final['upper'])
+                            checks.append({'label':label,'target':str(target),'policy':policy,'repeat':repeat,'reference_contained':check})
+                            if not check: raise AssertionError('reference not contained')
+                        checkpoint()
+                        print(label,str(target),policy,round(r['wall_ms'],2),r['success'],flush=True)
+        summary=[]
+        for label,_ in cases:
+            for target in TARGETS:
+                for policy in POLICIES:
+                    rows=[r for r in runs if r['label']==label and r['target']==str(target) and r['policy']==policy]
+                    summary.append(dict(label=label,target=str(target),policy=policy,successes=sum(r['success'] for r in rows),
+                                        median_wall_ms=statistics.median(r['wall_ms'] for r in rows),
+                                        wall_ms=[r['wall_ms'] for r in rows],intervals=[r['final']['intervals'] if r['final'] else None for r in rows],
+                                        routes=[r['locked_mesh'] for r in rows],recheck_switched=[any(t.get('recheck_switched_to_uniform',False) for t in r['trace']) for r in rows],work=[r['work'] for r in rows]))
+        save('summary.json',summary)
+        # Original-kernel exact equality on every distinct locally refined final mesh.
+        matches=[]; seen=set()
+        for r in runs:
+            if r['policy'].startswith('cubic_uniform') or not r['final']: continue
+            key=(r['label'],r['degree'],tuple(r['final_nodes']))
+            if key in seen: continue
+            seen.add(key);factory=dict(cases)[r['label']]
+            original=pack(CubicVerifier(factory(),'moment').certify([F(x) for x in r['final_nodes']]))
+            ok=original==r['final']; matches.append({'label':r['label'],'intervals':r['final']['intervals'],'matched':ok})
+            if not ok: raise AssertionError('original-kernel mismatch')
+        save('original_kernel_matches.json',matches)
+        config.update(status='complete',requests=len(runs),successes=sum(r['success'] for r in runs),reference_checks=len(checks),original_meshes_checked=len(matches))
+        checkpoint();print('COMPLETED',out,'requests',len(runs),'checks',len(checks),'original meshes',len(matches),flush=True)
+    except Exception as exc:
+        config.update(status='failed',error=repr(exc));checkpoint();raise
+
+if __name__=='__main__': main()

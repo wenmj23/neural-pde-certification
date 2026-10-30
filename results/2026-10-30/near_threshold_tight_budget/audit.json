@@ -1,0 +1,29 @@
+{
+  "requests": 16,
+  "reference_guided_tolerance_not_blind": true,
+  "all_enclosures_include_reference": true,
+  "unknown_crosses_tolerance": true,
+  "effective_max_intervals": 256,
+  "status_counts": [
+    {
+      "degree": 2,
+      "decision": "undetermined",
+      "count": 8
+    },
+    {
+      "degree": 3,
+      "decision": "exceeds_tolerance",
+      "count": 3
+    },
+    {
+      "degree": 3,
+      "decision": "undetermined",
+      "count": 2
+    },
+    {
+      "degree": 3,
+      "decision": "within_tolerance",
+      "count": 3
+    }
+  ]
+}

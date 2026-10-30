@@ -1,0 +1,92 @@
+{
+  "status": "complete",
+  "cases": [
+    "shift_0137",
+    "shift_0733",
+    "boundary_097",
+    "double_012_088",
+    "triple_015_047_083"
+  ],
+  "targets": [
+    "51/50",
+    "201/200"
+  ],
+  "policies": [
+    "cubic_uniform16",
+    "auto_heap16",
+    "auto_heap_recheck16"
+  ],
+  "repeats": 3,
+  "max_intervals": 4096,
+  "seconds": 30,
+  "source_sha256": {
+    "scripts/42_mesh_recheck_shapes.py": "0db54d111b49842eab099898eee5741d18c2b6cbed3cecaddc27f0aa47106bc2",
+    "scripts/arb_mesh_selection.py": "1871b5ca7b45a9d1bc44bae1b5d575f732fb20e64d1880cd466a50177a3ea32f",
+    "scripts/arb_mesh_recheck.py": "d47d387df88dcbf64468145fc83dee0f69a6f2d4640d7cae9ba72d61ed952e1e",
+    "scripts/mesh_problem_families.py": "34c76cb6b6e92a52161be378dba9f8e423257f0df4d9cc52bf29b8abd5b8fef4",
+    "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "scripts/arb_degree_selection.py": "57d6d54b755c9595867cc2881fb8d0e1d5a20995c3737e936face5cc04133a07",
+    "configs/frozen_networks_depth_2026-10-29.json": "58c6c7532f4bb61d9d6c715cb32be568a103ed2ea2fe249fee6d4bf9b5a910d8",
+    "results/generated/38_mesh_selection/20261029T115506215623Z/references.json": "dc75b4857724c832cdf6e927aa28a941e1aff22cc10495fcb12b59b8b07a4c02"
+  },
+  "python": "3.12.14",
+  "flint": "0.9.0",
+  "timing": "Sequential; fresh cache per request; all attempts and selection included; imports, garbage collection, references, diagnostic probes and file writes excluded.",
+  "limitations": "Five previously studied manufactured off-center, near-boundary and multipeak cases; no networks; no formal audit. Both targets are certificate enclosure ratios, not solution error.",
+  "shapes": {
+    "shift_0137": [
+      {
+        "center": "0.137",
+        "width": "0.007",
+        "weight": "1"
+      }
+    ],
+    "shift_0733": [
+      {
+        "center": "0.733",
+        "width": "0.013",
+        "weight": "1"
+      }
+    ],
+    "boundary_097": [
+      {
+        "center": "0.97",
+        "width": "0.004",
+        "weight": "1"
+      }
+    ],
+    "double_012_088": [
+      {
+        "center": "0.12",
+        "width": "0.006",
+        "weight": "1/2"
+      },
+      {
+        "center": "0.88",
+        "width": "0.009",
+        "weight": "1/2"
+      }
+    ],
+    "triple_015_047_083": [
+      {
+        "center": "0.15",
+        "width": "0.008",
+        "weight": "1/3"
+      },
+      {
+        "center": "0.47",
+        "width": "0.011",
+        "weight": "1/3"
+      },
+      {
+        "center": "0.83",
+        "width": "0.006",
+        "weight": "1/3"
+      }
+    ]
+  },
+  "requests": 90,
+  "successes": 90,
+  "reference_checks": 90,
+  "original_meshes_checked": 5
+}

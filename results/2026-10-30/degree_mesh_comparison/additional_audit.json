@@ -1,0 +1,49 @@
+{
+  "requests": 252,
+  "successes": 246,
+  "budget_exhaustions": [
+    {
+      "label": "shift_034_sigma003",
+      "target": "51/50",
+      "policy": "fixed2",
+      "reason": "mesh_limit"
+    },
+    {
+      "label": "shift_034_sigma003",
+      "target": "201/200",
+      "policy": "fixed2",
+      "reason": "mesh_limit"
+    },
+    {
+      "label": "shift_034_sigma003",
+      "target": "51/50",
+      "policy": "fixed2",
+      "reason": "mesh_limit"
+    },
+    {
+      "label": "shift_034_sigma003",
+      "target": "201/200",
+      "policy": "fixed2",
+      "reason": "mesh_limit"
+    },
+    {
+      "label": "shift_034_sigma003",
+      "target": "51/50",
+      "policy": "fixed2",
+      "reason": "mesh_limit"
+    },
+    {
+      "label": "shift_034_sigma003",
+      "target": "201/200",
+      "policy": "fixed2",
+      "reason": "mesh_limit"
+    }
+  ],
+  "finite_intermediate_reference_checks": 1116,
+  "original_meshes_checked": 34,
+  "exact_stopping_passed": true,
+  "decision_cli_requests": 26,
+  "paired_degree_decisions_agree": 13,
+  "decision_budget_unknown": 2,
+  "case_source_hashes_match": true
+}
