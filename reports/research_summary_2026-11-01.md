@@ -29,4 +29,4 @@
 
 [结果索引](../results/2026-11-01/README.md) · [下一步](../NEXT_STEPS.md) · [接续说明](../HANDOFF.md)
 
-本次同步未公开本日两组新冻结权重及训练配置；部分网络实验因此无法仅凭本仓库复现。
+经用户明确同意，本日两组新冻结网络权重及训练配置已公开：[种子 203/204](../configs/frozen_poly_new_training_2026-11-01.json)、[种子 305/306](../configs/frozen_poly_holdout_training_2026-11-01.json)。部分脚本还依赖仓库同级的前序运行产物，不能保证新克隆直接全量重放。
