@@ -1,0 +1,22 @@
+{
+  "networks": 12,
+  "requests": 24,
+  "status_counts": {
+    "goal_met": 24
+  },
+  "reference_cases": 12,
+  "reference_converged": 12,
+  "reference_overlap": 24,
+  "reference_contained": 24,
+  "noncontained": [],
+  "methods": {
+    "2": {
+      "requests": 12,
+      "goal_met": 12
+    },
+    "3": {
+      "requests": 12,
+      "goal_met": 12
+    }
+  }
+}

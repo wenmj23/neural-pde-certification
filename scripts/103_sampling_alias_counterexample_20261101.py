@@ -1,0 +1,10 @@
+"""Exact manufactured example: sampling 33 residual nodes misses oscillations."""
+from pathlib import Path
+from fractions import Fraction as F
+import json,hashlib
+from arb_cubic_reconstruction import SineSix
+from arb_shaped_remainder import ShapedVerifier
+from arb_reconstruction import point
+from arb_certification import exact_fraction
+ROOT=Path(__file__).resolve().parents[1];OUT=ROOT.parent/'run_20261101/sampling_alias_counterexample';OUT.mkdir(parents=True,exist_ok=False)
+p=SineSix(32);v=ShapedVerifier(p,'moment');v.uniform(16);result=v.certify();samples=[(F(j,32),p.residual(point(F(j,32)))) for j in range(33)];all_zero_contained=all(y.contains(0) for x,y in samples);samplemax=max(exact_fraction(y.abs_upper()) for x,y in samples);naive=samplemax/8;witness=p.residual(point(F(1,64)));witness_lo=exact_fraction(witness.lower());true=F(1,10000);L,U=exact_fraction(result['lower']),exact_fraction(result['upper']);checks={'33_samples':len(samples)==33,'all_sample_intervals_contain_zero':all_zero_contained,'naive_sample_only_upper_below_true_error':naive<true,'off_grid_residual_exceeds_one':witness_lo>1,'rigorous_certificate_contains_true_error':L<=true<=U,'correct_certificate_not_exact_zero':U>0};summary={'problem':'synthetic error e(x)=10^-4 sin(32*pi*x), r=-e_dd; zero endpoints','sample_points':'j/32, j=0..32 (quadratic nodes for 16 uniform segments)','off_grid_witness':'x=1/64','sample_abs_upper':str(samplemax),'invalid_sample_only_error_upper':str(naive),'witness_residual_lower':str(witness_lo),'true_max_error':str(true),'certificate_lower':str(L),'certificate_upper':str(U),'checks':checks,'passed':sum(checks.values()),'total':len(checks),'script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'limitation':'manufactured example, not a trained PINN; sampled-maximum /8 is deliberately invalid and only used as a counterexample'};(OUT/'summary.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary,indent=2));raise SystemExit(0 if all(checks.values()) else 1)

@@ -1,0 +1,23 @@
+{
+  "problem": "synthetic error e(x)=10^-4 sin(32*pi*x), r=-e_dd; zero endpoints",
+  "sample_points": "j/32, j=0..32 (quadratic nodes for 16 uniform segments)",
+  "off_grid_witness": "x=1/64",
+  "sample_abs_upper": "9531103718832490079404555903793/803469022129495137770981046170581301261101496891396417650688",
+  "invalid_sample_only_error_upper": "9531103718832490079404555903793/6427752177035961102167848369364650410088811975131171341205504",
+  "witness_residual_lower": "2562295796337889282508915921619/2535301200456458802993406410752",
+  "true_max_error": "1/10000",
+  "certificate_lower": "0",
+  "certificate_upper": "3310776450360307094036677307115/20282409603651670423947251286016",
+  "checks": {
+    "33_samples": true,
+    "all_sample_intervals_contain_zero": true,
+    "naive_sample_only_upper_below_true_error": true,
+    "off_grid_residual_exceeds_one": true,
+    "rigorous_certificate_contains_true_error": true,
+    "correct_certificate_not_exact_zero": true
+  },
+  "passed": 6,
+  "total": 6,
+  "script_sha256": "01f5079547a3966b91664863e38eef21df60e34bd14bfb753cd002974f7dfed5",
+  "limitation": "manufactured example, not a trained PINN; sampled-maximum /8 is deliberately invalid and only used as a counterexample"
+}

@@ -1,0 +1,33 @@
+{
+  "networks": 12,
+  "requests": 72,
+  "outcomes": {
+    "within": 44,
+    "exceeds": 28
+  },
+  "compatible": 72,
+  "failures": [],
+  "by_tolerance": {
+    "1/1000": {
+      "within": 24
+    },
+    "1/100000": {
+      "within": 16,
+      "exceeds": 8
+    },
+    "1/1000000": {
+      "exceeds": 20,
+      "within": 4
+    }
+  },
+  "by_degree": {
+    "2": {
+      "within": 22,
+      "exceeds": 14
+    },
+    "3": {
+      "within": 22,
+      "exceeds": 14
+    }
+  }
+}

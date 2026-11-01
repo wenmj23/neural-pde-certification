@@ -1,0 +1,350 @@
+{
+  "requests": 72,
+  "expected": 72,
+  "outcomes": {
+    "goal_met": 66,
+    "budget_exhausted": 6
+  },
+  "intermediate_bounds": 198,
+  "exact_coverage": 198,
+  "exceptions": [],
+  "bad_bounds": [],
+  "groups": [
+    {
+      "frequency": 1,
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        16,
+        16,
+        16
+      ],
+      "median_seconds": 0.001113240000023552
+    },
+    {
+      "frequency": 1,
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        16,
+        16,
+        16
+      ],
+      "median_seconds": 0.001108594000015728
+    },
+    {
+      "frequency": 1,
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        16,
+        16,
+        16
+      ],
+      "median_seconds": 0.0018779050000148345
+    },
+    {
+      "frequency": 1,
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        16,
+        16,
+        16
+      ],
+      "median_seconds": 0.0019044249999922158
+    },
+    {
+      "frequency": 2,
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        16,
+        16,
+        16
+      ],
+      "median_seconds": 0.001199520999989545
+    },
+    {
+      "frequency": 2,
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        16,
+        16,
+        16
+      ],
+      "median_seconds": 0.0011792109999930744
+    },
+    {
+      "frequency": 2,
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        16,
+        16,
+        16
+      ],
+      "median_seconds": 0.0017358709999939492
+    },
+    {
+      "frequency": 2,
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        16,
+        16,
+        16
+      ],
+      "median_seconds": 0.0017344790000208832
+    },
+    {
+      "frequency": 4,
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        32,
+        32,
+        32
+      ],
+      "median_seconds": 0.0033274950000077297
+    },
+    {
+      "frequency": 4,
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        32,
+        32,
+        32
+      ],
+      "median_seconds": 0.004426773000005824
+    },
+    {
+      "frequency": 4,
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        16,
+        16,
+        16
+      ],
+      "median_seconds": 0.001981852999989542
+    },
+    {
+      "frequency": 4,
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        16,
+        16,
+        16
+      ],
+      "median_seconds": 0.0017771939999988717
+    },
+    {
+      "frequency": 8,
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        128,
+        128,
+        128
+      ],
+      "median_seconds": 0.015766667999997708
+    },
+    {
+      "frequency": 8,
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        128,
+        128,
+        128
+      ],
+      "median_seconds": 0.025848120000006247
+    },
+    {
+      "frequency": 8,
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        32,
+        32,
+        32
+      ],
+      "median_seconds": 0.005445893000000979
+    },
+    {
+      "frequency": 8,
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        32,
+        32,
+        32
+      ],
+      "median_seconds": 0.0064584309999986544
+    },
+    {
+      "frequency": 16,
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        256,
+        256,
+        256
+      ],
+      "median_seconds": 0.032440333000010924
+    },
+    {
+      "frequency": 16,
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        256,
+        256,
+        256
+      ],
+      "median_seconds": 0.05634296499999891
+    },
+    {
+      "frequency": 16,
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        128,
+        128,
+        128
+      ],
+      "median_seconds": 0.026047270000020717
+    },
+    {
+      "frequency": 16,
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        128,
+        128,
+        128
+      ],
+      "median_seconds": 0.04411207700002251
+    },
+    {
+      "frequency": 32,
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "budget_exhausted": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.06815718400000037
+    },
+    {
+      "frequency": 32,
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "budget_exhausted": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.12547402900000293
+    },
+    {
+      "frequency": 32,
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        256,
+        256,
+        256
+      ],
+      "median_seconds": 0.056673763999981475
+    },
+    {
+      "frequency": 32,
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        256,
+        256,
+        256
+      ],
+      "median_seconds": 0.094659790999998
+    }
+  ]
+}

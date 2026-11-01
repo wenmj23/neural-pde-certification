@@ -1,0 +1,182 @@
+{
+  "requests": 36,
+  "expected": 36,
+  "outcomes": {
+    "goal_met": 30,
+    "budget_exhausted": 6
+  },
+  "intermediate_bounds": 150,
+  "exact_coverage": 150,
+  "exceptions": [],
+  "bad_bounds": [],
+  "groups": [
+    {
+      "width": "0.08",
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        128,
+        128,
+        128
+      ],
+      "median_seconds": 0.021775572999985116
+    },
+    {
+      "width": "0.08",
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        64,
+        64,
+        64
+      ],
+      "median_seconds": 0.014117566999999553
+    },
+    {
+      "width": "0.08",
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        64,
+        64,
+        64
+      ],
+      "median_seconds": 0.015577014999990979
+    },
+    {
+      "width": "0.08",
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        32,
+        32,
+        32
+      ],
+      "median_seconds": 0.008448885000007067
+    },
+    {
+      "width": "0.02",
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.0868037500000014
+    },
+    {
+      "width": "0.02",
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        128,
+        128,
+        128
+      ],
+      "median_seconds": 0.03364345800000024
+    },
+    {
+      "width": "0.02",
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        256,
+        256,
+        256
+      ],
+      "median_seconds": 0.06989115900000797
+    },
+    {
+      "width": "0.02",
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        64,
+        64,
+        64
+      ],
+      "median_seconds": 0.02343186300001321
+    },
+    {
+      "width": "0.005",
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "budget_exhausted": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.09645284600000537
+    },
+    {
+      "width": "0.005",
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        128,
+        128,
+        128
+      ],
+      "median_seconds": 0.03407354899999859
+    },
+    {
+      "width": "0.005",
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "budget_exhausted": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.1524026900000024
+    },
+    {
+      "width": "0.005",
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        128,
+        128,
+        128
+      ],
+      "median_seconds": 0.058151716999987
+    }
+  ]
+}

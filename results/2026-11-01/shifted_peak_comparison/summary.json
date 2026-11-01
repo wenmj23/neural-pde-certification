@@ -1,0 +1,242 @@
+{
+  "cases": 4,
+  "requests": 48,
+  "expected": 48,
+  "outcomes": {
+    "budget_exhausted": 21,
+    "goal_met": 27
+  },
+  "reference_converged": 4,
+  "reference_count": 4,
+  "intermediate_checks": 234,
+  "reference_overlap": 234,
+  "reference_contained": 234,
+  "bad_overlap": [],
+  "exceptions": [],
+  "groups": [
+    {
+      "case": "left_narrow",
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "budget_exhausted": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.09957044399999404
+    },
+    {
+      "case": "left_narrow",
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        128,
+        128,
+        128
+      ],
+      "median_seconds": 0.04418786799999452
+    },
+    {
+      "case": "left_narrow",
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "budget_exhausted": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.1594760780000115
+    },
+    {
+      "case": "left_narrow",
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        64,
+        64,
+        64
+      ],
+      "median_seconds": 0.02782072400003699
+    },
+    {
+      "case": "right_mid",
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "budget_exhausted": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.09522511500000519
+    },
+    {
+      "case": "right_mid",
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        128,
+        128,
+        128
+      ],
+      "median_seconds": 0.03830698100000518
+    },
+    {
+      "case": "right_mid",
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.1530187010000077
+    },
+    {
+      "case": "right_mid",
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        64,
+        64,
+        64
+      ],
+      "median_seconds": 0.025541903000032562
+    },
+    {
+      "case": "near_boundary",
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "budget_exhausted": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.10654140200000484
+    },
+    {
+      "case": "near_boundary",
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        128,
+        128,
+        128
+      ],
+      "median_seconds": 0.04188214800001333
+    },
+    {
+      "case": "near_boundary",
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "budget_exhausted": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.14823629199997868
+    },
+    {
+      "case": "near_boundary",
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        64,
+        64,
+        64
+      ],
+      "median_seconds": 0.026364239000031375
+    },
+    {
+      "case": "two_peaks",
+      "degree": 2,
+      "mesh": "uniform",
+      "outcomes": {
+        "budget_exhausted": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.12830235299998094
+    },
+    {
+      "case": "two_peaks",
+      "degree": 2,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        256,
+        256,
+        256
+      ],
+      "median_seconds": 0.09602996000000985
+    },
+    {
+      "case": "two_peaks",
+      "degree": 3,
+      "mesh": "uniform",
+      "outcomes": {
+        "budget_exhausted": 3
+      },
+      "final_intervals": [
+        512,
+        512,
+        512
+      ],
+      "median_seconds": 0.2112261510000053
+    },
+    {
+      "case": "two_peaks",
+      "degree": 3,
+      "mesh": "adaptive",
+      "outcomes": {
+        "goal_met": 3
+      },
+      "final_intervals": [
+        128,
+        128,
+        128
+      ],
+      "median_seconds": 0.0659779389999926
+    }
+  ]
+}

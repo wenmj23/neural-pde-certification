@@ -1,0 +1,10 @@
+{
+  "networks": 6,
+  "fresh_fixed_mesh_evaluations": 96,
+  "trace_checks": 309,
+  "upper_matches": 309,
+  "residual_matches": 309,
+  "derivative_cumulative_matches": 309,
+  "failures": [],
+  "script_sha256": "aca885eacd109a96c008c4298ec5611fdfe23cb1fda968d7138588c0b4b0d57b"
+}

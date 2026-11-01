@@ -1,0 +1,84 @@
+{
+  "underlying_requests": 72,
+  "derived_budget_classifications": 288,
+  "groups": [
+    {
+      "max_intervals": 16,
+      "degree": 2,
+      "total": 36,
+      "outcomes": {
+        "within": 20,
+        "exceeds": 6,
+        "unknown": 10
+      }
+    },
+    {
+      "max_intervals": 16,
+      "degree": 3,
+      "total": 36,
+      "outcomes": {
+        "within": 21,
+        "exceeds": 13,
+        "unknown": 2
+      }
+    },
+    {
+      "max_intervals": 32,
+      "degree": 2,
+      "total": 36,
+      "outcomes": {
+        "within": 21,
+        "exceeds": 13,
+        "unknown": 2
+      }
+    },
+    {
+      "max_intervals": 32,
+      "degree": 3,
+      "total": 36,
+      "outcomes": {
+        "within": 22,
+        "exceeds": 14
+      }
+    },
+    {
+      "max_intervals": 64,
+      "degree": 2,
+      "total": 36,
+      "outcomes": {
+        "within": 22,
+        "exceeds": 14
+      }
+    },
+    {
+      "max_intervals": 64,
+      "degree": 3,
+      "total": 36,
+      "outcomes": {
+        "within": 22,
+        "exceeds": 14
+      }
+    },
+    {
+      "max_intervals": 128,
+      "degree": 2,
+      "total": 36,
+      "outcomes": {
+        "within": 22,
+        "exceeds": 14
+      }
+    },
+    {
+      "max_intervals": 128,
+      "degree": 3,
+      "total": 36,
+      "outcomes": {
+        "within": 22,
+        "exceeds": 14
+      }
+    }
+  ],
+  "data_sha256": "463e6ecdf0444ecb5067b4194a00edf0b0ab27a61144de222b10511c816dfa52",
+  "script_sha256": "de917b06625cd2671f7c65121129ff902e1870b62416998f617d792cb27853bc",
+  "limitation": "derived retrospectively from existing traces; not new independent runs"
+}

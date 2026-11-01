@@ -1,0 +1,10 @@
+{
+  "analytic_cases": 10,
+  "grids_per_case": 3,
+  "expected_finite_bounds": 120,
+  "finite_bounds": 120,
+  "covers_exact": 120,
+  "false_bounds": [],
+  "exceptions": [],
+  "shared_data_no_extra": 90
+}

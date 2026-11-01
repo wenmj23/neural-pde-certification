@@ -1,0 +1,65 @@
+{
+  "networks": 12,
+  "mesh_sizes": 4,
+  "groups": 48,
+  "bounds": 192,
+  "reference_overlap": 192,
+  "reference_contained": 192,
+  "shared_quadratic_data_checks": 144,
+  "incompatible": [],
+  "by_method": {
+    "global": {
+      "count": 48,
+      "decisions": {
+        "1/100000": {
+          "unknown": 48
+        },
+        "1/1000000": {
+          "unknown": 48
+        }
+      }
+    },
+    "spatial": {
+      "count": 48,
+      "decisions": {
+        "1/100000": {
+          "unknown": 43,
+          "within": 5
+        },
+        "1/1000000": {
+          "unknown": 48
+        }
+      }
+    },
+    "signed_quadratic": {
+      "count": 48,
+      "decisions": {
+        "1/100000": {
+          "within": 30,
+          "exceeds": 13,
+          "unknown": 5
+        },
+        "1/1000000": {
+          "exceeds": 34,
+          "within": 7,
+          "unknown": 7
+        }
+      }
+    },
+    "signed_cubic": {
+      "count": 48,
+      "decisions": {
+        "1/100000": {
+          "within": 31,
+          "exceeds": 16,
+          "unknown": 1
+        },
+        "1/1000000": {
+          "exceeds": 39,
+          "within": 8,
+          "unknown": 1
+        }
+      }
+    }
+  }
+}

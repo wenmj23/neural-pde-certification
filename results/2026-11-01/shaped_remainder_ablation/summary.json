@@ -1,0 +1,26 @@
+{
+  "networks": 12,
+  "bounds": 240,
+  "groups": 96,
+  "reference_overlap": 240,
+  "reference_contained": 240,
+  "cache_no_extra": 240,
+  "moment_exact_checks": 96,
+  "moment_exact_matches": 96,
+  "by_degree": {
+    "2": {
+      "comparisons": 48,
+      "moment_less": 48,
+      "moment_equal": 0,
+      "moment_greater": 0
+    },
+    "3": {
+      "comparisons": 48,
+      "moment_less": 48,
+      "moment_equal": 0,
+      "moment_greater": 0
+    }
+  },
+  "quadratic_full_tighter_than_moment": 48,
+  "quadratic_full_looser_than_moment": 0
+}

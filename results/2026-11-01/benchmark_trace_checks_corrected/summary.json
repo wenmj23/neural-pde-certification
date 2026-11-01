@@ -1,0 +1,10 @@
+{
+  "request_count": 288,
+  "trace_checks": 612,
+  "upper_matches": 612,
+  "residual_call_matches": 612,
+  "derivative_cumulative_matches": 612,
+  "failures": [],
+  "script_sha256": "c99620aabfb642b0b53d033925e33e35cbcc429ab5033d67f62d62760c6d0077",
+  "prior_check_issue": "script94 wrongly compared cumulative derivative count to fresh single-mesh count; saved prior results unchanged"
+}

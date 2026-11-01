@@ -1,0 +1,50 @@
+{
+  "status": "protocol locked before training",
+  "training_seeds": [
+    305,
+    306
+  ],
+  "sources": {
+    "constant_2": [
+      2
+    ],
+    "linear_6x": [
+      0,
+      6
+    ],
+    "quartic_30x4": [
+      0,
+      0,
+      0,
+      0,
+      30
+    ]
+  },
+  "depths": [
+    1,
+    2
+  ],
+  "width": 16,
+  "training": "fixed 2000 Adam, LBFGS max_iter 80, 64 interior points",
+  "methods": [
+    "global",
+    "spatial",
+    "signed_quadratic",
+    "signed_cubic"
+  ],
+  "tolerances": [
+    "1/1000",
+    "1/100000"
+  ],
+  "grid": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "repetitions": 3,
+  "objective": "one-sided prove error <= tolerance; unknown otherwise",
+  "reference_policy": "known exact solution only after all training/certification; never used to select case, threshold, grid or stop",
+  "train_script_sha256": "33e6939593d66ba6cfeb24134abdd83cd2b265d6af99f707f851a7299b53e653",
+  "base_commit": "8e09c023419ef92dfff9b12f29867c915ae0a4fd"
+}

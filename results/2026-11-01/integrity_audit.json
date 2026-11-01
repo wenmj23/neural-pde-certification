@@ -1,0 +1,17 @@
+{
+  "checked_records": {
+    "poly_fixed_tolerance": 72,
+    "matched_residual_ablation": 192,
+    "shaped_remainder_ablation": 240,
+    "matched_acceptance_benchmark": 288,
+    "holdout_benchmark": 288,
+    "analytic_shape_stress": 120,
+    "bump_mesh_comparison": 36,
+    "sine_mesh_comparison": 72,
+    "shifted_peak_comparison": 48
+  },
+  "total_records": 1356,
+  "errors": [],
+  "ok": true,
+  "scope": "counts, selected uniqueness and simple invariant checks; not a formal audit or proof"
+}
