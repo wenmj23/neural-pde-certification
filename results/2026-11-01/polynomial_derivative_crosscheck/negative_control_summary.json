@@ -1,0 +1,14 @@
+{
+  "deliberate_change": "flip sign on network derivative in diagnostic only",
+  "networks": 1,
+  "points": 3,
+  "orders": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "checks": 12,
+  "detected_mismatch": 12,
+  "process_exit_code": 1
+}

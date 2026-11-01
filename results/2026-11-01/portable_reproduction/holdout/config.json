@@ -1,0 +1,13 @@
+{
+  "fixture_sha256": "7a90cc204e2aa7a411f74061deccc8a48be523e467c5492ce8e091b5bf3c5529",
+  "networks": 12,
+  "intervals": 64,
+  "degrees": [
+    2,
+    3
+  ],
+  "reference": "mpmath interval reference computed after both certificate bounds per network; rel 1e-7 abs 1e-14 cap 5000",
+  "source_sha256": "805a73515fd2de2ecf35e13db1a2d69634f13ed0fe7c214a0ce2026218e96b58",
+  "prototype_sha256": "26329a98a05f0201bc02034482edc3d0843a7c5ce7260daf4140d7afc12fbd85",
+  "scope": "frozen binary64 weights as exact real constants, conditional on interval backend and assumptions; not public CLI"
+}

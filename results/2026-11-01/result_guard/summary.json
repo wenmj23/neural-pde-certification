@@ -1,0 +1,131 @@
+{
+  "tests": 14,
+  "passed": 14,
+  "checks": [
+    {
+      "case": "certificate_valid",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "detected_as_expected": true,
+      "errors": []
+    },
+    {
+      "case": "derivative_valid",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "detected_as_expected": true,
+      "errors": []
+    },
+    {
+      "case": "truncated_derivative",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_as_expected": true,
+      "errors": [
+        "records SHA-256 mismatch",
+        "record count mismatch",
+        "fixture request coverage mismatch",
+        "stability total mismatch",
+        "containment total mismatch"
+      ]
+    },
+    {
+      "case": "duplicate_certificate_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_as_expected": true,
+      "errors": [
+        "network/degree coverage mismatch",
+        "duplicate request key"
+      ]
+    },
+    {
+      "case": "duplicate_derivative_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_as_expected": true,
+      "errors": [
+        "fixture request coverage mismatch",
+        "duplicate request key"
+      ]
+    },
+    {
+      "case": "wrong_count",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_as_expected": true,
+      "errors": [
+        "record count mismatch"
+      ]
+    },
+    {
+      "case": "corrupt_json",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_as_expected": true,
+      "errors": [
+        "JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+      ]
+    },
+    {
+      "case": "missing_summary",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_as_expected": true,
+      "errors": [
+        "FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmp93kniykg/missing_summary/summary.json'"
+      ]
+    },
+    {
+      "case": "wrong_expected",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_as_expected": true,
+      "errors": [
+        "record count mismatch"
+      ]
+    },
+    {
+      "case": "wrong_interval_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_as_expected": true,
+      "errors": [
+        "unexpected mesh"
+      ]
+    },
+    {
+      "case": "wrong_containment_total",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_as_expected": true,
+      "errors": [
+        "containment total mismatch"
+      ]
+    },
+    {
+      "case": "known_gap_renamed_network_rehashed",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "detected_as_expected": true,
+      "errors": []
+    },
+    {
+      "case": "renamed_network_with_trusted_fixture",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "detected_as_expected": true,
+      "errors": [
+        "network keys differ from supplied fixture"
+      ]
+    },
+    {
+      "case": "valid_with_trusted_fixture",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "detected_as_expected": true,
+      "errors": []
+    }
+  ],
+  "limitation": "With no trusted fixture, self-consistent replacement of a whole network is undetectable; optional fixture verifies labels and its hash. SHA-256 alone is not authentication, and this is not a mathematical proof."
+}

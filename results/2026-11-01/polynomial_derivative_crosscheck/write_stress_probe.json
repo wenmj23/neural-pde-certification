@@ -1,0 +1,6 @@
+{
+  "trials": 20,
+  "expected_records": 24,
+  "count_and_hash_ok": 20,
+  "scope": "small local synthetic repeated-overwrite probe; not same full experiment or proof of failure cause"
+}

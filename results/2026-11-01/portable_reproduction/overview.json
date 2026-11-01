@@ -1,0 +1,18 @@
+{
+  "fixture_groups": 2,
+  "networks": 24,
+  "degrees": [
+    2,
+    3
+  ],
+  "uniform_intervals": 64,
+  "requests": 48,
+  "references_converged": 24,
+  "reference_containment": 48,
+  "previous_new_group_exact_bounds_matches": 24,
+  "previous_holdout_subset_exact_upper_matches": 12,
+  "degree_2_ratio_goal_1_02": 18,
+  "degree_3_ratio_goal_1_02": 24,
+  "clean_copy_new_records_exact_match": 24,
+  "note": "Same-machine repeated verification, not independent formal audit; 1.02 refers to enclosure width, not relative network error."
+}

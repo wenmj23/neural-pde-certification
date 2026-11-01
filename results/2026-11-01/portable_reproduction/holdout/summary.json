@@ -1,0 +1,10 @@
+{
+  "records": 24,
+  "expected": 24,
+  "records_sha256": "d1afdb48182e5c20176364a34587f4f4cd5de9f7079f0ed3df7149a3706b8d3a",
+  "reference_converged": 12,
+  "references": 12,
+  "overlap": 24,
+  "contained": 24,
+  "failures": []
+}

@@ -1,0 +1,30 @@
+{
+  "fixtures": [
+    {
+      "sha256": "de2287ec159eb520d6ed18a0b4c32d5d2516b7b5051fb5eaa46c75b50bcdb460",
+      "networks": 12
+    },
+    {
+      "sha256": "7a90cc204e2aa7a411f74061deccc8a48be523e467c5492ce8e091b5bf3c5529",
+      "networks": 12
+    }
+  ],
+  "points": [
+    "1/7",
+    "1/2",
+    "6/7"
+  ],
+  "orders": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "expected": 288,
+  "records": 288,
+  "stable": 288,
+  "contained": 288,
+  "failures": [],
+  "records_sha256": "3d339d8bb301cc1f07c559e60b1a82efee1f15c1342f168f631e3901b0086fd4",
+  "note": "mp.diff floating high precision diagnostic, not a rigorous reference or full interval proof"
+}
