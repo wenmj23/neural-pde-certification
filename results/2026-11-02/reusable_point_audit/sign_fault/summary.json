@@ -1,0 +1,12 @@
+{
+  "audit_return_code": 1,
+  "expected_return_code": 1,
+  "records": 48,
+  "observed_failures": 30,
+  "expected_failures": 30,
+  "unexpected_results": 0,
+  "audit_records_sha256": "8007f8c97cd2aa528c572b82ba672a7bfd732cdd1ad7adc0faff43026850f8f9",
+  "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+  "test_passed": true,
+  "scope": "one-network intentional wrong-sign control; numerical point diagnostic only"
+}

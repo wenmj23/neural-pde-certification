@@ -1,0 +1,11 @@
+{
+  "fixture_sha256": "327f29609274496cabcfb784cbd8ba1bda23a2b17b1d1b51abf82c2415030d80",
+  "training_log_sha256": "930bf0966089f66b3b9bd4508978cf84e4abb5c9322be8bb1700666b7dcc5ca3",
+  "expected": 12,
+  "records": 12,
+  "grid_points": 10001,
+  "numpy_version": "2.3.5",
+  "records_sha256": "51301f79322f004e1d54959694278112e374c68c85e69f2d2b96b0e1c223340a",
+  "script_sha256": "596f3ecbd73cc3b057e7d1465f9c14dc692dbb401f7b6b3d21d33b6c6600d9a5",
+  "scope": "float64 grid observations, not continuous maximum or formal validated computation"
+}

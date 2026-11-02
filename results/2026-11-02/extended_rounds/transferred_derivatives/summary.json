@@ -1,0 +1,67 @@
+{
+  "fixtures": [
+    {
+      "sha256": "de2287ec159eb520d6ed18a0b4c32d5d2516b7b5051fb5eaa46c75b50bcdb460",
+      "networks": 12
+    },
+    {
+      "sha256": "7a90cc204e2aa7a411f74061deccc8a48be523e467c5492ce8e091b5bf3c5529",
+      "networks": 12
+    }
+  ],
+  "sources": {
+    "quadratic_12x2": [
+      0,
+      0,
+      12
+    ],
+    "cubic_20x3": [
+      0,
+      0,
+      0,
+      20
+    ],
+    "quintic_42x5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      42
+    ]
+  },
+  "cells": [
+    [
+      "0",
+      "1/32"
+    ],
+    [
+      "7/32",
+      "1/4"
+    ],
+    [
+      "15/32",
+      "1/2"
+    ],
+    [
+      "31/32",
+      "1"
+    ]
+  ],
+  "orders": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "expected": 1152,
+  "records": 1152,
+  "overlap": 1152,
+  "stable": 1152,
+  "point_in_arb": 1152,
+  "point_in_mpiv": 1152,
+  "records_sha256": "771f587333e35d09acf64c598c9aeca00e3495155caf6a017b788399c4ae5816",
+  "script_sha256": "86db5fe8b956f1f3be0a14e70f255a092e66d104273325d3bda72b8ef8e07c9a",
+  "failures": [],
+  "scope": "finite interval and point cross-check; mpmath point derivatives are numerical approximations, not independently certified"
+}

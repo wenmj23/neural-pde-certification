@@ -1,0 +1,23 @@
+{
+  "frequencies": [
+    16,
+    32
+  ],
+  "meshes": [
+    128,
+    256,
+    512
+  ],
+  "degrees": [
+    2,
+    3
+  ],
+  "expected": 12,
+  "records": 12,
+  "contains_truth": 12,
+  "goal_met": 7,
+  "sha256": "72c62544f1f1982963bea0b5a865ebfb5fe03d64a0428f2556ea62e567bf2223",
+  "script_sha256": "4f936c78be16e50f43be44b0c59ede3d4251c39f16629d530847f90543d1a989",
+  "failures": [],
+  "scope": "synthetic analytic sine errors, not trained PINNs; conditional on interval implementation"
+}

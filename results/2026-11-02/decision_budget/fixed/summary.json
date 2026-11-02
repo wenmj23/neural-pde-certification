@@ -1,0 +1,224 @@
+{
+  "fixtures": [
+    {
+      "sha256": "de2287ec159eb520d6ed18a0b4c32d5d2516b7b5051fb5eaa46c75b50bcdb460",
+      "networks": 12
+    },
+    {
+      "sha256": "7a90cc204e2aa7a411f74061deccc8a48be523e467c5492ce8e091b5bf3c5529",
+      "networks": 12
+    }
+  ],
+  "sources": {
+    "quadratic_12x2": [
+      0,
+      0,
+      12
+    ],
+    "cubic_20x3": [
+      0,
+      0,
+      0,
+      20
+    ],
+    "quintic_42x5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      42
+    ]
+  },
+  "meshes": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "degrees": [
+    2,
+    3
+  ],
+  "tolerances": [
+    "1/10",
+    "1/5",
+    "3/10"
+  ],
+  "expected": 576,
+  "records": 576,
+  "reference_sha256": "67bf64e3a1f424b9f1ab47b7cd4d7c0e883419408f85384e9b12e800588b97d1",
+  "records_sha256": "1beb2456fcb1fcc7c046fbd6ef700fbbe9c3f1c6d4ff5d6ffb3fc4f45dea8569",
+  "script_sha256": "1673e844e2b3edeab402251c2833cfd00670c966a6f8a54398ebc0319e7986ae",
+  "counts": {
+    "2/8/1/10": {
+      "within": 16,
+      "exceeds": 56,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/8/1/5": {
+      "within": 40,
+      "exceeds": 32,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/8/3/10": {
+      "within": 48,
+      "exceeds": 24,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/16/1/10": {
+      "within": 16,
+      "exceeds": 56,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/16/1/5": {
+      "within": 40,
+      "exceeds": 32,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/16/3/10": {
+      "within": 48,
+      "exceeds": 24,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/32/1/10": {
+      "within": 16,
+      "exceeds": 56,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/32/1/5": {
+      "within": 40,
+      "exceeds": 32,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/32/3/10": {
+      "within": 48,
+      "exceeds": 24,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/64/1/10": {
+      "within": 16,
+      "exceeds": 56,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/64/1/5": {
+      "within": 40,
+      "exceeds": 32,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/64/3/10": {
+      "within": 48,
+      "exceeds": 24,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/8/1/10": {
+      "within": 16,
+      "exceeds": 56,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/8/1/5": {
+      "within": 40,
+      "exceeds": 32,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/8/3/10": {
+      "within": 48,
+      "exceeds": 24,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/16/1/10": {
+      "within": 16,
+      "exceeds": 56,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/16/1/5": {
+      "within": 40,
+      "exceeds": 32,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/16/3/10": {
+      "within": 48,
+      "exceeds": 24,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/32/1/10": {
+      "within": 16,
+      "exceeds": 56,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/32/1/5": {
+      "within": 40,
+      "exceeds": 32,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/32/3/10": {
+      "within": 48,
+      "exceeds": 24,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/64/1/10": {
+      "within": 16,
+      "exceeds": 56,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/64/1/5": {
+      "within": 40,
+      "exceeds": 32,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/64/3/10": {
+      "within": 48,
+      "exceeds": 24,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    }
+  },
+  "failures": []
+}

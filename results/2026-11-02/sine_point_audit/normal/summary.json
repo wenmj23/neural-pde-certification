@@ -1,0 +1,36 @@
+{
+  "inputs": [
+    {
+      "sha256": "327f29609274496cabcfb784cbd8ba1bda23a2b17b1d1b51abf82c2415030d80",
+      "networks": 12
+    }
+  ],
+  "points": [
+    "1/7",
+    "2/7",
+    "5/7",
+    "1/11"
+  ],
+  "reference_digits": [
+    80,
+    110
+  ],
+  "orders": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "test_fault": "none",
+  "expected": 192,
+  "records": 192,
+  "stable": 192,
+  "contained": 192,
+  "source_zero_exact": 0,
+  "expected_mismatch": 0,
+  "passed": 192,
+  "records_sha256": "e0354422bc977693c7296c37ff2ebe5e3538f431e8aab4664d2391df872bd977",
+  "script_sha256": "a4441dcde331cec32ebaeefba89ecf3b4b7628b6f06a2fde8124f0f0efe28f76",
+  "failures": [],
+  "scope": "finite points with numerical derivative reference; not validated continuous bound"
+}

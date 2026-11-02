@@ -1,0 +1,10 @@
+{
+  "input_sha256": "01f3dbd48e0b3b349cbfb9c94034eebb6a084503afd5cd7833e22ac404f07ffe",
+  "source_certificates": 144,
+  "records": 723,
+  "passed": 723,
+  "records_sha256": "18de210a2591b9418494ab6abce11abc31123f01d7d41d67a35eba548684676b",
+  "script_sha256": "8af753f6371df7c3271eb375b7a36b65cbc0cb768c2649e08cab52cac71776a6",
+  "failures": [],
+  "scope": "tests classifier exact comparisons using already computed bounds; not independent numerical PDE validation"
+}

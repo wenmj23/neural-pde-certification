@@ -1,0 +1,45 @@
+{
+  "status": "planned",
+  "sources": {
+    "quadratic_12x2": [
+      0,
+      0,
+      12
+    ],
+    "cubic_20x3": [
+      0,
+      0,
+      0,
+      20
+    ],
+    "quintic_42x5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      42
+    ]
+  },
+  "seeds": [
+    401,
+    402
+  ],
+  "depths": [
+    1,
+    2
+  ],
+  "width": 16,
+  "dtype": "float64",
+  "device": "cpu",
+  "collocation": "64 interior points i/65",
+  "adam_steps": 2000,
+  "adam_lr": "0.01",
+  "lbfgs_max_iter": 80,
+  "lbfgs_history": 30,
+  "lbfgs_line_search": "strong_wolfe",
+  "selection": "all planned outcomes; no use of known solution in training or selection",
+  "torch_version": "2.14.1+cpu",
+  "python": "3.12.14",
+  "script_sha256": "429ff91b5367ea149ea15e0c7dd98fa0ac4eaf8a7997291719a3d091fb0dfc5a"
+}

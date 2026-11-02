@@ -1,0 +1,11 @@
+{
+  "training_log_sha256": "930bf0966089f66b3b9bd4508978cf84e4abb5c9322be8bb1700666b7dcc5ca3",
+  "training_config_sha256": "e4ad0b58e852c1e22170aea2224466d674b7ded7363aa0907c7fdf9232713933",
+  "expected": 36,
+  "records": 36,
+  "prior_loss_comparisons": 20,
+  "prior_loss_matches": 20,
+  "records_sha256": "dd8f76bfbf6cd2ae722a17be60eb1e358ce69c07941035f5c6d508836dbd4cf9",
+  "script_sha256": "2d91e0a468eaa9689a98fdabef47a57954402851dbcc168870f80646a9ac55e7",
+  "scope": "post-hoc replay on same seed and CPU library, finite sampled collocation points; no root-cause proof"
+}

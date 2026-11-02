@@ -1,0 +1,74 @@
+{
+  "tests": 6,
+  "passed": 6,
+  "checks": [
+    {
+      "case": "original",
+      "expected": 0,
+      "actual": 0,
+      "as_expected": true,
+      "output": {
+        "ok": true,
+        "networks": 12,
+        "certificates": 120,
+        "references": 12,
+        "reference_converged": 12,
+        "overlap": 120,
+        "contained": 120,
+        "compatible": 120,
+        "scope": "storage consistency and exact saved arithmetic; not a proof of numerical computation"
+      }
+    },
+    {
+      "case": "truncated",
+      "expected": 1,
+      "actual": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "cert hash"
+      }
+    },
+    {
+      "case": "duplicate_rehashed",
+      "expected": 1,
+      "actual": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "certificate manifest"
+      }
+    },
+    {
+      "case": "wrong_decision_rehashed",
+      "expected": 1,
+      "actual": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "decision"
+      }
+    },
+    {
+      "case": "reference_changed",
+      "expected": 1,
+      "actual": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "cert hash"
+      }
+    },
+    {
+      "case": "weights_changed",
+      "expected": 1,
+      "actual": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "training hash"
+      }
+    }
+  ],
+  "scope": "controlled checks of selected accidental changes; self-consistent fabricated data and hash replacement are not generally detectable"
+}

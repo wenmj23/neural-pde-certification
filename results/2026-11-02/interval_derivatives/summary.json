@@ -1,0 +1,45 @@
+{
+  "fixtures": [
+    {
+      "sha256": "de2287ec159eb520d6ed18a0b4c32d5d2516b7b5051fb5eaa46c75b50bcdb460",
+      "networks": 12
+    },
+    {
+      "sha256": "7a90cc204e2aa7a411f74061deccc8a48be523e467c5492ce8e091b5bf3c5529",
+      "networks": 12
+    }
+  ],
+  "points": [
+    "0",
+    "1/64",
+    "1/32",
+    "7/32",
+    "15/64",
+    "1/4",
+    "15/32",
+    "31/64",
+    "1/2",
+    "31/32",
+    "63/64",
+    "1"
+  ],
+  "orders": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "expected": 1152,
+  "records": 1152,
+  "stable": 1152,
+  "contained": 1152,
+  "mpiv_contained": 1152,
+  "interval_expected": 384,
+  "interval_records": 384,
+  "interval_overlap": 384,
+  "records_sha256": "ce1ff1d0fa8273621baa4d2f8dc5a697ac6946a16c6ba261d84114abcfe96f97",
+  "intervals_sha256": "69e7b36f30439a34563ec444e05ee27ebdbd2fcba69bb38e0a0bc54d7b5e8dc7",
+  "script_sha256": "ff79479522af65d592c64ff900dbee3d099685a33f892533d735b6f405e92413",
+  "failures": [],
+  "scope": "full-cell interval comparison and sampled numerical diagnostics; overlap or sampling does not prove either backend"
+}

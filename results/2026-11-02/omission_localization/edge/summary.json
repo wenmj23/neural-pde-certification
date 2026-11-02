@@ -1,0 +1,44 @@
+{
+  "input_sha256": "c0204c0db4e360500642aec924a0b23c88c23b362fea6212d025b36a1425bdff",
+  "selected_count": 24,
+  "shrink": [
+    16384,
+    65536,
+    262144,
+    1048576,
+    4194304
+  ],
+  "expected": 120,
+  "records": 120,
+  "by_shrink": {
+    "16384": {
+      "total": 24,
+      "correct_contains": 24,
+      "mutation_detected": 0
+    },
+    "65536": {
+      "total": 24,
+      "correct_contains": 24,
+      "mutation_detected": 0
+    },
+    "262144": {
+      "total": 24,
+      "correct_contains": 24,
+      "mutation_detected": 0
+    },
+    "1048576": {
+      "total": 24,
+      "correct_contains": 24,
+      "mutation_detected": 7
+    },
+    "4194304": {
+      "total": 24,
+      "correct_contains": 24,
+      "mutation_detected": 15
+    }
+  },
+  "records_sha256": "8c57b1ec43ddd550656edc6ec8367c472a2743028385c58216c737c4c03b1b5d",
+  "script_sha256": "6936efbff705326747861e35ba1574a23af1d4724772c9ac7788b64ed6d09668",
+  "failures": [],
+  "scope": "post-hoc selected failures at factor 4096; numerical point diagnostic, not general detection rate"
+}

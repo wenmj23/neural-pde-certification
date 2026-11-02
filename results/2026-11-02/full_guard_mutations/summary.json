@@ -1,0 +1,103 @@
+{
+  "checks": [
+    {
+      "case": "original",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "as_expected": true,
+      "output": {
+        "ok": true,
+        "kind": "full",
+        "records": 3072,
+        "sha256": "27cc36fdbfff0944ce4684a6e934a2c2d3d7ea1d0dd796c256a2be6f1bf214a8",
+        "scope": "record integrity and stored consistency, not correctness of numerical calculation"
+      }
+    },
+    {
+      "case": "truncated",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "hash mismatch"
+      }
+    },
+    {
+      "case": "modified_without_hash",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "hash mismatch"
+      }
+    },
+    {
+      "case": "duplicate_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "fixture/coverage/duplicate mismatch"
+      }
+    },
+    {
+      "case": "wrong_label_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "fixture/coverage/duplicate mismatch"
+      }
+    },
+    {
+      "case": "reversed_interval_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "reversed interval"
+      }
+    },
+    {
+      "case": "wrong_overlap_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "incorrect overlap flag"
+      }
+    },
+    {
+      "case": "wrong_summary",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "failed or incorrect midpoint_in_arb"
+      }
+    },
+    {
+      "case": "fabricated_broad_bounds_rehashed",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "as_expected": true,
+      "output": {
+        "ok": true,
+        "kind": "full",
+        "records": 3072,
+        "sha256": "df3ff385ff6ec21329279689cd906b90be11c52122aae999e4e2518f027734bb",
+        "scope": "record integrity and stored consistency, not correctness of numerical calculation"
+      }
+    }
+  ],
+  "passed": 9,
+  "expected": 9,
+  "scope": "Fabricated yet internally consistent broad bounds are intentionally accepted; hashes and consistency are not evidence of computation authenticity."
+}

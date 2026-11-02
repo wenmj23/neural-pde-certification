@@ -1,0 +1,53 @@
+{
+  "inputs": [
+    {
+      "sha256": "2288c1fdd40cda051589adcfe268b91bc7d1fc0a15e2dafbf3330e5685ab217e",
+      "networks": 2
+    }
+  ],
+  "points": [
+    "1/7",
+    "2/7",
+    "5/7",
+    "1/11"
+  ],
+  "orders": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "test_fault": "omit_forcing",
+  "expected": 32,
+  "records": 32,
+  "stable": 28,
+  "contained": 21,
+  "source_zero_exact": 21,
+  "expected_mismatch": 11,
+  "passed": 28,
+  "records_sha256": "a607a2099b3f0866c0444b300ed7f3ee86cdbbee9492c7e068f08d97834b3bf9",
+  "script_sha256": "e067c1d7653dff02a4efffbda94c93d8fa254b393a6217786257c0a155627f64",
+  "failures": [
+    {
+      "network": "control_untrained_k77_weights_from_k1",
+      "x": "1/7",
+      "order": 4
+    },
+    {
+      "network": "control_untrained_k77_weights_from_k1",
+      "x": "2/7",
+      "order": 4
+    },
+    {
+      "network": "control_untrained_k77_weights_from_k1",
+      "x": "5/7",
+      "order": 4
+    },
+    {
+      "network": "control_untrained_k77_weights_from_k1",
+      "x": "1/11",
+      "order": 4
+    }
+  ],
+  "scope": "finite points with numerical derivative reference; not validated continuous bound"
+}

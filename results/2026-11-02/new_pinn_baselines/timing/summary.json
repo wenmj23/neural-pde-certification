@@ -1,0 +1,25 @@
+{
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "baseline_sha256": "2bffa51e1f00430e9bf7b6fd91306f690f9250a529b0b02370668d6fc07dc659",
+  "baseline_script_sha256": "6f3da27f670c4b64f4741e7ad1f963f2e6a4188622752b559c233186acc14a1f",
+  "meshes": [
+    16,
+    64
+  ],
+  "methods": [
+    "global",
+    "spatial",
+    "signed_quadratic",
+    "signed_cubic"
+  ],
+  "repeats": 3,
+  "shuffle_seed": 20261104,
+  "expected": 288,
+  "records": 288,
+  "matches_baseline": 288,
+  "records_sha256": "e4b4b70ed88cc047bfefb3db04a0b41462e53d2e33ce205d4a542ee6a21342f5",
+  "pairs_sha256": "0e0defe53f9c9b25a2df8c68d3c0e520f3d53ac25b2028680477acfbbedb697b",
+  "script_sha256": "1350c742921c11ddf59059319db15bf4700182366999bf58de904bdcac9dd7e3",
+  "failures": [],
+  "scope": "one machine matched fixed-mesh timing, 1 warmup plus 3 repeats; fresh verifiers; excludes startup, training, references; spatial includes calculation of global bound as well"
+}

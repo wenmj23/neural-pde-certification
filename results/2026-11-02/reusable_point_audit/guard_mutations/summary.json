@@ -1,0 +1,93 @@
+{
+  "expected": 8,
+  "passed": 8,
+  "checks": [
+    {
+      "case": "original",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "as_expected": true,
+      "output": {
+        "ok": true,
+        "normal_records": 1152,
+        "fault_records": 1152,
+        "fault_expected_mismatches": 792,
+        "scope": "readback validation of saved arithmetic and request coverage, not proof of numerical backends"
+      }
+    },
+    {
+      "case": "truncated",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "records hash"
+      }
+    },
+    {
+      "case": "duplicate_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "manifest mismatch"
+      }
+    },
+    {
+      "case": "wrong_source_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "manifest mismatch"
+      }
+    },
+    {
+      "case": "wrong_reference_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "stored check mismatch"
+      }
+    },
+    {
+      "case": "wrong_flag_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "stored check mismatch"
+      }
+    },
+    {
+      "case": "wrong_summary",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "summary passed"
+      }
+    },
+    {
+      "case": "fabricated_wide_bounds_rehashed",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "as_expected": true,
+      "output": {
+        "ok": true,
+        "normal_records": 1152,
+        "fault_records": 1152,
+        "fault_expected_mismatches": 792,
+        "scope": "readback validation of saved arithmetic and request coverage, not proof of numerical backends"
+      }
+    }
+  ],
+  "scope": "tests result guard behavior; fabricated consistent intervals and recomputed hashes are intentionally not detected"
+}

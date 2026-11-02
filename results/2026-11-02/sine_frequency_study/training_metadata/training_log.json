@@ -1,0 +1,350 @@
+[
+  {
+    "label": "sine_k1_depth1_seed501",
+    "status": "trained",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 51.079583955657554
+      },
+      {
+        "step": 500,
+        "loss_before_update": 0.01685705715462376
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 0.0010253192288220809
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 0.0004985903768050902
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 0.0004016564890497167
+      }
+    ],
+    "lbfgs_closure_calls": 96,
+    "final_collocation_loss": 3.2966665765160885e-07,
+    "training_wall_seconds": 5.884686676000001
+  },
+  {
+    "label": "sine_k1_depth1_seed502",
+    "status": "trained",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 61.14264427767219
+      },
+      {
+        "step": 500,
+        "loss_before_update": 0.01728792829135038
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 0.0017101052097889908
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 0.00035776251422702486
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 0.00026535559562074695
+      }
+    ],
+    "lbfgs_closure_calls": 89,
+    "final_collocation_loss": 1.5852410275960842e-07,
+    "training_wall_seconds": 3.329176514000011
+  },
+  {
+    "label": "sine_k1_depth2_seed501",
+    "status": "trained",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 45.40014458382667
+      },
+      {
+        "step": 500,
+        "loss_before_update": 3.861880979678873e-05
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 1.812708563914116e-05
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 1.2217782187040639e-05
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 8.547452550980171e-06
+      }
+    ],
+    "lbfgs_closure_calls": 94,
+    "final_collocation_loss": 1.5069973287024624e-06,
+    "training_wall_seconds": 4.582613474999988
+  },
+  {
+    "label": "sine_k1_depth2_seed502",
+    "status": "trained",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 53.885014498924534
+      },
+      {
+        "step": 500,
+        "loss_before_update": 0.00020840250473197697
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 0.00010937717955685646
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 6.479261028483791e-05
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 3.809907969266954e-05
+      }
+    ],
+    "lbfgs_closure_calls": 90,
+    "final_collocation_loss": 1.2944988036361982e-06,
+    "training_wall_seconds": 4.630218900000017
+  },
+  {
+    "label": "sine_k3_depth1_seed501",
+    "status": "trained",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 4004.884422718254
+      },
+      {
+        "step": 500,
+        "loss_before_update": 41.82788886504858
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 10.500666002515544
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 1.381109312141387
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 0.5671494067648268
+      }
+    ],
+    "lbfgs_closure_calls": 88,
+    "final_collocation_loss": 0.02521745200831135,
+    "training_wall_seconds": 3.659847850999995
+  },
+  {
+    "label": "sine_k3_depth1_seed502",
+    "status": "trained",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 4038.0435998595285
+      },
+      {
+        "step": 500,
+        "loss_before_update": 56.687975680726595
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 20.395137728212656
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 7.308865077251542
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 0.7645470276722963
+      }
+    ],
+    "lbfgs_closure_calls": 84,
+    "final_collocation_loss": 0.014927843889093021,
+    "training_wall_seconds": 3.320511785000008
+  },
+  {
+    "label": "sine_k3_depth2_seed501",
+    "status": "trained",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 3995.5126070625474
+      },
+      {
+        "step": 500,
+        "loss_before_update": 2027.4649866050036
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 7.7540633230965375
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 5.421061940928788
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 4.613897763250227
+      }
+    ],
+    "lbfgs_closure_calls": 89,
+    "final_collocation_loss": 2.439267205408389,
+    "training_wall_seconds": 4.898380978000034
+  },
+  {
+    "label": "sine_k3_depth2_seed502",
+    "status": "trained",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 4018.244198701143
+      },
+      {
+        "step": 500,
+        "loss_before_update": 1929.4634913535288
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 12.332976849786224
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 10.933765820012521
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 1.0716513347883323
+      }
+    ],
+    "lbfgs_closure_calls": 84,
+    "final_collocation_loss": 0.0799615188348508,
+    "training_wall_seconds": 5.057093916000042
+  },
+  {
+    "label": "sine_k5_depth1_seed501",
+    "status": "trained",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 30912.010729398207
+      },
+      {
+        "step": 500,
+        "loss_before_update": 17283.627195373214
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 404.8268711361252
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 67.47239687643511
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 19.036336077288702
+      }
+    ],
+    "lbfgs_closure_calls": 87,
+    "final_collocation_loss": 0.8831806894621459,
+    "training_wall_seconds": 4.378983435000009
+  },
+  {
+    "label": "sine_k5_depth1_seed502",
+    "status": "trained",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 30967.09476104431
+      },
+      {
+        "step": 500,
+        "loss_before_update": 29907.8218289004
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 29907.8218289004
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 29907.8218289004
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 29907.8218289004
+      }
+    ],
+    "lbfgs_closure_calls": 1,
+    "final_collocation_loss": 29907.8218289004,
+    "training_wall_seconds": 3.4984875869999996
+  },
+  {
+    "label": "sine_k5_depth2_seed501",
+    "status": "trained",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 30897.008033428883
+      },
+      {
+        "step": 500,
+        "loss_before_update": 354.6349597270903
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 22.430767032243136
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 12.121748939589894
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 10.081585586674874
+      }
+    ],
+    "lbfgs_closure_calls": 90,
+    "final_collocation_loss": 6.525651921400158,
+    "training_wall_seconds": 4.288797296999974
+  },
+  {
+    "label": "sine_k5_depth2_seed502",
+    "status": "trained",
+    "adam_history": [
+      {
+        "step": 1,
+        "loss_before_update": 30934.74674842711
+      },
+      {
+        "step": 500,
+        "loss_before_update": 29907.85314717159
+      },
+      {
+        "step": 1000,
+        "loss_before_update": 29907.82553249862
+      },
+      {
+        "step": 1500,
+        "loss_before_update": 29907.82225492989
+      },
+      {
+        "step": 2000,
+        "loss_before_update": 29907.82185713715
+      }
+    ],
+    "lbfgs_closure_calls": 17,
+    "final_collocation_loss": 29907.8218289004,
+    "training_wall_seconds": 4.2271830290000025
+  }
+]

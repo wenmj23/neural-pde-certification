@@ -1,0 +1,31 @@
+{
+  "fixtures": [
+    {
+      "sha256": "de2287ec159eb520d6ed18a0b4c32d5d2516b7b5051fb5eaa46c75b50bcdb460",
+      "networks": 12
+    },
+    {
+      "sha256": "7a90cc204e2aa7a411f74061deccc8a48be523e467c5492ce8e091b5bf3c5529",
+      "networks": 12
+    }
+  ],
+  "cells": 32,
+  "orders": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "expected": 3072,
+  "records": 3072,
+  "interval_overlap": 3072,
+  "midpoint_stable": 3072,
+  "midpoint_in_arb": 3072,
+  "midpoint_in_mpiv": 3072,
+  "records_sha256": "27cc36fdbfff0944ce4684a6e934a2c2d3d7ea1d0dd796c256a2be6f1bf214a8",
+  "script_sha256": "58026d57f2d7048fa8aa9345492e5fb0dda4d31c9664908b1389875e003b2f33",
+  "independent_interval_script_sha256": "ff79479522af65d592c64ff900dbee3d099685a33f892533d735b6f405e92413",
+  "point_reference_script_sha256": "d76ad13063f37bb3792b8ee5b60feb2b0c4fd9c825daa530c1264829919fa563",
+  "failures": [],
+  "scope": "finite case diagnostics, not a proof of interval backends"
+}

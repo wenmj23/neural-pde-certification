@@ -1,0 +1,38 @@
+{
+  "fixtures": [
+    {
+      "sha256": "de2287ec159eb520d6ed18a0b4c32d5d2516b7b5051fb5eaa46c75b50bcdb460",
+      "networks": 12
+    },
+    {
+      "sha256": "7a90cc204e2aa7a411f74061deccc8a48be523e467c5492ce8e091b5bf3c5529",
+      "networks": 12
+    }
+  ],
+  "scales": [
+    1,
+    -1,
+    2,
+    -2
+  ],
+  "meshes": [
+    32,
+    64
+  ],
+  "degrees": [
+    2,
+    3
+  ],
+  "expected": 384,
+  "records": 384,
+  "equal": 384,
+  "overlap": 384,
+  "records_sha256": "7ccf0875435f5be9a9b2de1f28541e574bb666aabfd14ca24e043b33428f04e8",
+  "script_sha256": "10c4abf5c885e9faa2a4580d84400f94a6c9bb62ef9581c03fe95f530614fbf6",
+  "derived_fixture_sha256": [
+    "7695bcbec40dc183dd99be91cd86592a4e4c12f2b925032f6144a5cc33f02f5c",
+    "bc4f4bd84d0a966ea24676bef9019ff773a32bab61c120b380e70b2a2d44c50a"
+  ],
+  "failures": [],
+  "scope": "exact scale metamorphic check, same implementation; not independent validation or trained models"
+}

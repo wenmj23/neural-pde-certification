@@ -1,0 +1,264 @@
+{
+  "inputs": [
+    {
+      "sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "networks": 1
+    }
+  ],
+  "mode": "all",
+  "test_fault": "none",
+  "transfer_sources": {
+    "quadratic_12x2": [
+      0,
+      0,
+      12
+    ],
+    "cubic_20x3": [
+      0,
+      0,
+      0,
+      20
+    ],
+    "quintic_42x5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      42
+    ]
+  },
+  "points": [
+    "1/7",
+    "1/2",
+    "6/7"
+  ],
+  "orders": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "expected": 48,
+  "records": 48,
+  "stable": 48,
+  "contained": 18,
+  "expected_mismatch": 0,
+  "passed": 18,
+  "records_sha256": "8007f8c97cd2aa528c572b82ba672a7bfd732cdd1ad7adc0faff43026850f8f9",
+  "script_sha256": "53cdad92fab05b0b39a2cdd749064f866a7b0a0a44590e9b79a4ee6f1bee19b5",
+  "point_reference_sha256": "d76ad13063f37bb3792b8ee5b60feb2b0c4fd9c825daa530c1264829919fa563",
+  "failures": [
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "original",
+      "x": "1/7",
+      "order": 0
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "original",
+      "x": "1/2",
+      "order": 0
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "original",
+      "x": "6/7",
+      "order": 0
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quadratic_12x2",
+      "x": "1/7",
+      "order": 0
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quadratic_12x2",
+      "x": "1/7",
+      "order": 2
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quadratic_12x2",
+      "x": "1/2",
+      "order": 0
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quadratic_12x2",
+      "x": "1/2",
+      "order": 2
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quadratic_12x2",
+      "x": "6/7",
+      "order": 0
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quadratic_12x2",
+      "x": "6/7",
+      "order": 2
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "cubic_20x3",
+      "x": "1/7",
+      "order": 0
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "cubic_20x3",
+      "x": "1/7",
+      "order": 2
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "cubic_20x3",
+      "x": "1/7",
+      "order": 3
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "cubic_20x3",
+      "x": "1/2",
+      "order": 0
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "cubic_20x3",
+      "x": "1/2",
+      "order": 2
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "cubic_20x3",
+      "x": "1/2",
+      "order": 3
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "cubic_20x3",
+      "x": "6/7",
+      "order": 0
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "cubic_20x3",
+      "x": "6/7",
+      "order": 2
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "cubic_20x3",
+      "x": "6/7",
+      "order": 3
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quintic_42x5",
+      "x": "1/7",
+      "order": 0
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quintic_42x5",
+      "x": "1/7",
+      "order": 2
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quintic_42x5",
+      "x": "1/7",
+      "order": 3
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quintic_42x5",
+      "x": "1/7",
+      "order": 4
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quintic_42x5",
+      "x": "1/2",
+      "order": 0
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quintic_42x5",
+      "x": "1/2",
+      "order": 2
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quintic_42x5",
+      "x": "1/2",
+      "order": 3
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quintic_42x5",
+      "x": "1/2",
+      "order": 4
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quintic_42x5",
+      "x": "6/7",
+      "order": 0
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quintic_42x5",
+      "x": "6/7",
+      "order": 2
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quintic_42x5",
+      "x": "6/7",
+      "order": 3
+    },
+    {
+      "fixture_sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "network": "poly_constant_2_depth1_seed203",
+      "source": "quintic_42x5",
+      "x": "6/7",
+      "order": 4
+    }
+  ],
+  "scope": "pointwise numerical diagnostic with exact binary64 weights; not an independent formal proof or continuous interval certificate"
+}

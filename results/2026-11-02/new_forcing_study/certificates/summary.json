@@ -1,0 +1,186 @@
+{
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "expected": 120,
+  "records": 120,
+  "references": 12,
+  "reference_converged": 12,
+  "overlap": 120,
+  "contained": 120,
+  "compatible": 120,
+  "counts": {
+    "2/16": {
+      "gap_met": 0,
+      "overlap": 12,
+      "contained": 12,
+      "decisions": {
+        "1/1000": {
+          "within": 12,
+          "exceeds": 0,
+          "undetermined": 0
+        },
+        "1/100000": {
+          "within": 0,
+          "exceeds": 2,
+          "undetermined": 10
+        }
+      }
+    },
+    "2/32": {
+      "gap_met": 1,
+      "overlap": 12,
+      "contained": 12,
+      "decisions": {
+        "1/1000": {
+          "within": 12,
+          "exceeds": 0,
+          "undetermined": 0
+        },
+        "1/100000": {
+          "within": 1,
+          "exceeds": 5,
+          "undetermined": 6
+        }
+      }
+    },
+    "2/64": {
+      "gap_met": 6,
+      "overlap": 12,
+      "contained": 12,
+      "decisions": {
+        "1/1000": {
+          "within": 12,
+          "exceeds": 0,
+          "undetermined": 0
+        },
+        "1/100000": {
+          "within": 3,
+          "exceeds": 9,
+          "undetermined": 0
+        }
+      }
+    },
+    "2/128": {
+      "gap_met": 11,
+      "overlap": 12,
+      "contained": 12,
+      "decisions": {
+        "1/1000": {
+          "within": 12,
+          "exceeds": 0,
+          "undetermined": 0
+        },
+        "1/100000": {
+          "within": 3,
+          "exceeds": 9,
+          "undetermined": 0
+        }
+      }
+    },
+    "2/256": {
+      "gap_met": 12,
+      "overlap": 12,
+      "contained": 12,
+      "decisions": {
+        "1/1000": {
+          "within": 12,
+          "exceeds": 0,
+          "undetermined": 0
+        },
+        "1/100000": {
+          "within": 3,
+          "exceeds": 9,
+          "undetermined": 0
+        }
+      }
+    },
+    "3/16": {
+      "gap_met": 2,
+      "overlap": 12,
+      "contained": 12,
+      "decisions": {
+        "1/1000": {
+          "within": 12,
+          "exceeds": 0,
+          "undetermined": 0
+        },
+        "1/100000": {
+          "within": 1,
+          "exceeds": 5,
+          "undetermined": 6
+        }
+      }
+    },
+    "3/32": {
+      "gap_met": 7,
+      "overlap": 12,
+      "contained": 12,
+      "decisions": {
+        "1/1000": {
+          "within": 12,
+          "exceeds": 0,
+          "undetermined": 0
+        },
+        "1/100000": {
+          "within": 3,
+          "exceeds": 9,
+          "undetermined": 0
+        }
+      }
+    },
+    "3/64": {
+      "gap_met": 12,
+      "overlap": 12,
+      "contained": 12,
+      "decisions": {
+        "1/1000": {
+          "within": 12,
+          "exceeds": 0,
+          "undetermined": 0
+        },
+        "1/100000": {
+          "within": 3,
+          "exceeds": 9,
+          "undetermined": 0
+        }
+      }
+    },
+    "3/128": {
+      "gap_met": 12,
+      "overlap": 12,
+      "contained": 12,
+      "decisions": {
+        "1/1000": {
+          "within": 12,
+          "exceeds": 0,
+          "undetermined": 0
+        },
+        "1/100000": {
+          "within": 3,
+          "exceeds": 9,
+          "undetermined": 0
+        }
+      }
+    },
+    "3/256": {
+      "gap_met": 12,
+      "overlap": 12,
+      "contained": 12,
+      "decisions": {
+        "1/1000": {
+          "within": 12,
+          "exceeds": 0,
+          "undetermined": 0
+        },
+        "1/100000": {
+          "within": 3,
+          "exceeds": 9,
+          "undetermined": 0
+        }
+      }
+    }
+  },
+  "records_sha256": "8a3c34999c97cd719a8231f0fa068904c0ea6dc208ad624dea99013f43193922",
+  "references_sha256": "754239efccfe61e870f7caf5fe82b180baab84fbddf8b8580ba2b351ae9cd20b",
+  "config_sha256": "fc2fd14f197c38a2ae2f8048dae4807cb486d51c728e43b2f169bae0c833cfb0",
+  "failures": []
+}

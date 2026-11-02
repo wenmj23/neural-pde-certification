@@ -1,0 +1,11 @@
+{
+  "input_sha256": "771f587333e35d09acf64c598c9aeca00e3495155caf6a017b788399c4ae5816",
+  "expected": 864,
+  "records": 864,
+  "correct_contains": 864,
+  "mutation_detected": 864,
+  "records_sha256": "e3412e398d9a17fe1a7120b19b8794e4c9901b935f489a959ccdb6d598ca45d6",
+  "script_sha256": "fdcdbc61f62294faae35d0ae863a82ee74461391c58d763a63d84f1b3cade2bd",
+  "failures": [],
+  "scope": "post-hoc exact-point, simulated source omission, numerical point reference; no assertion for unsampled x"
+}

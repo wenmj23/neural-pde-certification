@@ -1,0 +1,30 @@
+{
+  "fixture_sha256": "327f29609274496cabcfb784cbd8ba1bda23a2b17b1d1b51abf82c2415030d80",
+  "network_count": 12,
+  "frequencies": [
+    1,
+    3,
+    5
+  ],
+  "meshes": [
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "degrees": [
+    2,
+    3
+  ],
+  "tolerances": [
+    "1/1000",
+    "1/100",
+    "1/10"
+  ],
+  "gap_target": "51/50",
+  "reference": "after both degrees and all meshes; mpmath interval relative 1e-7, absolute 1e-12, cap 10000",
+  "script_sha256": "7260ed9c846dbdd646230c00d1c4cea46a2944e399c853967c0c2741515f549b",
+  "reference_script_sha256": "564a2f20fa7f52cd8e0fff9ec028870d9582a2b2f8a49931a6bf92a3238250b1",
+  "scope": "finite trained sine PINNs; conditional on smooth model and interval backends"
+}

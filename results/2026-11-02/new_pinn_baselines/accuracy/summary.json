@@ -1,0 +1,116 @@
+{
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "input_records_sha256": "8a3c34999c97cd719a8231f0fa068904c0ea6dc208ad624dea99013f43193922",
+  "references_sha256": "754239efccfe61e870f7caf5fe82b180baab84fbddf8b8580ba2b351ae9cd20b",
+  "meshes": [
+    16,
+    32,
+    64
+  ],
+  "methods": [
+    "global",
+    "spatial",
+    "signed_quadratic",
+    "signed_cubic"
+  ],
+  "tolerances": [
+    "1/1000",
+    "1/100000"
+  ],
+  "expected": 144,
+  "records": 144,
+  "reference_overlap": 144,
+  "reference_contained": 144,
+  "shared_cache_passed": 108,
+  "prior_matched": 72,
+  "counts": {
+    "16/global": {
+      "accepted": {
+        "1/1000": 1,
+        "1/100000": 0
+      },
+      "reference_contained": 12
+    },
+    "16/spatial": {
+      "accepted": {
+        "1/1000": 10,
+        "1/100000": 0
+      },
+      "reference_contained": 12
+    },
+    "16/signed_quadratic": {
+      "accepted": {
+        "1/1000": 12,
+        "1/100000": 0
+      },
+      "reference_contained": 12
+    },
+    "16/signed_cubic": {
+      "accepted": {
+        "1/1000": 12,
+        "1/100000": 1
+      },
+      "reference_contained": 12
+    },
+    "32/global": {
+      "accepted": {
+        "1/1000": 1,
+        "1/100000": 0
+      },
+      "reference_contained": 12
+    },
+    "32/spatial": {
+      "accepted": {
+        "1/1000": 12,
+        "1/100000": 0
+      },
+      "reference_contained": 12
+    },
+    "32/signed_quadratic": {
+      "accepted": {
+        "1/1000": 12,
+        "1/100000": 1
+      },
+      "reference_contained": 12
+    },
+    "32/signed_cubic": {
+      "accepted": {
+        "1/1000": 12,
+        "1/100000": 3
+      },
+      "reference_contained": 12
+    },
+    "64/global": {
+      "accepted": {
+        "1/1000": 1,
+        "1/100000": 0
+      },
+      "reference_contained": 12
+    },
+    "64/spatial": {
+      "accepted": {
+        "1/1000": 12,
+        "1/100000": 0
+      },
+      "reference_contained": 12
+    },
+    "64/signed_quadratic": {
+      "accepted": {
+        "1/1000": 12,
+        "1/100000": 3
+      },
+      "reference_contained": 12
+    },
+    "64/signed_cubic": {
+      "accepted": {
+        "1/1000": 12,
+        "1/100000": 3
+      },
+      "reference_contained": 12
+    }
+  },
+  "records_sha256": "2bffa51e1f00430e9bf7b6fd91306f690f9250a529b0b02370668d6fc07dc659",
+  "script_sha256": "6f3da27f670c4b64f4741e7ad1f963f2e6a4188622752b559c233186acc14a1f",
+  "failures": [],
+  "scope": "one-sided acceptance at matched mesh; baselines and quadratic share cell data; no runtime comparison"
+}

@@ -1,0 +1,53 @@
+{
+  "input_sha256": "771f587333e35d09acf64c598c9aeca00e3495155caf6a017b788399c4ae5816",
+  "fixtures": [
+    {
+      "sha256": "de2287ec159eb520d6ed18a0b4c32d5d2516b7b5051fb5eaa46c75b50bcdb460",
+      "networks": 12
+    },
+    {
+      "sha256": "7a90cc204e2aa7a411f74061deccc8a48be523e467c5492ce8e091b5bf3c5529",
+      "networks": 12
+    }
+  ],
+  "shrink": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "expected": 4320,
+  "records": 4320,
+  "by_shrink": {
+    "1": {
+      "total": 864,
+      "correct_contains": 864,
+      "mutation_detected": 672
+    },
+    "2": {
+      "total": 864,
+      "correct_contains": 864,
+      "mutation_detected": 704
+    },
+    "4": {
+      "total": 864,
+      "correct_contains": 864,
+      "mutation_detected": 730
+    },
+    "8": {
+      "total": 864,
+      "correct_contains": 864,
+      "mutation_detected": 745
+    },
+    "16": {
+      "total": 864,
+      "correct_contains": 864,
+      "mutation_detected": 763
+    }
+  },
+  "records_sha256": "1203927c9c93e72dec0a7e6ac661841470f3254dac45a37081a21d419e493898",
+  "script_sha256": "2a514ce46ea4e65eb41f5fce48199f75d554684e65440207e2208e3f6485b033",
+  "failures": [],
+  "scope": "intentional fault injection, nested cells centered on prior numerical references; diagnostic not formal proof"
+}

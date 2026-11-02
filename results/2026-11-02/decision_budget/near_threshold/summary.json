@@ -1,0 +1,190 @@
+{
+  "input_sha256": "1beb2456fcb1fcc7c046fbd6ef700fbbe9c3f1c6d4ff5d6ffb3fc4f45dea8569",
+  "input_records": 576,
+  "relative_offsets": [
+    "1/1000",
+    "1/10000",
+    "1/100000"
+  ],
+  "sides": [
+    -1,
+    1
+  ],
+  "expected": 3456,
+  "records": 3456,
+  "records_sha256": "0db24c2e0c1416108956145168c874b4ae44e5b1fac94050cbadb7e8920dee3a",
+  "script_sha256": "af446e316ca9e991d1da136336131fc3b48065fa30bf8d23e81449dd58392fb0",
+  "counts": {
+    "2/8/1/1000": {
+      "within": 16,
+      "exceeds": 8,
+      "undetermined": 120,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/8/1/10000": {
+      "within": 5,
+      "exceeds": 5,
+      "undetermined": 134,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/8/1/100000": {
+      "within": 1,
+      "exceeds": 1,
+      "undetermined": 142,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/16/1/1000": {
+      "within": 52,
+      "exceeds": 52,
+      "undetermined": 40,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/16/1/10000": {
+      "within": 8,
+      "exceeds": 8,
+      "undetermined": 128,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/16/1/100000": {
+      "within": 6,
+      "exceeds": 6,
+      "undetermined": 132,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/32/1/1000": {
+      "within": 72,
+      "exceeds": 72,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/32/1/10000": {
+      "within": 40,
+      "exceeds": 24,
+      "undetermined": 80,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/32/1/100000": {
+      "within": 8,
+      "exceeds": 8,
+      "undetermined": 128,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/64/1/1000": {
+      "within": 72,
+      "exceeds": 72,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/64/1/10000": {
+      "within": 72,
+      "exceeds": 64,
+      "undetermined": 8,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "2/64/1/100000": {
+      "within": 20,
+      "exceeds": 22,
+      "undetermined": 102,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/8/1/1000": {
+      "within": 49,
+      "exceeds": 36,
+      "undetermined": 59,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/8/1/10000": {
+      "within": 8,
+      "exceeds": 8,
+      "undetermined": 128,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/8/1/100000": {
+      "within": 7,
+      "exceeds": 7,
+      "undetermined": 130,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/16/1/1000": {
+      "within": 72,
+      "exceeds": 72,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/16/1/10000": {
+      "within": 24,
+      "exceeds": 24,
+      "undetermined": 96,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/16/1/100000": {
+      "within": 8,
+      "exceeds": 8,
+      "undetermined": 128,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/32/1/1000": {
+      "within": 72,
+      "exceeds": 72,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/32/1/10000": {
+      "within": 72,
+      "exceeds": 32,
+      "undetermined": 40,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/32/1/100000": {
+      "within": 8,
+      "exceeds": 8,
+      "undetermined": 128,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/64/1/1000": {
+      "within": 72,
+      "exceeds": 72,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/64/1/10000": {
+      "within": 72,
+      "exceeds": 72,
+      "undetermined": 0,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    },
+    "3/64/1/100000": {
+      "within": 56,
+      "exceeds": 32,
+      "undetermined": 56,
+      "reference_undetermined": 0,
+      "incompatible": 0
+    }
+  },
+  "reference_undetermined": 0,
+  "incompatible": 0,
+  "scope": "post-hoc thresholds from reference midpoint; diagnostic stress only, not blinded"
+}

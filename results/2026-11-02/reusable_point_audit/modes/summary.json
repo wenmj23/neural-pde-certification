@@ -1,0 +1,68 @@
+[
+  {
+    "mode": "original",
+    "kind": "normal",
+    "exit": 0
+  },
+  {
+    "mode": "original",
+    "kind": "fault",
+    "exit": 0
+  },
+  {
+    "mode": "original",
+    "kind": "readback",
+    "exit": 0,
+    "result": {
+      "ok": true,
+      "normal_records": 12,
+      "fault_records": 12,
+      "fault_expected_mismatches": 3,
+      "scope": "readback validation of saved arithmetic and request coverage, not proof of numerical backends"
+    }
+  },
+  {
+    "mode": "transfer",
+    "kind": "normal",
+    "exit": 0
+  },
+  {
+    "mode": "transfer",
+    "kind": "fault",
+    "exit": 0
+  },
+  {
+    "mode": "transfer",
+    "kind": "readback",
+    "exit": 0,
+    "result": {
+      "ok": true,
+      "normal_records": 36,
+      "fault_records": 36,
+      "fault_expected_mismatches": 27,
+      "scope": "readback validation of saved arithmetic and request coverage, not proof of numerical backends"
+    }
+  },
+  {
+    "mode": "all",
+    "kind": "normal",
+    "exit": 0
+  },
+  {
+    "mode": "all",
+    "kind": "fault",
+    "exit": 0
+  },
+  {
+    "mode": "all",
+    "kind": "readback",
+    "exit": 0,
+    "result": {
+      "ok": true,
+      "normal_records": 48,
+      "fault_records": 48,
+      "fault_expected_mismatches": 30,
+      "scope": "readback validation of saved arithmetic and request coverage, not proof of numerical backends"
+    }
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "original_fixture_sha256": "327f29609274496cabcfb784cbd8ba1bda23a2b17b1d1b51abf82c2415030d80",
+  "derived_fixture_sha256": "2288c1fdd40cda051589adcfe268b91bc7d1fc0a15e2dafbf3330e5685ab217e",
+  "normal_records_sha256": "0404638e8ee55156d2909e49ab5b6bcdf24b5cd960f282a3fa78538bc5f747df",
+  "omission_records_sha256": "a607a2099b3f0866c0444b300ed7f3ee86cdbbee9492c7e068f08d97834b3bf9",
+  "script_sha256": "acd7df33f219159cefc15a36a8099cbe825ac025ce36bb8289f864e5d16e19b9",
+  "counts": {
+    "7/three_original": {
+      "total": 12,
+      "undetected": 9,
+      "detected": 3,
+      "source_zero_exact": 9
+    },
+    "7/extra_point": {
+      "total": 4,
+      "undetected": 0,
+      "detected": 4,
+      "source_zero_exact": 0
+    },
+    "77/three_original": {
+      "total": 12,
+      "undetected": 9,
+      "detected": 3,
+      "source_zero_exact": 9
+    },
+    "77/extra_point": {
+      "total": 4,
+      "undetected": 3,
+      "detected": 1,
+      "source_zero_exact": 3
+    }
+  },
+  "expected_counts": {
+    "7/three_original": {
+      "total": 12,
+      "undetected": 9,
+      "detected": 3,
+      "source_zero_exact": 9
+    },
+    "7/extra_point": {
+      "total": 4,
+      "undetected": 0,
+      "detected": 4,
+      "source_zero_exact": 0
+    },
+    "77/three_original": {
+      "total": 12,
+      "undetected": 9,
+      "detected": 3,
+      "source_zero_exact": 9
+    },
+    "77/extra_point": {
+      "total": 4,
+      "undetected": 3,
+      "detected": 1,
+      "source_zero_exact": 3
+    }
+  },
+  "normal_rc": 1,
+  "omission_rc": 1,
+  "test_passed": false,
+  "scope": "constructed aliasing counterexample; intentionally faulty subclass and synthetic frequency, not a solver failure"
+}

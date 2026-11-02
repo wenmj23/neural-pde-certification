@@ -1,0 +1,27 @@
+{
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "certificates_sha256": "8a3c34999c97cd719a8231f0fa068904c0ea6dc208ad624dea99013f43193922",
+  "seed": 20261103,
+  "meshes": [
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "degrees": [
+    2,
+    3
+  ],
+  "repeats": 3,
+  "target": "U/L<=1.02, or exact zero",
+  "expected": 72,
+  "records": 72,
+  "goal_met": 72,
+  "all_trace_match": 72,
+  "records_sha256": "02314e9c09090c0119425ff7845184cb2ce2b86f899a1b8e8b3c2a8aa7ff049a",
+  "pairs_sha256": "ebaf94de4fa0376269eb64db80b69c3cddf3335a4c54eef3d917dcba77432af0",
+  "script_sha256": "09d069d17a6be8eb6750df84dafa8cc47aa0f26a58d2e102e994a2237cc57139",
+  "scope": "one host, one warmup, three repeats, cumulative 16-to-target schedule, excludes Python startup/training/reference; not universal",
+  "failures": []
+}

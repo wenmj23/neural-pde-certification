@@ -1,0 +1,53 @@
+{
+  "inputs": [
+    {
+      "sha256": "888f5f4bd2a88e02cac56024236893abdb2aeef711ad9785730f9c453492cd4b",
+      "networks": 1
+    }
+  ],
+  "mode": "transfer",
+  "test_fault": "none",
+  "transfer_sources": {
+    "quadratic_12x2": [
+      0,
+      0,
+      12
+    ],
+    "cubic_20x3": [
+      0,
+      0,
+      0,
+      20
+    ],
+    "quintic_42x5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      42
+    ]
+  },
+  "points": [
+    "1/7",
+    "1/2",
+    "6/7"
+  ],
+  "orders": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "expected": 36,
+  "records": 36,
+  "stable": 36,
+  "contained": 36,
+  "expected_mismatch": 0,
+  "passed": 36,
+  "records_sha256": "b5c1071682a347d4ead494e82e5601143937a8418a296a2b30b3aa7486e05fc3",
+  "script_sha256": "53cdad92fab05b0b39a2cdd749064f866a7b0a0a44590e9b79a4ee6f1bee19b5",
+  "point_reference_sha256": "d76ad13063f37bb3792b8ee5b60feb2b0c4fd9c825daa530c1264829919fa563",
+  "failures": [],
+  "scope": "pointwise numerical diagnostic with exact binary64 weights; not an independent formal proof or continuous interval certificate"
+}

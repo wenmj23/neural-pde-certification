@@ -1,0 +1,26 @@
+{
+  "input_sha256": "c0204c0db4e360500642aec924a0b23c88c23b362fea6212d025b36a1425bdff",
+  "selected_count": 24,
+  "bits": [
+    103,
+    160
+  ],
+  "expected": 48,
+  "records": 48,
+  "by_bits": {
+    "103": {
+      "total": 24,
+      "correct_contains": 24,
+      "mutation_detected": 24
+    },
+    "160": {
+      "total": 24,
+      "correct_contains": 24,
+      "mutation_detected": 24
+    }
+  },
+  "records_sha256": "67b83728b85ced1efbcb7025f1e190b017e0c39e0a4b1785364c49a7832d2f61",
+  "script_sha256": "381f74ed5a0495bd563d3b873511a15b469c35c43bfbc9a8260cc8ce89be19cc",
+  "failures": [],
+  "scope": "post-hoc exact point, not interval coverage; reference is high-precision numeric approximation"
+}

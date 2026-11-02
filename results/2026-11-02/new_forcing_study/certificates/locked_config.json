@@ -1,0 +1,44 @@
+{
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "fixture_records": 12,
+  "sources": {
+    "quadratic_12x2": [
+      0,
+      0,
+      12
+    ],
+    "cubic_20x3": [
+      0,
+      0,
+      0,
+      20
+    ],
+    "quintic_42x5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      42
+    ]
+  },
+  "meshes": [
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "degrees": [
+    2,
+    3
+  ],
+  "tolerances": [
+    "1/1000",
+    "1/100000"
+  ],
+  "enclosure_ratio": "51/50",
+  "reference": "mpmath interval, computed after both degree grids; relative 1e-7, absolute 1e-14, cap 5000",
+  "script_sha256": "5b7928e986c7348fbabd2c6f92a5b5e31c93cc4a4aa393b9e0dba11d3d000090",
+  "scope": "finite new PINNs; conditional on interval implementation and mathematical assumptions"
+}

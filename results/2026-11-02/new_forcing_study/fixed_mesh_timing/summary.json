@@ -1,0 +1,22 @@
+{
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "certificates_sha256": "8a3c34999c97cd719a8231f0fa068904c0ea6dc208ad624dea99013f43193922",
+  "seed": 20261102,
+  "meshes": [
+    16,
+    64
+  ],
+  "degrees": [
+    2,
+    3
+  ],
+  "repeats": 3,
+  "expected": 144,
+  "records": 144,
+  "endpoint_matches": 144,
+  "records_sha256": "f6b070854ccd8f68b2de00e1c205adf6f3ed32740a160854823c3467eed4e6a7",
+  "pairs_sha256": "4a144b1cafcf01124d3ec1cda532834911330f65d19cbbdd5506ece00669b5f2",
+  "script_sha256": "2f3e0a789cb9ebf6c80e0b312c243bc9bcafec9c870c551e3129f940ddb3ae26",
+  "scope": "matched fixed mesh, fresh verifier, single machine, one warm-up and three timing repeats; not time-to-goal or universal speed result",
+  "failures": []
+}

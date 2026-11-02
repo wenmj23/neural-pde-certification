@@ -1,0 +1,25 @@
+{
+  "selected_reference_cases": 8,
+  "expected": 16,
+  "records": 16,
+  "converged": 16,
+  "contained": 16,
+  "overlap": 16,
+  "old_new_overlap": 16,
+  "records_sha256": "69ab8b281cf8ead74fb34813e86798b377323866a07279c84ea99c4c8cd93907",
+  "input_records_sha256": "01f3dbd48e0b3b349cbfb9c94034eebb6a084503afd5cd7833e22ac404f07ffe",
+  "input_references_sha256": "67bf64e3a1f424b9f1ab47b7cd4d7c0e883419408f85384e9b12e800588b97d1",
+  "fixtures": [
+    {
+      "sha256": "de2287ec159eb520d6ed18a0b4c32d5d2516b7b5051fb5eaa46c75b50bcdb460",
+      "networks": 12
+    },
+    {
+      "sha256": "7a90cc204e2aa7a411f74061deccc8a48be523e467c5492ce8e091b5bf3c5529",
+      "networks": 12
+    }
+  ],
+  "script_sha256": "8228437d8ff51544352a25226c8750d12d5c08a01af23cafe222187f028c4025",
+  "failures": [],
+  "scope": "post-hoc tighter conditional continuous reference; original wider reference retained; not formal verification"
+}

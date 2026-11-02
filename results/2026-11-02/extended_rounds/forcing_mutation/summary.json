@@ -1,0 +1,72 @@
+{
+  "expected": 1152,
+  "records": 1152,
+  "detected": 618,
+  "nonzero": 864,
+  "by_source_order": {
+    "quadratic_12x2:0": {
+      "detected": 72,
+      "total": 96,
+      "nonzero": 96
+    },
+    "quadratic_12x2:2": {
+      "detected": 88,
+      "total": 96,
+      "nonzero": 96
+    },
+    "quadratic_12x2:3": {
+      "detected": 0,
+      "total": 96,
+      "nonzero": 0
+    },
+    "quadratic_12x2:4": {
+      "detected": 0,
+      "total": 96,
+      "nonzero": 0
+    },
+    "cubic_20x3:0": {
+      "detected": 63,
+      "total": 96,
+      "nonzero": 96
+    },
+    "cubic_20x3:2": {
+      "detected": 68,
+      "total": 96,
+      "nonzero": 96
+    },
+    "cubic_20x3:3": {
+      "detected": 84,
+      "total": 96,
+      "nonzero": 96
+    },
+    "cubic_20x3:4": {
+      "detected": 0,
+      "total": 96,
+      "nonzero": 0
+    },
+    "quintic_42x5:0": {
+      "detected": 48,
+      "total": 96,
+      "nonzero": 96
+    },
+    "quintic_42x5:2": {
+      "detected": 64,
+      "total": 96,
+      "nonzero": 96
+    },
+    "quintic_42x5:3": {
+      "detected": 68,
+      "total": 96,
+      "nonzero": 96
+    },
+    "quintic_42x5:4": {
+      "detected": 63,
+      "total": 96,
+      "nonzero": 96
+    }
+  },
+  "input_sha256": "771f587333e35d09acf64c598c9aeca00e3495155caf6a017b788399c4ae5816",
+  "records_sha256": "f67e8495f517302e1c366a64ec09b98e5a8a281571934394ea51b44cb64fb056",
+  "script_sha256": "8e7cb0dead95f53d33209f988c722a591092c410ed6692912c9defdb2413b0d7",
+  "scope": "post-hoc conservative simulated omission; numerical point references only; a missed detection does not establish correctness"
+}

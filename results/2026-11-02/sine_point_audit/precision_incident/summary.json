@@ -1,0 +1,22 @@
+{
+  "initial_records_sha256": "0404638e8ee55156d2909e49ab5b6bcdf24b5cd960f282a3fa78538bc5f747df",
+  "recheck_records_sha256": "ea2fea0ec8ddfe745acdf2964efba78ca69ca76114f5f3ae8a12ab991f3ff091",
+  "initial_audit_script_sha256": "e067c1d7653dff02a4efffbda94c93d8fa254b393a6217786257c0a155627f64",
+  "recheck_audit_script_sha256": "a4441dcde331cec32ebaeefba89ecf3b4b7628b6f06a2fde8124f0f0efe28f76",
+  "initial_digits": [
+    60,
+    90
+  ],
+  "recheck_digits": [
+    80,
+    110
+  ],
+  "threshold": "1e-50 * max(1, abs(high-precision value))",
+  "initial_records": 32,
+  "initial_unstable": 4,
+  "recovered": 4,
+  "both_contained": 4,
+  "records_sha256": "06f4c0fcdf27dde515375b45491bdcfbf3638e31191dafa420094acdcf75b306",
+  "script_sha256": "84935b32779d5d76df46a39bc1ebd368eb8553bb2fd52760e6c4db577f4c8e8e",
+  "scope": "numerical stability incident, not proof or evidence of a certificate failure"
+}

@@ -1,0 +1,54 @@
+{
+  "fixtures": [
+    {
+      "sha256": "de2287ec159eb520d6ed18a0b4c32d5d2516b7b5051fb5eaa46c75b50bcdb460",
+      "networks": 12
+    },
+    {
+      "sha256": "7a90cc204e2aa7a411f74061deccc8a48be523e467c5492ce8e091b5bf3c5529",
+      "networks": 12
+    }
+  ],
+  "sources": {
+    "quadratic_12x2": [
+      0,
+      0,
+      12
+    ],
+    "cubic_20x3": [
+      0,
+      0,
+      0,
+      20
+    ],
+    "quintic_42x5": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      42
+    ]
+  },
+  "intervals": 64,
+  "degrees": [
+    2,
+    3
+  ],
+  "expected_records": 144,
+  "records": 144,
+  "expected_references": 72,
+  "references": 72,
+  "reference_converged": 72,
+  "reference_overlap": 144,
+  "reference_contained": 128,
+  "gap_1_02": {
+    "2": 72,
+    "3": 72
+  },
+  "records_sha256": "01f3dbd48e0b3b349cbfb9c94034eebb6a084503afd5cd7833e22ac404f07ffe",
+  "references_sha256": "67bf64e3a1f424b9f1ab47b7cd4d7c0e883419408f85384e9b12e800588b97d1",
+  "script_sha256": "2b78bf261f6abae139c4e72a31ac15da9ff631137d2a86ab13afc4b96942553d",
+  "failures": [],
+  "scope": "transfer frozen weights to new polynomial forcing without retraining; conditional independent continuous reference; not public CLI"
+}

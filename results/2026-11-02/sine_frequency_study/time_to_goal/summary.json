@@ -1,0 +1,27 @@
+{
+  "fixture_sha256": "327f29609274496cabcfb784cbd8ba1bda23a2b17b1d1b51abf82c2415030d80",
+  "certificates_sha256": "2663cfa8bbfd9bcbc545dc962189c47a75a1b388b2a42f5034cf1adb48d76e14",
+  "seed": 20261105,
+  "meshes": [
+    16,
+    32,
+    64,
+    128,
+    256
+  ],
+  "degrees": [
+    2,
+    3
+  ],
+  "repeats": 3,
+  "expected": 72,
+  "records": 72,
+  "goal_met": 69,
+  "budget_exhausted": 3,
+  "all_trace_match": 72,
+  "records_sha256": "3f8ce01dceecc77b7a83405b97b22371039a2d42dfdae1b17cb6c485c5af0ddb",
+  "pairs_sha256": "c378cbffc4e7b1fcbe74dd767bf70a62a50bd86f2f9708ea12dc57702d1c336e",
+  "script_sha256": "9dd5f4c432d9987ba1a8746344a0eab79e6a5feefce69cce5f96eb758c631487",
+  "failures": [],
+  "scope": "post-hoc one-host cumulative goal timing; budget failures retained and excluded from success-only time ratios"
+}

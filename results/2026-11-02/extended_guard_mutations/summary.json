@@ -1,0 +1,109 @@
+{
+  "checks": [
+    {
+      "case": "original",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "as_expected": true,
+      "output": {
+        "ok": true,
+        "transfer_records": 144,
+        "references": 72,
+        "scaled_records": 384,
+        "tightened_records": 16,
+        "boundary_records": 723,
+        "derivative_records": 1152,
+        "scope": "readback integrity and stored arithmetic; not mathematical proof or authentication"
+      }
+    },
+    {
+      "case": "truncated",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "transferred_forcing hash mismatch"
+      }
+    },
+    {
+      "case": "wrong_source_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "certificate keys"
+      }
+    },
+    {
+      "case": "reference_changed_no_hash",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "ref hash mismatch"
+      }
+    },
+    {
+      "case": "wrong_scale_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "scale normalization"
+      }
+    },
+    {
+      "case": "wrong_tight_parent_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "tight parent mismatch"
+      }
+    },
+    {
+      "case": "wrong_decision_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "decision flag"
+      }
+    },
+    {
+      "case": "wrong_mp_value_rehashed",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "as_expected": true,
+      "output": {
+        "ok": false,
+        "error": "derivative stable"
+      }
+    },
+    {
+      "case": "fabricated_wide_arb_rehashed",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "as_expected": true,
+      "output": {
+        "ok": true,
+        "transfer_records": 144,
+        "references": 72,
+        "scaled_records": 384,
+        "tightened_records": 16,
+        "boundary_records": 723,
+        "derivative_records": 1152,
+        "scope": "readback integrity and stored arithmetic; not mathematical proof or authentication"
+      }
+    }
+  ],
+  "passed": 9,
+  "expected": 9,
+  "scope": "Hashes and consistency do not authenticate results; deliberately fabricated broad bounds are expected to pass."
+}
