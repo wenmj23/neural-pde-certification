@@ -1,0 +1,36 @@
+{
+  "baseline_64": {
+    "global": {
+      "networks": 12,
+      "reference_contained": 12,
+      "median_upper_over_reference_midpoint": 149.55989352107966,
+      "accepted_at_1e-5": 0
+    },
+    "spatial": {
+      "networks": 12,
+      "reference_contained": 12,
+      "median_upper_over_reference_midpoint": 20.18417685203007,
+      "accepted_at_1e-5": 0
+    },
+    "signed_quadratic": {
+      "networks": 12,
+      "reference_contained": 12,
+      "median_upper_over_reference_midpoint": 1.0194389724477806,
+      "accepted_at_1e-5": 3
+    },
+    "signed_cubic": {
+      "networks": 12,
+      "reference_contained": 12,
+      "median_upper_over_reference_midpoint": 1.0003246921880646,
+      "accepted_at_1e-5": 3
+    }
+  },
+  "green_global_factor": "1/8",
+  "counterexample_point_error": "5/4096",
+  "true_third_residual_derivative": "6",
+  "cubic_nodal_product_max": "1/81",
+  "cubic_remainder_denominator": 1944,
+  "input_records_sha256": "2bffa51e1f00430e9bf7b6fd91306f690f9250a529b0b02370668d6fc07dc659",
+  "script_sha256": "e9524c8d6a1482cccff47817ae853a3133f05fe411e6ad92714f463540f6315a",
+  "scope": "exact algebra and report data readback; not independent numerical-kernel proof"
+}
