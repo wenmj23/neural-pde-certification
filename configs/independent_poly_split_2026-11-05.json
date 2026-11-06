@@ -1,0 +1,10 @@
+{
+  "fixtures": [
+    {"path": "configs/frozen_poly_new_training_2026-11-01.json", "sha256": "de2287ec159eb520d6ed18a0b4c32d5d2516b7b5051fb5eaa46c75b50bcdb460", "reference": "results/2026-11-01/portable_reproduction/new/references.json", "reference_sha256": "6d7e9c37ca24744d9ea92c208aefd38e7747a1ab46734ad315bc3a8546cf4188"},
+    {"path": "configs/frozen_poly_holdout_training_2026-11-01.json", "sha256": "7a90cc204e2aa7a411f74061deccc8a48be523e467c5492ce8e091b5bf3c5529", "reference": "results/2026-11-01/portable_reproduction/holdout/references.json", "reference_sha256": "1f846d12818c59d14140d9097699d9bc198a652dd024d7f6e5bdc4c67a49120b"}
+  ],
+  "degrees": [2, 3], "pieces": [1, 2, 4], "meshes": [16, 32, 64, 128],
+  "bits": 103, "bernstein_depth": 2, "tolerance": "1/100000", "gap_ratio": "51/50", "shuffle_seed": 20261105,
+  "measurement": "sum certify call times until goal; one randomized schedule, no warmups; setup, I/O, interpreter startup and reference excluded",
+  "scope": "24 existing Nov 1 polynomial PINNs not in the previous Nov 2 split comparison; previously studied networks, not newly trained or a genuinely unseen blind holdout"
+}

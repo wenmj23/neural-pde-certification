@@ -1,0 +1,62 @@
+{
+  "records": 1296,
+  "stable": 1296,
+  "normal_contained": 432,
+  "counts": [
+    {
+      "kind": "normal",
+      "source_derivative": "nonzero",
+      "outcome": "contained",
+      "count": 264
+    },
+    {
+      "kind": "normal",
+      "source_derivative": "zero",
+      "outcome": "contained",
+      "count": 168
+    },
+    {
+      "kind": "omit_source",
+      "source_derivative": "nonzero",
+      "outcome": "contained",
+      "count": 59
+    },
+    {
+      "kind": "omit_source",
+      "source_derivative": "nonzero",
+      "outcome": "detected",
+      "count": 205
+    },
+    {
+      "kind": "omit_source",
+      "source_derivative": "zero",
+      "outcome": "contained",
+      "count": 168
+    },
+    {
+      "kind": "reverse_source_sign",
+      "source_derivative": "nonzero",
+      "outcome": "contained",
+      "count": 48
+    },
+    {
+      "kind": "reverse_source_sign",
+      "source_derivative": "nonzero",
+      "outcome": "detected",
+      "count": 216
+    },
+    {
+      "kind": "reverse_source_sign",
+      "source_derivative": "zero",
+      "outcome": "contained",
+      "count": 168
+    }
+  ],
+  "records_sha256": "f24d3c74adf1293c8841cc21ad0e58c4114ef72036b04ffbdda78796cbfd68d1",
+  "config_sha256": "5d4c15143013d625451f8554e9cf29e96cb0e425f3c620114dff2d37e72a0d84",
+  "fixture_config_sha256": "e074c57c928305bec78157d34af9d920aad2d67780e266214e1952946fca986f",
+  "poly_sha256": "26329a98a05f0201bc02034482edc3d0843a7c5ce7260daf4140d7afc12fbd85",
+  "oracle_sha256": "d76ad13063f37bb3792b8ee5b60feb2b0c4fd9c825daa530c1264829919fa563",
+  "script_sha256": "9b55f73f9be01e54ee5b7ed74a052343d1eafc2c492c00e86c462075d331d845",
+  "scope": "previously studied networks; low-order full-segment interval and numerical point checks with isolated injected faults"
+}

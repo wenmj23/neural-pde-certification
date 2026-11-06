@@ -1,0 +1,19 @@
+{
+  "expected": 864,
+  "records": 864,
+  "stable": 864,
+  "contained": 864,
+  "fault_expected": 48,
+  "fault_records": 48,
+  "fault_stable": 48,
+  "fault_detected": 48,
+  "records_sha256": "420aa78a61e8786849a53a2aa647d75687e50d4511a6a229f26273eb8b277b82",
+  "faults_sha256": "1af010594cba2416e85613a773bab4b21348ae306107f117e3a5ccd574d669cb",
+  "config_sha256": "8ce4befe7f669343b0da5f0682d53f05776089f9f115e605c5027dda44043b8c",
+  "fixture_config_sha256": "e074c57c928305bec78157d34af9d920aad2d67780e266214e1952946fca986f",
+  "split_source_sha256": "2835bb7c7de9228d02fadfb172d0b0bd3d751ac3490c6eb27c180fe366bdf792",
+  "polynomial_source_sha256": "26329a98a05f0201bc02034482edc3d0843a7c5ce7260daf4140d7afc12fbd85",
+  "oracle_source_sha256": "d76ad13063f37bb3792b8ee5b60feb2b0c4fd9c825daa530c1264829919fa563",
+  "script_sha256": "f27765baaa2db93ae00c9072f04e3391354e95353379fd348d65f978d6f3ede2",
+  "scope": "24 prior polynomial PINNs; finite point mpmath diagnosis and isolated omitted-source fault; not a continuous mathematical proof or blind holdout"
+}

@@ -1,0 +1,8 @@
+{
+  "fixtures_config": "configs/independent_poly_split_2026-11-05.json",
+  "segments": [["0", "1/16"], ["7/16", "1/2"], ["15/16", "1"]],
+  "orders": [3, 4], "split_pieces": [2, 4], "points": ["left", "middle", "right"],
+  "precision_bits": 103, "reference_digits": [80, 110], "relative_stability": "1/100000000000000000000000000000000000000000000000000",
+  "fault_source_name": "quartic_30x4", "fault_location": "middle", "fault_pieces": 4,
+  "scope": "24 prior polynomial PINNs; finite point mpmath diagnosis and isolated omitted-source fault; not a continuous mathematical proof or blind holdout"
+}

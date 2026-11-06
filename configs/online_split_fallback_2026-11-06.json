@@ -1,0 +1,9 @@
+{
+  "inputs": "configs/independent_poly_split_2026-11-05.json",
+  "prior": "results/2026-11-05/independent_poly_split",
+  "degrees": [2, 3], "mesh_sequence": [16, 32, 64, 128], "caps": [32, 64, 128],
+  "base_pieces": 1, "fallback_pieces": 2, "gap_ratio": "51/50", "seed": 20261106,
+  "strategy": "Run baseline until enclosure target or mesh cap; only if target remains unmet at cap, run split-2 from 16 to same cap.",
+  "timing": "perf_counter around certify calls only; includes both paths when fallback called; one randomized run per setup, no warmups; excludes setup/startup/I-O/reference",
+  "scope": "post-hoc online feasibility on 24 existing and previously studied polynomial PINNs; not a new blind test or general performance benchmark"
+}

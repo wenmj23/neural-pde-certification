@@ -1,0 +1,12 @@
+{
+  "records": 428,
+  "normal_contained": 428,
+  "detected_by_subdivision": {
+    "2": 43,
+    "4": 43,
+    "8": 54,
+    "16": 64
+  },
+  "records_sha256": "2450433a5b384c65caf0b70c44fdc876d716ea3db2bae6bb84134e0a3fca09a3",
+  "scope": "readback verifies completeness and stored rational arithmetic; does not independently recompute interval bounds"
+}

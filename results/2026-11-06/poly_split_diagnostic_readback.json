@@ -1,0 +1,14 @@
+{
+  "records": 864,
+  "stable": 864,
+  "contained": 864,
+  "fault_records": 48,
+  "fault_detected": 48,
+  "derivative_interval_pairs": 144,
+  "four_piece_narrower": 144,
+  "equal": 0,
+  "wider": 0,
+  "records_sha256": "420aa78a61e8786849a53a2aa647d75687e50d4511a6a229f26273eb8b277b82",
+  "faults_sha256": "1af010594cba2416e85613a773bab4b21348ae306107f117e3a5ccd574d669cb",
+  "scope": "post-exit counts, exact stored arithmetic and numerical-point checks; no continuous interval proof"
+}

@@ -1,0 +1,18 @@
+{
+  "records": 1440,
+  "blindspot_records": 144,
+  "stable": 1440,
+  "normal_contained": 480,
+  "nonzero_fault_detected": 416,
+  "zero_fault_contained": 544,
+  "sampled_blindspot_contained": 120,
+  "extra_blindspot_detected": 24,
+  "records_sha256": "c5f5dff8963feb91bbd811b6fd90647908d5992056533641f9e495cbac93559c",
+  "blindspot_sha256": "75ce80c9a77156717f487c7bb3a27071f646eb362607e960e49aba38cfce59f3",
+  "config_sha256": "8b38d3e56653e8a1cc3d67a850f24bbd62fb0ac13c49e4d0b5083d9433256151",
+  "fixture_config_sha256": "e074c57c928305bec78157d34af9d920aad2d67780e266214e1952946fca986f",
+  "poly_sha256": "26329a98a05f0201bc02034482edc3d0843a7c5ce7260daf4140d7afc12fbd85",
+  "oracle_sha256": "d76ad13063f37bb3792b8ee5b60feb2b0c4fd9c825daa530c1264829919fa563",
+  "script_sha256": "3998093660516b55d7250c734c403ae76bf3b6b76f1c8dced11ad46dd93a68d2",
+  "scope": "previously studied polynomial PINNs; isolated fault injection and numerical point diagnostics, not continuous proof or blind holdout"
+}

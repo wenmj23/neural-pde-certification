@@ -1,5 +1,12 @@
 # 给新对话窗口的接续说明
 
+## 2026-11-07 接续与精选同步
+
+先读 [11 月 6 日记录](notes/daily/2026-11-06-research.md)、[11 月 7 日记录](notes/daily/2026-11-07-research.md) 和 [在线回退研究](reports/online_fallback_research_2026-11-06.md)。11 月 5 日后续导数细分和误差范围结果详见新研究报告。多位置残差及高阶导数对照和人为故障均是有限数值诊断，不能证明整个认证实现无误；细分故障实验仅算抽查点所在子区间，不是完整认证性能试验。旧明细保存异常根因仍不明。
+
+本次按用户要求精选同步报告、部分脚本配置和精简统计；未公开完整实验明细及全部依赖，相关脚本不保证新克隆可直接复现。公开 CLI 默认策略未改变。中期报告 11 月 13 日截止且至少五页，模板与最终排版仍需确认。继续时先核对远端，保留旧记录，不要推送历史本地大提交。
+
+
 ## 2026-11-05 精选同步与继续指南
 
 今天先读 [工作记录](notes/daily/2026-11-05-reproduction.md)、[报告工作稿](reports/midterm_draft_working_2026-11-05.md)，以及 [数学自查](notes/working/midterm_math_review_2026-11-05.md) 和 [证据索引](notes/working/midterm_evidence_map_2026-11-05.md)。今日研究还包括 [余项/预算和缩放](reports/research_rounds_2026-11-05.md)、[Bernstein 细分与高频网格](reports/bernstein_budget_research_2026-11-05.md)。

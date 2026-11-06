@@ -1,0 +1,7 @@
+{
+  "input": "configs/split_time_to_goal_2026-11-05.json",
+  "prior": "results/2026-11-05/split_time_to_goal",
+  "degrees": [2, 3], "mesh_sequence": [16, 32, 64, 128], "caps": [32, 64, 128],
+  "base_pieces": 1, "fallback_pieces": 2, "gap_ratio": "51/50", "seed": 20261106,
+  "scope": "previously studied 12 sine networks; same policy as polynomial run; not an independently trained blind holdout"
+}

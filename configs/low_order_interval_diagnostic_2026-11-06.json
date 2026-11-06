@@ -1,0 +1,11 @@
+{
+  "fixtures_config": "configs/independent_poly_split_2026-11-05.json",
+  "segments": [["0", "1/16"], ["7/16", "1/2"], ["15/16", "1"]],
+  "locations": ["left", "middle", "right"],
+  "orders": [0, 2],
+  "kinds": ["normal", "omit_source", "reverse_source_sign"],
+  "precision_bits": 103,
+  "reference_digits": [80, 110],
+  "relative_stability": "1/100000000000000000000000000000000000000000000000000",
+  "scope": "previously studied networks; low-order full-segment interval and numerical point checks with isolated injected faults"
+}
