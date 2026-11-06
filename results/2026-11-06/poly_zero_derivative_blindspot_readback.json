@@ -1,0 +1,8 @@
+{
+  "records": 144,
+  "networks": 16,
+  "residual_cases_detected": 48,
+  "higher_derivative_cases_not_detected": 96,
+  "records_sha256": "f0740014c0d66e61ab314dd4c85551c65fbb47db8f12aee53882870ded4654ce",
+  "scope": "post-exit digest, completeness and exact stored-value checks; numerical point references are not a continuous proof"
+}

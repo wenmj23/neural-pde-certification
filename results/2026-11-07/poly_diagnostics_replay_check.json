@@ -1,0 +1,21 @@
+{
+  "status": "checks_passed",
+  "bytewise_comparison": {
+    "results/2026-11-06/poly_split_diagnostic/records.json": {
+      "saved_sha256": "420aa78a61e8786849a53a2aa647d75687e50d4511a6a229f26273eb8b277b82",
+      "replay_sha256": "420aa78a61e8786849a53a2aa647d75687e50d4511a6a229f26273eb8b277b82",
+      "identical": true
+    },
+    "results/2026-11-06/poly_split_diagnostic/faults.json": {
+      "saved_sha256": "1af010594cba2416e85613a773bab4b21348ae306107f117e3a5ccd574d669cb",
+      "replay_sha256": "1af010594cba2416e85613a773bab4b21348ae306107f117e3a5ccd574d669cb",
+      "identical": true
+    },
+    "results/2026-11-06/poly_zero_derivative_blindspot.json": {
+      "saved_sha256": "f0740014c0d66e61ab314dd4c85551c65fbb47db8f12aee53882870ded4654ce",
+      "replay_sha256": "f0740014c0d66e61ab314dd4c85551c65fbb47db8f12aee53882870ded4654ce",
+      "identical": true
+    }
+  },
+  "scope": "selected numerical point diagnostics only; not an independent mathematical proof; different platforms may produce different bytes"
+}

@@ -1,0 +1,14 @@
+{
+  "expected": 144,
+  "records": 144,
+  "complete": 144,
+  "attempts": 302,
+  "unresolved": [],
+  "records_sha256": "3234d81765ce92846f9bad7999ecdbecce4d2ba94f471deff19b197e254b9c46",
+  "config_sha256": "e074c57c928305bec78157d34af9d920aad2d67780e266214e1952946fca986f",
+  "script_sha256": "a84bd55b24a9d59d8d38ffd72bbd799458747f54ee0a444f8cb63c7ff0e23185",
+  "split_source_sha256": "2835bb7c7de9228d02fadfb172d0b0bd3d751ac3490c6eb27c180fe366bdf792",
+  "polynomial_source_sha256": "26329a98a05f0201bc02034482edc3d0843a7c5ce7260daf4140d7afc12fbd85",
+  "measurement": "sum certify call times until goal; one randomized schedule, no warmups; setup, I/O, interpreter startup and reference excluded",
+  "scope": "24 existing Nov 1 polynomial PINNs not in the previous Nov 2 split comparison; previously studied networks, not newly trained or a genuinely unseen blind holdout"
+}
