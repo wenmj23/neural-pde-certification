@@ -1,0 +1,57 @@
+{
+  "extension": [
+    {
+      "mesh": 512,
+      "degree": 2,
+      "ratio": 1.071937256762643,
+      "goal_met": false
+    },
+    {
+      "mesh": 512,
+      "degree": 3,
+      "ratio": 1.000733422258927,
+      "goal_met": true
+    },
+    {
+      "mesh": 1024,
+      "degree": 2,
+      "ratio": 1.0083446010011212,
+      "goal_met": true
+    },
+    {
+      "mesh": 1024,
+      "degree": 3,
+      "ratio": 1.0000438697572316,
+      "goal_met": true
+    }
+  ],
+  "extension_records_sha256": "27909bed902ee6d2106432bbe5a25a5574cee4cb97c79ecb5892da701beb3180",
+  "baseline_64_cells": [
+    {
+      "method": "global",
+      "n": 12,
+      "median_upper_over_reference_midpoint": 149.55989352107966,
+      "accept_1e-5": 0
+    },
+    {
+      "method": "spatial",
+      "n": 12,
+      "median_upper_over_reference_midpoint": 20.18417685203007,
+      "accept_1e-5": 0
+    },
+    {
+      "method": "signed_quadratic",
+      "n": 12,
+      "median_upper_over_reference_midpoint": 1.0194389724477806,
+      "accept_1e-5": 3
+    },
+    {
+      "method": "signed_cubic",
+      "n": 12,
+      "median_upper_over_reference_midpoint": 1.0003246921880646,
+      "accept_1e-5": 3
+    }
+  ],
+  "baseline_records_sha256": "2bffa51e1f00430e9bf7b6fd91306f690f9250a529b0b02370668d6fc07dc659",
+  "scope": "post-exit stored-value arithmetic; baseline 152 also independently checked full request manifest"
+}

@@ -1,0 +1,9 @@
+{
+  "training_dir": "results/2026-11-02/new_forcing_study/training_metadata",
+  "certificates_dir": "results/2026-11-02/new_forcing_study/certificates",
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "grids": [64, 256], "candidate_digits": 80, "check_digits": 110,
+  "relative_stability": "1/100000000000000000000000000000000000000000000000000",
+  "certification_mesh": 64, "degrees": [2, 3],
+  "scope": "12 previously studied trained polynomial PINNs; independent high-precision finite-point check of explicit analytic solution; sampled values do not certify continuous maxima"
+}

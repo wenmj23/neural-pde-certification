@@ -1,0 +1,85 @@
+{
+  "records": 96,
+  "attempts": 144,
+  "contained": 144,
+  "matches_old": 144,
+  "offline_paths_matching": 96,
+  "outcomes": [
+    {
+      "degree": 2,
+      "strategy": "start128",
+      "decision": "exceeds",
+      "count": 11
+    },
+    {
+      "degree": 2,
+      "strategy": "start128",
+      "decision": "unknown",
+      "count": 2
+    },
+    {
+      "degree": 2,
+      "strategy": "start128",
+      "decision": "within",
+      "count": 11
+    },
+    {
+      "degree": 2,
+      "strategy": "start64",
+      "decision": "exceeds",
+      "count": 11
+    },
+    {
+      "degree": 2,
+      "strategy": "start64",
+      "decision": "unknown",
+      "count": 2
+    },
+    {
+      "degree": 2,
+      "strategy": "start64",
+      "decision": "within",
+      "count": 11
+    },
+    {
+      "degree": 3,
+      "strategy": "start128",
+      "decision": "exceeds",
+      "count": 12
+    },
+    {
+      "degree": 3,
+      "strategy": "start128",
+      "decision": "within",
+      "count": 12
+    },
+    {
+      "degree": 3,
+      "strategy": "start64",
+      "decision": "exceeds",
+      "count": 12
+    },
+    {
+      "degree": 3,
+      "strategy": "start64",
+      "decision": "within",
+      "count": 12
+    }
+  ],
+  "one_run_paired_inclusive_times": [
+    {
+      "degree": 2,
+      "matched_decisive_scenarios": 22,
+      "median_inclusive_start64_over_start128": 1.1083226710586156,
+      "start64_faster": 6
+    },
+    {
+      "degree": 3,
+      "matched_decisive_scenarios": 24,
+      "median_inclusive_start64_over_start128": 0.5184295907555188,
+      "start64_faster": 18
+    }
+  ],
+  "records_sha256": "95f93433811abf4d346090da5f1a498e88806103f5235a9270379271628a73c6",
+  "scope": "post-exit recorded arithmetic and stopping checks; one randomized run, no new mathematical proof"
+}

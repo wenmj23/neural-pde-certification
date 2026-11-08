@@ -1,0 +1,18 @@
+{
+  "expected": 24,
+  "records": 24,
+  "stable": 24,
+  "below_reference_upper": 24,
+  "below_certificate_upper": 48,
+  "inputs_sha256": {
+    "fixture": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+    "references": "754239efccfe61e870f7caf5fe82b180baab84fbddf8b8580ba2b351ae9cd20b",
+    "certificates": "8a3c34999c97cd719a8231f0fa068904c0ea6dc208ad624dea99013f43193922"
+  },
+  "source_hashes_before_run": {
+    "configs/midterm_independent_sample_2026-11-08.json": "afa5318bacab60a94b5df128c75c845a8dba039a7f6e55c98f689844a8f51f80",
+    "scripts/291_independent_sample_midterm_20261108.py": "195e9a5f931c9f9fb5418744462af15c60c5c194b2928a64af6d635aafad4175"
+  },
+  "records_sha256": "5ead1875f8143caace6d40b84d5f8419ad261061276d660d0f7014e2429eef8c",
+  "scope": "12 previously studied trained polynomial PINNs; independent high-precision finite-point check of explicit analytic solution; sampled values do not certify continuous maxima"
+}

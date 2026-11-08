@@ -1,0 +1,29 @@
+{
+  "expected": 192,
+  "records": 192,
+  "complete": 192,
+  "attempts": 300,
+  "contained": 300,
+  "matches_old": 300,
+  "paths_match_previous": 192,
+  "inputs_sha256": {
+    "fixture": "327f29609274496cabcfb784cbd8ba1bda23a2b17b1d1b51abf82c2415030d80",
+    "reference": "5d6677d77cb24dd885b68e1a1e24191e932df0037bfcf11b04e6525a4ace88a8",
+    "old_records": "2663cfa8bbfd9bcbc545dc962189c47a75a1b388b2a42f5034cf1adb48d76e14",
+    "online_records": "0e3573a8d5c0d198c377ed60c30a4d4c993e638ac93a3a09173a69a0a9474e3e"
+  },
+  "source_hashes_before_run": {
+    "configs/sine_fixed_tolerance_repeat_2026-11-08.json": "36016688f5b1ce0c9e305cb58799e9d72fe3cfd67ced99c3d675a277ed21bffc",
+    "configs/sine_fixed_tolerance_online_2026-11-08.json": "212c8ece6555773458e29a9a3a20a7112241445b60b3fb3f26fb58673afee578",
+    "configs/midterm_sine_decisions_2026-11-07.json": "b133ed9a7c934b4889d696096fc80557f7c9eed273415e23318ce62e25190748",
+    "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+    "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+    "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+    "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+    "scripts/287_fixed_tolerance_repeat_20261108.py": "b16435cc6ab82a631a62afaf34a379824f77a64f9c51f40c22ff19f1e1460c9d"
+  },
+  "records_sha256": "b59b8440ad72c263b6fc23c0bccc67d7d90b529263554169a23b30402462b71a",
+  "scope": "12 previously studied sine networks, two degrees and two starting meshes, globally fixed tolerance; randomized repeated online paths, same host, no blind test",
+  "measurement": "in-process inclusive timing includes candidate construction (including internal fixture read), mesh setup, certify, endpoint conversion, decisions; excludes process startup, initial data/reference load, output; each path reuses one verifier"
+}

@@ -1,0 +1,12 @@
+{
+  "frequencies": [1, 2, 4, 8, 16, 32],
+  "meshes": [8, 16, 32, 64, 128, 256],
+  "degrees": [2, 3],
+  "quartic_meshes": [8, 16, 32],
+  "absolute_exact_error": "1/10000",
+  "ratio_target": "51/50",
+  "tolerances": ["1/20000", "1/10000", "1/5000"],
+  "precision_bits": 103,
+  "bernstein_subdivision_depth": 2,
+  "scope": "analytic manufactured error controls, not PINN networks; one fixed setup, no timing comparison"
+}

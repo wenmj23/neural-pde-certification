@@ -1,0 +1,8 @@
+{
+  "source_config": "configs/midterm_poly_decisions_2026-11-07.json",
+  "strategies": {"start16": [16, 32, 64], "start64": [64]},
+  "degrees": [2, 3], "tolerances": ["1/100000", "1/1000000"],
+  "precision_bits": 103, "bernstein_depth": 2, "shuffle_seed": 202611083,
+  "scope": "24 previously studied polynomial PINNs, common fixed tolerances, 64-cell maximum per path; one randomized pass, not blind or timing benchmark",
+  "measurement": "in-process total includes candidate construction including fixture read, mesh setup, certify calls and decision arithmetic; excludes process startup, preloaded reference and output; one verifier reused per path"
+}

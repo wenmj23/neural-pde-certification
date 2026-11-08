@@ -1,0 +1,94 @@
+{
+  "records": 48,
+  "reference_contained": 48,
+  "matches_old": 48,
+  "decision_checks": 96,
+  "counts": [
+    {
+      "degree": 2,
+      "mesh": 128,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 6
+    },
+    {
+      "degree": 2,
+      "mesh": 128,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 6
+    },
+    {
+      "degree": 2,
+      "mesh": 128,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 6
+    },
+    {
+      "degree": 2,
+      "mesh": 128,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 6
+    },
+    {
+      "degree": 2,
+      "mesh": 256,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 1
+    },
+    {
+      "degree": 2,
+      "mesh": 256,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 11
+    },
+    {
+      "degree": 2,
+      "mesh": 256,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 11
+    },
+    {
+      "degree": 2,
+      "mesh": 256,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 1
+    },
+    {
+      "degree": 3,
+      "mesh": 128,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 12
+    },
+    {
+      "degree": 3,
+      "mesh": 128,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 12
+    },
+    {
+      "degree": 3,
+      "mesh": 256,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 12
+    },
+    {
+      "degree": 3,
+      "mesh": 256,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 12
+    }
+  ],
+  "records_sha256": "b2004be314affc6839c9f1586ac42ce3597f009f3fab96b06be1a684f578f749",
+  "scope": "post-exit data and saved-reference arithmetic; post-hoc thresholds and meshes, no timing or independent proof"
+}

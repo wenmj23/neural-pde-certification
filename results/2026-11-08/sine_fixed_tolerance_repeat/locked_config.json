@@ -1,0 +1,6 @@
+{
+ "base_config": "configs/sine_fixed_tolerance_online_2026-11-08.json",
+ "tolerance": "1/1000", "warmups": 1, "timed_repeats": 3, "shuffle_seed": 202611082,
+ "scope": "12 previously studied sine networks, two degrees and two starting meshes, globally fixed tolerance; randomized repeated online paths, same host, no blind test",
+ "measurement": "in-process inclusive timing includes candidate construction (including internal fixture read), mesh setup, certify, endpoint conversion, decisions; excludes process startup, initial data/reference load, output; each path reuses one verifier"
+}

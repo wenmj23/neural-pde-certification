@@ -1,0 +1,89 @@
+{
+  "records": 288,
+  "warmup": 72,
+  "timed": 216,
+  "contained": 288,
+  "matches_old": 288,
+  "groups": [
+    {
+      "mesh": 64,
+      "degree": 2,
+      "median_of_network_medians_seconds": 0.08054125199998907,
+      "decision_counts": {
+        "exceeds": 3,
+        "within": 3,
+        "unknown": 18
+      }
+    },
+    {
+      "mesh": 64,
+      "degree": 3,
+      "median_of_network_medians_seconds": 0.10058912050010349,
+      "decision_counts": {
+        "exceeds": 9,
+        "within": 9,
+        "unknown": 6
+      }
+    },
+    {
+      "mesh": 128,
+      "degree": 2,
+      "median_of_network_medians_seconds": 0.14884849699990355,
+      "decision_counts": {
+        "exceeds": 6,
+        "within": 6,
+        "unknown": 12
+      }
+    },
+    {
+      "mesh": 128,
+      "degree": 3,
+      "median_of_network_medians_seconds": 0.21744499800013273,
+      "decision_counts": {
+        "exceeds": 12,
+        "within": 12
+      }
+    },
+    {
+      "mesh": 256,
+      "degree": 2,
+      "median_of_network_medians_seconds": 0.31144070049992933,
+      "decision_counts": {
+        "exceeds": 11,
+        "within": 11,
+        "unknown": 2
+      }
+    },
+    {
+      "mesh": 256,
+      "degree": 3,
+      "median_of_network_medians_seconds": 0.4334344414999123,
+      "decision_counts": {
+        "exceeds": 12,
+        "within": 12
+      }
+    }
+  ],
+  "paired_cubic_over_quadratic": [
+    {
+      "mesh": 64,
+      "networks": 12,
+      "median_of_network_median_paired_ratios": 1.3960565916387129,
+      "cubic_faster_networks": 1
+    },
+    {
+      "mesh": 128,
+      "networks": 12,
+      "median_of_network_median_paired_ratios": 1.4122400935947577,
+      "cubic_faster_networks": 0
+    },
+    {
+      "mesh": 256,
+      "networks": 12,
+      "median_of_network_median_paired_ratios": 1.4066718922644155,
+      "cubic_faster_networks": 0
+    }
+  ],
+  "records_sha256": "7889bf2fa36cad64a53d1c13848d4af63b0fb40de8fea38132f4c4c1636ff938",
+  "scope": "post-exit completeness, recorded arithmetic and timings; no independent runtime reproducibility or mathematical proof"
+}

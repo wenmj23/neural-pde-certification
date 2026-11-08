@@ -1,0 +1,12 @@
+{
+  "fixture": "results/2026-11-02/sine_frequency_study/training_metadata/frozen_networks.json",
+  "fixture_sha256": "327f29609274496cabcfb784cbd8ba1bda23a2b17b1d1b51abf82c2415030d80",
+  "reference": "results/2026-11-02/sine_frequency_study/certificates/references.json",
+  "certificate_summary": "results/2026-11-02/sine_frequency_study/certificates/summary.json",
+  "meshes": [16, 32, 64],
+  "degrees": [2, 3],
+  "tolerances": ["1/1000", "1/100", "1/10", "1"],
+  "precision_bits": 103,
+  "bernstein_depth": 2,
+  "scope": "12 previously studied sine PINNs including failed training; fixed thresholds; non-blind and no timing comparison"
+}

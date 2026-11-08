@@ -1,0 +1,3122 @@
+[
+  {
+    "network": "sine_k1_depth2_seed502",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "1365311253423747577656507719293622258916305159/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "22369261245049439363391481385126328503619478464283/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.0978493040001922,
+        "lower": "4667152256064012925886348971249/332306998946228968225951765070086144",
+        "upper": "2517286818621621167531957578353/166153499473114484112975882535043072",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.0978493040001922,
+    "inclusive_seconds": 0.10268758800020805
+  },
+  {
+    "network": "sine_k5_depth2_seed502",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "412214038372043361207683394023839546071389294066137/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049797421644533497225127707884103663876734137/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.10115034699992975,
+        "lower": "1396065652257786998234463318443/316912650057057350374175801344",
+        "upper": "698602164479134628212463061825/158456325028528675187087900672",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.10115034699992975,
+    "inclusive_seconds": 0.10527404499998738
+  },
+  {
+    "network": "sine_k5_depth1_seed502",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "412214038374141982824730824333019178396599776201095/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049799520266159389420761952039728651806516011/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.05740100399998482,
+        "lower": "349016413066227196275048724057/79228162514264337593543950336",
+        "upper": "2794408657930759387478012846987/633825300114114700748351602688",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.05740100399998482,
+    "inclusive_seconds": 0.0588281340001231
+  },
+  {
+    "network": "sine_k1_depth2_seed502",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "1365311253423747577656507719293622258916305159/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "22369261245049439363391481385126328503619478464283/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.0231576330002099,
+        "lower": "0",
+        "upper": "3616866618826921149835604618055/20769187434139310514121985316880384",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.0231576330002099,
+    "inclusive_seconds": 0.02509230400028173
+  },
+  {
+    "network": "sine_k3_depth2_seed502",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "2502257407668416288215065206998313926120751722899/2993155353253689176481146537402947624255349848014848",
+    "reference_upper": "320288960646886643850947718273540417684956049405843/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.09917955300034009,
+        "lower": "9989477392652595856250538185215/20769187434139310514121985316880384",
+        "upper": "6168103146920105732905782055961/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.09917955300034009,
+    "inclusive_seconds": 0.10156248699968273
+  },
+  {
+    "network": "sine_k5_depth2_seed501",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "250671635594434369617280617850604559851620143867645/23945242826029513411849172299223580994042798784118784",
+    "reference_upper": "501343286750810890828736453198082762198674575741697/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.09720114200035823,
+        "lower": "0",
+        "upper": "6882925378342551723793213730075/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      },
+      {
+        "mesh": 128,
+        "seconds": 0.15057118000004266,
+        "lower": "5539052898320398158174710718033/649037107316853453566312041152512",
+        "upper": "8049782957349808278951241813389/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 257,
+        "derivative_calls_cumulative": 192
+      },
+      {
+        "mesh": 256,
+        "seconds": 0.3250295340003504,
+        "lower": "6708679544602421422226440484761/649037107316853453566312041152512",
+        "upper": "3440134406533672766496250953387/324518553658426726783156020576256",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 513,
+        "derivative_calls_cumulative": 448
+      }
+    ],
+    "core_seconds": 0.5728018560007513,
+    "inclusive_seconds": 0.5753302410003016
+  },
+  {
+    "network": "sine_k3_depth2_seed502",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "2502257407668416288215065206998313926120751722899/2993155353253689176481146537402947624255349848014848",
+    "reference_upper": "320288960646886643850947718273540417684956049405843/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.033149919000152295,
+        "lower": "0",
+        "upper": "3012947741076192059684561800517/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.054778617000010854,
+        "lower": "8992621617961616115512493162287/20769187434139310514121985316880384",
+        "upper": "6462928330569887862723020346805/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 97,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.1185342869998749,
+        "lower": "8560324808058886715222151255391/10384593717069655257060992658440192",
+        "upper": "4403799786842116648863861436961/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 112
+      }
+    ],
+    "core_seconds": 0.20646282300003804,
+    "inclusive_seconds": 0.21015652899995985
+  },
+  {
+    "network": "sine_k1_depth1_seed502",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "1124730636575211104684677311419100162256591391/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "589683049396828394541125448778091033509903128327347/392318858461667547739736838950479151006397215279002157056",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.0461270030000378,
+        "lower": "3742791660243262203704935675343/2658455991569831745807614120560689152",
+        "upper": "4247726507592471372850148739353/2658455991569831745807614120560689152",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.0461270030000378,
+    "inclusive_seconds": 0.047755546999724174
+  },
+  {
+    "network": "sine_k5_depth2_seed502",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "412214038372043361207683394023839546071389294066137/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049797421644533497225127707884103663876734137/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.026757765999718686,
+        "lower": "2705553856720975318880728045483/633825300114114700748351602688",
+        "upper": "359873044855582837915795914657/79228162514264337593543950336",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.026757765999718686,
+    "inclusive_seconds": 0.029207224999936443
+  },
+  {
+    "network": "sine_k1_depth2_seed502",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "1365311253423747577656507719293622258916305159/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "22369261245049439363391481385126328503619478464283/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.1461104320001141,
+        "lower": "605960715890778618545623672719/41538374868278621028243970633760768",
+        "upper": "2426524052157529698691991394387/166153499473114484112975882535043072",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.1461104320001141,
+    "inclusive_seconds": 0.1480441570001858
+  },
+  {
+    "network": "sine_k1_depth2_seed502",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "1365311253423747577656507719293622258916305159/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "22369261245049439363391481385126328503619478464283/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.037262866999753896,
+        "lower": "1078563280447793447376417488143/166153499473114484112975882535043072",
+        "upper": "7511956355864365951024504458829/332306998946228968225951765070086144",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.037262866999753896,
+    "inclusive_seconds": 0.039499764000083815
+  },
+  {
+    "network": "sine_k3_depth2_seed501",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "11169406281732382883360127542018169466047240746321/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "714842057715105949846069140794457081495007383642465/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.024876074000076187,
+        "lower": "0",
+        "upper": "2781272268670301762776723217697/2535301200456458802993406410752",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.034954281999944214,
+        "lower": "0",
+        "upper": "4707364602699222131714147165819/81129638414606681695789005144064",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 65,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.07377070399979857,
+        "lower": "2060989408537013066837920698187/162259276829213363391578010288128",
+        "upper": "2783176171088948698525413897469/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 112
+      }
+    ],
+    "core_seconds": 0.13360105999981897,
+    "inclusive_seconds": 0.1356499100002111
+  },
+  {
+    "network": "sine_k3_depth2_seed501",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "11169406281732382883360127542018169466047240746321/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "714842057715105949846069140794457081495007383642465/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.13824732400007633,
+        "lower": "9608622670261904167218970021169/649037107316853453566312041152512",
+        "upper": "9767168712589388284507663039827/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.13824732400007633,
+    "inclusive_seconds": 0.140249342000061
+  },
+  {
+    "network": "sine_k1_depth1_seed502",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "1124730636575211104684677311419100162256591391/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "589683049396828394541125448778091033509903128327347/392318858461667547739736838950479151006397215279002157056",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.06646874100033529,
+        "lower": "249626952208583474890045658203/166153499473114484112975882535043072",
+        "upper": "7996141123149609829358911394379/5316911983139663491615228241121378304",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.06646874100033529,
+    "inclusive_seconds": 0.06775370400009706
+  },
+  {
+    "network": "sine_k5_depth1_seed501",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "73068855986065817545495534252166933796626785119/46768052394588893382517914646921056628989841375232",
+    "reference_upper": "598580127809887720334380032968079254991008284350649/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.044711003999964305,
+        "lower": "0",
+        "upper": "2755180350558992031130878318267/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      },
+      {
+        "mesh": 128,
+        "seconds": 0.07031015999973533,
+        "lower": "7186985722147917743144741406891/5192296858534827628530496329220096",
+        "upper": "2258929969520085199002163116075/1298074214633706907132624082305024",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 257,
+        "derivative_calls_cumulative": 192
+      }
+    ],
+    "core_seconds": 0.11502116399969964,
+    "inclusive_seconds": 0.11636754899973312
+  },
+  {
+    "network": "sine_k5_depth2_seed502",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "412214038372043361207683394023839546071389294066137/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049797421644533497225127707884103663876734137/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.13149759099997027,
+        "lower": "5586360993268760962243806349261/1267650600228229401496703205376",
+        "upper": "5586666756395013057097920043893/1267650600228229401496703205376",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.13149759099997027,
+    "inclusive_seconds": 0.13400489800005744
+  },
+  {
+    "network": "sine_k3_depth1_seed502",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "363990077003063117340555883423292331405645910461/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "745451709040596096924088732127922147863376424897647/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.011044940999909159,
+        "lower": "0",
+        "upper": "1869999553520549007421621420815/40564819207303340847894502572032",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.017354807000174333,
+        "lower": "0",
+        "upper": "491166829279050254052508524357/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 65,
+        "derivative_calls_cumulative": 48
+      }
+    ],
+    "core_seconds": 0.02839974800008349,
+    "inclusive_seconds": 0.029727286999786884
+  },
+  {
+    "network": "sine_k5_depth1_seed501",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "73068855986065817545495534252166933796626785119/46768052394588893382517914646921056628989841375232",
+    "reference_upper": "598580127809887720334380032968079254991008284350649/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.019895382999948197,
+        "lower": "0",
+        "upper": "5254977267706814270766734889565/40564819207303340847894502572032",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.028576065999914135,
+        "lower": "0",
+        "upper": "6341380700924022868048276248391/1298074214633706907132624082305024",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 97,
+        "derivative_calls_cumulative": 48
+      }
+    ],
+    "core_seconds": 0.04847144899986233,
+    "inclusive_seconds": 0.05051291300014782
+  },
+  {
+    "network": "sine_k1_depth2_seed501",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "1030634412157594379179474806956160589255587375/374144419156711147060143317175368453031918731001856",
+    "reference_upper": "135087326269078548238820676664063238253057086223285/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.03411242600031983,
+        "lower": "0",
+        "upper": "2559448594191793879465519878569/332306998946228968225951765070086144",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.03411242600031983,
+    "inclusive_seconds": 0.03665776800016829
+  },
+  {
+    "network": "sine_k3_depth2_seed501",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "11169406281732382883360127542018169466047240746321/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "714842057715105949846069140794457081495007383642465/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.10045145000003686,
+        "lower": "2060989408537013066837920698187/162259276829213363391578010288128",
+        "upper": "2783176171088948698525413897469/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.10045145000003686,
+    "inclusive_seconds": 0.10247070400009761
+  },
+  {
+    "network": "sine_k5_depth1_seed501",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "73068855986065817545495534252166933796626785119/46768052394588893382517914646921056628989841375232",
+    "reference_upper": "598580127809887720334380032968079254991008284350649/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.07017395999992004,
+        "lower": "3796929982906657095286672631423/2596148429267413814265248164610048",
+        "upper": "4317884832907464905792718793325/2596148429267413814265248164610048",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.07017395999992004,
+    "inclusive_seconds": 0.07157811899969602
+  },
+  {
+    "network": "sine_k1_depth1_seed501",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "1329043002835376138966448270561365595089286239/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "696801364154186761870377512063576581209380522970585/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.019801178000307118,
+        "lower": "9142815896402334915106349535367/664613997892457936451903530140172288",
+        "upper": "9737755883414805503984672407181/664613997892457936451903530140172288",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.019801178000307118,
+    "inclusive_seconds": 0.02102842900012547
+  },
+  {
+    "network": "sine_k1_depth1_seed501",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "1329043002835376138966448270561365595089286239/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "696801364154186761870377512063576581209380522970585/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.06869304300016665,
+        "lower": "9442640882988569537407371515729/664613997892457936451903530140172288",
+        "upper": "4721948630806292613703596151561/332306998946228968225951765070086144",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.06869304300016665,
+    "inclusive_seconds": 0.07008629400024802
+  },
+  {
+    "network": "sine_k5_depth2_seed502",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "412214038372043361207683394023839546071389294066137/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049797421644533497225127707884103663876734137/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.023319334000007075,
+        "lower": "2705553856720975318880728045483/633825300114114700748351602688",
+        "upper": "359873044855582837915795914657/79228162514264337593543950336",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.023319334000007075,
+    "inclusive_seconds": 0.026540286999988894
+  },
+  {
+    "network": "sine_k3_depth2_seed502",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "2502257407668416288215065206998313926120751722899/2993155353253689176481146537402947624255349848014848",
+    "reference_upper": "320288960646886643850947718273540417684956049405843/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.1332092380002905,
+        "lower": "8560324808058886715222151255391/10384593717069655257060992658440192",
+        "upper": "4403799786842116648863861436961/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.1332092380002905,
+    "inclusive_seconds": 0.13517745499984812
+  },
+  {
+    "network": "sine_k5_depth2_seed501",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "250671635594434369617280617850604559851620143867645/23945242826029513411849172299223580994042798784118784",
+    "reference_upper": "501343286750810890828736453198082762198674575741697/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.10530756699972699,
+        "lower": "0",
+        "upper": "6882925378342551723793213730075/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      },
+      {
+        "mesh": 128,
+        "seconds": 0.14875444100016466,
+        "lower": "5539052898320398158174710718033/649037107316853453566312041152512",
+        "upper": "8049782957349808278951241813389/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 257,
+        "derivative_calls_cumulative": 192
+      }
+    ],
+    "core_seconds": 0.25406200799989165,
+    "inclusive_seconds": 0.25620293199972366
+  },
+  {
+    "network": "sine_k5_depth1_seed501",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "73068855986065817545495534252166933796626785119/46768052394588893382517914646921056628989841375232",
+    "reference_upper": "598580127809887720334380032968079254991008284350649/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.06926606800016089,
+        "lower": "3796929982906657095286672631423/2596148429267413814265248164610048",
+        "upper": "4317884832907464905792718793325/2596148429267413814265248164610048",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.06926606800016089,
+    "inclusive_seconds": 0.07077031599965267
+  },
+  {
+    "network": "sine_k3_depth1_seed502",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "363990077003063117340555883423292331405645910461/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "745451709040596096924088732127922147863376424897647/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.05835893199991915,
+        "lower": "6715464674922708236641143748255/20769187434139310514121985316880384",
+        "upper": "1686583291751085566620693321581/2596148429267413814265248164610048",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.05835893199991915,
+    "inclusive_seconds": 0.060476375999769516
+  },
+  {
+    "network": "sine_k3_depth2_seed501",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "11169406281732382883360127542018169466047240746321/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "714842057715105949846069140794457081495007383642465/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.03588954399992872,
+        "lower": "0",
+        "upper": "3376584948504798912526530350403/10141204801825835211973625643008",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.04739374500013582,
+        "lower": "6296420055322570208255361309499/649037107316853453566312041152512",
+        "upper": "1634378378579996466808521271597/81129638414606681695789005144064",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 97,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.11260192100007771,
+        "lower": "9608622670261904167218970021169/649037107316853453566312041152512",
+        "upper": "9767168712589388284507663039827/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 112
+      }
+    ],
+    "core_seconds": 0.19588521000014225,
+    "inclusive_seconds": 0.19854857900008938
+  },
+  {
+    "network": "sine_k5_depth2_seed501",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "250671635594434369617280617850604559851620143867645/23945242826029513411849172299223580994042798784118784",
+    "reference_upper": "501343286750810890828736453198082762198674575741697/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.03388491999976395,
+        "lower": "0",
+        "upper": "1887527504299748722632143434103/158456325028528675187087900672",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.0517282549999436,
+        "lower": "0",
+        "upper": "5127091684429560032810529409813/40564819207303340847894502572032",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 97,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.09805661799964582,
+        "lower": "2500996576862754982458902263613/324518553658426726783156020576256",
+        "upper": "8586082188517894156446184243537/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 112
+      }
+    ],
+    "core_seconds": 0.18366979299935338,
+    "inclusive_seconds": 0.18592587400007687
+  },
+  {
+    "network": "sine_k1_depth2_seed501",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "1030634412157594379179474806956160589255587375/374144419156711147060143317175368453031918731001856",
+    "reference_upper": "135087326269078548238820676664063238253057086223285/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.09985364299973298,
+        "lower": "6225622165813156199214203896535/2658455991569831745807614120560689152",
+        "upper": "2103224038505967433727617669971/664613997892457936451903530140172288",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.09985364299973298,
+    "inclusive_seconds": 0.10210978300028728
+  },
+  {
+    "network": "sine_k1_depth2_seed501",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "1030634412157594379179474806956160589255587375/374144419156711147060143317175368453031918731001856",
+    "reference_upper": "135087326269078548238820676664063238253057086223285/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.032993859999805863,
+        "lower": "0",
+        "upper": "2559448594191793879465519878569/332306998946228968225951765070086144",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.032993859999805863,
+    "inclusive_seconds": 0.035054156000114745
+  },
+  {
+    "network": "sine_k5_depth2_seed502",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "412214038372043361207683394023839546071389294066137/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049797421644533497225127707884103663876734137/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.032503215999895474,
+        "lower": "5573987889176604401590233330435/1267650600228229401496703205376",
+        "upper": "5597644211416935345820586588255/1267650600228229401496703205376",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.032503215999895474,
+    "inclusive_seconds": 0.03443517300001986
+  },
+  {
+    "network": "sine_k3_depth1_seed502",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "363990077003063117340555883423292331405645910461/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "745451709040596096924088732127922147863376424897647/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.04661996899994847,
+        "lower": "6715464674922708236641143748255/20769187434139310514121985316880384",
+        "upper": "1686583291751085566620693321581/2596148429267413814265248164610048",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.04661996899994847,
+    "inclusive_seconds": 0.04802815999983068
+  },
+  {
+    "network": "sine_k3_depth2_seed501",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "11169406281732382883360127542018169466047240746321/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "714842057715105949846069140794457081495007383642465/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.13026677400011977,
+        "lower": "9608622670261904167218970021169/649037107316853453566312041152512",
+        "upper": "9767168712589388284507663039827/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.13026677400011977,
+    "inclusive_seconds": 0.13331703199992262
+  },
+  {
+    "network": "sine_k3_depth1_seed501",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "394181741294957063005037226456653476427067317509/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "100910530631712985133965786309004766431867564140217/191561942608236107294793378393788647952342390272950272",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.012275877999854856,
+        "lower": "0",
+        "upper": "1432796301903836889960551261887/40564819207303340847894502572032",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.018686535000142612,
+        "lower": "0",
+        "upper": "3315297045866591166490603201641/1298074214633706907132624082305024",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 65,
+        "derivative_calls_cumulative": 48
+      }
+    ],
+    "core_seconds": 0.03096241299999747,
+    "inclusive_seconds": 0.03216058799989696
+  },
+  {
+    "network": "sine_k5_depth2_seed502",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "412214038372043361207683394023839546071389294066137/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049797421644533497225127707884103663876734137/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.1295332029999372,
+        "lower": "5586360993268760962243806349261/1267650600228229401496703205376",
+        "upper": "5586666756395013057097920043893/1267650600228229401496703205376",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.1295332029999372,
+    "inclusive_seconds": 0.13171239300027082
+  },
+  {
+    "network": "sine_k3_depth2_seed502",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "2502257407668416288215065206998313926120751722899/2993155353253689176481146537402947624255349848014848",
+    "reference_upper": "320288960646886643850947718273540417684956049405843/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.09959384500007218,
+        "lower": "9989477392652595856250538185215/20769187434139310514121985316880384",
+        "upper": "6168103146920105732905782055961/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      },
+      {
+        "mesh": 128,
+        "seconds": 0.14028844499989646,
+        "lower": "4217320000609256968340497647889/5192296858534827628530496329220096",
+        "upper": "4463192327033154227112437997545/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 257,
+        "derivative_calls_cumulative": 192
+      }
+    ],
+    "core_seconds": 0.23988228999996863,
+    "inclusive_seconds": 0.2419977019999351
+  },
+  {
+    "network": "sine_k3_depth1_seed502",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "363990077003063117340555883423292331405645910461/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "745451709040596096924088732127922147863376424897647/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.06509942100001354,
+        "lower": "5005323726669313843178343161639/10384593717069655257060992658440192",
+        "upper": "2548016189389247721300544649791/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.06509942100001354,
+    "inclusive_seconds": 0.06647334399985994
+  },
+  {
+    "network": "sine_k1_depth1_seed501",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "1329043002835376138966448270561365595089286239/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "696801364154186761870377512063576581209380522970585/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.04471057099999598,
+        "lower": "1173969646092982028251743856923/83076749736557242056487941267521536",
+        "upper": "9495025923727672881559275221153/664613997892457936451903530140172288",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.04471057099999598,
+    "inclusive_seconds": 0.04612418099986826
+  },
+  {
+    "network": "sine_k1_depth1_seed501",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "1329043002835376138966448270561365595089286239/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "696801364154186761870377512063576581209380522970585/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.013625600000068516,
+        "lower": "0",
+        "upper": "1405728763419578319611362334331/41538374868278621028243970633760768",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.013625600000068516,
+    "inclusive_seconds": 0.01571894299968335
+  },
+  {
+    "network": "sine_k5_depth2_seed502",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "412214038372043361207683394023839546071389294066137/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049797421644533497225127707884103663876734137/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.0901751169999443,
+        "lower": "1396065652257786998234463318443/316912650057057350374175801344",
+        "upper": "698602164479134628212463061825/158456325028528675187087900672",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.0901751169999443,
+    "inclusive_seconds": 0.09235491900017223
+  },
+  {
+    "network": "sine_k3_depth2_seed501",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "11169406281732382883360127542018169466047240746321/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "714842057715105949846069140794457081495007383642465/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.03514163899990308,
+        "lower": "0",
+        "upper": "3376584948504798912526530350403/10141204801825835211973625643008",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.05404539000028308,
+        "lower": "6296420055322570208255361309499/649037107316853453566312041152512",
+        "upper": "1634378378579996466808521271597/81129638414606681695789005144064",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 97,
+        "derivative_calls_cumulative": 48
+      }
+    ],
+    "core_seconds": 0.08918702900018616,
+    "inclusive_seconds": 0.09123303900014434
+  },
+  {
+    "network": "sine_k3_depth1_seed501",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "394181741294957063005037226456653476427067317509/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "100910530631712985133965786309004766431867564140217/191561942608236107294793378393788647952342390272950272",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.04505760799975178,
+        "lower": "2027824413147496783474487837379/5192296858534827628530496329220096",
+        "upper": "3438619737585614380039649304545/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.04505760799975178,
+    "inclusive_seconds": 0.04647197200029041
+  },
+  {
+    "network": "sine_k3_depth1_seed502",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "363990077003063117340555883423292331405645910461/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "745451709040596096924088732127922147863376424897647/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.06098621799992543,
+        "lower": "5005323726669313843178343161639/10384593717069655257060992658440192",
+        "upper": "2548016189389247721300544649791/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.06098621799992543,
+    "inclusive_seconds": 0.06247585499977504
+  },
+  {
+    "network": "sine_k1_depth1_seed502",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "1124730636575211104684677311419100162256591391/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "589683049396828394541125448778091033509903128327347/392318858461667547739736838950479151006397215279002157056",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.011126045999844791,
+        "lower": "0",
+        "upper": "8734560091071419949192458608431/332306998946228968225951765070086144",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.011126045999844791,
+    "inclusive_seconds": 0.012273544999970909
+  },
+  {
+    "network": "sine_k3_depth1_seed502",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "363990077003063117340555883423292331405645910461/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "745451709040596096924088732127922147863376424897647/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.017049268999926426,
+        "lower": "0",
+        "upper": "6850930768626754161247984748139/1298074214633706907132624082305024",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.02607350400012365,
+        "lower": "7366728094636105139327336887713/20769187434139310514121985316880384",
+        "upper": "3206082534070501395466584503077/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 97,
+        "derivative_calls_cumulative": 48
+      }
+    ],
+    "core_seconds": 0.043122773000050074,
+    "inclusive_seconds": 0.044213203000254
+  },
+  {
+    "network": "sine_k1_depth1_seed501",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "1329043002835376138966448270561365595089286239/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "696801364154186761870377512063576581209380522970585/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.06595036599992454,
+        "lower": "9442640882988569537407371515729/664613997892457936451903530140172288",
+        "upper": "4721948630806292613703596151561/332306998946228968225951765070086144",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.06595036599992454,
+    "inclusive_seconds": 0.06720339299999978
+  },
+  {
+    "network": "sine_k5_depth2_seed501",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "250671635594434369617280617850604559851620143867645/23945242826029513411849172299223580994042798784118784",
+    "reference_upper": "501343286750810890828736453198082762198674575741697/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.037618173000282695,
+        "lower": "0",
+        "upper": "1887527504299748722632143434103/158456325028528675187087900672",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.0480823039997631,
+        "lower": "0",
+        "upper": "5127091684429560032810529409813/40564819207303340847894502572032",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 97,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.10075210400009382,
+        "lower": "2500996576862754982458902263613/324518553658426726783156020576256",
+        "upper": "8586082188517894156446184243537/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 112
+      },
+      {
+        "mesh": 128,
+        "seconds": 0.19659749299989926,
+        "lower": "1685457297004496398734123685587/162259276829213363391578010288128",
+        "upper": "3423412003500660333013995684859/324518553658426726783156020576256",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 385,
+        "derivative_calls_cumulative": 240
+      }
+    ],
+    "core_seconds": 0.3830500740000389,
+    "inclusive_seconds": 0.3853732289999243
+  },
+  {
+    "network": "sine_k1_depth1_seed502",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "1124730636575211104684677311419100162256591391/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "589683049396828394541125448778091033509903128327347/392318858461667547739736838950479151006397215279002157056",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.014811610999913682,
+        "lower": "9183140313242071142091637438949/10633823966279326983230456482242756608",
+        "upper": "5753589794005143809125968672867/2658455991569831745807614120560689152",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.014811610999913682,
+    "inclusive_seconds": 0.016445199000372668
+  },
+  {
+    "network": "sine_k5_depth1_seed501",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "73068855986065817545495534252166933796626785119/46768052394588893382517914646921056628989841375232",
+    "reference_upper": "598580127809887720334380032968079254991008284350649/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.01128010299999005,
+        "lower": "0",
+        "upper": "8309726029663875264146445866721/10141204801825835211973625643008",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.020860614999946847,
+        "lower": "0",
+        "upper": "918764056947682447542468041625/20282409603651670423947251286016",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 65,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.03643780600032187,
+        "lower": "0",
+        "upper": "2755180350558992031130878318267/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 112
+      }
+    ],
+    "core_seconds": 0.06857852400025877,
+    "inclusive_seconds": 0.06983110300006956
+  },
+  {
+    "network": "sine_k5_depth1_seed502",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "412214038374141982824730824333019178396599776201095/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049799520266159389420761952039728651806516011/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.011181136000232073,
+        "lower": "5411107713470617412970625581893/1267650600228229401496703205376",
+        "upper": "5757968717717814519407527399067/1267650600228229401496703205376",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.011181136000232073,
+    "inclusive_seconds": 0.012596507000125712
+  },
+  {
+    "network": "sine_k3_depth2_seed502",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "2502257407668416288215065206998313926120751722899/2993155353253689176481146537402947624255349848014848",
+    "reference_upper": "320288960646886643850947718273540417684956049405843/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.03343827499975305,
+        "lower": "0",
+        "upper": "3012947741076192059684561800517/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.05124670899976991,
+        "lower": "8992621617961616115512493162287/20769187434139310514121985316880384",
+        "upper": "6462928330569887862723020346805/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 97,
+        "derivative_calls_cumulative": 48
+      }
+    ],
+    "core_seconds": 0.08468498399952296,
+    "inclusive_seconds": 0.08657498699994903
+  },
+  {
+    "network": "sine_k5_depth1_seed501",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "73068855986065817545495534252166933796626785119/46768052394588893382517914646921056628989841375232",
+    "reference_upper": "598580127809887720334380032968079254991008284350649/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.016220479999901727,
+        "lower": "0",
+        "upper": "8309726029663875264146445866721/10141204801825835211973625643008",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.016350603999853774,
+        "lower": "0",
+        "upper": "918764056947682447542468041625/20282409603651670423947251286016",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 65,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.0341875480003182,
+        "lower": "0",
+        "upper": "2755180350558992031130878318267/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 112
+      },
+      {
+        "mesh": 128,
+        "seconds": 0.07009008200020617,
+        "lower": "7186985722147917743144741406891/5192296858534827628530496329220096",
+        "upper": "2258929969520085199002163116075/1298074214633706907132624082305024",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 257,
+        "derivative_calls_cumulative": 240
+      }
+    ],
+    "core_seconds": 0.13684871400027987,
+    "inclusive_seconds": 0.1387776220003616
+  },
+  {
+    "network": "sine_k1_depth2_seed501",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "1030634412157594379179474806956160589255587375/374144419156711147060143317175368453031918731001856",
+    "reference_upper": "135087326269078548238820676664063238253057086223285/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.13600707399973544,
+        "lower": "3655622973169223123241989787905/1329227995784915872903807060280344576",
+        "upper": "7336298859435902342819077462153/2658455991569831745807614120560689152",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.13600707399973544,
+    "inclusive_seconds": 0.13822397399962938
+  },
+  {
+    "network": "sine_k5_depth2_seed502",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "412214038372043361207683394023839546071389294066137/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049797421644533497225127707884103663876734137/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.03134622000015952,
+        "lower": "5573987889176604401590233330435/1267650600228229401496703205376",
+        "upper": "5597644211416935345820586588255/1267650600228229401496703205376",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.03134622000015952,
+    "inclusive_seconds": 0.03380488899983902
+  },
+  {
+    "network": "sine_k1_depth2_seed502",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "1365311253423747577656507719293622258916305159/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "22369261245049439363391481385126328503619478464283/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.032160407999981544,
+        "lower": "1078563280447793447376417488143/166153499473114484112975882535043072",
+        "upper": "7511956355864365951024504458829/332306998946228968225951765070086144",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.032160407999981544,
+    "inclusive_seconds": 0.03417388399975607
+  },
+  {
+    "network": "sine_k3_depth1_seed501",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "394181741294957063005037226456653476427067317509/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "100910530631712985133965786309004766431867564140217/191561942608236107294793378393788647952342390272950272",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.018474219999916386,
+        "lower": "0",
+        "upper": "5176642706740666733597610069187/1298074214633706907132624082305024",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.024531460000162042,
+        "lower": "1113325918557037710083133098591/2596148429267413814265248164610048",
+        "upper": "3253856985676924720172825152913/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 97,
+        "derivative_calls_cumulative": 48
+      }
+    ],
+    "core_seconds": 0.04300568000007843,
+    "inclusive_seconds": 0.044231818999833195
+  },
+  {
+    "network": "sine_k1_depth1_seed501",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "1329043002835376138966448270561365595089286239/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "696801364154186761870377512063576581209380522970585/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.016312285999902087,
+        "lower": "9142815896402334915106349535367/664613997892457936451903530140172288",
+        "upper": "9737755883414805503984672407181/664613997892457936451903530140172288",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.016312285999902087,
+    "inclusive_seconds": 0.017470271000092907
+  },
+  {
+    "network": "sine_k1_depth2_seed502",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "1365311253423747577656507719293622258916305159/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "22369261245049439363391481385126328503619478464283/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.1361400840000897,
+        "lower": "605960715890778618545623672719/41538374868278621028243970633760768",
+        "upper": "2426524052157529698691991394387/166153499473114484112975882535043072",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.1361400840000897,
+    "inclusive_seconds": 0.13811800199982827
+  },
+  {
+    "network": "sine_k3_depth1_seed502",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "363990077003063117340555883423292331405645910461/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "745451709040596096924088732127922147863376424897647/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.011195318999853043,
+        "lower": "0",
+        "upper": "1869999553520549007421621420815/40564819207303340847894502572032",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.020339957000032882,
+        "lower": "0",
+        "upper": "491166829279050254052508524357/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 65,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.04293664399983754,
+        "lower": "6715464674922708236641143748255/20769187434139310514121985316880384",
+        "upper": "1686583291751085566620693321581/2596148429267413814265248164610048",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 112
+      }
+    ],
+    "core_seconds": 0.07447191999972347,
+    "inclusive_seconds": 0.07566569700020409
+  },
+  {
+    "network": "sine_k3_depth1_seed501",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "394181741294957063005037226456653476427067317509/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "100910530631712985133965786309004766431867564140217/191561942608236107294793378393788647952342390272950272",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.045689693999975134,
+        "lower": "2027824413147496783474487837379/5192296858534827628530496329220096",
+        "upper": "3438619737585614380039649304545/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.045689693999975134,
+    "inclusive_seconds": 0.04680260800023461
+  },
+  {
+    "network": "sine_k1_depth1_seed501",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "1329043002835376138966448270561365595089286239/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "696801364154186761870377512063576581209380522970585/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.05418708700017305,
+        "lower": "1173969646092982028251743856923/83076749736557242056487941267521536",
+        "upper": "9495025923727672881559275221153/664613997892457936451903530140172288",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.05418708700017305,
+    "inclusive_seconds": 0.055325542999980826
+  },
+  {
+    "network": "sine_k3_depth1_seed501",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "394181741294957063005037226456653476427067317509/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "100910530631712985133965786309004766431867564140217/191561942608236107294793378393788647952342390272950272",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.01528963200007638,
+        "lower": "0",
+        "upper": "5176642706740666733597610069187/1298074214633706907132624082305024",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.01528963200007638,
+    "inclusive_seconds": 0.01736478300017552
+  },
+  {
+    "network": "sine_k5_depth1_seed502",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "412214038374141982824730824333019178396599776201095/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049799520266159389420761952039728651806516011/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.06788550999999643,
+        "lower": "2793180496648624054853366333113/633825300114114700748351602688",
+        "upper": "5586666756423463885995562259683/1267650600228229401496703205376",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.06788550999999643,
+    "inclusive_seconds": 0.06899425700021311
+  },
+  {
+    "network": "sine_k5_depth2_seed501",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "250671635594434369617280617850604559851620143867645/23945242826029513411849172299223580994042798784118784",
+    "reference_upper": "501343286750810890828736453198082762198674575741697/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.12765887200021098,
+        "lower": "2500996576862754982458902263613/324518553658426726783156020576256",
+        "upper": "8586082188517894156446184243537/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.12765887200021098,
+    "inclusive_seconds": 0.12982598500002496
+  },
+  {
+    "network": "sine_k3_depth2_seed502",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "2502257407668416288215065206998313926120751722899/2993155353253689176481146537402947624255349848014848",
+    "reference_upper": "320288960646886643850947718273540417684956049405843/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.024674852000316605,
+        "lower": "0",
+        "upper": "4729334703596923672372273245465/40564819207303340847894502572032",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.03754527800037977,
+        "lower": "0",
+        "upper": "1067838863430143376314006056107/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 65,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.0695928879999883,
+        "lower": "9989477392652595856250538185215/20769187434139310514121985316880384",
+        "upper": "6168103146920105732905782055961/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 112
+      },
+      {
+        "mesh": 128,
+        "seconds": 0.15497579099974246,
+        "lower": "4217320000609256968340497647889/5192296858534827628530496329220096",
+        "upper": "4463192327033154227112437997545/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 257,
+        "derivative_calls_cumulative": 240
+      }
+    ],
+    "core_seconds": 0.28678880900042714,
+    "inclusive_seconds": 0.28967604900026345
+  },
+  {
+    "network": "sine_k1_depth1_seed502",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "1124730636575211104684677311419100162256591391/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "589683049396828394541125448778091033509903128327347/392318858461667547739736838950479151006397215279002157056",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.061436269999830984,
+        "lower": "249626952208583474890045658203/166153499473114484112975882535043072",
+        "upper": "7996141123149609829358911394379/5316911983139663491615228241121378304",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.061436269999830984,
+    "inclusive_seconds": 0.06285075300002063
+  },
+  {
+    "network": "sine_k5_depth1_seed502",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "412214038374141982824730824333019178396599776201095/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049799520266159389420761952039728651806516011/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.06589797600008751,
+        "lower": "2793180496648624054853366333113/633825300114114700748351602688",
+        "upper": "5586666756423463885995562259683/1267650600228229401496703205376",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.06589797600008751,
+    "inclusive_seconds": 0.06707374999996318
+  },
+  {
+    "network": "sine_k1_depth2_seed501",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "1030634412157594379179474806956160589255587375/374144419156711147060143317175368453031918731001856",
+    "reference_upper": "135087326269078548238820676664063238253057086223285/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.09735097700013284,
+        "lower": "6225622165813156199214203896535/2658455991569831745807614120560689152",
+        "upper": "2103224038505967433727617669971/664613997892457936451903530140172288",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.09735097700013284,
+    "inclusive_seconds": 0.09949669299976449
+  },
+  {
+    "network": "sine_k3_depth1_seed502",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "363990077003063117340555883423292331405645910461/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "745451709040596096924088732127922147863376424897647/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.018823371000053157,
+        "lower": "0",
+        "upper": "6850930768626754161247984748139/1298074214633706907132624082305024",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.018823371000053157,
+    "inclusive_seconds": 0.020229576000019733
+  },
+  {
+    "network": "sine_k5_depth1_seed501",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "73068855986065817545495534252166933796626785119/46768052394588893382517914646921056628989841375232",
+    "reference_upper": "598580127809887720334380032968079254991008284350649/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.016751129999647674,
+        "lower": "0",
+        "upper": "5254977267706814270766734889565/40564819207303340847894502572032",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.02389349199984281,
+        "lower": "0",
+        "upper": "6341380700924022868048276248391/1298074214633706907132624082305024",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 97,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.04851336000001538,
+        "lower": "3796929982906657095286672631423/2596148429267413814265248164610048",
+        "upper": "4317884832907464905792718793325/2596148429267413814265248164610048",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 112
+      }
+    ],
+    "core_seconds": 0.08915798199950586,
+    "inclusive_seconds": 0.09048593300030916
+  },
+  {
+    "network": "sine_k1_depth1_seed502",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "1124730636575211104684677311419100162256591391/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "589683049396828394541125448778091033509903128327347/392318858461667547739736838950479151006397215279002157056",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.01632666599971344,
+        "lower": "9183140313242071142091637438949/10633823966279326983230456482242756608",
+        "upper": "5753589794005143809125968672867/2658455991569831745807614120560689152",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.01632666599971344,
+    "inclusive_seconds": 0.017610627000067325
+  },
+  {
+    "network": "sine_k1_depth2_seed501",
+    "frequency": 1,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "1030634412157594379179474806956160589255587375/374144419156711147060143317175368453031918731001856",
+    "reference_upper": "135087326269078548238820676664063238253057086223285/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.14451315999986036,
+        "lower": "3655622973169223123241989787905/1329227995784915872903807060280344576",
+        "upper": "7336298859435902342819077462153/2658455991569831745807614120560689152",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.14451315999986036,
+    "inclusive_seconds": 0.14696235599967622
+  },
+  {
+    "network": "sine_k5_depth2_seed501",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "250671635594434369617280617850604559851620143867645/23945242826029513411849172299223580994042798784118784",
+    "reference_upper": "501343286750810890828736453198082762198674575741697/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.1340964000000895,
+        "lower": "2500996576862754982458902263613/324518553658426726783156020576256",
+        "upper": "8586082188517894156446184243537/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      },
+      {
+        "mesh": 128,
+        "seconds": 0.1990808260002268,
+        "lower": "1685457297004496398734123685587/162259276829213363391578010288128",
+        "upper": "3423412003500660333013995684859/324518553658426726783156020576256",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 385,
+        "derivative_calls_cumulative": 192
+      }
+    ],
+    "core_seconds": 0.3331772260003163,
+    "inclusive_seconds": 0.3355554380000285
+  },
+  {
+    "network": "sine_k1_depth2_seed501",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "1030634412157594379179474806956160589255587375/374144419156711147060143317175368453031918731001856",
+    "reference_upper": "135087326269078548238820676664063238253057086223285/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.02518156399992222,
+        "lower": "0",
+        "upper": "9640803010554771075042414444587/83076749736557242056487941267521536",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.02518156399992222,
+    "inclusive_seconds": 0.0277828309999677
+  },
+  {
+    "network": "sine_k3_depth2_seed501",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "11169406281732382883360127542018169466047240746321/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "714842057715105949846069140794457081495007383642465/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.027092344999800844,
+        "lower": "0",
+        "upper": "2781272268670301762776723217697/2535301200456458802993406410752",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.039553796000291186,
+        "lower": "0",
+        "upper": "4707364602699222131714147165819/81129638414606681695789005144064",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 65,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.08683445999986361,
+        "lower": "2060989408537013066837920698187/162259276829213363391578010288128",
+        "upper": "2783176171088948698525413897469/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 112
+      }
+    ],
+    "core_seconds": 0.15348060099995564,
+    "inclusive_seconds": 0.15594548599983682
+  },
+  {
+    "network": "sine_k5_depth1_seed501",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "73068855986065817545495534252166933796626785119/46768052394588893382517914646921056628989841375232",
+    "reference_upper": "598580127809887720334380032968079254991008284350649/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.04430877699996927,
+        "lower": "0",
+        "upper": "2755180350558992031130878318267/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.04430877699996927,
+    "inclusive_seconds": 0.04586686899983761
+  },
+  {
+    "network": "sine_k5_depth2_seed501",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "250671635594434369617280617850604559851620143867645/23945242826029513411849172299223580994042798784118784",
+    "reference_upper": "501343286750810890828736453198082762198674575741697/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.022693861999869114,
+        "lower": "0",
+        "upper": "7178209705257787571481890117111/316912650057057350374175801344",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.03820712700007789,
+        "lower": "0",
+        "upper": "6614615563356121466931679060839/10141204801825835211973625643008",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 65,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.071274854999956,
+        "lower": "0",
+        "upper": "6882925378342551723793213730075/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 112
+      },
+      {
+        "mesh": 128,
+        "seconds": 0.16095681199976752,
+        "lower": "5539052898320398158174710718033/649037107316853453566312041152512",
+        "upper": "8049782957349808278951241813389/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 257,
+        "derivative_calls_cumulative": 240
+      },
+      {
+        "mesh": 256,
+        "seconds": 0.31027712700006305,
+        "lower": "6708679544602421422226440484761/649037107316853453566312041152512",
+        "upper": "3440134406533672766496250953387/324518553658426726783156020576256",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 513,
+        "derivative_calls_cumulative": 496
+      }
+    ],
+    "core_seconds": 0.6034097829997336,
+    "inclusive_seconds": 0.6060076599997046
+  },
+  {
+    "network": "sine_k3_depth1_seed501",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "394181741294957063005037226456653476427067317509/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "100910530631712985133965786309004766431867564140217/191561942608236107294793378393788647952342390272950272",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.0955619100000149,
+        "lower": "5435607996782803798010780902109/10384593717069655257060992658440192",
+        "upper": "2753159640267187348059659187955/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.0955619100000149,
+    "inclusive_seconds": 0.09737497800006167
+  },
+  {
+    "network": "sine_k1_depth2_seed501",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "1030634412157594379179474806956160589255587375/374144419156711147060143317175368453031918731001856",
+    "reference_upper": "135087326269078548238820676664063238253057086223285/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.02898886200000561,
+        "lower": "0",
+        "upper": "9640803010554771075042414444587/83076749736557242056487941267521536",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.02898886200000561,
+    "inclusive_seconds": 0.03133709700023246
+  },
+  {
+    "network": "sine_k5_depth1_seed502",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start64",
+    "reference_lower": "412214038374141982824730824333019178396599776201095/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049799520266159389420761952039728651806516011/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.04448561500021242,
+        "lower": "349016413066227196275048724057/79228162514264337593543950336",
+        "upper": "2794408657930759387478012846987/633825300114114700748351602688",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.04448561500021242,
+    "inclusive_seconds": 0.04593060199977117
+  },
+  {
+    "network": "sine_k5_depth1_seed502",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "412214038374141982824730824333019178396599776201095/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049799520266159389420761952039728651806516011/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.020200730999931693,
+        "lower": "174187121537664724274981338349/39614081257132168796771975168",
+        "upper": "5597644211445314716297064119307/1267650600228229401496703205376",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.020200730999931693,
+    "inclusive_seconds": 0.021517671999845334
+  },
+  {
+    "network": "sine_k5_depth1_seed502",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "412214038374141982824730824333019178396599776201095/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049799520266159389420761952039728651806516011/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.016853120000178023,
+        "lower": "5411107713470617412970625581893/1267650600228229401496703205376",
+        "upper": "5757968717717814519407527399067/1267650600228229401496703205376",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.016853120000178023,
+    "inclusive_seconds": 0.018193810999946436
+  },
+  {
+    "network": "sine_k1_depth1_seed502",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "1124730636575211104684677311419100162256591391/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "589683049396828394541125448778091033509903128327347/392318858461667547739736838950479151006397215279002157056",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.012085285000011936,
+        "lower": "0",
+        "upper": "8734560091071419949192458608431/332306998946228968225951765070086144",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.012085285000011936,
+    "inclusive_seconds": 0.0147188180003468
+  },
+  {
+    "network": "sine_k3_depth1_seed501",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "394181741294957063005037226456653476427067317509/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "100910530631712985133965786309004766431867564140217/191561942608236107294793378393788647952342390272950272",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.07203413400020509,
+        "lower": "5435607996782803798010780902109/10384593717069655257060992658440192",
+        "upper": "2753159640267187348059659187955/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.07203413400020509,
+    "inclusive_seconds": 0.0732077110001228
+  },
+  {
+    "network": "sine_k1_depth2_seed502",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "1365311253423747577656507719293622258916305159/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "22369261245049439363391481385126328503619478464283/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.024581712999861338,
+        "lower": "0",
+        "upper": "3616866618826921149835604618055/20769187434139310514121985316880384",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.024581712999861338,
+    "inclusive_seconds": 0.027750154999921506
+  },
+  {
+    "network": "sine_k5_depth2_seed501",
+    "frequency": 5,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "250671635594434369617280617850604559851620143867645/23945242826029513411849172299223580994042798784118784",
+    "reference_upper": "501343286750810890828736453198082762198674575741697/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.023476259999824833,
+        "lower": "0",
+        "upper": "7178209705257787571481890117111/316912650057057350374175801344",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.03722274000028847,
+        "lower": "0",
+        "upper": "6614615563356121466931679060839/10141204801825835211973625643008",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 65,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.07081864600013432,
+        "lower": "0",
+        "upper": "6882925378342551723793213730075/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 112
+      },
+      {
+        "mesh": 128,
+        "seconds": 0.16202413000019078,
+        "lower": "5539052898320398158174710718033/649037107316853453566312041152512",
+        "upper": "8049782957349808278951241813389/649037107316853453566312041152512",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 257,
+        "derivative_calls_cumulative": 240
+      }
+    ],
+    "core_seconds": 0.2935417760004384,
+    "inclusive_seconds": 0.2962914460003958
+  },
+  {
+    "network": "sine_k5_depth1_seed502",
+    "frequency": 5,
+    "degree": 3,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "412214038374141982824730824333019178396599776201095/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "412214049799520266159389420761952039728651806516011/93536104789177786765035829293842113257979682750464",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.01846918299997924,
+        "lower": "174187121537664724274981338349/39614081257132168796771975168",
+        "upper": "5597644211445314716297064119307/1267650600228229401496703205376",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 49,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.01846918299997924,
+    "inclusive_seconds": 0.019893479000074876
+  },
+  {
+    "network": "sine_k3_depth2_seed502",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start16",
+    "reference_lower": "2502257407668416288215065206998313926120751722899/2993155353253689176481146537402947624255349848014848",
+    "reference_upper": "320288960646886643850947718273540417684956049405843/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.022598989000016445,
+        "lower": "0",
+        "upper": "4729334703596923672372273245465/40564819207303340847894502572032",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.03771203600035733,
+        "lower": "0",
+        "upper": "1067838863430143376314006056107/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 65,
+        "derivative_calls_cumulative": 48
+      }
+    ],
+    "core_seconds": 0.060311025000373775,
+    "inclusive_seconds": 0.0623581429999831
+  },
+  {
+    "network": "sine_k3_depth2_seed501",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "11169406281732382883360127542018169466047240746321/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "714842057715105949846069140794457081495007383642465/47890485652059026823698344598447161988085597568237568",
+    "reference_decision": "exceeds",
+    "status": "complete",
+    "decision": "exceeds",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.10252104700020936,
+        "lower": "2060989408537013066837920698187/162259276829213363391578010288128",
+        "upper": "2783176171088948698525413897469/162259276829213363391578010288128",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "exceeds",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.10252104700020936,
+    "inclusive_seconds": 0.10457921299985173
+  },
+  {
+    "network": "sine_k1_depth1_seed502",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "1124730636575211104684677311419100162256591391/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "589683049396828394541125448778091033509903128327347/392318858461667547739736838950479151006397215279002157056",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.04275772099981623,
+        "lower": "3742791660243262203704935675343/2658455991569831745807614120560689152",
+        "upper": "4247726507592471372850148739353/2658455991569831745807614120560689152",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.04275772099981623,
+    "inclusive_seconds": 0.04396345399982238
+  },
+  {
+    "network": "sine_k1_depth2_seed502",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "1365311253423747577656507719293622258916305159/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "22369261245049439363391481385126328503619478464283/1532495540865888858358347027150309183618739122183602176",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.10246613300023455,
+        "lower": "4667152256064012925886348971249/332306998946228968225951765070086144",
+        "upper": "2517286818621621167531957578353/166153499473114484112975882535043072",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.10246613300023455,
+    "inclusive_seconds": 0.10499201400034508
+  },
+  {
+    "network": "sine_k3_depth2_seed502",
+    "frequency": 3,
+    "degree": 3,
+    "tolerance": "1/100",
+    "strategy": "start64",
+    "reference_lower": "2502257407668416288215065206998313926120751722899/2993155353253689176481146537402947624255349848014848",
+    "reference_upper": "320288960646886643850947718273540417684956049405843/383123885216472214589586756787577295904684780545900544",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 64,
+        "seconds": 0.13835246600001483,
+        "lower": "8560324808058886715222151255391/10384593717069655257060992658440192",
+        "upper": "4403799786842116648863861436961/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 193,
+        "derivative_calls_cumulative": 64
+      }
+    ],
+    "core_seconds": 0.13835246600001483,
+    "inclusive_seconds": 0.1406671110003117
+  },
+  {
+    "network": "sine_k1_depth1_seed501",
+    "frequency": 1,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "1329043002835376138966448270561365595089286239/93536104789177786765035829293842113257979682750464",
+    "reference_upper": "696801364154186761870377512063576581209380522970585/49039857307708443467467104868809893875799651909875269632",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.015792941999734467,
+        "lower": "0",
+        "upper": "1405728763419578319611362334331/41538374868278621028243970633760768",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      }
+    ],
+    "core_seconds": 0.015792941999734467,
+    "inclusive_seconds": 0.017357131999688136
+  },
+  {
+    "network": "sine_k3_depth1_seed501",
+    "frequency": 3,
+    "degree": 2,
+    "tolerance": "1/1000",
+    "strategy": "start16",
+    "reference_lower": "394181741294957063005037226456653476427067317509/748288838313422294120286634350736906063837462003712",
+    "reference_upper": "100910530631712985133965786309004766431867564140217/191561942608236107294793378393788647952342390272950272",
+    "reference_decision": "within",
+    "status": "complete",
+    "decision": "within",
+    "attempts": [
+      {
+        "mesh": 16,
+        "seconds": 0.011786875999860058,
+        "lower": "0",
+        "upper": "1432796301903836889960551261887/40564819207303340847894502572032",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 33,
+        "derivative_calls_cumulative": 16
+      },
+      {
+        "mesh": 32,
+        "seconds": 0.017693755999971472,
+        "lower": "0",
+        "upper": "3315297045866591166490603201641/1298074214633706907132624082305024",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "unknown",
+        "residual_calls_cumulative": 65,
+        "derivative_calls_cumulative": 48
+      },
+      {
+        "mesh": 64,
+        "seconds": 0.03469593900035761,
+        "lower": "2027824413147496783474487837379/5192296858534827628530496329220096",
+        "upper": "3438619737585614380039649304545/5192296858534827628530496329220096",
+        "reference_contained": true,
+        "matches_old": true,
+        "decision": "within",
+        "residual_calls_cumulative": 129,
+        "derivative_calls_cumulative": 112
+      }
+    ],
+    "core_seconds": 0.06417657100018914,
+    "inclusive_seconds": 0.06566054800032362
+  }
+]

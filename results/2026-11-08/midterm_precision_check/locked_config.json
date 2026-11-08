@@ -1,0 +1,7 @@
+{
+  "poly_networks": ["poly_constant_2_depth1_seed203", "poly_linear_6x_depth2_seed204", "poly_quartic_30x4_depth1_seed305", "poly_quartic_30x4_depth2_seed203"],
+  "sine_networks": ["sine_k1_depth1_seed501", "sine_k3_depth2_seed501", "sine_k5_depth1_seed501", "sine_k5_depth2_seed502"],
+  "bits": [80, 103, 160], "meshes": [16, 64], "degrees": [2, 3], "bernstein_depth": 2,
+  "poly_tolerance": "1/100000", "sine_tolerance": "1/1000",
+  "scope": "8 existing previously studied networks, finite single-machine precision sensitivity study; neither a blind holdout nor a timing benchmark"
+}

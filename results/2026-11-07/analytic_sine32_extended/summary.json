@@ -1,0 +1,8 @@
+{
+  "records": 4,
+  "contained": 4,
+  "records_sha256": "27909bed902ee6d2106432bbe5a25a5574cee4cb97c79ecb5892da701beb3180",
+  "prior_records_sha256": "dfab09955284697443afca2c5af9fcca42d07bae1b949f7e757120b1f63dd233",
+  "script_sha256": "a958c33b3a706e51ea0bed4f40ff02119513d4fa2165239ddc57dda44e34822e",
+  "scope": "post-hoc analytic sine32 controls, no timing study"
+}

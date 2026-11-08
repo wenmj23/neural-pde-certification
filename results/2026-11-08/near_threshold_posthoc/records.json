@@ -1,0 +1,4322 @@
+[
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed203",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "18949981229834860025359461668860465513964024281515633/3923188584616675477397368389504791510063972152790021570560",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed203",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "19332809133467887500619248773281889059700671236697767/3923188584616675477397368389504791510063972152790021570560",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed203",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "18949981229834860025359461668860465513964024281515633/3923188584616675477397368389504791510063972152790021570560",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed203",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "19332809133467887500619248773281889059700671236697767/3923188584616675477397368389504791510063972152790021570560",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed203",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "18949981229834860025359461668860465513964024281515633/3923188584616675477397368389504791510063972152790021570560",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed203",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "19332809133467887500619248773281889059700671236697767/3923188584616675477397368389504791510063972152790021570560",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed203",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "18949981229834860025359461668860465513964024281515633/3923188584616675477397368389504791510063972152790021570560",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed203",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "19332809133467887500619248773281889059700671236697767/3923188584616675477397368389504791510063972152790021570560",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed203",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "18949981229834860025359461668860465513964024281515633/3923188584616675477397368389504791510063972152790021570560",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed203",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "19332809133467887500619248773281889059700671236697767/3923188584616675477397368389504791510063972152790021570560",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed203",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "18949981229834860025359461668860465513964024281515633/3923188584616675477397368389504791510063972152790021570560",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed203",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "19332809133467887500619248773281889059700671236697767/3923188584616675477397368389504791510063972152790021570560",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed204",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "22233845028304068499799849534022894327852225456743841/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed204",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "22683013614734453722018028312488003304172472435667959/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed204",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "22233845028304068499799849534022894327852225456743841/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed204",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "22683013614734453722018028312488003304172472435667959/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed204",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "22233845028304068499799849534022894327852225456743841/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed204",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "22683013614734453722018028312488003304172472435667959/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed204",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "22233845028304068499799849534022894327852225456743841/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed204",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "22683013614734453722018028312488003304172472435667959/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed204",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "22233845028304068499799849534022894327852225456743841/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed204",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "22683013614734453722018028312488003304172472435667959/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed204",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "22233845028304068499799849534022894327852225456743841/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed204",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "22683013614734453722018028312488003304172472435667959/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed203",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "115405185458392329331596770643963447273150932711432841/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed203",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "117736603346440659217083574091316244187760042463178959/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed203",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "115405185458392329331596770643963447273150932711432841/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed203",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "117736603346440659217083574091316244187760042463178959/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed203",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "115405185458392329331596770643963447273150932711432841/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed203",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "117736603346440659217083574091316244187760042463178959/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed203",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "115405185458392329331596770643963447273150932711432841/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed203",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "117736603346440659217083574091316244187760042463178959/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed203",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "115405185458392329331596770643963447273150932711432841/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed203",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "117736603346440659217083574091316244187760042463178959/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed203",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "115405185458392329331596770643963447273150932711432841/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed203",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "117736603346440659217083574091316244187760042463178959/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed204",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "105837769517410057337403046932975471405444685126523391/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed204",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "107975906275337533243209169093237602140908214118978409/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed204",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "105837769517410057337403046932975471405444685126523391/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed204",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "107975906275337533243209169093237602140908214118978409/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed204",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "105837769517410057337403046932975471405444685126523391/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed204",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "107975906275337533243209169093237602140908214118978409/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed204",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "105837769517410057337403046932975471405444685126523391/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed204",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "107975906275337533243209169093237602140908214118978409/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed204",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "105837769517410057337403046932975471405444685126523391/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed204",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "107975906275337533243209169093237602140908214118978409/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed204",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "105837769517410057337403046932975471405444685126523391/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed204",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "107975906275337533243209169093237602140908214118978409/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed203",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "1850635967856068410150628908205897573347056329168061/196159429230833773869868419475239575503198607639501078528",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed203",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "1888022553065281913385995148775713685939926153999739/196159429230833773869868419475239575503198607639501078528",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed203",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "1850635967856068410150628908205897573347056329168061/196159429230833773869868419475239575503198607639501078528",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed203",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "1888022553065281913385995148775713685939926153999739/196159429230833773869868419475239575503198607639501078528",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed203",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "1850635967856068410150628908205897573347056329168061/196159429230833773869868419475239575503198607639501078528",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed203",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "1888022553065281913385995148775713685939926153999739/196159429230833773869868419475239575503198607639501078528",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed203",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "1850635967856068410150628908205897573347056329168061/196159429230833773869868419475239575503198607639501078528",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed203",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "1888022553065281913385995148775713685939926153999739/196159429230833773869868419475239575503198607639501078528",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed203",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "1850635967856068410150628908205897573347056329168061/196159429230833773869868419475239575503198607639501078528",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed203",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "1888022553065281913385995148775713685939926153999739/196159429230833773869868419475239575503198607639501078528",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed203",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "1850635967856068410150628908205897573347056329168061/196159429230833773869868419475239575503198607639501078528",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed203",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "1888022553065281913385995148775713685939926153999739/196159429230833773869868419475239575503198607639501078528",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed204",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "588661625629262865768580220511809719322568693675855/784637716923335095479473677900958302012794430558004314112",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed204",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "600553779682379287299258608804977592440196344053145/784637716923335095479473677900958302012794430558004314112",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed204",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "588661625629262865768580220511809719322568693675855/784637716923335095479473677900958302012794430558004314112",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed204",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "600553779682379287299258608804977592440196344053145/784637716923335095479473677900958302012794430558004314112",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed204",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "588661625629262865768580220511809719322568693675855/784637716923335095479473677900958302012794430558004314112",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed204",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "600553779682379287299258608804977592440196344053145/784637716923335095479473677900958302012794430558004314112",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed204",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "588661625629262865768580220511809719322568693675855/784637716923335095479473677900958302012794430558004314112",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed204",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "600553779682379287299258608804977592440196344053145/784637716923335095479473677900958302012794430558004314112",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed204",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "588661625629262865768580220511809719322568693675855/784637716923335095479473677900958302012794430558004314112",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed204",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "600553779682379287299258608804977592440196344053145/784637716923335095479473677900958302012794430558004314112",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed204",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "588661625629262865768580220511809719322568693675855/784637716923335095479473677900958302012794430558004314112",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed204",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "600553779682379287299258608804977592440196344053145/784637716923335095479473677900958302012794430558004314112",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed203",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "84267614015836332075052840726673636414085609002634387/156927543384667019095894735580191660402558886111600862822400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed203",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "85969990056560298379599362761555932099218651608748213/156927543384667019095894735580191660402558886111600862822400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed203",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "84267614015836332075052840726673636414085609002634387/156927543384667019095894735580191660402558886111600862822400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed203",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "85969990056560298379599362761555932099218651608748213/156927543384667019095894735580191660402558886111600862822400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed203",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "84267614015836332075052840726673636414085609002634387/156927543384667019095894735580191660402558886111600862822400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed203",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "85969990056560298379599362761555932099218651608748213/156927543384667019095894735580191660402558886111600862822400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed203",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "84267614015836332075052840726673636414085609002634387/156927543384667019095894735580191660402558886111600862822400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed203",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "85969990056560298379599362761555932099218651608748213/156927543384667019095894735580191660402558886111600862822400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed203",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "84267614015836332075052840726673636414085609002634387/156927543384667019095894735580191660402558886111600862822400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed203",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "85969990056560298379599362761555932099218651608748213/156927543384667019095894735580191660402558886111600862822400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed203",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "84267614015836332075052840726673636414085609002634387/156927543384667019095894735580191660402558886111600862822400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed203",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "85969990056560298379599362761555932099218651608748213/156927543384667019095894735580191660402558886111600862822400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed204",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "92376699244169450174034987679167711194740452788160777/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed204",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "94242895188496105733106401571676149804735209410143823/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed204",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "92376699244169450174034987679167711194740452788160777/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed204",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "94242895188496105733106401571676149804735209410143823/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed204",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "92376699244169450174034987679167711194740452788160777/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed204",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "94242895188496105733106401571676149804735209410143823/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed204",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "92376699244169450174034987679167711194740452788160777/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed204",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "94242895188496105733106401571676149804735209410143823/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed204",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "92376699244169450174034987679167711194740452788160777/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed204",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "94242895188496105733106401571676149804735209410143823/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed204",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "92376699244169450174034987679167711194740452788160777/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed204",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "94242895188496105733106401571676149804735209410143823/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed203",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "13055939016282708275961936187719313626780552914326569/980797146154168869349342097376197877515993038197505392640",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed203",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "13319695360045995311839955100602532083887230750979631/980797146154168869349342097376197877515993038197505392640",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed203",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "13055939016282708275961936187719313626780552914326569/980797146154168869349342097376197877515993038197505392640",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed203",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "13319695360045995311839955100602532083887230750979631/980797146154168869349342097376197877515993038197505392640",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed203",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "13055939016282708275961936187719313626780552914326569/980797146154168869349342097376197877515993038197505392640",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed203",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "13319695360045995311839955100602532083887230750979631/980797146154168869349342097376197877515993038197505392640",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed203",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "13055939016282708275961936187719313626780552914326569/980797146154168869349342097376197877515993038197505392640",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed203",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "13319695360045995311839955100602532083887230750979631/980797146154168869349342097376197877515993038197505392640",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed203",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "13055939016282708275961936187719313626780552914326569/980797146154168869349342097376197877515993038197505392640",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed203",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "13319695360045995311839955100602532083887230750979631/980797146154168869349342097376197877515993038197505392640",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed203",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "13055939016282708275961936187719313626780552914326569/980797146154168869349342097376197877515993038197505392640",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed203",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "13319695360045995311839955100602532083887230750979631/980797146154168869349342097376197877515993038197505392640",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed204",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "125432254345484448579063277130760485005663935350270091/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed204",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "127966239281756861681670616062695040258303610811891709/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed204",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "125432254345484448579063277130760485005663935350270091/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed204",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "127966239281756861681670616062695040258303610811891709/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed204",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "125432254345484448579063277130760485005663935350270091/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed204",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "127966239281756861681670616062695040258303610811891709/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed204",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "125432254345484448579063277130760485005663935350270091/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed204",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "127966239281756861681670616062695040258303610811891709/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed204",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "125432254345484448579063277130760485005663935350270091/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed204",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "127966239281756861681670616062695040258303610811891709/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed204",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "125432254345484448579063277130760485005663935350270091/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed204",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "127966239281756861681670616062695040258303610811891709/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed203",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "42267922093380061626220376614717160567638230720407889/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed203",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "43121819509407941659073313516024577952843043462234311/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed203",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "42267922093380061626220376614717160567638230720407889/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed203",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "43121819509407941659073313516024577952843043462234311/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed203",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "42267922093380061626220376614717160567638230720407889/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed203",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "43121819509407941659073313516024577952843043462234311/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed203",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "42267922093380061626220376614717160567638230720407889/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed203",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "43121819509407941659073313516024577952843043462234311/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed203",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "42267922093380061626220376614717160567638230720407889/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed203",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "43121819509407941659073313516024577952843043462234311/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed203",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "42267922093380061626220376614717160567638230720407889/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed203",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "43121819509407941659073313516024577952843043462234311/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed204",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "3663336601700364943947441976434747672596587593920781/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed204",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "3737343401734715750895875147675853686184397444303019/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed204",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "3663336601700364943947441976434747672596587593920781/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed204",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "3737343401734715750895875147675853686184397444303019/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed204",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "3663336601700364943947441976434747672596587593920781/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed204",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "3737343401734715750895875147675853686184397444303019/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed204",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "3663336601700364943947441976434747672596587593920781/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed204",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "3737343401734715750895875147675853686184397444303019/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed204",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "3663336601700364943947441976434747672596587593920781/98079714615416886934934209737619787751599303819750539264",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed204",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "3737343401734715750895875147675853686184397444303019/98079714615416886934934209737619787751599303819750539264",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed204",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "3663336601700364943947441976434747672596587593920781/98079714615416886934934209737619787751599303819750539264",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed204",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "3737343401734715750895875147675853686184397444303019/98079714615416886934934209737619787751599303819750539264",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed305",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "52599624722617464084862447638718324813733349146629593/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed305",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "53662243403882463359304113247581321274616851149591807/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed305",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "52599624722617464084862447638718324813733349146629593/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed305",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "53662243403882463359304113247581321274616851149591807/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed305",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "52599624722617464084862447638718324813733349146629593/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed305",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "53662243403882463359304113247581321274616851149591807/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed305",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "52599624722617464084862447638718324813733349146629593/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed305",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "53662243403882463359304113247581321274616851149591807/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed305",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "52599624722617464084862447638718324813733349146629593/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed305",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "53662243403882463359304113247581321274616851149591807/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed305",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "52599624722617464084862447638718324813733349146629593/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed305",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "53662243403882463359304113247581321274616851149591807/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed306",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "129691539674463501354228865470878471397443798685299097/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed306",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "132311570778998117543203185985441672839816400678941503/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed306",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "129691539674463501354228865470878471397443798685299097/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed306",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "132311570778998117543203185985441672839816400678941503/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed306",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "129691539674463501354228865470878471397443798685299097/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed306",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "132311570778998117543203185985441672839816400678941503/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed306",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "129691539674463501354228865470878471397443798685299097/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed306",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "132311570778998117543203185985441672839816400678941503/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed306",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "129691539674463501354228865470878471397443798685299097/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed306",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "132311570778998117543203185985441672839816400678941503/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed306",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "129691539674463501354228865470878471397443798685299097/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth1_seed306",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "132311570778998117543203185985441672839816400678941503/78463771692333509547947367790095830201279443055800431411200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed305",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "96215777496620747330697637080762229946267651664545583/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed305",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "98159530577360560408085468132898840652252856748677817/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed305",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "96215777496620747330697637080762229946267651664545583/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed305",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "98159530577360560408085468132898840652252856748677817/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed305",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "96215777496620747330697637080762229946267651664545583/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed305",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "98159530577360560408085468132898840652252856748677817/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed305",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "96215777496620747330697637080762229946267651664545583/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed305",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "98159530577360560408085468132898840652252856748677817/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed305",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "96215777496620747330697637080762229946267651664545583/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed305",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "98159530577360560408085468132898840652252856748677817/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed305",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "96215777496620747330697637080762229946267651664545583/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed305",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "98159530577360560408085468132898840652252856748677817/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed306",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "7212333291167673588298603361980137905708278825956597/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed306",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "7358036994019545782001605450100948772490264256784003/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed306",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "7212333291167673588298603361980137905708278825956597/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed306",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "7358036994019545782001605450100948772490264256784003/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed306",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "7212333291167673588298603361980137905708278825956597/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed306",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "7358036994019545782001605450100948772490264256784003/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed306",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "7212333291167673588298603361980137905708278825956597/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed306",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "7358036994019545782001605450100948772490264256784003/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed306",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "7212333291167673588298603361980137905708278825956597/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed306",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "7358036994019545782001605450100948772490264256784003/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed306",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "7212333291167673588298603361980137905708278825956597/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_constant_2_depth2_seed306",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "7358036994019545782001605450100948772490264256784003/7846377169233350954794736779009583020127944305580043141120",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed305",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "19793567257656570277775346683443739037640825611577527/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed305",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "20193437303265793919750606212402198412138620068377073/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed305",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "19793567257656570277775346683443739037640825611577527/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed305",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "20193437303265793919750606212402198412138620068377073/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed305",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "19793567257656570277775346683443739037640825611577527/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed305",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "20193437303265793919750606212402198412138620068377073/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed305",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "19793567257656570277775346683443739037640825611577527/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed305",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "20193437303265793919750606212402198412138620068377073/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed305",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "19793567257656570277775346683443739037640825611577527/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed305",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "20193437303265793919750606212402198412138620068377073/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed305",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "19793567257656570277775346683443739037640825611577527/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed305",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "20193437303265793919750606212402198412138620068377073/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed306",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "17538784495604838445367051835624622845167877323647533/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed306",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "17893103374303926090728002377758453609716723330185867/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed306",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "17538784495604838445367051835624622845167877323647533/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed306",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "17893103374303926090728002377758453609716723330185867/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed306",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "17538784495604838445367051835624622845167877323647533/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed306",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "17893103374303926090728002377758453609716723330185867/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed306",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "17538784495604838445367051835624622845167877323647533/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed306",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "17893103374303926090728002377758453609716723330185867/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed306",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "17538784495604838445367051835624622845167877323647533/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed306",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "17893103374303926090728002377758453609716723330185867/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed306",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "17538784495604838445367051835624622845167877323647533/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth1_seed306",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "17893103374303926090728002377758453609716723330185867/2451992865385422173373355243440494693789982595493763481600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed305",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "13980765948229618403564630065739503949811012572512137/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed305",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "14263205664355469280404319562017069686170831008320463/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed305",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "13980765948229618403564630065739503949811012572512137/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed305",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "14263205664355469280404319562017069686170831008320463/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed305",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "13980765948229618403564630065739503949811012572512137/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed305",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "14263205664355469280404319562017069686170831008320463/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed305",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "13980765948229618403564630065739503949811012572512137/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed305",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "14263205664355469280404319562017069686170831008320463/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed305",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "13980765948229618403564630065739503949811012572512137/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed305",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "14263205664355469280404319562017069686170831008320463/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed305",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "13980765948229618403564630065739503949811012572512137/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed305",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "14263205664355469280404319562017069686170831008320463/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed306",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "75092819022361515828855385646601118632712523808836577/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed306",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "76609845669277910088024181316229424059636009138308023/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed306",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "75092819022361515828855385646601118632712523808836577/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed306",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "76609845669277910088024181316229424059636009138308023/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed306",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "75092819022361515828855385646601118632712523808836577/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed306",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "76609845669277910088024181316229424059636009138308023/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed306",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "75092819022361515828855385646601118632712523808836577/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed306",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "76609845669277910088024181316229424059636009138308023/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed306",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "75092819022361515828855385646601118632712523808836577/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed306",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "76609845669277910088024181316229424059636009138308023/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed306",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "75092819022361515828855385646601118632712523808836577/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_linear_6x_depth2_seed306",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "76609845669277910088024181316229424059636009138308023/39231885846166754773973683895047915100639721527900215705600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed305",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "138222005523406103245972541671239419121251061516687801/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed305",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "141014369271353701291345724331264457891377345587731999/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed305",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "138222005523406103245972541671239419121251061516687801/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed305",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "141014369271353701291345724331264457891377345587731999/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed305",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "138222005523406103245972541671239419121251061516687801/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed305",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "141014369271353701291345724331264457891377345587731999/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed305",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "138222005523406103245972541671239419121251061516687801/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed305",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "141014369271353701291345724331264457891377345587731999/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed305",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "138222005523406103245972541671239419121251061516687801/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed305",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "141014369271353701291345724331264457891377345587731999/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed305",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "138222005523406103245972541671239419121251061516687801/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed305",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "141014369271353701291345724331264457891377345587731999/19615942923083377386986841947523957550319860763950107852800",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed306",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "2593364002494020029356579425845384673876069877086103/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed306",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "2645755194463596191565803252630139919812960177633297/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed306",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "2593364002494020029356579425845384673876069877086103/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed306",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "2645755194463596191565803252630139919812960177633297/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed306",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "2593364002494020029356579425845384673876069877086103/98079714615416886934934209737619787751599303819750539264",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed306",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "2645755194463596191565803252630139919812960177633297/98079714615416886934934209737619787751599303819750539264",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed306",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "2593364002494020029356579425845384673876069877086103/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed306",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "2645755194463596191565803252630139919812960177633297/98079714615416886934934209737619787751599303819750539264",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed306",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "2593364002494020029356579425845384673876069877086103/98079714615416886934934209737619787751599303819750539264",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed306",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "2645755194463596191565803252630139919812960177633297/98079714615416886934934209737619787751599303819750539264",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed306",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "2593364002494020029356579425845384673876069877086103/98079714615416886934934209737619787751599303819750539264",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth1_seed306",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "2645755194463596191565803252630139919812960177633297/98079714615416886934934209737619787751599303819750539264",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed305",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "72053132918692720183975090438662404148972897579867477/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed305",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "73508751765534997359408930649544472919659218743097123/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed305",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "72053132918692720183975090438662404148972897579867477/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed305",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "73508751765534997359408930649544472919659218743097123/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed305",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "72053132918692720183975090438662404148972897579867477/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed305",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "73508751765534997359408930649544472919659218743097123/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed305",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "72053132918692720183975090438662404148972897579867477/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed305",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "73508751765534997359408930649544472919659218743097123/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed305",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "72053132918692720183975090438662404148972897579867477/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed305",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "73508751765534997359408930649544472919659218743097123/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed305",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "72053132918692720183975090438662404148972897579867477/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed305",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "73508751765534997359408930649544472919659218743097123/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed306",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "26895364981016322235405581424222080997053770404162227/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed306",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "27438705687703520664403673978246769502044755664852373/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed306",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "26895364981016322235405581424222080997053770404162227/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed306",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "27438705687703520664403673978246769502044755664852373/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed306",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "26895364981016322235405581424222080997053770404162227/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed306",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "27438705687703520664403673978246769502044755664852373/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed306",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "26895364981016322235405581424222080997053770404162227/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed306",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "27438705687703520664403673978246769502044755664852373/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed306",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "26895364981016322235405581424222080997053770404162227/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed306",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "27438705687703520664403673978246769502044755664852373/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed306",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "26895364981016322235405581424222080997053770404162227/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "poly",
+    "network": "poly_quartic_30x4_depth2_seed306",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "27438705687703520664403673978246769502044755664852373/4903985730770844346746710486880989387579965190987526963200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed501",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "137966663540449304254665055551025728806427670437698283/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed501",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "140753868864498785148698693036905036459082774890985117/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed501",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "137966663540449304254665055551025728806427670437698283/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed501",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "140753868864498785148698693036905036459082774890985117/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed501",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "137966663540449304254665055551025728806427670437698283/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed501",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "140753868864498785148698693036905036459082774890985117/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed501",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "137966663540449304254665055551025728806427670437698283/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed501",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "140753868864498785148698693036905036459082774890985117/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed501",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "137966663540449304254665055551025728806427670437698283/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed501",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "140753868864498785148698693036905036459082774890985117/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed501",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "137966663540449304254665055551025728806427670437698283/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed501",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "140753868864498785148698693036905036459082774890985117/9807971461541688693493420973761978775159930381975053926400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed502",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "23351443342634338949042101831142286743705920927532709/15692754338466701909589473558019166040255888611160086282240",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed502",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "23823189672788568018719720049953242031457555693745491/15692754338466701909589473558019166040255888611160086282240",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed502",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "23351443342634338949042101831142286743705920927532709/15692754338466701909589473558019166040255888611160086282240",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed502",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "23823189672788568018719720049953242031457555693745491/15692754338466701909589473558019166040255888611160086282240",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed502",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "23351443342634338949042101831142286743705920927532709/15692754338466701909589473558019166040255888611160086282240",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed502",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "23823189672788568018719720049953242031457555693745491/15692754338466701909589473558019166040255888611160086282240",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed502",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "23351443342634338949042101831142286743705920927532709/15692754338466701909589473558019166040255888611160086282240",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed502",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "23823189672788568018719720049953242031457555693745491/15692754338466701909589473558019166040255888611160086282240",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed502",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "23351443342634338949042101831142286743705920927532709/15692754338466701909589473558019166040255888611160086282240",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed502",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "23823189672788568018719720049953242031457555693745491/15692754338466701909589473558019166040255888611160086282240",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed502",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "23351443342634338949042101831142286743705920927532709/15692754338466701909589473558019166040255888611160086282240",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth1_seed502",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "23823189672788568018719720049953242031457555693745491/15692754338466701909589473558019166040255888611160086282240",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed501",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "5349457870800095422391329411516138156357715605857843/1961594292308337738698684194752395755031986076395010785280",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed501",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "5457527726775854925873982530940706603960901779713557/1961594292308337738698684194752395755031986076395010785280",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed501",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "5349457870800095422391329411516138156357715605857843/1961594292308337738698684194752395755031986076395010785280",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed501",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "5457527726775854925873982530940706603960901779713557/1961594292308337738698684194752395755031986076395010785280",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed501",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "5349457870800095422391329411516138156357715605857843/1961594292308337738698684194752395755031986076395010785280",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed501",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "5457527726775854925873982530940706603960901779713557/1961594292308337738698684194752395755031986076395010785280",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed501",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "5349457870800095422391329411516138156357715605857843/1961594292308337738698684194752395755031986076395010785280",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed501",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "5457527726775854925873982530940706603960901779713557/1961594292308337738698684194752395755031986076395010785280",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed501",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "5349457870800095422391329411516138156357715605857843/1961594292308337738698684194752395755031986076395010785280",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed501",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "5457527726775854925873982530940706603960901779713557/1961594292308337738698684194752395755031986076395010785280",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed501",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "5349457870800095422391329411516138156357715605857843/1961594292308337738698684194752395755031986076395010785280",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed501",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "5457527726775854925873982530940706603960901779713557/1961594292308337738698684194752395755031986076395010785280",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed502",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "4429113561293267847895854681945270523776717996744561/306499108173177771671669405430061836723747824436720435200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed502",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "4518590602935556087247286089661336594964126441123239/306499108173177771671669405430061836723747824436720435200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed502",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "4429113561293267847895854681945270523776717996744561/306499108173177771671669405430061836723747824436720435200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed502",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "4518590602935556087247286089661336594964126441123239/306499108173177771671669405430061836723747824436720435200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed502",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "4429113561293267847895854681945270523776717996744561/306499108173177771671669405430061836723747824436720435200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed502",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "4518590602935556087247286089661336594964126441123239/306499108173177771671669405430061836723747824436720435200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed502",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "4429113561293267847895854681945270523776717996744561/306499108173177771671669405430061836723747824436720435200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed502",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "4518590602935556087247286089661336594964126441123239/306499108173177771671669405430061836723747824436720435200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed502",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "4429113561293267847895854681945270523776717996744561/306499108173177771671669405430061836723747824436720435200",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed502",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "4518590602935556087247286089661336594964126441123239/306499108173177771671669405430061836723747824436720435200",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed502",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "4429113561293267847895854681945270523776717996744561/306499108173177771671669405430061836723747824436720435200",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k1_depth2_seed502",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "4518590602935556087247286089661336594964126441123239/306499108173177771671669405430061836723747824436720435200",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed501",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "19980284583918977333062276311908897583322482944829579/38312388521647221458958675678757729590468478054590054400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed501",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "20383926696725421319588786944472713696116876539674621/38312388521647221458958675678757729590468478054590054400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed501",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "19980284583918977333062276311908897583322482944829579/38312388521647221458958675678757729590468478054590054400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed501",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "20383926696725421319588786944472713696116876539674621/38312388521647221458958675678757729590468478054590054400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed501",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "19980284583918977333062276311908897583322482944829579/38312388521647221458958675678757729590468478054590054400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed501",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "20383926696725421319588786944472713696116876539674621/38312388521647221458958675678757729590468478054590054400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed501",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "19980284583918977333062276311908897583322482944829579/38312388521647221458958675678757729590468478054590054400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed501",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "20383926696725421319588786944472713696116876539674621/38312388521647221458958675678757729590468478054590054400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed501",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "19980284583918977333062276311908897583322482944829579/38312388521647221458958675678757729590468478054590054400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed501",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "20383926696725421319588786944472713696116876539674621/38312388521647221458958675678757729590468478054590054400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed501",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "19980284583918977333062276311908897583322482944829579/38312388521647221458958675678757729590468478054590054400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed501",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "20383926696725421319588786944472713696116876539674621/38312388521647221458958675678757729590468478054590054400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed502",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "5903977411501762670500686838260146376625271428106229/12259964326927110866866776217202473468949912977468817408",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed502",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "6023249682441192219399690612770452364031842568067971/12259964326927110866866776217202473468949912977468817408",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed502",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "5903977411501762670500686838260146376625271428106229/12259964326927110866866776217202473468949912977468817408",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed502",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "6023249682441192219399690612770452364031842568067971/12259964326927110866866776217202473468949912977468817408",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed502",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "5903977411501762670500686838260146376625271428106229/12259964326927110866866776217202473468949912977468817408",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed502",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "6023249682441192219399690612770452364031842568067971/12259964326927110866866776217202473468949912977468817408",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed502",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "5903977411501762670500686838260146376625271428106229/12259964326927110866866776217202473468949912977468817408",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed502",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "6023249682441192219399690612770452364031842568067971/12259964326927110866866776217202473468949912977468817408",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed502",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "5903977411501762670500686838260146376625271428106229/12259964326927110866866776217202473468949912977468817408",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed502",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "6023249682441192219399690612770452364031842568067971/12259964326927110866866776217202473468949912977468817408",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed502",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "5903977411501762670500686838260146376625271428106229/12259964326927110866866776217202473468949912977468817408",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth1_seed502",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "6023249682441192219399690612770452364031842568067971/12259964326927110866866776217202473468949912977468817408",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed501",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "141538721914851866983730613044878372804881048349293891/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed501",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "144398090034343823892492847651845612659525109932107909/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed501",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "141538721914851866983730613044878372804881048349293891/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed501",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "144398090034343823892492847651845612659525109932107909/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed501",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "141538721914851866983730613044878372804881048349293891/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed501",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "144398090034343823892492847651845612659525109932107909/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed501",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "141538721914851866983730613044878372804881048349293891/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed501",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "144398090034343823892492847651845612659525109932107909/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed501",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "141538721914851866983730613044878372804881048349293891/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed501",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "144398090034343823892492847651845612659525109932107909/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed501",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "141538721914851866983730613044878372804881048349293891/9578097130411805364739668919689432397617119513647513600",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed501",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "144398090034343823892492847651845612659525109932107909/9578097130411805364739668919689432397617119513647513600",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed502",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "12683442594803189789101026082432627084522562944750917/15324955408658888583583470271503091836187391221836021760",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed502",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "12939673758334567360598016508340356924613927852725683/15324955408658888583583470271503091836187391221836021760",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed502",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "12683442594803189789101026082432627084522562944750917/15324955408658888583583470271503091836187391221836021760",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed502",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "12939673758334567360598016508340356924613927852725683/15324955408658888583583470271503091836187391221836021760",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed502",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "12683442594803189789101026082432627084522562944750917/15324955408658888583583470271503091836187391221836021760",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed502",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "12939673758334567360598016508340356924613927852725683/15324955408658888583583470271503091836187391221836021760",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed502",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "12683442594803189789101026082432627084522562944750917/15324955408658888583583470271503091836187391221836021760",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed502",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "12939673758334567360598016508340356924613927852725683/15324955408658888583583470271503091836187391221836021760",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed502",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "12683442594803189789101026082432627084522562944750917/15324955408658888583583470271503091836187391221836021760",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed502",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "12939673758334567360598016508340356924613927852725683/15324955408658888583583470271503091836187391221836021760",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed502",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "12683442594803189789101026082432627084522562944750917/15324955408658888583583470271503091836187391221836021760",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k3_depth2_seed502",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "12939673758334567360598016508340356924613927852725683/15324955408658888583583470271503091836187391221836021760",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed501",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "118518859408726150869040865506621246888644515896504203/76624777043294442917917351357515459180936956109180108800",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed501",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "120913179800821628664375024405744908441950465712595197/76624777043294442917917351357515459180936956109180108800",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed501",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "118518859408726150869040865506621246888644515896504203/76624777043294442917917351357515459180936956109180108800",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed501",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "120913179800821628664375024405744908441950465712595197/76624777043294442917917351357515459180936956109180108800",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed501",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "118518859408726150869040865506621246888644515896504203/76624777043294442917917351357515459180936956109180108800",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed501",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "120913179800821628664375024405744908441950465712595197/76624777043294442917917351357515459180936956109180108800",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed501",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "118518859408726150869040865506621246888644515896504203/76624777043294442917917351357515459180936956109180108800",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed501",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "120913179800821628664375024405744908441950465712595197/76624777043294442917917351357515459180936956109180108800",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed501",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "118518859408726150869040865506621246888644515896504203/76624777043294442917917351357515459180936956109180108800",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed501",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "120913179800821628664375024405744908441950465712595197/76624777043294442917917351357515459180936956109180108800",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed501",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "118518859408726150869040865506621246888644515896504203/76624777043294442917917351357515459180936956109180108800",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed501",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "120913179800821628664375024405744908441950465712595197/76624777043294442917917351357515459180936956109180108800",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed502",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "40809190364596281324713952132201075297199953344496747/9353610478917778676503582929384211325797968275046400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed502",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "41633618452769943573698072377296046515325204927213853/9353610478917778676503582929384211325797968275046400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed502",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "40809190364596281324713952132201075297199953344496747/9353610478917778676503582929384211325797968275046400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed502",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "41633618452769943573698072377296046515325204927213853/9353610478917778676503582929384211325797968275046400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed502",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "40809190364596281324713952132201075297199953344496747/9353610478917778676503582929384211325797968275046400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed502",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "41633618452769943573698072377296046515325204927213853/9353610478917778676503582929384211325797968275046400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed502",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "40809190364596281324713952132201075297199953344496747/9353610478917778676503582929384211325797968275046400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed502",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "41633618452769943573698072377296046515325204927213853/9353610478917778676503582929384211325797968275046400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed502",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "40809190364596281324713952132201075297199953344496747/9353610478917778676503582929384211325797968275046400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed502",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "41633618452769943573698072377296046515325204927213853/9353610478917778676503582929384211325797968275046400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed502",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "40809190364596281324713952132201075297199953344496747/9353610478917778676503582929384211325797968275046400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth1_seed502",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "41633618452769943573698072377296046515325204927213853/9353610478917778676503582929384211325797968275046400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed501",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "99265969236028283376266471201029896308289571484221713/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed501",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "101271342351907642636393066578828480072093401211175687/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed501",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "99265969236028283376266471201029896308289571484221713/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed501",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "101271342351907642636393066578828480072093401211175687/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed501",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "99265969236028283376266471201029896308289571484221713/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed501",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "101271342351907642636393066578828480072093401211175687/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed501",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "99265969236028283376266471201029896308289571484221713/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed501",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "101271342351907642636393066578828480072093401211175687/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed501",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "99265969236028283376266471201029896308289571484221713/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed501",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "101271342351907642636393066578828480072093401211175687/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed501",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "99265969236028283376266471201029896308289571484221713/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed501",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "101271342351907642636393066578828480072093401211175687/9578097130411805364739668919689432397617119513647513600",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed502",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "40809190364388517784188440648001597793665131954613563/9353610478917778676503582929384211325797968275046400",
+    "decision": "unknown",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed502",
+    "degree": 2,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "41633618452557982789929621267153145223840185125413837/9353610478917778676503582929384211325797968275046400",
+    "decision": "unknown",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed502",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "40809190364388517784188440648001597793665131954613563/9353610478917778676503582929384211325797968275046400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed502",
+    "degree": 2,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "41633618452557982789929621267153145223840185125413837/9353610478917778676503582929384211325797968275046400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed502",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "40809190364388517784188440648001597793665131954613563/9353610478917778676503582929384211325797968275046400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed502",
+    "degree": 2,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "41633618452557982789929621267153145223840185125413837/9353610478917778676503582929384211325797968275046400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed502",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "99/100",
+    "tolerance": "40809190364388517784188440648001597793665131954613563/9353610478917778676503582929384211325797968275046400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed502",
+    "degree": 3,
+    "mesh": 16,
+    "factor": "101/100",
+    "tolerance": "41633618452557982789929621267153145223840185125413837/9353610478917778676503582929384211325797968275046400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed502",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "99/100",
+    "tolerance": "40809190364388517784188440648001597793665131954613563/9353610478917778676503582929384211325797968275046400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed502",
+    "degree": 3,
+    "mesh": 32,
+    "factor": "101/100",
+    "tolerance": "41633618452557982789929621267153145223840185125413837/9353610478917778676503582929384211325797968275046400",
+    "decision": "within",
+    "reference_decision": "within"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed502",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "99/100",
+    "tolerance": "40809190364388517784188440648001597793665131954613563/9353610478917778676503582929384211325797968275046400",
+    "decision": "exceeds",
+    "reference_decision": "exceeds"
+  },
+  {
+    "family": "sine",
+    "network": "sine_k5_depth2_seed502",
+    "degree": 3,
+    "mesh": 64,
+    "factor": "101/100",
+    "tolerance": "41633618452557982789929621267153145223840185125413837/9353610478917778676503582929384211325797968275046400",
+    "decision": "within",
+    "reference_decision": "within"
+  }
+]

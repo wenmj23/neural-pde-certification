@@ -1,0 +1,24 @@
+{
+  "expected": 192,
+  "records": 192,
+  "complete": 192,
+  "attempts": 222,
+  "contained": 222,
+  "matches_old": 222,
+  "prior_records_sha256": "4fff1e3f370fcbf2e3d3eaa28fbf1ccf83e8e6370f4135f608a3e1bb25b6fafc",
+  "source_hashes_before_run": {
+    "configs/poly_fixed_tolerance_online_2026-11-08.json": "cb754aa8dd05bd0517bbe97fd35b16d567297f8ae82d85f7bb2e27355d3fef3a",
+    "configs/midterm_poly_decisions_2026-11-07.json": "0ecd4e38ec6d1bd9c8205c8c2d00e181bc6b92160609bcc2990ef21c86b127ac",
+    "configs/independent_poly_split_2026-11-05.json": "e074c57c928305bec78157d34af9d920aad2d67780e266214e1952946fca986f",
+    "scripts/74_polynomial_forcing_prototype.py": "26329a98a05f0201bc02034482edc3d0843a7c5ce7260daf4140d7afc12fbd85",
+    "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+    "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+    "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+    "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+    "scripts/289_poly_fixed_tolerance_online_20261108.py": "53a3a309d813abe36cfd0f8550ed0ecc6ff4ff4eb22f5a5919810e46ee273e57"
+  },
+  "records_sha256": "cd50fa5fdce924b9c2fc425d3eabd7c8ad355dfcd2aa485879a330feb53051b4",
+  "scope": "24 previously studied polynomial PINNs, common fixed tolerances, 64-cell maximum per path; one randomized pass, not blind or timing benchmark",
+  "measurement": "in-process total includes candidate construction including fixture read, mesh setup, certify calls and decision arithmetic; excludes process startup, preloaded reference and output; one verifier reused per path"
+}

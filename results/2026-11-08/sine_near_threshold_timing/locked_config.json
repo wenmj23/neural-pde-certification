@@ -1,0 +1,7 @@
+{
+ "source_config": "configs/midterm_sine_decisions_2026-11-07.json",
+ "meshes": [64,128,256], "degrees": [2,3], "threshold_factors": ["99/100","101/100"],
+ "bits": 103, "bernstein_depth": 2, "warmups": 1, "timed_repeats": 3, "shuffle_seed": 20261108,
+ "scope": "12 previously studied sine networks; same mesh, independent cold objects with one earlier warmup, thresholds selected post-hoc using reference midpoint; no new training",
+ "measurement": "time.perf_counter around certify() only; excludes object construction, uniform setup, interpreter startup, reference computation, and output; no comparisons of full adaptive workflows"
+}

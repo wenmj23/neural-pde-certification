@@ -1,0 +1,301 @@
+{
+  "records": 192,
+  "networks": 24,
+  "attempts": 222,
+  "reference_contained": 222,
+  "matches_old": 222,
+  "groups": [
+    {
+      "degree": 2,
+      "tolerance": "1/100000",
+      "strategy": "start16",
+      "decision": "exceeds",
+      "count": 7
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/100000",
+      "strategy": "start16",
+      "decision": "within",
+      "count": 17
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/100000",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "count": 7
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/100000",
+      "strategy": "start64",
+      "decision": "within",
+      "count": 17
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/1000000",
+      "strategy": "start16",
+      "decision": "exceeds",
+      "count": 21
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/1000000",
+      "strategy": "start16",
+      "decision": "within",
+      "count": 3
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/1000000",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "count": 21
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/1000000",
+      "strategy": "start64",
+      "decision": "within",
+      "count": 3
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/100000",
+      "strategy": "start16",
+      "decision": "exceeds",
+      "count": 7
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/100000",
+      "strategy": "start16",
+      "decision": "within",
+      "count": 17
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/100000",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "count": 7
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/100000",
+      "strategy": "start64",
+      "decision": "within",
+      "count": 17
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/1000000",
+      "strategy": "start16",
+      "decision": "exceeds",
+      "count": 21
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/1000000",
+      "strategy": "start16",
+      "decision": "within",
+      "count": 3
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/1000000",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "count": 21
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/1000000",
+      "strategy": "start64",
+      "decision": "within",
+      "count": 3
+    }
+  ],
+  "stop_mesh_counts": [
+    {
+      "degree": 2,
+      "tolerance": "1/100000",
+      "strategy": "start16",
+      "mesh": 16,
+      "count": 16
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/100000",
+      "strategy": "start16",
+      "mesh": 32,
+      "count": 5
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/100000",
+      "strategy": "start16",
+      "mesh": 64,
+      "count": 3
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/100000",
+      "strategy": "start64",
+      "mesh": 64,
+      "count": 24
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/1000000",
+      "strategy": "start16",
+      "mesh": 16,
+      "count": 12
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/1000000",
+      "strategy": "start16",
+      "mesh": 32,
+      "count": 10
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/1000000",
+      "strategy": "start16",
+      "mesh": 64,
+      "count": 2
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/1000000",
+      "strategy": "start64",
+      "mesh": 64,
+      "count": 24
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/100000",
+      "strategy": "start16",
+      "mesh": 16,
+      "count": 21
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/100000",
+      "strategy": "start16",
+      "mesh": 32,
+      "count": 3
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/100000",
+      "strategy": "start64",
+      "mesh": 64,
+      "count": 24
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/1000000",
+      "strategy": "start16",
+      "mesh": 16,
+      "count": 22
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/1000000",
+      "strategy": "start16",
+      "mesh": 32,
+      "count": 2
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/1000000",
+      "strategy": "start64",
+      "mesh": 64,
+      "count": 24
+    }
+  ],
+  "paired_one_run": [
+    {
+      "degree": 2,
+      "tolerance": "1/100000",
+      "matched_decisive_networks": 24,
+      "median_one_run_start16_over_start64": 0.2976767523364849,
+      "start16_faster": 21,
+      "paired_outcomes": [
+        {
+          "start16": "exceeds",
+          "start64": "exceeds",
+          "count": 7
+        },
+        {
+          "start16": "within",
+          "start64": "within",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/1000000",
+      "matched_decisive_networks": 24,
+      "median_one_run_start16_over_start64": 0.44375464404142206,
+      "start16_faster": 22,
+      "paired_outcomes": [
+        {
+          "start16": "exceeds",
+          "start64": "exceeds",
+          "count": 21
+        },
+        {
+          "start16": "within",
+          "start64": "within",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/100000",
+      "matched_decisive_networks": 24,
+      "median_one_run_start16_over_start64": 0.2586605857560019,
+      "start16_faster": 24,
+      "paired_outcomes": [
+        {
+          "start16": "exceeds",
+          "start64": "exceeds",
+          "count": 7
+        },
+        {
+          "start16": "within",
+          "start64": "within",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/1000000",
+      "matched_decisive_networks": 24,
+      "median_one_run_start16_over_start64": 0.27077374314186065,
+      "start16_faster": 24,
+      "paired_outcomes": [
+        {
+          "start16": "exceeds",
+          "start64": "exceeds",
+          "count": 21
+        },
+        {
+          "start16": "within",
+          "start64": "within",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "records_sha256": "cd50fa5fdce924b9c2fc425d3eabd7c8ad355dfcd2aa485879a330feb53051b4",
+  "scope": "post-exit saved arithmetic, provenance, stop checks and single-run timing; not mathematical proof"
+}

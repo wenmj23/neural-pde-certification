@@ -1,0 +1,8 @@
+{
+  "source_config": "configs/midterm_sine_decisions_2026-11-07.json",
+  "strategies": {"start16": [16, 32, 64, 128, 256], "start64": [64, 128, 256]},
+  "degrees": [2, 3], "tolerances": ["1/1000", "1/100"],
+  "precision_bits": 103, "bernstein_depth": 2, "shuffle_seed": 202611081,
+  "scope": "12 existing previously studied sine PINNs; globally fixed tolerances; one randomized online pass, not blind or independent timing benchmark",
+  "measurement": "inclusive in-process time starts before candidate construction including its fixture read and hash, includes mesh setup, certify calls, endpoint conversion and decisions; excludes process startup, initial fixture/reference load, and output; core time sums certify calls only"
+}

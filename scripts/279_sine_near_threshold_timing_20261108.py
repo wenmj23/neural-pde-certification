@@ -1,0 +1,29 @@
+"""Randomized fixed-mesh timing with post-hoc reference-derived thresholds."""
+from fractions import Fraction as F
+from itertools import product
+from pathlib import Path
+import hashlib,json,math,os,random,tempfile,time
+from arb_certification import exact_fraction
+from arb_cubic_reconstruction import SixthOrderDeep,CubicVerifier
+from arb_shaped_remainder import ShapedVerifier
+ROOT=Path(__file__).resolve().parents[1];CFG=ROOT/'configs/sine_near_threshold_timing_2026-11-08.json';OUT=ROOT/'results/2026-11-08/sine_near_threshold_timing'
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def dec(l,u,t):return 'within' if u<=t else 'exceeds' if l>t else 'unknown'
+def main():
+ if OUT.exists():raise FileExistsError(OUT)
+ c=json.loads(CFG.read_text());base=ROOT/c['source_config'];sc=json.loads(base.read_text());fixture=ROOT/sc['fixture'];ref=ROOT/sc['reference'];prior_dir=(ROOT/sc['certificate_summary']).parent;prior=json.loads((prior_dir/'summary.json').read_text());old=prior_dir/'records.json'
+ if sha(fixture)!=sc['fixture_sha256'] or sha(ref)!=prior['references_sha256'] or sha(old)!=prior['records_sha256']:raise ValueError('fixture/reference/data digest')
+ nets={n['label']:n for n in json.loads(fixture.read_text())['networks']};refs={r['network']:r for r in json.loads(ref.read_text())};oldidx={(r['network'],r['degree'],r['intervals']):r for r in json.loads(old.read_text())}
+ if len(nets)!=12 or set(nets)!=set(refs):raise ValueError('manifest')
+ paths=[CFG,base,ROOT/'scripts/arb_deep_network.py',ROOT/'scripts/arb_cubic_reconstruction.py',ROOT/'scripts/arb_shaped_remainder.py',ROOT/'scripts/arb_reconstruction.py',ROOT/'scripts/arb_certification.py',Path(__file__)];sources={str(p.relative_to(ROOT)):sha(p) for p in paths};combos=list(product(sorted(nets),c['degrees'],c['meshes']));rng=random.Random(c['shuffle_seed']);rows=[]
+ for phase,repeats in (('warmup',c['warmups']),('timed',c['timed_repeats'])):
+  for iteration in range(repeats):
+   order=combos[:];rng.shuffle(order)
+   for name,degree,mesh in order:
+    q=refs[name];rl,ru=F(q['lower']),F(q['upper']);p=SixthOrderDeep(fixture,name,sc['fixture_sha256'],c['bits']);v=ShapedVerifier(p,'moment',subdivision=c['bernstein_depth']) if degree==2 else CubicVerifier(p,'moment',subdivision=c['bernstein_depth']);v.uniform(mesh)
+    start=time.perf_counter();r=v.certify();elapsed=time.perf_counter()-start;L,U=map(exact_fraction,(r['lower'],r['upper']));prev=oldidx[(name,degree,mesh)];mid=(rl+ru)/2
+    if not math.isfinite(elapsed) or elapsed<=0:raise ValueError('timer')
+    rows.append({'network':name,'degree':degree,'mesh':mesh,'phase':phase,'iteration':iteration,'seconds':elapsed,'lower':str(L),'upper':str(U),'reference_lower':str(rl),'reference_upper':str(ru),'reference_contained':L<=rl<=ru<=U,'matches_old':L==F(prev['lower']) and U==F(prev['upper']),'decisions':{fac:dec(L,U,mid*F(fac)) for fac in c['threshold_factors']}})
+   print(phase,iteration,'completed',flush=True)
+ OUT.parent.mkdir(parents=True,exist_ok=True);stage=Path(tempfile.mkdtemp(prefix='.near_timing_',dir=OUT.parent));(stage/'locked_config.json').write_bytes(CFG.read_bytes());(stage/'records.json').write_text(json.dumps(rows,indent=2,allow_nan=False)+'\n');s={'expected':len(combos)*(c['warmups']+c['timed_repeats']),'records':len(rows),'contained':sum(r['reference_contained'] for r in rows),'matches_old':sum(r['matches_old'] for r in rows),'inputs_sha256':{'fixture':sha(fixture),'reference':sha(ref),'old_records':sha(old)},'source_hashes_before_run':sources,'records_sha256':sha(stage/'records.json'),'scope':c['scope'],'measurement':c['measurement']};(stage/'summary.json').write_text(json.dumps(s,indent=2)+'\n');os.rename(stage,OUT);print(json.dumps(s));return int(s['records']!=288 or s['contained']!=288 or s['matches_old']!=288)
+if __name__=='__main__':raise SystemExit(main())

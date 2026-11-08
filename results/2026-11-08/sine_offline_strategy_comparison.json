@@ -1,0 +1,2502 @@
+{
+  "scenarios": 144,
+  "per_strategy_counts": [
+    {
+      "degree": 2,
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "count": 11
+    },
+    {
+      "degree": 2,
+      "strategy": "direct256",
+      "decision": "unknown",
+      "count": 2
+    },
+    {
+      "degree": 2,
+      "strategy": "direct256",
+      "decision": "within",
+      "count": 11
+    },
+    {
+      "degree": 2,
+      "strategy": "start128",
+      "decision": "exceeds",
+      "count": 11
+    },
+    {
+      "degree": 2,
+      "strategy": "start128",
+      "decision": "unknown",
+      "count": 2
+    },
+    {
+      "degree": 2,
+      "strategy": "start128",
+      "decision": "within",
+      "count": 11
+    },
+    {
+      "degree": 2,
+      "strategy": "start64",
+      "decision": "exceeds",
+      "count": 11
+    },
+    {
+      "degree": 2,
+      "strategy": "start64",
+      "decision": "unknown",
+      "count": 2
+    },
+    {
+      "degree": 2,
+      "strategy": "start64",
+      "decision": "within",
+      "count": 11
+    },
+    {
+      "degree": 3,
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "count": 12
+    },
+    {
+      "degree": 3,
+      "strategy": "direct256",
+      "decision": "within",
+      "count": 12
+    },
+    {
+      "degree": 3,
+      "strategy": "start128",
+      "decision": "exceeds",
+      "count": 12
+    },
+    {
+      "degree": 3,
+      "strategy": "start128",
+      "decision": "within",
+      "count": 12
+    },
+    {
+      "degree": 3,
+      "strategy": "start64",
+      "decision": "exceeds",
+      "count": 12
+    },
+    {
+      "degree": 3,
+      "strategy": "start64",
+      "decision": "within",
+      "count": 12
+    }
+  ],
+  "comparisons": [
+    {
+      "degree": 2,
+      "numerator": "start64",
+      "denominator": "start128",
+      "matched_decisive_scenarios": 22,
+      "scenario_median_of_paired_ratios": 1.1673837135580314,
+      "numerator_faster_scenarios": 6
+    },
+    {
+      "degree": 2,
+      "numerator": "start128",
+      "denominator": "direct256",
+      "matched_decisive_scenarios": 22,
+      "scenario_median_of_paired_ratios": 0.5676615794486901,
+      "numerator_faster_scenarios": 12
+    },
+    {
+      "degree": 2,
+      "numerator": "start64",
+      "denominator": "direct256",
+      "matched_decisive_scenarios": 22,
+      "scenario_median_of_paired_ratios": 0.8737867370252399,
+      "numerator_faster_scenarios": 12
+    },
+    {
+      "degree": 3,
+      "numerator": "start64",
+      "denominator": "start128",
+      "matched_decisive_scenarios": 24,
+      "scenario_median_of_paired_ratios": 0.5142103673312752,
+      "numerator_faster_scenarios": 18
+    },
+    {
+      "degree": 3,
+      "numerator": "start128",
+      "denominator": "direct256",
+      "matched_decisive_scenarios": 24,
+      "scenario_median_of_paired_ratios": 0.49840838007735755,
+      "numerator_faster_scenarios": 24
+    },
+    {
+      "degree": 3,
+      "numerator": "start64",
+      "denominator": "direct256",
+      "matched_decisive_scenarios": 24,
+      "scenario_median_of_paired_ratios": 0.25692444963506084,
+      "numerator_faster_scenarios": 24
+    }
+  ],
+  "input_records_sha256": "7889bf2fa36cad64a53d1c13848d4af63b0fb40de8fea38132f4c4c1636ff938",
+  "script_sha256": "a367c0da46c0ca88ee746a8d3b53b746d392a4273a0f6b12c07ba1d36915a69f",
+  "rows": [
+    {
+      "network": "sine_k1_depth1_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.04790849599999092,
+        0.06424115799995889,
+        0.058323096000094665
+      ],
+      "median_seconds": 0.058323096000094665
+    },
+    {
+      "network": "sine_k1_depth1_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.08475722399998631,
+        0.10441455000000133,
+        0.15069073399990884
+      ],
+      "median_seconds": 0.10441455000000133
+    },
+    {
+      "network": "sine_k1_depth1_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.17334256499998446,
+        0.26015409499996167,
+        0.21676405899984275
+      ],
+      "median_seconds": 0.21676405899984275
+    },
+    {
+      "network": "sine_k1_depth1_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.04790849599999092,
+        0.06424115799995889,
+        0.058323096000094665
+      ],
+      "median_seconds": 0.058323096000094665
+    },
+    {
+      "network": "sine_k1_depth1_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.08475722399998631,
+        0.10441455000000133,
+        0.15069073399990884
+      ],
+      "median_seconds": 0.10441455000000133
+    },
+    {
+      "network": "sine_k1_depth1_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.17334256499998446,
+        0.26015409499996167,
+        0.21676405899984275
+      ],
+      "median_seconds": 0.21676405899984275
+    },
+    {
+      "network": "sine_k1_depth1_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.060627336999914405,
+        0.07077769600005013,
+        0.17597940500013465
+      ],
+      "median_seconds": 0.07077769600005013
+    },
+    {
+      "network": "sine_k1_depth1_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.2932617310000296,
+        0.14431421600011163,
+        0.1439028600000256
+      ],
+      "median_seconds": 0.14431421600011163
+    },
+    {
+      "network": "sine_k1_depth1_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.2824468799999522,
+        0.29024713400008295,
+        0.2945843390000391
+      ],
+      "median_seconds": 0.29024713400008295
+    },
+    {
+      "network": "sine_k1_depth1_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.060627336999914405,
+        0.07077769600005013,
+        0.17597940500013465
+      ],
+      "median_seconds": 0.07077769600005013
+    },
+    {
+      "network": "sine_k1_depth1_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.2932617310000296,
+        0.14431421600011163,
+        0.1439028600000256
+      ],
+      "median_seconds": 0.14431421600011163
+    },
+    {
+      "network": "sine_k1_depth1_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.2824468799999522,
+        0.29024713400008295,
+        0.2945843390000391
+      ],
+      "median_seconds": 0.29024713400008295
+    },
+    {
+      "network": "sine_k1_depth1_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64,
+        128
+      ],
+      "times": [
+        0.12953128899994226,
+        0.15343577899989214,
+        0.13509945400005563
+      ],
+      "median_seconds": 0.13509945400005563
+    },
+    {
+      "network": "sine_k1_depth1_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.08516678000000866,
+        0.1018692390000524,
+        0.08772367799997483
+      ],
+      "median_seconds": 0.08772367799997483
+    },
+    {
+      "network": "sine_k1_depth1_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.2131039860000783,
+        0.19407264599999507,
+        0.1912980909999078
+      ],
+      "median_seconds": 0.19407264599999507
+    },
+    {
+      "network": "sine_k1_depth1_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64,
+        128
+      ],
+      "times": [
+        0.12953128899994226,
+        0.15343577899989214,
+        0.13509945400005563
+      ],
+      "median_seconds": 0.13509945400005563
+    },
+    {
+      "network": "sine_k1_depth1_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.08516678000000866,
+        0.1018692390000524,
+        0.08772367799997483
+      ],
+      "median_seconds": 0.08772367799997483
+    },
+    {
+      "network": "sine_k1_depth1_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.2131039860000783,
+        0.19407264599999507,
+        0.1912980909999078
+      ],
+      "median_seconds": 0.19407264599999507
+    },
+    {
+      "network": "sine_k1_depth1_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.06714363900005083,
+        0.08303857300006712,
+        0.07031763500003763
+      ],
+      "median_seconds": 0.07031763500003763
+    },
+    {
+      "network": "sine_k1_depth1_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.12480714499997703,
+        0.13681124899994757,
+        0.1307779290000326
+      ],
+      "median_seconds": 0.1307779290000326
+    },
+    {
+      "network": "sine_k1_depth1_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.23989435500016043,
+        0.271238017000087,
+        0.2744317679998858
+      ],
+      "median_seconds": 0.271238017000087
+    },
+    {
+      "network": "sine_k1_depth1_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.06714363900005083,
+        0.08303857300006712,
+        0.07031763500003763
+      ],
+      "median_seconds": 0.07031763500003763
+    },
+    {
+      "network": "sine_k1_depth1_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.12480714499997703,
+        0.13681124899994757,
+        0.1307779290000326
+      ],
+      "median_seconds": 0.1307779290000326
+    },
+    {
+      "network": "sine_k1_depth1_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.23989435500016043,
+        0.271238017000087,
+        0.2744317679998858
+      ],
+      "median_seconds": 0.271238017000087
+    },
+    {
+      "network": "sine_k1_depth2_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64,
+        128,
+        256
+      ],
+      "times": [
+        0.7299439579999216,
+        0.7361322159999872,
+        0.9446233099999972
+      ],
+      "median_seconds": 0.7361322159999872
+    },
+    {
+      "network": "sine_k1_depth2_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128,
+        256
+      ],
+      "times": [
+        0.5993997859998217,
+        0.5896057439999822,
+        0.7594593700000587
+      ],
+      "median_seconds": 0.5993997859998217
+    },
+    {
+      "network": "sine_k1_depth2_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.4061173420000159,
+        0.3922448490000079,
+        0.5736937859999216
+      ],
+      "median_seconds": 0.4061173420000159
+    },
+    {
+      "network": "sine_k1_depth2_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64,
+        128,
+        256
+      ],
+      "times": [
+        0.7299439579999216,
+        0.7361322159999872,
+        0.9446233099999972
+      ],
+      "median_seconds": 0.7361322159999872
+    },
+    {
+      "network": "sine_k1_depth2_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128,
+        256
+      ],
+      "times": [
+        0.5993997859998217,
+        0.5896057439999822,
+        0.7594593700000587
+      ],
+      "median_seconds": 0.5993997859998217
+    },
+    {
+      "network": "sine_k1_depth2_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.4061173420000159,
+        0.3922448490000079,
+        0.5736937859999216
+      ],
+      "median_seconds": 0.4061173420000159
+    },
+    {
+      "network": "sine_k1_depth2_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.16442143999984182,
+        0.20682908000003408,
+        0.13777051500005655
+      ],
+      "median_seconds": 0.16442143999984182
+    },
+    {
+      "network": "sine_k1_depth2_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.28855634000001373,
+        0.3047443520001707,
+        0.5700217180001346
+      ],
+      "median_seconds": 0.3047443520001707
+    },
+    {
+      "network": "sine_k1_depth2_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.4982632230000945,
+        0.555313988999842,
+        0.9464942399999927
+      ],
+      "median_seconds": 0.555313988999842
+    },
+    {
+      "network": "sine_k1_depth2_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.16442143999984182,
+        0.20682908000003408,
+        0.13777051500005655
+      ],
+      "median_seconds": 0.16442143999984182
+    },
+    {
+      "network": "sine_k1_depth2_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.28855634000001373,
+        0.3047443520001707,
+        0.5700217180001346
+      ],
+      "median_seconds": 0.3047443520001707
+    },
+    {
+      "network": "sine_k1_depth2_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.4982632230000945,
+        0.555313988999842,
+        0.9464942399999927
+      ],
+      "median_seconds": 0.555313988999842
+    },
+    {
+      "network": "sine_k1_depth2_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64,
+        128
+      ],
+      "times": [
+        0.26522420499986765,
+        0.2990623030000279,
+        0.33393685499981984
+      ],
+      "median_seconds": 0.2990623030000279
+    },
+    {
+      "network": "sine_k1_depth2_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.17704471899992313,
+        0.2017240640000182,
+        0.2241386779999175
+      ],
+      "median_seconds": 0.2017240640000182
+    },
+    {
+      "network": "sine_k1_depth2_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.43663235099984377,
+        0.39065539000011995,
+        0.4467822099998102
+      ],
+      "median_seconds": 0.43663235099984377
+    },
+    {
+      "network": "sine_k1_depth2_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64,
+        128
+      ],
+      "times": [
+        0.26522420499986765,
+        0.2990623030000279,
+        0.33393685499981984
+      ],
+      "median_seconds": 0.2990623030000279
+    },
+    {
+      "network": "sine_k1_depth2_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.17704471899992313,
+        0.2017240640000182,
+        0.2241386779999175
+      ],
+      "median_seconds": 0.2017240640000182
+    },
+    {
+      "network": "sine_k1_depth2_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.43663235099984377,
+        0.39065539000011995,
+        0.4467822099998102
+      ],
+      "median_seconds": 0.43663235099984377
+    },
+    {
+      "network": "sine_k1_depth2_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.12166460999992523,
+        0.13192212399985692,
+        0.15304333800008862
+      ],
+      "median_seconds": 0.13192212399985692
+    },
+    {
+      "network": "sine_k1_depth2_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.24836009699993156,
+        0.28651290399989193,
+        0.2875960960000157
+      ],
+      "median_seconds": 0.28651290399989193
+    },
+    {
+      "network": "sine_k1_depth2_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.8007275359998403,
+        0.5461373330001607,
+        1.214291215000003
+      ],
+      "median_seconds": 0.8007275359998403
+    },
+    {
+      "network": "sine_k1_depth2_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.12166460999992523,
+        0.13192212399985692,
+        0.15304333800008862
+      ],
+      "median_seconds": 0.13192212399985692
+    },
+    {
+      "network": "sine_k1_depth2_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.24836009699993156,
+        0.28651290399989193,
+        0.2875960960000157
+      ],
+      "median_seconds": 0.28651290399989193
+    },
+    {
+      "network": "sine_k1_depth2_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.8007275359998403,
+        0.5461373330001607,
+        1.214291215000003
+      ],
+      "median_seconds": 0.8007275359998403
+    },
+    {
+      "network": "sine_k3_depth1_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64,
+        128,
+        256
+      ],
+      "times": [
+        0.36137108699995224,
+        0.3400529370003369,
+        0.35031312700016315
+      ],
+      "median_seconds": 0.35031312700016315
+    },
+    {
+      "network": "sine_k3_depth1_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128,
+        256
+      ],
+      "times": [
+        0.3082016640000802,
+        0.2923014260002219,
+        0.30135215900008916
+      ],
+      "median_seconds": 0.30135215900008916
+    },
+    {
+      "network": "sine_k3_depth1_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.22059023299993896,
+        0.19664621700007956,
+        0.20058733700011544
+      ],
+      "median_seconds": 0.20058733700011544
+    },
+    {
+      "network": "sine_k3_depth1_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64,
+        128,
+        256
+      ],
+      "times": [
+        0.36137108699995224,
+        0.3400529370003369,
+        0.35031312700016315
+      ],
+      "median_seconds": 0.35031312700016315
+    },
+    {
+      "network": "sine_k3_depth1_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128,
+        256
+      ],
+      "times": [
+        0.3082016640000802,
+        0.2923014260002219,
+        0.30135215900008916
+      ],
+      "median_seconds": 0.30135215900008916
+    },
+    {
+      "network": "sine_k3_depth1_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.22059023299993896,
+        0.19664621700007956,
+        0.20058733700011544
+      ],
+      "median_seconds": 0.20058733700011544
+    },
+    {
+      "network": "sine_k3_depth1_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.06053204599993478,
+        0.06744303699997545,
+        0.08162115599998288
+      ],
+      "median_seconds": 0.06744303699997545
+    },
+    {
+      "network": "sine_k3_depth1_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.13435319500013065,
+        0.16749055700006465,
+        0.16519258400012404
+      ],
+      "median_seconds": 0.16519258400012404
+    },
+    {
+      "network": "sine_k3_depth1_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.3256382649999523,
+        0.4521573259999059,
+        0.32398690200011515
+      ],
+      "median_seconds": 0.3256382649999523
+    },
+    {
+      "network": "sine_k3_depth1_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.06053204599993478,
+        0.06744303699997545,
+        0.08162115599998288
+      ],
+      "median_seconds": 0.06744303699997545
+    },
+    {
+      "network": "sine_k3_depth1_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.13435319500013065,
+        0.16749055700006465,
+        0.16519258400012404
+      ],
+      "median_seconds": 0.16519258400012404
+    },
+    {
+      "network": "sine_k3_depth1_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.3256382649999523,
+        0.4521573259999059,
+        0.32398690200011515
+      ],
+      "median_seconds": 0.3256382649999523
+    },
+    {
+      "network": "sine_k3_depth1_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64,
+        128,
+        256
+      ],
+      "times": [
+        0.3116106900001796,
+        0.32485738100012895,
+        0.7479574519998096
+      ],
+      "median_seconds": 0.32485738100012895
+    },
+    {
+      "network": "sine_k3_depth1_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128,
+        256
+      ],
+      "times": [
+        0.2525359810001646,
+        0.2780122940000638,
+        0.5205949999999575
+      ],
+      "median_seconds": 0.2780122940000638
+    },
+    {
+      "network": "sine_k3_depth1_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.16868332900003224,
+        0.1852954870000758,
+        0.42764504599995234
+      ],
+      "median_seconds": 0.1852954870000758
+    },
+    {
+      "network": "sine_k3_depth1_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64,
+        128,
+        256
+      ],
+      "times": [
+        0.3116106900001796,
+        0.32485738100012895,
+        0.7479574519998096
+      ],
+      "median_seconds": 0.32485738100012895
+    },
+    {
+      "network": "sine_k3_depth1_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128,
+        256
+      ],
+      "times": [
+        0.2525359810001646,
+        0.2780122940000638,
+        0.5205949999999575
+      ],
+      "median_seconds": 0.2780122940000638
+    },
+    {
+      "network": "sine_k3_depth1_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.16868332900003224,
+        0.1852954870000758,
+        0.42764504599995234
+      ],
+      "median_seconds": 0.1852954870000758
+    },
+    {
+      "network": "sine_k3_depth1_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.06109842499995466,
+        0.07016326799998751,
+        0.0762661459998526
+      ],
+      "median_seconds": 0.07016326799998751
+    },
+    {
+      "network": "sine_k3_depth1_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.1332757809998384,
+        0.13918983400003526,
+        0.1602714380001089
+      ],
+      "median_seconds": 0.13918983400003526
+    },
+    {
+      "network": "sine_k3_depth1_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.2546439239999927,
+        0.28193706299998667,
+        0.2808002049998777
+      ],
+      "median_seconds": 0.2808002049998777
+    },
+    {
+      "network": "sine_k3_depth1_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.06109842499995466,
+        0.07016326799998751,
+        0.0762661459998526
+      ],
+      "median_seconds": 0.07016326799998751
+    },
+    {
+      "network": "sine_k3_depth1_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.1332757809998384,
+        0.13918983400003526,
+        0.1602714380001089
+      ],
+      "median_seconds": 0.13918983400003526
+    },
+    {
+      "network": "sine_k3_depth1_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.2546439239999927,
+        0.28193706299998667,
+        0.2808002049998777
+      ],
+      "median_seconds": 0.2808002049998777
+    },
+    {
+      "network": "sine_k3_depth2_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64,
+        128
+      ],
+      "times": [
+        0.31295364199991127,
+        0.37717493300010574,
+        0.31121346700001595
+      ],
+      "median_seconds": 0.31295364199991127
+    },
+    {
+      "network": "sine_k3_depth2_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.1999823969999852,
+        0.24859321400003864,
+        0.21301203200005148
+      ],
+      "median_seconds": 0.21301203200005148
+    },
+    {
+      "network": "sine_k3_depth2_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.3522915840001133,
+        0.4316555940001763,
+        0.4541739100000086
+      ],
+      "median_seconds": 0.4316555940001763
+    },
+    {
+      "network": "sine_k3_depth2_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64,
+        128
+      ],
+      "times": [
+        0.31295364199991127,
+        0.37717493300010574,
+        0.31121346700001595
+      ],
+      "median_seconds": 0.31295364199991127
+    },
+    {
+      "network": "sine_k3_depth2_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.1999823969999852,
+        0.24859321400003864,
+        0.21301203200005148
+      ],
+      "median_seconds": 0.21301203200005148
+    },
+    {
+      "network": "sine_k3_depth2_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.3522915840001133,
+        0.4316555940001763,
+        0.4541739100000086
+      ],
+      "median_seconds": 0.4316555940001763
+    },
+    {
+      "network": "sine_k3_depth2_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.14126255299993318,
+        0.14378821800005426,
+        0.20137306099991292
+      ],
+      "median_seconds": 0.14378821800005426
+    },
+    {
+      "network": "sine_k3_depth2_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.24753277500008153,
+        0.27305862299999717,
+        0.36390877299982094
+      ],
+      "median_seconds": 0.27305862299999717
+    },
+    {
+      "network": "sine_k3_depth2_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.6483724520001033,
+        0.5505942509998931,
+        0.547283582000091
+      ],
+      "median_seconds": 0.5505942509998931
+    },
+    {
+      "network": "sine_k3_depth2_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.14126255299993318,
+        0.14378821800005426,
+        0.20137306099991292
+      ],
+      "median_seconds": 0.14378821800005426
+    },
+    {
+      "network": "sine_k3_depth2_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.24753277500008153,
+        0.27305862299999717,
+        0.36390877299982094
+      ],
+      "median_seconds": 0.27305862299999717
+    },
+    {
+      "network": "sine_k3_depth2_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.6483724520001033,
+        0.5505942509998931,
+        0.547283582000091
+      ],
+      "median_seconds": 0.5505942509998931
+    },
+    {
+      "network": "sine_k3_depth2_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64,
+        128,
+        256
+      ],
+      "times": [
+        0.7517120299999078,
+        0.7761142299998482,
+        0.804302509000081
+      ],
+      "median_seconds": 0.7761142299998482
+    },
+    {
+      "network": "sine_k3_depth2_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128,
+        256
+      ],
+      "times": [
+        0.6439288310000393,
+        0.6765306739998778,
+        0.6408060200001273
+      ],
+      "median_seconds": 0.6439288310000393
+    },
+    {
+      "network": "sine_k3_depth2_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.4305796129999635,
+        0.4665100899999288,
+        0.41815794200010714
+      ],
+      "median_seconds": 0.4305796129999635
+    },
+    {
+      "network": "sine_k3_depth2_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64,
+        128,
+        256
+      ],
+      "times": [
+        0.7517120299999078,
+        0.7761142299998482,
+        0.804302509000081
+      ],
+      "median_seconds": 0.7761142299998482
+    },
+    {
+      "network": "sine_k3_depth2_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128,
+        256
+      ],
+      "times": [
+        0.6439288310000393,
+        0.6765306739998778,
+        0.6408060200001273
+      ],
+      "median_seconds": 0.6439288310000393
+    },
+    {
+      "network": "sine_k3_depth2_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.4305796129999635,
+        0.4665100899999288,
+        0.41815794200010714
+      ],
+      "median_seconds": 0.4305796129999635
+    },
+    {
+      "network": "sine_k3_depth2_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64,
+        128
+      ],
+      "times": [
+        0.36689998099996046,
+        0.43907073500008664,
+        0.5686169859998245
+      ],
+      "median_seconds": 0.43907073500008664
+    },
+    {
+      "network": "sine_k3_depth2_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.2448467310000524,
+        0.29384763300004124,
+        0.31498791199987863
+      ],
+      "median_seconds": 0.29384763300004124
+    },
+    {
+      "network": "sine_k3_depth2_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.5733019009999225,
+        0.5974639979999665,
+        0.6682775970000421
+      ],
+      "median_seconds": 0.5974639979999665
+    },
+    {
+      "network": "sine_k3_depth2_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64,
+        128
+      ],
+      "times": [
+        0.36689998099996046,
+        0.43907073500008664,
+        0.5686169859998245
+      ],
+      "median_seconds": 0.43907073500008664
+    },
+    {
+      "network": "sine_k3_depth2_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.2448467310000524,
+        0.29384763300004124,
+        0.31498791199987863
+      ],
+      "median_seconds": 0.29384763300004124
+    },
+    {
+      "network": "sine_k3_depth2_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.5733019009999225,
+        0.5974639979999665,
+        0.6682775970000421
+      ],
+      "median_seconds": 0.5974639979999665
+    },
+    {
+      "network": "sine_k5_depth1_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64,
+        128,
+        256
+      ],
+      "times": [
+        0.29230419299983623,
+        0.3667703319999873,
+        0.4630621209998935
+      ],
+      "median_seconds": 0.3667703319999873
+    },
+    {
+      "network": "sine_k5_depth1_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128,
+        256
+      ],
+      "times": [
+        0.2516221679998125,
+        0.3030260670000189,
+        0.39742009299993697
+      ],
+      "median_seconds": 0.3030260670000189
+    },
+    {
+      "network": "sine_k5_depth1_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.16933762599978763,
+        0.19876393699996697,
+        0.19837422899990997
+      ],
+      "median_seconds": 0.19837422899990997
+    },
+    {
+      "network": "sine_k5_depth1_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64,
+        128,
+        256
+      ],
+      "times": [
+        0.29230419299983623,
+        0.3667703319999873,
+        0.4630621209998935
+      ],
+      "median_seconds": 0.3667703319999873
+    },
+    {
+      "network": "sine_k5_depth1_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128,
+        256
+      ],
+      "times": [
+        0.2516221679998125,
+        0.3030260670000189,
+        0.39742009299993697
+      ],
+      "median_seconds": 0.3030260670000189
+    },
+    {
+      "network": "sine_k5_depth1_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.16933762599978763,
+        0.19876393699996697,
+        0.19837422899990997
+      ],
+      "median_seconds": 0.19837422899990997
+    },
+    {
+      "network": "sine_k5_depth1_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64,
+        128
+      ],
+      "times": [
+        0.2177166770002259,
+        0.20725013499986744,
+        0.2809726049999881
+      ],
+      "median_seconds": 0.2177166770002259
+    },
+    {
+      "network": "sine_k5_depth1_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.15846094700009417,
+        0.1388613249998798,
+        0.15273830799992538
+      ],
+      "median_seconds": 0.15273830799992538
+    },
+    {
+      "network": "sine_k5_depth1_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.24928032999991956,
+        0.2967684810000719,
+        0.3042641239999284
+      ],
+      "median_seconds": 0.2967684810000719
+    },
+    {
+      "network": "sine_k5_depth1_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64,
+        128
+      ],
+      "times": [
+        0.2177166770002259,
+        0.20725013499986744,
+        0.2809726049999881
+      ],
+      "median_seconds": 0.2177166770002259
+    },
+    {
+      "network": "sine_k5_depth1_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.15846094700009417,
+        0.1388613249998798,
+        0.15273830799992538
+      ],
+      "median_seconds": 0.15273830799992538
+    },
+    {
+      "network": "sine_k5_depth1_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.24928032999991956,
+        0.2967684810000719,
+        0.3042641239999284
+      ],
+      "median_seconds": 0.2967684810000719
+    },
+    {
+      "network": "sine_k5_depth1_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.04192037200004961,
+        0.04285445199980131,
+        0.07736369700000978
+      ],
+      "median_seconds": 0.04285445199980131
+    },
+    {
+      "network": "sine_k5_depth1_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.0850196369999594,
+        0.10721958499993889,
+        0.08786894399986522
+      ],
+      "median_seconds": 0.08786894399986522
+    },
+    {
+      "network": "sine_k5_depth1_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.17111312300016834,
+        0.20064662599997973,
+        0.2131216969999059
+      ],
+      "median_seconds": 0.20064662599997973
+    },
+    {
+      "network": "sine_k5_depth1_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.04192037200004961,
+        0.04285445199980131,
+        0.07736369700000978
+      ],
+      "median_seconds": 0.04285445199980131
+    },
+    {
+      "network": "sine_k5_depth1_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.0850196369999594,
+        0.10721958499993889,
+        0.08786894399986522
+      ],
+      "median_seconds": 0.08786894399986522
+    },
+    {
+      "network": "sine_k5_depth1_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.17111312300016834,
+        0.20064662599997973,
+        0.2131216969999059
+      ],
+      "median_seconds": 0.20064662599997973
+    },
+    {
+      "network": "sine_k5_depth1_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.06975860099987585,
+        0.06737521200011543,
+        0.06910095900002489
+      ],
+      "median_seconds": 0.06910095900002489
+    },
+    {
+      "network": "sine_k5_depth1_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.13791866899987326,
+        0.13739276100000097,
+        0.21464007800000218
+      ],
+      "median_seconds": 0.13791866899987326
+    },
+    {
+      "network": "sine_k5_depth1_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.27605528399999457,
+        0.2768635060001543,
+        0.27055762399982086
+      ],
+      "median_seconds": 0.27605528399999457
+    },
+    {
+      "network": "sine_k5_depth1_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.06975860099987585,
+        0.06737521200011543,
+        0.06910095900002489
+      ],
+      "median_seconds": 0.06910095900002489
+    },
+    {
+      "network": "sine_k5_depth1_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.13791866899987326,
+        0.13739276100000097,
+        0.21464007800000218
+      ],
+      "median_seconds": 0.13791866899987326
+    },
+    {
+      "network": "sine_k5_depth1_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.27605528399999457,
+        0.2768635060001543,
+        0.27055762399982086
+      ],
+      "median_seconds": 0.27605528399999457
+    },
+    {
+      "network": "sine_k5_depth2_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "unknown",
+      "meshes_used": [
+        64,
+        128,
+        256
+      ],
+      "times": [
+        0.6052724159999343,
+        0.745638936999967,
+        0.9495829380000487
+      ],
+      "median_seconds": 0.745638936999967
+    },
+    {
+      "network": "sine_k5_depth2_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "unknown",
+      "meshes_used": [
+        128,
+        256
+      ],
+      "times": [
+        0.5170014159998573,
+        0.6481214760001421,
+        0.8484097010000369
+      ],
+      "median_seconds": 0.6481214760001421
+    },
+    {
+      "network": "sine_k5_depth2_seed501",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "unknown",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.34391295499995067,
+        0.4401213319999897,
+        0.6309405810000044
+      ],
+      "median_seconds": 0.4401213319999897
+    },
+    {
+      "network": "sine_k5_depth2_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "unknown",
+      "meshes_used": [
+        64,
+        128,
+        256
+      ],
+      "times": [
+        0.6052724159999343,
+        0.745638936999967,
+        0.9495829380000487
+      ],
+      "median_seconds": 0.745638936999967
+    },
+    {
+      "network": "sine_k5_depth2_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "unknown",
+      "meshes_used": [
+        128,
+        256
+      ],
+      "times": [
+        0.5170014159998573,
+        0.6481214760001421,
+        0.8484097010000369
+      ],
+      "median_seconds": 0.6481214760001421
+    },
+    {
+      "network": "sine_k5_depth2_seed501",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "unknown",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.34391295499995067,
+        0.4401213319999897,
+        0.6309405810000044
+      ],
+      "median_seconds": 0.4401213319999897
+    },
+    {
+      "network": "sine_k5_depth2_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64,
+        128
+      ],
+      "times": [
+        0.4142440269999952,
+        0.43710523900017506,
+        0.45663208399969335
+      ],
+      "median_seconds": 0.43710523900017506
+    },
+    {
+      "network": "sine_k5_depth2_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.26019415299992943,
+        0.2696974120001414,
+        0.30916937099982533
+      ],
+      "median_seconds": 0.2696974120001414
+    },
+    {
+      "network": "sine_k5_depth2_seed501",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.5116382969999904,
+        0.7288388530000702,
+        0.6526587359999212
+      ],
+      "median_seconds": 0.6526587359999212
+    },
+    {
+      "network": "sine_k5_depth2_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64,
+        128
+      ],
+      "times": [
+        0.4142440269999952,
+        0.43710523900017506,
+        0.45663208399969335
+      ],
+      "median_seconds": 0.43710523900017506
+    },
+    {
+      "network": "sine_k5_depth2_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.26019415299992943,
+        0.2696974120001414,
+        0.30916937099982533
+      ],
+      "median_seconds": 0.2696974120001414
+    },
+    {
+      "network": "sine_k5_depth2_seed501",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.5116382969999904,
+        0.7288388530000702,
+        0.6526587359999212
+      ],
+      "median_seconds": 0.6526587359999212
+    },
+    {
+      "network": "sine_k5_depth2_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.24014151900018987,
+        0.17894193400002223,
+        0.09233907299994826
+      ],
+      "median_seconds": 0.17894193400002223
+    },
+    {
+      "network": "sine_k5_depth2_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.1894071320000421,
+        0.22042391300010422,
+        0.21857849399998486
+      ],
+      "median_seconds": 0.21857849399998486
+    },
+    {
+      "network": "sine_k5_depth2_seed502",
+      "degree": 2,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.42366616300000715,
+        0.41333268199991835,
+        0.4623496060000889
+      ],
+      "median_seconds": 0.42366616300000715
+    },
+    {
+      "network": "sine_k5_depth2_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.24014151900018987,
+        0.17894193400002223,
+        0.09233907299994826
+      ],
+      "median_seconds": 0.17894193400002223
+    },
+    {
+      "network": "sine_k5_depth2_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.1894071320000421,
+        0.22042391300010422,
+        0.21857849399998486
+      ],
+      "median_seconds": 0.21857849399998486
+    },
+    {
+      "network": "sine_k5_depth2_seed502",
+      "degree": 2,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.42366616300000715,
+        0.41333268199991835,
+        0.4623496060000889
+      ],
+      "median_seconds": 0.42366616300000715
+    },
+    {
+      "network": "sine_k5_depth2_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start64",
+      "decision": "exceeds",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.12141562600004363,
+        0.13717454999982692,
+        0.13040054500015685
+      ],
+      "median_seconds": 0.13040054500015685
+    },
+    {
+      "network": "sine_k5_depth2_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "start128",
+      "decision": "exceeds",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.29294371199989655,
+        0.2826774590000696,
+        0.27115777200015145
+      ],
+      "median_seconds": 0.2826774590000696
+    },
+    {
+      "network": "sine_k5_depth2_seed502",
+      "degree": 3,
+      "factor": "99/100",
+      "strategy": "direct256",
+      "decision": "exceeds",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.49078907699981755,
+        0.5412306179998723,
+        0.5497339910000392
+      ],
+      "median_seconds": 0.5412306179998723
+    },
+    {
+      "network": "sine_k5_depth2_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start64",
+      "decision": "within",
+      "meshes_used": [
+        64
+      ],
+      "times": [
+        0.12141562600004363,
+        0.13717454999982692,
+        0.13040054500015685
+      ],
+      "median_seconds": 0.13040054500015685
+    },
+    {
+      "network": "sine_k5_depth2_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "start128",
+      "decision": "within",
+      "meshes_used": [
+        128
+      ],
+      "times": [
+        0.29294371199989655,
+        0.2826774590000696,
+        0.27115777200015145
+      ],
+      "median_seconds": 0.2826774590000696
+    },
+    {
+      "network": "sine_k5_depth2_seed502",
+      "degree": 3,
+      "factor": "101/100",
+      "strategy": "direct256",
+      "decision": "within",
+      "meshes_used": [
+        256
+      ],
+      "times": [
+        0.49078907699981755,
+        0.5412306179998723,
+        0.5497339910000392
+      ],
+      "median_seconds": 0.5412306179998723
+    }
+  ],
+  "scope": "post-hoc sum of separately measured cold-object certify() times; omits object construction, I/O and cache reuse; thresholds depend on known references; not executed online strategy or matched total-budget experiment"
+}

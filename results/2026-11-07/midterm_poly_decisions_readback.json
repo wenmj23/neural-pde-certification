@@ -1,0 +1,409 @@
+{
+  "records": 144,
+  "networks": 24,
+  "reference_contained": 144,
+  "decision_checks": 576,
+  "contradictions": 0,
+  "reference_counts": [
+    {
+      "tolerance": "1/1000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "tolerance": "1/10000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "tolerance": "1/100000",
+      "decision": "exceeds",
+      "count": 7
+    },
+    {
+      "tolerance": "1/100000",
+      "decision": "within",
+      "count": 17
+    },
+    {
+      "tolerance": "1/1000000",
+      "decision": "exceeds",
+      "count": 21
+    },
+    {
+      "tolerance": "1/1000000",
+      "decision": "within",
+      "count": 3
+    }
+  ],
+  "groups": [
+    {
+      "degree": 2,
+      "mesh": 16,
+      "tolerance": "1/1000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "degree": 2,
+      "mesh": 16,
+      "tolerance": "1/10000",
+      "decision": "unknown",
+      "count": 4
+    },
+    {
+      "degree": 2,
+      "mesh": 16,
+      "tolerance": "1/10000",
+      "decision": "within",
+      "count": 20
+    },
+    {
+      "degree": 2,
+      "mesh": 16,
+      "tolerance": "1/100000",
+      "decision": "exceeds",
+      "count": 2
+    },
+    {
+      "degree": 2,
+      "mesh": 16,
+      "tolerance": "1/100000",
+      "decision": "unknown",
+      "count": 8
+    },
+    {
+      "degree": 2,
+      "mesh": 16,
+      "tolerance": "1/100000",
+      "decision": "within",
+      "count": 14
+    },
+    {
+      "degree": 2,
+      "mesh": 16,
+      "tolerance": "1/1000000",
+      "decision": "exceeds",
+      "count": 11
+    },
+    {
+      "degree": 2,
+      "mesh": 16,
+      "tolerance": "1/1000000",
+      "decision": "unknown",
+      "count": 12
+    },
+    {
+      "degree": 2,
+      "mesh": 16,
+      "tolerance": "1/1000000",
+      "decision": "within",
+      "count": 1
+    },
+    {
+      "degree": 2,
+      "mesh": 32,
+      "tolerance": "1/1000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "degree": 2,
+      "mesh": 32,
+      "tolerance": "1/10000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "degree": 2,
+      "mesh": 32,
+      "tolerance": "1/100000",
+      "decision": "exceeds",
+      "count": 6
+    },
+    {
+      "degree": 2,
+      "mesh": 32,
+      "tolerance": "1/100000",
+      "decision": "unknown",
+      "count": 3
+    },
+    {
+      "degree": 2,
+      "mesh": 32,
+      "tolerance": "1/100000",
+      "decision": "within",
+      "count": 15
+    },
+    {
+      "degree": 2,
+      "mesh": 32,
+      "tolerance": "1/1000000",
+      "decision": "exceeds",
+      "count": 19
+    },
+    {
+      "degree": 2,
+      "mesh": 32,
+      "tolerance": "1/1000000",
+      "decision": "unknown",
+      "count": 2
+    },
+    {
+      "degree": 2,
+      "mesh": 32,
+      "tolerance": "1/1000000",
+      "decision": "within",
+      "count": 3
+    },
+    {
+      "degree": 2,
+      "mesh": 64,
+      "tolerance": "1/1000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "degree": 2,
+      "mesh": 64,
+      "tolerance": "1/10000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "degree": 2,
+      "mesh": 64,
+      "tolerance": "1/100000",
+      "decision": "exceeds",
+      "count": 7
+    },
+    {
+      "degree": 2,
+      "mesh": 64,
+      "tolerance": "1/100000",
+      "decision": "within",
+      "count": 17
+    },
+    {
+      "degree": 2,
+      "mesh": 64,
+      "tolerance": "1/1000000",
+      "decision": "exceeds",
+      "count": 21
+    },
+    {
+      "degree": 2,
+      "mesh": 64,
+      "tolerance": "1/1000000",
+      "decision": "within",
+      "count": 3
+    },
+    {
+      "degree": 3,
+      "mesh": 16,
+      "tolerance": "1/1000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "degree": 3,
+      "mesh": 16,
+      "tolerance": "1/10000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "degree": 3,
+      "mesh": 16,
+      "tolerance": "1/100000",
+      "decision": "exceeds",
+      "count": 6
+    },
+    {
+      "degree": 3,
+      "mesh": 16,
+      "tolerance": "1/100000",
+      "decision": "unknown",
+      "count": 3
+    },
+    {
+      "degree": 3,
+      "mesh": 16,
+      "tolerance": "1/100000",
+      "decision": "within",
+      "count": 15
+    },
+    {
+      "degree": 3,
+      "mesh": 16,
+      "tolerance": "1/1000000",
+      "decision": "exceeds",
+      "count": 19
+    },
+    {
+      "degree": 3,
+      "mesh": 16,
+      "tolerance": "1/1000000",
+      "decision": "unknown",
+      "count": 2
+    },
+    {
+      "degree": 3,
+      "mesh": 16,
+      "tolerance": "1/1000000",
+      "decision": "within",
+      "count": 3
+    },
+    {
+      "degree": 3,
+      "mesh": 32,
+      "tolerance": "1/1000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "degree": 3,
+      "mesh": 32,
+      "tolerance": "1/10000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "degree": 3,
+      "mesh": 32,
+      "tolerance": "1/100000",
+      "decision": "exceeds",
+      "count": 7
+    },
+    {
+      "degree": 3,
+      "mesh": 32,
+      "tolerance": "1/100000",
+      "decision": "within",
+      "count": 17
+    },
+    {
+      "degree": 3,
+      "mesh": 32,
+      "tolerance": "1/1000000",
+      "decision": "exceeds",
+      "count": 21
+    },
+    {
+      "degree": 3,
+      "mesh": 32,
+      "tolerance": "1/1000000",
+      "decision": "within",
+      "count": 3
+    },
+    {
+      "degree": 3,
+      "mesh": 64,
+      "tolerance": "1/1000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "degree": 3,
+      "mesh": 64,
+      "tolerance": "1/10000",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "degree": 3,
+      "mesh": 64,
+      "tolerance": "1/100000",
+      "decision": "exceeds",
+      "count": 7
+    },
+    {
+      "degree": 3,
+      "mesh": 64,
+      "tolerance": "1/100000",
+      "decision": "within",
+      "count": 17
+    },
+    {
+      "degree": 3,
+      "mesh": 64,
+      "tolerance": "1/1000000",
+      "decision": "exceeds",
+      "count": 21
+    },
+    {
+      "degree": 3,
+      "mesh": 64,
+      "tolerance": "1/1000000",
+      "decision": "within",
+      "count": 3
+    }
+  ],
+  "transitions": [
+    {
+      "from_mesh": 16,
+      "to_mesh": 32,
+      "from_decision": "exceeds",
+      "to_decision": "exceeds",
+      "count": 38
+    },
+    {
+      "from_mesh": 16,
+      "to_mesh": 32,
+      "from_decision": "unknown",
+      "to_decision": "exceeds",
+      "count": 15
+    },
+    {
+      "from_mesh": 16,
+      "to_mesh": 32,
+      "from_decision": "unknown",
+      "to_decision": "unknown",
+      "count": 5
+    },
+    {
+      "from_mesh": 16,
+      "to_mesh": 32,
+      "from_decision": "unknown",
+      "to_decision": "within",
+      "count": 9
+    },
+    {
+      "from_mesh": 16,
+      "to_mesh": 32,
+      "from_decision": "within",
+      "to_decision": "within",
+      "count": 125
+    },
+    {
+      "from_mesh": 32,
+      "to_mesh": 64,
+      "from_decision": "exceeds",
+      "to_decision": "exceeds",
+      "count": 53
+    },
+    {
+      "from_mesh": 32,
+      "to_mesh": 64,
+      "from_decision": "unknown",
+      "to_decision": "exceeds",
+      "count": 3
+    },
+    {
+      "from_mesh": 32,
+      "to_mesh": 64,
+      "from_decision": "unknown",
+      "to_decision": "within",
+      "count": 2
+    },
+    {
+      "from_mesh": 32,
+      "to_mesh": 64,
+      "from_decision": "within",
+      "to_decision": "within",
+      "count": 134
+    }
+  ],
+  "records_sha256": "4fff1e3f370fcbf2e3d3eaa28fbf1ccf83e8e6370f4135f608a3e1bb25b6fafc",
+  "scope": "post-exit record, input hash and exact-arithmetic audit; comparisons use saved continuous numerical references, not formal independent proof"
+}

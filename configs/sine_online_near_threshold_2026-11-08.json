@@ -1,0 +1,8 @@
+{
+ "source_config": "configs/midterm_sine_decisions_2026-11-07.json",
+ "strategies": {"start64": [64,128,256], "start128": [128,256]},
+ "degrees": [2,3], "threshold_factors": ["99/100","101/100"],
+ "precision_bits": 103, "bernstein_depth": 2, "shuffle_seed": 20261108,
+ "scope": "actual sequential online branches on 12 known networks with post-hoc reference-derived thresholds; one randomized pass, not blind and not a matched total-time budget",
+ "measurement": "in-process inclusive time includes problem/verifier construction, mesh setup and certify calls; core time includes certify calls only; excludes process startup, fixture/reference read, output and I/O; a single verifier object is reused within each path"
+}

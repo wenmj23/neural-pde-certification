@@ -1,0 +1,11 @@
+{
+  "expected": 432,
+  "records": 432,
+  "inputs_sha256": {
+    "poly": "4fff1e3f370fcbf2e3d3eaa28fbf1ccf83e8e6370f4135f608a3e1bb25b6fafc",
+    "sine": "eb61d239cfe7827ae9f59d6e242c664eae0627dd7761d287cfd2fba8bab74be8"
+  },
+  "records_sha256": "716ffddf2b950a10c3453adb57ddac79302597e2fe827976a939d26256e7562b",
+  "script_sha256": "c5468cbb241bcf564ce6d86683445d435be39bf323b8e3ea0054254c89139b37",
+  "scope": "post-hoc tolerance = saved reference midpoint times 0.99 or 1.01; reclassification of existing ranges, no new certify calls; not blind, no timing"
+}

@@ -1,0 +1,128 @@
+{
+  "records": 96,
+  "reference_contained": 96,
+  "matched_103_prior": 32,
+  "width_comparisons": [
+    {
+      "family": "poly",
+      "from_bits": 80,
+      "to_bits": 103,
+      "comparison": "narrower",
+      "count": 16
+    },
+    {
+      "family": "poly",
+      "from_bits": 103,
+      "to_bits": 160,
+      "comparison": "narrower",
+      "count": 16
+    },
+    {
+      "family": "sine",
+      "from_bits": 80,
+      "to_bits": 103,
+      "comparison": "narrower",
+      "count": 16
+    },
+    {
+      "family": "sine",
+      "from_bits": 103,
+      "to_bits": 160,
+      "comparison": "narrower",
+      "count": 12
+    },
+    {
+      "family": "sine",
+      "from_bits": 103,
+      "to_bits": 160,
+      "comparison": "wider",
+      "count": 4
+    }
+  ],
+  "decision_transitions": [
+    {
+      "family": "poly",
+      "from_bits": 80,
+      "to_bits": 103,
+      "from_decision": "unknown",
+      "to_decision": "unknown",
+      "count": 3
+    },
+    {
+      "family": "poly",
+      "from_bits": 80,
+      "to_bits": 103,
+      "from_decision": "within",
+      "to_decision": "within",
+      "count": 13
+    },
+    {
+      "family": "poly",
+      "from_bits": 103,
+      "to_bits": 160,
+      "from_decision": "unknown",
+      "to_decision": "unknown",
+      "count": 3
+    },
+    {
+      "family": "poly",
+      "from_bits": 103,
+      "to_bits": 160,
+      "from_decision": "within",
+      "to_decision": "within",
+      "count": 13
+    },
+    {
+      "family": "sine",
+      "from_bits": 80,
+      "to_bits": 103,
+      "from_decision": "exceeds",
+      "to_decision": "exceeds",
+      "count": 7
+    },
+    {
+      "family": "sine",
+      "from_bits": 80,
+      "to_bits": 103,
+      "from_decision": "unknown",
+      "to_decision": "unknown",
+      "count": 5
+    },
+    {
+      "family": "sine",
+      "from_bits": 80,
+      "to_bits": 103,
+      "from_decision": "within",
+      "to_decision": "within",
+      "count": 4
+    },
+    {
+      "family": "sine",
+      "from_bits": 103,
+      "to_bits": 160,
+      "from_decision": "exceeds",
+      "to_decision": "exceeds",
+      "count": 7
+    },
+    {
+      "family": "sine",
+      "from_bits": 103,
+      "to_bits": 160,
+      "from_decision": "unknown",
+      "to_decision": "unknown",
+      "count": 5
+    },
+    {
+      "family": "sine",
+      "from_bits": 103,
+      "to_bits": 160,
+      "from_decision": "within",
+      "to_decision": "within",
+      "count": 4
+    }
+  ],
+  "max_relative_width_increase": "6596406054346736608182419050723440753/49987938863290657265203475668544383763571802112",
+  "max_relative_width_increase_approx": 1.3195995282755897e-10,
+  "records_sha256": "16942c0f08f63f280dbbed683fedd27d3697b2feb2980728f37f94e0db4f6cf3",
+  "scope": "post-exit stored rational arithmetic and prior reference comparison; not an independent interval-implementation proof"
+}

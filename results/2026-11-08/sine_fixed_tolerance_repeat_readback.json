@@ -1,0 +1,27 @@
+{
+  "records": 192,
+  "warmup": 48,
+  "timed": 144,
+  "attempts": 300,
+  "reference_contained": 300,
+  "matches_old": 300,
+  "paths_match_previous": 192,
+  "paired_start16_over_start64": [
+    {
+      "degree": 2,
+      "networks": 12,
+      "median_network_paired_time_ratio": 0.7160791854410892,
+      "networks_median_faster_start16": 6,
+      "networks_all_three_faster_start16": 6
+    },
+    {
+      "degree": 3,
+      "networks": 12,
+      "median_network_paired_time_ratio": 0.45002424293129106,
+      "networks_median_faster_start16": 9,
+      "networks_all_three_faster_start16": 8
+    }
+  ],
+  "records_sha256": "b59b8440ad72c263b6fc23c0bccc67d7d90b529263554169a23b30402462b71a",
+  "scope": "post-exit arithmetic and recorded timing audit; one machine, repeated known networks; no formal proof"
+}

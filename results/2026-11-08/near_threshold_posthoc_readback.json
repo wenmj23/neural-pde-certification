@@ -1,0 +1,370 @@
+{
+  "records": 432,
+  "conflicts": 0,
+  "groups": [
+    {
+      "family": "poly",
+      "degree": 2,
+      "mesh": 16,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 24
+    },
+    {
+      "family": "poly",
+      "degree": 2,
+      "mesh": 16,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 24
+    },
+    {
+      "family": "poly",
+      "degree": 2,
+      "mesh": 32,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 13
+    },
+    {
+      "family": "poly",
+      "degree": 2,
+      "mesh": 32,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 11
+    },
+    {
+      "family": "poly",
+      "degree": 2,
+      "mesh": 32,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 11
+    },
+    {
+      "family": "poly",
+      "degree": 2,
+      "mesh": 32,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 13
+    },
+    {
+      "family": "poly",
+      "degree": 2,
+      "mesh": 64,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 6
+    },
+    {
+      "family": "poly",
+      "degree": 2,
+      "mesh": 64,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 18
+    },
+    {
+      "family": "poly",
+      "degree": 2,
+      "mesh": 64,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 18
+    },
+    {
+      "family": "poly",
+      "degree": 2,
+      "mesh": 64,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 6
+    },
+    {
+      "family": "poly",
+      "degree": 3,
+      "mesh": 16,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 11
+    },
+    {
+      "family": "poly",
+      "degree": 3,
+      "mesh": 16,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 13
+    },
+    {
+      "family": "poly",
+      "degree": 3,
+      "mesh": 16,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 13
+    },
+    {
+      "family": "poly",
+      "degree": 3,
+      "mesh": 16,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 11
+    },
+    {
+      "family": "poly",
+      "degree": 3,
+      "mesh": 32,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 3
+    },
+    {
+      "family": "poly",
+      "degree": 3,
+      "mesh": 32,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 21
+    },
+    {
+      "family": "poly",
+      "degree": 3,
+      "mesh": 32,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 21
+    },
+    {
+      "family": "poly",
+      "degree": 3,
+      "mesh": 32,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 3
+    },
+    {
+      "family": "poly",
+      "degree": 3,
+      "mesh": 64,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 24
+    },
+    {
+      "family": "poly",
+      "degree": 3,
+      "mesh": 64,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 24
+    },
+    {
+      "family": "sine",
+      "degree": 2,
+      "mesh": 16,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 12
+    },
+    {
+      "family": "sine",
+      "degree": 2,
+      "mesh": 16,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 12
+    },
+    {
+      "family": "sine",
+      "degree": 2,
+      "mesh": 32,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 10
+    },
+    {
+      "family": "sine",
+      "degree": 2,
+      "mesh": 32,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 2
+    },
+    {
+      "family": "sine",
+      "degree": 2,
+      "mesh": 32,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 2
+    },
+    {
+      "family": "sine",
+      "degree": 2,
+      "mesh": 32,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 10
+    },
+    {
+      "family": "sine",
+      "degree": 2,
+      "mesh": 64,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 9
+    },
+    {
+      "family": "sine",
+      "degree": 2,
+      "mesh": 64,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 3
+    },
+    {
+      "family": "sine",
+      "degree": 2,
+      "mesh": 64,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 3
+    },
+    {
+      "family": "sine",
+      "degree": 2,
+      "mesh": 64,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 9
+    },
+    {
+      "family": "sine",
+      "degree": 3,
+      "mesh": 16,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 10
+    },
+    {
+      "family": "sine",
+      "degree": 3,
+      "mesh": 16,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 2
+    },
+    {
+      "family": "sine",
+      "degree": 3,
+      "mesh": 16,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 2
+    },
+    {
+      "family": "sine",
+      "degree": 3,
+      "mesh": 16,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 10
+    },
+    {
+      "family": "sine",
+      "degree": 3,
+      "mesh": 32,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 9
+    },
+    {
+      "family": "sine",
+      "degree": 3,
+      "mesh": 32,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 3
+    },
+    {
+      "family": "sine",
+      "degree": 3,
+      "mesh": 32,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 3
+    },
+    {
+      "family": "sine",
+      "degree": 3,
+      "mesh": 32,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 9
+    },
+    {
+      "family": "sine",
+      "degree": 3,
+      "mesh": 64,
+      "factor": "101/100",
+      "decision": "unknown",
+      "count": 3
+    },
+    {
+      "family": "sine",
+      "degree": 3,
+      "mesh": 64,
+      "factor": "101/100",
+      "decision": "within",
+      "count": 9
+    },
+    {
+      "family": "sine",
+      "degree": 3,
+      "mesh": 64,
+      "factor": "99/100",
+      "decision": "exceeds",
+      "count": 9
+    },
+    {
+      "family": "sine",
+      "degree": 3,
+      "mesh": 64,
+      "factor": "99/100",
+      "decision": "unknown",
+      "count": 3
+    }
+  ],
+  "reference_groups": [
+    {
+      "family": "poly",
+      "factor": "101/100",
+      "reference_decision": "within",
+      "count": 144
+    },
+    {
+      "family": "poly",
+      "factor": "99/100",
+      "reference_decision": "exceeds",
+      "count": 144
+    },
+    {
+      "family": "sine",
+      "factor": "101/100",
+      "reference_decision": "within",
+      "count": 72
+    },
+    {
+      "family": "sine",
+      "factor": "99/100",
+      "reference_decision": "exceeds",
+      "count": 72
+    }
+  ],
+  "records_sha256": "716ffddf2b950a10c3453adb57ddac79302597e2fe827976a939d26256e7562b",
+  "scope": "post-hoc reference-derived thresholds; exact stored arithmetic, not blind test or fresh certificates"
+}

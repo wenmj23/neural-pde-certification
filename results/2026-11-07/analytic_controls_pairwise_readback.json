@@ -1,0 +1,69 @@
+{
+  "paired_counts": [
+    {
+      "family": "quartic",
+      "comparison": "cubic_wider",
+      "count": 3
+    },
+    {
+      "family": "sine",
+      "comparison": "cubic_narrower",
+      "count": 36
+    }
+  ],
+  "quartic": [
+    {
+      "mesh": 8,
+      "quadratic_width": "59/83076749736557242056487941267521536",
+      "cubic_width": "8309/83076749736557242056487941267521536",
+      "quadratic_width_approx": 7.101866669927932e-34,
+      "cubic_width_approx": 1.0001594942445964e-31
+    },
+    {
+      "mesh": 16,
+      "quadratic_width": "115/83076749736557242056487941267521536",
+      "cubic_width": "3661/41538374868278621028243970633760768",
+      "quadratic_width_approx": 1.3842621475283258e-33,
+      "cubic_width_approx": 8.813536908002088e-32
+    },
+    {
+      "mesh": 32,
+      "quadratic_width": "193/83076749736557242056487941267521536",
+      "cubic_width": "3455/41538374868278621028243970633760768",
+      "quadratic_width_approx": 2.3231529954171032e-33,
+      "cubic_width_approx": 8.317609947322375e-32
+    }
+  ],
+  "alias_constructions": [
+    {
+      "mesh": 8,
+      "frequency": 16,
+      "node_phase_factor": "2*i",
+      "unsampled_peak_x": "1/32",
+      "exact_max_error": "1/10000"
+    },
+    {
+      "mesh": 16,
+      "frequency": 32,
+      "node_phase_factor": "2*i",
+      "unsampled_peak_x": "1/64",
+      "exact_max_error": "1/10000"
+    },
+    {
+      "mesh": 32,
+      "frequency": 64,
+      "node_phase_factor": "2*i",
+      "unsampled_peak_x": "1/128",
+      "exact_max_error": "1/10000"
+    },
+    {
+      "mesh": 64,
+      "frequency": 128,
+      "node_phase_factor": "2*i",
+      "unsampled_peak_x": "1/256",
+      "exact_max_error": "1/10000"
+    }
+  ],
+  "records_sha256": "dfab09955284697443afca2c5af9fcca42d07bae1b949f7e757120b1f63dd233",
+  "scope": "paired exact stored endpoints; alias cases follow analytic trigonometric identity and are manufactured, not trained models"
+}

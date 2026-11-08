@@ -1,0 +1,160 @@
+{
+  "poly": {
+    "paired_settings": 288,
+    "counts": {
+      "both_agree": 259,
+      "only_cubic": 24,
+      "both_unknown": 5
+    },
+    "by_mesh": [
+      {
+        "mesh": 16,
+        "outcome": "both_agree",
+        "count": 72
+      },
+      {
+        "mesh": 16,
+        "outcome": "both_unknown",
+        "count": 5
+      },
+      {
+        "mesh": 16,
+        "outcome": "only_cubic",
+        "count": 19
+      },
+      {
+        "mesh": 32,
+        "outcome": "both_agree",
+        "count": 91
+      },
+      {
+        "mesh": 32,
+        "outcome": "only_cubic",
+        "count": 5
+      },
+      {
+        "mesh": 64,
+        "outcome": "both_agree",
+        "count": 96
+      }
+    ],
+    "examples": [
+      {
+        "network": "poly_linear_6x_depth2_seed203",
+        "mesh": 16,
+        "tolerance": "1/1000000",
+        "quadratic": "unknown",
+        "cubic": "within"
+      },
+      {
+        "network": "poly_linear_6x_depth2_seed204",
+        "mesh": 16,
+        "tolerance": "1/1000000",
+        "quadratic": "unknown",
+        "cubic": "exceeds"
+      },
+      {
+        "network": "poly_quartic_30x4_depth1_seed203",
+        "mesh": 16,
+        "tolerance": "1/100000",
+        "quadratic": "unknown",
+        "cubic": "exceeds"
+      },
+      {
+        "network": "poly_quartic_30x4_depth1_seed203",
+        "mesh": 16,
+        "tolerance": "1/1000000",
+        "quadratic": "unknown",
+        "cubic": "exceeds"
+      }
+    ],
+    "records_sha256": "4fff1e3f370fcbf2e3d3eaa28fbf1ccf83e8e6370f4135f608a3e1bb25b6fafc"
+  },
+  "sine": {
+    "paired_settings": 144,
+    "counts": {
+      "both_agree": 112,
+      "both_unknown": 21,
+      "only_cubic": 11
+    },
+    "by_mesh": [
+      {
+        "mesh": 16,
+        "outcome": "both_agree",
+        "count": 30
+      },
+      {
+        "mesh": 16,
+        "outcome": "both_unknown",
+        "count": 14
+      },
+      {
+        "mesh": 16,
+        "outcome": "only_cubic",
+        "count": 4
+      },
+      {
+        "mesh": 32,
+        "outcome": "both_agree",
+        "count": 38
+      },
+      {
+        "mesh": 32,
+        "outcome": "both_unknown",
+        "count": 6
+      },
+      {
+        "mesh": 32,
+        "outcome": "only_cubic",
+        "count": 4
+      },
+      {
+        "mesh": 64,
+        "outcome": "both_agree",
+        "count": 44
+      },
+      {
+        "mesh": 64,
+        "outcome": "both_unknown",
+        "count": 1
+      },
+      {
+        "mesh": 64,
+        "outcome": "only_cubic",
+        "count": 3
+      }
+    ],
+    "examples": [
+      {
+        "network": "sine_k3_depth1_seed501",
+        "mesh": 16,
+        "tolerance": "1/100",
+        "quadratic": "unknown",
+        "cubic": "within"
+      },
+      {
+        "network": "sine_k3_depth1_seed501",
+        "mesh": 32,
+        "tolerance": "1/1000",
+        "quadratic": "unknown",
+        "cubic": "within"
+      },
+      {
+        "network": "sine_k3_depth1_seed502",
+        "mesh": 16,
+        "tolerance": "1/100",
+        "quadratic": "unknown",
+        "cubic": "within"
+      },
+      {
+        "network": "sine_k3_depth1_seed502",
+        "mesh": 32,
+        "tolerance": "1/1000",
+        "quadratic": "unknown",
+        "cubic": "within"
+      }
+    ],
+    "records_sha256": "eb61d239cfe7827ae9f59d6e242c664eae0627dd7761d287cfd2fba8bab74be8"
+  },
+  "scope": "same previously studied networks, fixed meshes and thresholds; not independent networks or matched timing"
+}

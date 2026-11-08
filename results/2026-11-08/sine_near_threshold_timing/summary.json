@@ -1,0 +1,24 @@
+{
+  "expected": 288,
+  "records": 288,
+  "contained": 288,
+  "matches_old": 288,
+  "inputs_sha256": {
+    "fixture": "327f29609274496cabcfb784cbd8ba1bda23a2b17b1d1b51abf82c2415030d80",
+    "reference": "5d6677d77cb24dd885b68e1a1e24191e932df0037bfcf11b04e6525a4ace88a8",
+    "old_records": "2663cfa8bbfd9bcbc545dc962189c47a75a1b388b2a42f5034cf1adb48d76e14"
+  },
+  "source_hashes_before_run": {
+    "configs/sine_near_threshold_timing_2026-11-08.json": "6255aa0b2d3850513b4b706c88d4a924227cd04aba4fb0861a42e37abd0a9542",
+    "configs/midterm_sine_decisions_2026-11-07.json": "b133ed9a7c934b4889d696096fc80557f7c9eed273415e23318ce62e25190748",
+    "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+    "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+    "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+    "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+    "scripts/279_sine_near_threshold_timing_20261108.py": "282e0c8f4934a213e64c3120df4c9ce622d486d413b2d7acb65869475aefbe27"
+  },
+  "records_sha256": "7889bf2fa36cad64a53d1c13848d4af63b0fb40de8fea38132f4c4c1636ff938",
+  "scope": "12 previously studied sine networks; same mesh, independent cold objects with one earlier warmup, thresholds selected post-hoc using reference midpoint; no new training",
+  "measurement": "time.perf_counter around certify() only; excludes object construction, uniform setup, interpreter startup, reference computation, and output; no comparisons of full adaptive workflows"
+}

@@ -1,0 +1,108 @@
+{
+  "records": 78,
+  "contained": 78,
+  "quartic_zero_remainder": 6,
+  "mesh_first_ratio_goal": [
+    {
+      "frequency": 1,
+      "degree_2": 8,
+      "degree_3": 8
+    },
+    {
+      "frequency": 2,
+      "degree_2": 16,
+      "degree_3": 8
+    },
+    {
+      "frequency": 4,
+      "degree_2": 32,
+      "degree_3": 16
+    },
+    {
+      "frequency": 8,
+      "degree_2": 128,
+      "degree_3": 32
+    },
+    {
+      "frequency": 16,
+      "degree_2": 256,
+      "degree_3": 128
+    },
+    {
+      "frequency": 32,
+      "degree_2": null,
+      "degree_3": 256
+    }
+  ],
+  "decision_counts": [
+    {
+      "degree": 2,
+      "tolerance": "1/10000",
+      "decision": "undetermined",
+      "count": 39
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/20000",
+      "decision": "exceeds",
+      "count": 28
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/20000",
+      "decision": "undetermined",
+      "count": 11
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/5000",
+      "decision": "undetermined",
+      "count": 10
+    },
+    {
+      "degree": 2,
+      "tolerance": "1/5000",
+      "decision": "within",
+      "count": 29
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/10000",
+      "decision": "undetermined",
+      "count": 39
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/20000",
+      "decision": "exceeds",
+      "count": 31
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/20000",
+      "decision": "undetermined",
+      "count": 8
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/5000",
+      "decision": "undetermined",
+      "count": 7
+    },
+    {
+      "degree": 3,
+      "tolerance": "1/5000",
+      "decision": "within",
+      "count": 32
+    }
+  ],
+  "records_sha256": "dfab09955284697443afca2c5af9fcca42d07bae1b949f7e757120b1f63dd233",
+  "source_hashes_after_run": {
+    "scripts/arb_problem_families.py": "ec72ac0d015bee596abd52b295d87f40af899cdb16e87573e0de872c31ed7fab",
+    "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+    "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+    "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917"
+  },
+  "scope": "independent post-exit manifest and exact stored-value arithmetic; not a separate implementation of the verifier"
+}

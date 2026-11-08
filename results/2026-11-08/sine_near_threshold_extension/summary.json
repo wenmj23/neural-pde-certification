@@ -1,0 +1,20 @@
+{
+  "expected": 48,
+  "records": 48,
+  "complete": 48,
+  "contained": 48,
+  "matches_old": 48,
+  "fixture_sha256": "327f29609274496cabcfb784cbd8ba1bda23a2b17b1d1b51abf82c2415030d80",
+  "reference_sha256": "5d6677d77cb24dd885b68e1a1e24191e932df0037bfcf11b04e6525a4ace88a8",
+  "old_records_sha256": "2663cfa8bbfd9bcbc545dc962189c47a75a1b388b2a42f5034cf1adb48d76e14",
+  "source_hashes_before_run": {
+    "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+    "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+    "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+    "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+    "scripts/277_sine_near_threshold_extension_20261108.py": "1b5d2fc4366ab2d1f5e7f6bb6fb6c086624394633ce7207b5f12fffd48a9e392"
+  },
+  "records_sha256": "b2004be314affc6839c9f1586ac42ce3597f009f3fab96b06be1a684f578f749",
+  "scope": "post-hoc 1% thresholds and 128/256 meshes, 12 existing sine networks, no timing"
+}

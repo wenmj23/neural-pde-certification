@@ -1,0 +1,9 @@
+{
+  "expected": 78,
+  "records": 78,
+  "contains_exact": 78,
+  "records_sha256": "dfab09955284697443afca2c5af9fcca42d07bae1b949f7e757120b1f63dd233",
+  "config_sha256": "29bc1ae3281fa2967f576d47a7c955372ea9a8da4471dd07896f1e8a4eb22173",
+  "script_sha256": "a8c03f01852435900c8b52c08b7274d2959dbd121b03e7b1bf295cc948c876f4",
+  "scope": "analytic manufactured error controls, not PINN networks; one fixed setup, no timing comparison"
+}

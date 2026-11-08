@@ -1,0 +1,15 @@
+{
+  "networks": 12,
+  "grid_records": 24,
+  "stable": 24,
+  "below_reference_upper": 24,
+  "below_certificate_upper": 48,
+  "fine_grid_increased_sample_max_networks": 9,
+  "sample256_over_reference_midpoint": {
+    "min": 0.9994867182185916,
+    "median": 0.9999001907552925,
+    "max": 0.9999955112714142
+  },
+  "records_sha256": "5ead1875f8143caace6d40b84d5f8419ad261061276d660d0f7014e2429eef8c",
+  "scope": "readback of saved finite numerical samples and existing bounds; not independent recomputation of sampled forward passes or a continuous proof"
+}

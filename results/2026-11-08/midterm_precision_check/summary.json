@@ -1,0 +1,23 @@
+{
+  "expected": 96,
+  "records": 96,
+  "complete": 96,
+  "contained": 96,
+  "matches_prior_103": 32,
+  "source_hashes_before_run": {
+    "configs/midterm_precision_check_2026-11-08.json": "66b4953311e37635022ccf64bf4d05f6e73f180668867a34aa59b936a7aaee11",
+    "scripts/74_polynomial_forcing_prototype.py": "26329a98a05f0201bc02034482edc3d0843a7c5ce7260daf4140d7afc12fbd85",
+    "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+    "scripts/arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+    "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+    "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+    "scripts/273_midterm_precision_20261108.py": "75d8409d55cb27482e2a9db0af5315e0fc4f910248543cdc6d67f20f8767e910"
+  },
+  "previous_records_sha256": {
+    "poly": "4fff1e3f370fcbf2e3d3eaa28fbf1ccf83e8e6370f4135f608a3e1bb25b6fafc",
+    "sine": "eb61d239cfe7827ae9f59d6e242c664eae0627dd7761d287cfd2fba8bab74be8"
+  },
+  "records_sha256": "16942c0f08f63f280dbbed683fedd27d3697b2feb2980728f37f94e0db4f6cf3",
+  "scope": "8 existing previously studied networks, finite single-machine precision sensitivity study; neither a blind holdout nor a timing benchmark"
+}

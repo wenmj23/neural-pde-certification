@@ -1,0 +1,257 @@
+{
+  "networks": 12,
+  "forcing_and_boundaries_exact": 12,
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "script_sha256": "7eb8b0deb992fe12e0c1e2b5035982fd84e3319f485283d4003a6e7da1b4171f",
+  "rows": [
+    {
+      "network": "poly_quadratic_12x2_depth1_seed401",
+      "source": "quadratic_12x2",
+      "forcing_coefficients": [
+        "0",
+        "0",
+        "12"
+      ],
+      "solution_coefficients": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1"
+      ],
+      "forcing_exact": true,
+      "zero_boundaries_exact": true
+    },
+    {
+      "network": "poly_quadratic_12x2_depth1_seed402",
+      "source": "quadratic_12x2",
+      "forcing_coefficients": [
+        "0",
+        "0",
+        "12"
+      ],
+      "solution_coefficients": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1"
+      ],
+      "forcing_exact": true,
+      "zero_boundaries_exact": true
+    },
+    {
+      "network": "poly_quadratic_12x2_depth2_seed401",
+      "source": "quadratic_12x2",
+      "forcing_coefficients": [
+        "0",
+        "0",
+        "12"
+      ],
+      "solution_coefficients": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1"
+      ],
+      "forcing_exact": true,
+      "zero_boundaries_exact": true
+    },
+    {
+      "network": "poly_quadratic_12x2_depth2_seed402",
+      "source": "quadratic_12x2",
+      "forcing_coefficients": [
+        "0",
+        "0",
+        "12"
+      ],
+      "solution_coefficients": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "-1"
+      ],
+      "forcing_exact": true,
+      "zero_boundaries_exact": true
+    },
+    {
+      "network": "poly_cubic_20x3_depth1_seed401",
+      "source": "cubic_20x3",
+      "forcing_coefficients": [
+        "0",
+        "0",
+        "0",
+        "20"
+      ],
+      "solution_coefficients": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ],
+      "forcing_exact": true,
+      "zero_boundaries_exact": true
+    },
+    {
+      "network": "poly_cubic_20x3_depth1_seed402",
+      "source": "cubic_20x3",
+      "forcing_coefficients": [
+        "0",
+        "0",
+        "0",
+        "20"
+      ],
+      "solution_coefficients": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ],
+      "forcing_exact": true,
+      "zero_boundaries_exact": true
+    },
+    {
+      "network": "poly_cubic_20x3_depth2_seed401",
+      "source": "cubic_20x3",
+      "forcing_coefficients": [
+        "0",
+        "0",
+        "0",
+        "20"
+      ],
+      "solution_coefficients": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ],
+      "forcing_exact": true,
+      "zero_boundaries_exact": true
+    },
+    {
+      "network": "poly_cubic_20x3_depth2_seed402",
+      "source": "cubic_20x3",
+      "forcing_coefficients": [
+        "0",
+        "0",
+        "0",
+        "20"
+      ],
+      "solution_coefficients": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ],
+      "forcing_exact": true,
+      "zero_boundaries_exact": true
+    },
+    {
+      "network": "poly_quintic_42x5_depth1_seed401",
+      "source": "quintic_42x5",
+      "forcing_coefficients": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "42"
+      ],
+      "solution_coefficients": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ],
+      "forcing_exact": true,
+      "zero_boundaries_exact": true
+    },
+    {
+      "network": "poly_quintic_42x5_depth1_seed402",
+      "source": "quintic_42x5",
+      "forcing_coefficients": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "42"
+      ],
+      "solution_coefficients": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ],
+      "forcing_exact": true,
+      "zero_boundaries_exact": true
+    },
+    {
+      "network": "poly_quintic_42x5_depth2_seed401",
+      "source": "quintic_42x5",
+      "forcing_coefficients": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "42"
+      ],
+      "solution_coefficients": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ],
+      "forcing_exact": true,
+      "zero_boundaries_exact": true
+    },
+    {
+      "network": "poly_quintic_42x5_depth2_seed402",
+      "source": "quintic_42x5",
+      "forcing_coefficients": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "42"
+      ],
+      "solution_coefficients": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ],
+      "forcing_exact": true,
+      "zero_boundaries_exact": true
+    }
+  ],
+  "scope": "exact rational polynomial identities only; does not certify neural-network arithmetic"
+}

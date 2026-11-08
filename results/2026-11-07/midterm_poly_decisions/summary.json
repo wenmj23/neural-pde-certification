@@ -1,0 +1,18 @@
+{
+  "expected": 144,
+  "records": 144,
+  "complete": 144,
+  "reference_contained": 144,
+  "source_hashes_before_run": {
+    "configs/midterm_poly_decisions_2026-11-07.json": "0ecd4e38ec6d1bd9c8205c8c2d00e181bc6b92160609bcc2990ef21c86b127ac",
+    "configs/independent_poly_split_2026-11-05.json": "e074c57c928305bec78157d34af9d920aad2d67780e266214e1952946fca986f",
+    "scripts/74_polynomial_forcing_prototype.py": "26329a98a05f0201bc02034482edc3d0843a7c5ce7260daf4140d7afc12fbd85",
+    "scripts/arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "scripts/arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+    "scripts/arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+    "scripts/arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+    "scripts/268_midterm_poly_decisions_20261107.py": "f5880920121d7a47edf4067e82f512c7dfe81f7f2b7727096aa0814a3d45ebb2"
+  },
+  "records_sha256": "4fff1e3f370fcbf2e3d3eaa28fbf1ccf83e8e6370f4135f608a3e1bb25b6fafc",
+  "scope": "24 previously studied frozen polynomial PINNs; 4 fixed absolute thresholds; non-blind analysis and no timing comparison"
+}

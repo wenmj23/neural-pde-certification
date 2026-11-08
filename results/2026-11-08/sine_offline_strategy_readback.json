@@ -1,0 +1,7 @@
+{
+  "records": 144,
+  "counts_verified": true,
+  "comparisons_verified": 6,
+  "data_sha256": "1ba2083648cb89de3db30a01ab1a9c4772a13ed9020d9ad5e114e4f3deee7c5b",
+  "scope": "post-exit recomputation of stored fixed-mesh timing arithmetic; not an executed online benchmark"
+}
