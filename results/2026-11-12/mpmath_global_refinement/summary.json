@@ -1,0 +1,24 @@
+{
+  "records": 9,
+  "networks": 4,
+  "config_sha256": "965b875b3093f7b9e8d2ca8bd743bd6ba9424772589ad681f8fae24e1f6c851c",
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "prior_sha256": "bc46843d12274f64a099b9d057f4280e7fb38ab545a8a68e7313c07e1ab2e809",
+  "records_sha256": "0e6087a18a83132043901211a6b394f112eb2aab0b6a68a81f17e6d853ad16ce",
+  "script_sha256": "02993d1f829ce1b69da86be7d000ee429441f15773ff1ed1d6972149326e2808",
+  "model_sha256": "07a1e930e3103873b7f779b7a88b46ca50c8bb4a42957a458a5f8c3f2ac89840",
+  "interval_helper_sha256": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca",
+  "cases": {
+    "case_00_4096.json": "35dd52841d946713a2b4d0ddf43201df0e837bbf24500c4c11c7dbf109921864",
+    "case_01_16384.json": "ea9fd800555d07ffd9cfaf357a479167ac7528bdb26a0219e95e5c86c5c2ad5d",
+    "case_01_4096.json": "8258b7f2b739b2d5bb7e0b6f2787a0112a23e2d96efa8bea499b0dfcd48865a6",
+    "case_02_16384.json": "30ecda9d3315c8de3d679da96dcdbe67b5c33c56c9cb5c5c9c95de1c617fef41",
+    "case_02_32768.json": "8cc18ae5effe34f12e4472174f6dcfe18b4ca992f9a9827dc7861df5fba1ddd2",
+    "case_02_4096.json": "98c65a45d92d402c41aed9de932588e04cb64b87868e6b5fddc537750430441f",
+    "case_03_16384.json": "a4987a06b88e91ed66cfabb392c9871aee20efb04cd0cc5fddc9faa84e043bdd",
+    "case_03_32768.json": "9ec1f906baa70a6b8f4ccc22fb53327754ab48c8229db62075be56d5788c7f29",
+    "case_03_4096.json": "d4e3deea7a7e76ffb21fd5a906bd3cdad8d79746bfc4556c3b8f720cc2af8bae"
+  },
+  "elapsed_seconds": 654.5572428579999,
+  "scope": "Post-hoc selection of four previously studied networks after reviewing initial 64/256/1024 results. Sequential mpmath.iv residual bounds; stop when the new upper bound is at most 1.10 times the earlier 64-cell Arb global upper bound, or when budget is exhausted. Both are conditional global upper bounds, not estimates of exact error."
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "tolerance_numerator": "11",
+    "tolerance_denominator": "100000",
+    "status": "accept",
+    "scope": "conditional interval certificate of continuous real-function error"
+  },
+  {
+    "tolerance_numerator": "1",
+    "tolerance_denominator": "10000",
+    "status": "reject",
+    "scope": "conditional interval certificate of continuous real-function error"
+  }
+]

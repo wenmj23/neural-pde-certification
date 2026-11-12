@@ -1,0 +1,135 @@
+[
+  {
+    "n": 4,
+    "support_width": "3/16",
+    "maximum_location": "9/64",
+    "true_max_error": "81/16384",
+    "global_residual_upper": "1/8",
+    "global_over_true_max": "2048/81",
+    "global_over_true_max_approx": 25.28395061728395,
+    "checks": {
+      "maximum_inside": true,
+      "zero_boundaries": true,
+      "continuous_at_h": true,
+      "derivative_continuous_at_h": true,
+      "critical_point": true,
+      "initial_slope_positive": true,
+      "tail_slope_negative": true,
+      "upper_bounds_exact_maximum": true
+    }
+  },
+  {
+    "n": 8,
+    "support_width": "3/64",
+    "maximum_location": "21/512",
+    "true_max_error": "735/2097152",
+    "global_residual_upper": "1/8",
+    "global_over_true_max": "262144/735",
+    "global_over_true_max_approx": 356.6585034013605,
+    "checks": {
+      "maximum_inside": true,
+      "zero_boundaries": true,
+      "continuous_at_h": true,
+      "derivative_continuous_at_h": true,
+      "critical_point": true,
+      "initial_slope_positive": true,
+      "tail_slope_negative": true,
+      "upper_bounds_exact_maximum": true
+    }
+  },
+  {
+    "n": 16,
+    "support_width": "3/256",
+    "maximum_location": "45/4096",
+    "true_max_error": "6075/268435456",
+    "global_residual_upper": "1/8",
+    "global_over_true_max": "33554432/6075",
+    "global_over_true_max_approx": 5523.36329218107,
+    "checks": {
+      "maximum_inside": true,
+      "zero_boundaries": true,
+      "continuous_at_h": true,
+      "derivative_continuous_at_h": true,
+      "critical_point": true,
+      "initial_slope_positive": true,
+      "tail_slope_negative": true,
+      "upper_bounds_exact_maximum": true
+    }
+  },
+  {
+    "n": 32,
+    "support_width": "3/1024",
+    "maximum_location": "93/32768",
+    "true_max_error": "49011/34359738368",
+    "global_residual_upper": "1/8",
+    "global_over_true_max": "4294967296/49011",
+    "global_over_true_max_approx": 87632.72114423293,
+    "checks": {
+      "maximum_inside": true,
+      "zero_boundaries": true,
+      "continuous_at_h": true,
+      "derivative_continuous_at_h": true,
+      "critical_point": true,
+      "initial_slope_positive": true,
+      "tail_slope_negative": true,
+      "upper_bounds_exact_maximum": true
+    }
+  },
+  {
+    "n": 64,
+    "support_width": "3/4096",
+    "maximum_location": "189/262144",
+    "true_max_error": "392931/4398046511104",
+    "global_residual_upper": "1/8",
+    "global_over_true_max": "549755813888/392931",
+    "global_over_true_max_approx": 1399115.4016557615,
+    "checks": {
+      "maximum_inside": true,
+      "zero_boundaries": true,
+      "continuous_at_h": true,
+      "derivative_continuous_at_h": true,
+      "critical_point": true,
+      "initial_slope_positive": true,
+      "tail_slope_negative": true,
+      "upper_bounds_exact_maximum": true
+    }
+  },
+  {
+    "n": 128,
+    "support_width": "3/16384",
+    "maximum_location": "381/2097152",
+    "true_max_error": "3145155/562949953421312",
+    "global_residual_upper": "1/8",
+    "global_over_true_max": "70368744177664/3145155",
+    "global_over_true_max_approx": 22373696.742343064,
+    "checks": {
+      "maximum_inside": true,
+      "zero_boundaries": true,
+      "continuous_at_h": true,
+      "derivative_continuous_at_h": true,
+      "critical_point": true,
+      "initial_slope_positive": true,
+      "tail_slope_negative": true,
+      "upper_bounds_exact_maximum": true
+    }
+  },
+  {
+    "n": 256,
+    "support_width": "3/65536",
+    "maximum_location": "765/16777216",
+    "true_max_error": "25164675/72057594037927936",
+    "global_residual_upper": "1/8",
+    "global_over_true_max": "9007199254740992/25164675",
+    "global_over_true_max_approx": 357930283.4127996,
+    "checks": {
+      "maximum_inside": true,
+      "zero_boundaries": true,
+      "continuous_at_h": true,
+      "derivative_continuous_at_h": true,
+      "critical_point": true,
+      "initial_slope_positive": true,
+      "tail_slope_negative": true,
+      "upper_bounds_exact_maximum": true
+    }
+  }
+]

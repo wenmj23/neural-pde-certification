@@ -1,0 +1,12 @@
+{
+  "records": 72,
+  "case_file_checks": 72,
+  "point_precision_checks": 144,
+  "point_residual_checks": 72,
+  "below_saved_upper": 72,
+  "injected_omission_detected": 72,
+  "max_green_direct_difference_as_saved": 1e-40,
+  "max_residual_difference_as_saved": 0.0,
+  "readback_script_sha256": "8f2f474335966fe1d39964aafc39d944d2906e9ed428e54e012b22c6c756f0a2",
+  "scope": "post-exit hashes and stored-decimal arithmetic; injected fault is a controlled test, not a production defect; finite samples do not prove continuous coverage"
+}

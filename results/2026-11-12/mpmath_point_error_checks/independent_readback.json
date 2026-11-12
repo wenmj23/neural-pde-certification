@@ -1,0 +1,10 @@
+{
+  "records": 48,
+  "high_precision_points_contained": 48,
+  "points_below_quadratic_upper": 48,
+  "points_below_cubic_upper": 48,
+  "contradictions_quadratic": 0,
+  "contradictions_cubic": 0,
+  "readback_script_sha256": "d7f59ba1c738dee8201cd3158f607e9bd4111e6a3183f23925a00f462f096b2d",
+  "scope": "conditional interval arithmetic at finitely many selected rational points, with stored arithmetic and hash readback; not continuous-domain verification"
+}

@@ -1,0 +1,34 @@
+{
+  "group": "new_2026_11_01",
+  "network": "poly_linear_6x_depth2_seed204",
+  "source": "linear_6x",
+  "point": "4/5",
+  "results": [
+    {
+      "digits": 40,
+      "green": "-0.000001066974566847382185610395330452857",
+      "direct_error": "-0.000001066974566847382185610395330452857",
+      "difference": "1.030282801e-42",
+      "quad_error_estimate": "8.0e-51",
+      "elapsed_seconds": 1.0344620349997058
+    },
+    {
+      "digits": 70,
+      "green": "-0.000001066974566847382185610395330452856850459976859432031035623920387",
+      "direct_error": "-0.000001066974566847382185610395330452856850459976859432031035623920387",
+      "difference": "3.958750576e-72",
+      "quad_error_estimate": "2.0e-81",
+      "elapsed_seconds": 1.6412158300004194
+    }
+  ],
+  "source_control": {
+    "correct_residual": "-0.000247871152199526362528378676591639635806948902195676180430889021988618453",
+    "independent_minus_error_second_derivative": "-0.000247871152199526362528378676591639635806948902195676180430889021988618453",
+    "absolute_disagreement": "3.92037986e-81",
+    "source_value": "4.8",
+    "injected_omission_residual": "4.79975212884780047363747162132340836036419305109780432381956911097801138",
+    "injected_fault_nonzero": true
+  },
+  "saved_cubic_upper": "6323466940617039590286269868807/5316911983139663491615228241121378304",
+  "direct_below_saved_cubic_upper": true
+}

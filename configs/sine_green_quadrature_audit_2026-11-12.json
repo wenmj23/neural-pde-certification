@@ -1,0 +1,11 @@
+{
+  "fixture_path": "results/2026-11-02/sine_frequency_study/training_metadata/frozen_networks.json",
+  "fixture_sha256": "327f29609274496cabcfb784cbd8ba1bda23a2b17b1d1b51abf82c2415030d80",
+  "records_path": "results/2026-11-02/sine_frequency_study/certificates/records.json",
+  "records_sha256": "2663cfa8bbfd9bcbc545dc962189c47a75a1b388b2a42f5034cf1adb48d76e14",
+  "certificate_degree": 3,
+  "certificate_mesh": 64,
+  "points": ["1/8", "1/3", "1/2", "2/3", "7/8"],
+  "digits": [40, 70],
+  "scope": "Finite-point high-precision Green integration and direct-error checks for 12 previously studied sine PINNs, including poorly trained cases. This does not prove continuous-domain bounds or re-run the certificate implementation."
+}

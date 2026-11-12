@@ -1,0 +1,29 @@
+{
+  "expected": 12,
+  "records": 12,
+  "inputs": {
+    "fixture": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+    "references": "754239efccfe61e870f7caf5fe82b180baab84fbddf8b8580ba2b351ae9cd20b",
+    "spots": "ffc23ec07a09d914599e00e714212bb8921bc344ab663b94952bc3b6bc20bffd"
+  },
+  "script_sha256": "14e270d7e494ae7b3460cbeae3333221ece4e135f5b0b27c40af1931c0640b94",
+  "helper_sha256": "85b8046e53d345d53333f4b150c91d0863e21fb4c14fba4ede32d2c682013e5f",
+  "config_sha256": "eee433a4d0ab12181e29435b6b85d9ae2401ad30bff583d97a90c182abf2a66d",
+  "records_sha256": "5bace6f9c058065f9b93e7ad8bea597d38eacfefc4bd28154de380b8f1896b05",
+  "cases": {
+    "case_00.json": "ff7c8b76a4e48361c88b784930baab130d1c3785f48306b97f70e1f01c3f7551",
+    "case_01.json": "8846fca1e71d314eacce58b9dfdd7a095ecf4e8767b25caa4b593ed90636eab0",
+    "case_02.json": "14af155823c991c425f461aed6ac08fee51bfee64bd0dc8bd09658cad4dcd97f",
+    "case_03.json": "4e12e0abd05dbaa0640530a3ad9b63c3fbb455a1d9d6ded1fdc0e1be7162e8b0",
+    "case_04.json": "08cba5bf2384bdf63ab1b69a6b682a397c1f017ea3807a41f25a8ec08bd25910",
+    "case_05.json": "0b6efa5cc4f855466eb898ee1556f413f111d5089fd3375562c0654900ead8c5",
+    "case_06.json": "9c6a7952fa6125d90799113ab2d9d9f966257cc6384b3e373a116147c50bdc7c",
+    "case_07.json": "8344c3366684292107af4574448bd23c0b8ed7f2e476d31afa1f943d384d0451",
+    "case_08.json": "b54b9270683e3fd7ebff33265f6cf192688a14f9786dd43c0f5a526eaf1f6a82",
+    "case_09.json": "4269c0b8096e32667acab8259420eb8e75c2200bdacbd7cee0a98ef3cfcb8991",
+    "case_10.json": "17ad3c47f1452906bb44dd3e92a12960f02bf01de9cb0bcc53ea376f6567b042",
+    "case_11.json": "9f5a6ea2733d08cddc93356d72a8b55844862936a0fcb74e243e3969f0d3d7f7"
+  },
+  "elapsed_seconds": 29.869096719000026,
+  "scope": "Retrospective numerically located peak candidate per previously studied network, selected using an 8192-cell scan. Finite-precision root solving and quadrature do not prove global optimality or certificate correctness."
+}

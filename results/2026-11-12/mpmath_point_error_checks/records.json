@@ -1,0 +1,1106 @@
+[
+  {
+    "network": "poly_quadratic_12x2_depth1_seed401",
+    "kind": "max_abs_error",
+    "point": "4617/8192",
+    "signed_error_lower": "8540692736599936773190025280467592877/174224571863520493293247799005065324265472",
+    "signed_error_upper": "8540692736599936773190025280467592905/174224571863520493293247799005065324265472",
+    "absolute_error_lower": "8540692736599936773190025280467592877/174224571863520493293247799005065324265472",
+    "absolute_error_upper": "8540692736599936773190025280467592905/174224571863520493293247799005065324265472",
+    "high_precision_error": "490211721874129337595095554993353470559774310239943743631542491793304573905978959340015270406101486877073/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "4076105578481514350103942603501/83076749736557242056487941267521536",
+      "signed_cubic": "509080626595651967191705088221/10384593717069655257060992658440192"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth1_seed401",
+    "kind": "max_residual",
+    "point": "1019/8192",
+    "signed_error_lower": "12961494789544993032918756830733731993/348449143727040986586495598010130648530944",
+    "signed_error_upper": "25922989579089986065837513661467464025/696898287454081973172991196020261297061888",
+    "absolute_error_lower": "12961494789544993032918756830733731993/348449143727040986586495598010130648530944",
+    "absolute_error_upper": "25922989579089986065837513661467464025/696898287454081973172991196020261297061888",
+    "high_precision_error": "371976657795963223413820269252210409243697997682053120635231858880143721791603515296482332245298230902621/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "4076105578481514350103942603501/83076749736557242056487941267521536",
+      "signed_cubic": "509080626595651967191705088221/10384593717069655257060992658440192"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth1_seed401",
+    "kind": "min_residual",
+    "point": "0",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "4076105578481514350103942603501/83076749736557242056487941267521536",
+      "signed_cubic": "509080626595651967191705088221/10384593717069655257060992658440192"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth1_seed401",
+    "kind": "one_third",
+    "point": "1365/4096",
+    "signed_error_lower": "2204272196013314904958210289966922621/174224571863520493293247799005065324265472",
+    "signed_error_upper": "1102136098006657452479105144983461321/87112285931760246646623899502532662132736",
+    "absolute_error_lower": "2204272196013314904958210289966922621/174224571863520493293247799005065324265472",
+    "absolute_error_upper": "1102136098006657452479105144983461321/87112285931760246646623899502532662132736",
+    "high_precision_error": "126519019242592269848326476964512781940211102371284587818130246492285642111461872177136281628264102512731/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "4076105578481514350103942603501/83076749736557242056487941267521536",
+      "signed_cubic": "509080626595651967191705088221/10384593717069655257060992658440192"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth1_seed402",
+    "kind": "max_abs_error",
+    "point": "4517/8192",
+    "signed_error_lower": "1856502766348535618700634251262202847/43556142965880123323311949751266331066368",
+    "signed_error_upper": "232062845793566952337579281407775357/5444517870735015415413993718908291383296",
+    "absolute_error_lower": "1856502766348535618700634251262202847/43556142965880123323311949751266331066368",
+    "absolute_error_upper": "232062845793566952337579281407775357/5444517870735015415413993718908291383296",
+    "high_precision_error": "213116065832876248421303985546215545267526074482426984773137496007049962244500156916974583738643161252699/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "7088193189934638917108216420957/166153499473114484112975882535043072",
+      "signed_cubic": "3541076148529878203099464736005/83076749736557242056487941267521536"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth1_seed402",
+    "kind": "max_residual",
+    "point": "1003/8192",
+    "signed_error_lower": "11168290205511844996266355814805876751/348449143727040986586495598010130648530944",
+    "signed_error_upper": "11168290205511844996266355814805876777/348449143727040986586495598010130648530944",
+    "absolute_error_lower": "11168290205511844996266355814805876751/348449143727040986586495598010130648530944",
+    "absolute_error_upper": "11168290205511844996266355814805876777/348449143727040986586495598010130648530944",
+    "high_precision_error": "320514210081129349915743550213010443683297011086596204569289319807825757717192205041314790705470296455939/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "7088193189934638917108216420957/166153499473114484112975882535043072",
+      "signed_cubic": "3541076148529878203099464736005/83076749736557242056487941267521536"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth1_seed402",
+    "kind": "min_residual",
+    "point": "0",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "7088193189934638917108216420957/166153499473114484112975882535043072",
+      "signed_cubic": "3541076148529878203099464736005/83076749736557242056487941267521536"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth1_seed402",
+    "kind": "one_third",
+    "point": "1365/4096",
+    "signed_error_lower": "430668151141889151533869201005909507/21778071482940061661655974875633165533184",
+    "signed_error_upper": "1722672604567556606135476804023638045/87112285931760246646623899502532662132736",
+    "absolute_error_lower": "430668151141889151533869201005909507/21778071482940061661655974875633165533184",
+    "absolute_error_upper": "1722672604567556606135476804023638045/87112285931760246646623899502532662132736",
+    "high_precision_error": "24719139587225087242105678053500581227413387165205796776958982364328568010247730866431043097282621643991/1250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "7088193189934638917108216420957/166153499473114484112975882535043072",
+      "signed_cubic": "3541076148529878203099464736005/83076749736557242056487941267521536"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth2_seed401",
+    "kind": "max_abs_error",
+    "point": "873/8192",
+    "signed_error_lower": "4335947287724120403333348106375793635/348449143727040986586495598010130648530944",
+    "signed_error_upper": "8671894575448240806666696212751587337/696898287454081973172991196020261297061888",
+    "absolute_error_lower": "4335947287724120403333348106375793635/348449143727040986586495598010130648530944",
+    "absolute_error_upper": "8671894575448240806666696212751587337/696898287454081973172991196020261297061888",
+    "high_precision_error": "124435584525950273016224147874531500819807260999408603314156442565254740113495812917182538852118385381819/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "8333304190187008273532391988565/664613997892457936451903530140172288",
+      "signed_cubic": "8271852533400520662109297886135/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth2_seed401",
+    "kind": "max_residual",
+    "point": "1",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "8333304190187008273532391988565/664613997892457936451903530140172288",
+      "signed_cubic": "8271852533400520662109297886135/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth2_seed401",
+    "kind": "min_residual",
+    "point": "0",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "8333304190187008273532391988565/664613997892457936451903530140172288",
+      "signed_cubic": "8271852533400520662109297886135/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth2_seed401",
+    "kind": "one_third",
+    "point": "1365/4096",
+    "signed_error_lower": "-910676447975707840212917247315738873/174224571863520493293247799005065324265472",
+    "signed_error_upper": "-910676447975707840212917247315738829/174224571863520493293247799005065324265472",
+    "absolute_error_lower": "910676447975707840212917247315738829/174224571863520493293247799005065324265472",
+    "absolute_error_upper": "910676447975707840212917247315738873/174224571863520493293247799005065324265472",
+    "high_precision_error": "-522702646495288755074586214095741960215384817212898488780514699112295355116974254823552223587298285964789/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "8333304190187008273532391988565/664613997892457936451903530140172288",
+      "signed_cubic": "8271852533400520662109297886135/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth2_seed402",
+    "kind": "max_abs_error",
+    "point": "2211/4096",
+    "signed_error_lower": "-472340283118855634673793857351420197/174224571863520493293247799005065324265472",
+    "signed_error_upper": "-59042535389856954334224232168927517/21778071482940061661655974875633165533184",
+    "absolute_error_lower": "59042535389856954334224232168927517/21778071482940061661655974875633165533184",
+    "absolute_error_upper": "472340283118855634673793857351420197/174224571863520493293247799005065324265472",
+    "high_precision_error": "-271110026597663423507695335531861540855953529706733237817587448463197357179806658793348107495353985005613/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "3712254101351465386416995314505/1329227995784915872903807060280344576",
+      "signed_cubic": "3605228181457180333671846847665/1329227995784915872903807060280344576"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth2_seed402",
+    "kind": "max_residual",
+    "point": "313/4096",
+    "signed_error_lower": "714896528385680116231948929857013791/348449143727040986586495598010130648530944",
+    "signed_error_upper": "1429793056771360232463897859714027647/696898287454081973172991196020261297061888",
+    "absolute_error_lower": "714896528385680116231948929857013791/348449143727040986586495598010130648530944",
+    "absolute_error_upper": "1429793056771360232463897859714027647/696898287454081973172991196020261297061888",
+    "high_precision_error": "25645655228876711496574746130122502982095903212633743375178089647134014398180761259945374719125708067731/12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "3712254101351465386416995314505/1329227995784915872903807060280344576",
+      "signed_cubic": "3605228181457180333671846847665/1329227995784915872903807060280344576"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth2_seed402",
+    "kind": "min_residual",
+    "point": "0",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "3712254101351465386416995314505/1329227995784915872903807060280344576",
+      "signed_cubic": "3605228181457180333671846847665/1329227995784915872903807060280344576"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quadratic_12x2_depth2_seed402",
+    "kind": "one_third",
+    "point": "1365/4096",
+    "signed_error_lower": "349938080770610810243947464964845109/174224571863520493293247799005065324265472",
+    "signed_error_upper": "87484520192652702560986866241211291/43556142965880123323311949751266331066368",
+    "absolute_error_lower": "349938080770610810243947464964845109/174224571863520493293247799005065324265472",
+    "absolute_error_upper": "87484520192652702560986866241211291/43556142965880123323311949751266331066368",
+    "high_precision_error": "50213651987725386458851363939656257891632423142987558184330552146587009631741862470388326965899750758639/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "3712254101351465386416995314505/1329227995784915872903807060280344576",
+      "signed_cubic": "3605228181457180333671846847665/1329227995784915872903807060280344576"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth1_seed401",
+    "kind": "max_abs_error",
+    "point": "1119/4096",
+    "signed_error_lower": "224156650184975819612008248295572781/21778071482940061661655974875633165533184",
+    "signed_error_upper": "1793253201479806556896065986364582273/174224571863520493293247799005065324265472",
+    "absolute_error_lower": "224156650184975819612008248295572781/21778071482940061661655974875633165533184",
+    "absolute_error_upper": "1793253201479806556896065986364582273/174224571863520493293247799005065324265472",
+    "high_precision_error": "51463842967126317210109078258674733832340164093204234092001406822458227123835701744485480469325092504963/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "3445854303703023680179242386939/332306998946228968225951765070086144",
+      "signed_cubic": "3420724148940050955729112710113/332306998946228968225951765070086144"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth1_seed401",
+    "kind": "max_residual",
+    "point": "0",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "3445854303703023680179242386939/332306998946228968225951765070086144",
+      "signed_cubic": "3420724148940050955729112710113/332306998946228968225951765070086144"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth1_seed401",
+    "kind": "min_residual",
+    "point": "1",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "3445854303703023680179242386939/332306998946228968225951765070086144",
+      "signed_cubic": "3420724148940050955729112710113/332306998946228968225951765070086144"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth1_seed401",
+    "kind": "one_third",
+    "point": "1365/4096",
+    "signed_error_lower": "542275400958916795713799021232204889/87112285931760246646623899502532662132736",
+    "signed_error_upper": "542275400958916795713799021232204903/87112285931760246646623899502532662132736",
+    "absolute_error_lower": "542275400958916795713799021232204889/87112285931760246646623899502532662132736",
+    "absolute_error_upper": "542275400958916795713799021232204903/87112285931760246646623899502532662132736",
+    "high_precision_error": "155625407816674209855695815919839081093092985761511816337175970271039897045380435631655266699582407541359/25000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "3445854303703023680179242386939/332306998946228968225951765070086144",
+      "signed_cubic": "3420724148940050955729112710113/332306998946228968225951765070086144"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth1_seed402",
+    "kind": "max_abs_error",
+    "point": "637/2048",
+    "signed_error_lower": "1733553683839211868638418866248394523/87112285931760246646623899502532662132736",
+    "signed_error_upper": "3467107367678423737276837732496789091/174224571863520493293247799005065324265472",
+    "absolute_error_lower": "1733553683839211868638418866248394523/87112285931760246646623899502532662132736",
+    "absolute_error_upper": "3467107367678423737276837732496789091/174224571863520493293247799005065324265472",
+    "high_precision_error": "199002203339859316274567585867886346568869394219148440801076119799685453914196673098072317795007580968381/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "830675835675272167436220472617/41538374868278621028243970633760768",
+      "signed_cubic": "1653466844642163671931168490719/83076749736557242056487941267521536"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth1_seed402",
+    "kind": "max_residual",
+    "point": "0",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "830675835675272167436220472617/41538374868278621028243970633760768",
+      "signed_cubic": "1653466844642163671931168490719/83076749736557242056487941267521536"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth1_seed402",
+    "kind": "min_residual",
+    "point": "1",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "830675835675272167436220472617/41538374868278621028243970633760768",
+      "signed_cubic": "1653466844642163671931168490719/83076749736557242056487941267521536"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth1_seed402",
+    "kind": "one_third",
+    "point": "1365/4096",
+    "signed_error_lower": "1660236655039627675123103647922296389/87112285931760246646623899502532662132736",
+    "signed_error_upper": "207529581879953459390387955990287051/10889035741470030830827987437816582766592",
+    "absolute_error_lower": "1660236655039627675123103647922296389/87112285931760246646623899502532662132736",
+    "absolute_error_upper": "207529581879953459390387955990287051/10889035741470030830827987437816582766592",
+    "high_precision_error": "190585821194059884757981467573707461270028961359536057393323349350043444724249998715062867262825047428783/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "830675835675272167436220472617/41538374868278621028243970633760768",
+      "signed_cubic": "1653466844642163671931168490719/83076749736557242056487941267521536"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth2_seed401",
+    "kind": "max_abs_error",
+    "point": "437/4096",
+    "signed_error_lower": "-1395765749971583701670123348265279925/174224571863520493293247799005065324265472",
+    "signed_error_upper": "-348941437492895925417530837066319977/43556142965880123323311949751266331066368",
+    "absolute_error_lower": "348941437492895925417530837066319977/43556142965880123323311949751266331066368",
+    "absolute_error_upper": "1395765749971583701670123348265279925/174224571863520493293247799005065324265472",
+    "high_precision_error": "-400565125528034678251358330561025160090621429879776805842720714712776118316025929669827257172001250080859/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "5484499010206942257894848449771/664613997892457936451903530140172288",
+      "signed_cubic": "5327108880413698092966799979273/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth2_seed401",
+    "kind": "max_residual",
+    "point": "0",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "5484499010206942257894848449771/664613997892457936451903530140172288",
+      "signed_cubic": "5327108880413698092966799979273/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth2_seed401",
+    "kind": "min_residual",
+    "point": "1",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "5484499010206942257894848449771/664613997892457936451903530140172288",
+      "signed_cubic": "5327108880413698092966799979273/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth2_seed401",
+    "kind": "one_third",
+    "point": "1365/4096",
+    "signed_error_lower": "612330322225091189932531890440581239/174224571863520493293247799005065324265472",
+    "signed_error_upper": "153082580556272797483132972610145321/43556142965880123323311949751266331066368",
+    "absolute_error_lower": "612330322225091189932531890440581239/174224571863520493293247799005065324265472",
+    "absolute_error_upper": "153082580556272797483132972610145321/43556142965880123323311949751266331066368",
+    "high_precision_error": "43932546057909283246864733997407481242184099181303698820280369198373755297131601059299601097879763624959/12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "5484499010206942257894848449771/664613997892457936451903530140172288",
+      "signed_cubic": "5327108880413698092966799979273/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth2_seed402",
+    "kind": "max_abs_error",
+    "point": "943/8192",
+    "signed_error_lower": "-10743032390187939886598483335688423871/696898287454081973172991196020261297061888",
+    "signed_error_upper": "-5371516195093969943299241667844211875/348449143727040986586495598010130648530944",
+    "absolute_error_lower": "5371516195093969943299241667844211875/348449143727040986586495598010130648530944",
+    "absolute_error_upper": "10743032390187939886598483335688423871/696898287454081973172991196020261297061888",
+    "high_precision_error": "-15415495465535620247792014437774554812754316175111095053091543176626682945602820166140945002575998798017/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "5167827973530240637934435511155/332306998946228968225951765070086144",
+      "signed_cubic": "1280947772513293541854613833607/83076749736557242056487941267521536"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth2_seed402",
+    "kind": "max_residual",
+    "point": "0",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "5167827973530240637934435511155/332306998946228968225951765070086144",
+      "signed_cubic": "1280947772513293541854613833607/83076749736557242056487941267521536"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth2_seed402",
+    "kind": "min_residual",
+    "point": "1",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "5167827973530240637934435511155/332306998946228968225951765070086144",
+      "signed_cubic": "1280947772513293541854613833607/83076749736557242056487941267521536"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_cubic_20x3_depth2_seed402",
+    "kind": "one_third",
+    "point": "1365/4096",
+    "signed_error_lower": "2118036060748217111029932398985058335/174224571863520493293247799005065324265472",
+    "signed_error_upper": "2118036060748217111029932398985058403/174224571863520493293247799005065324265472",
+    "absolute_error_lower": "2118036060748217111029932398985058335/174224571863520493293247799005065324265472",
+    "absolute_error_upper": "2118036060748217111029932398985058403/174224571863520493293247799005065324265472",
+    "high_precision_error": "121569307824581083045389606348315478305043000149799282843714581999247199635447809793276841833922826378091/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "5167827973530240637934435511155/332306998946228968225951765070086144",
+      "signed_cubic": "1280947772513293541854613833607/83076749736557242056487941267521536"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth1_seed401",
+    "kind": "max_abs_error",
+    "point": "223/2048",
+    "signed_error_lower": "2475064492836471358574676501744033991/348449143727040986586495598010130648530944",
+    "signed_error_upper": "618766123209117839643669125436008509/87112285931760246646623899502532662132736",
+    "absolute_error_lower": "2475064492836471358574676501744033991/348449143727040986586495598010130648530944",
+    "absolute_error_upper": "618766123209117839643669125436008509/87112285931760246646623899502532662132736",
+    "high_precision_error": "710308674133325725053164814255197240986427722995445127878133669046719094779117274069512851560548872096593/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "5012537706156747181531794812857/664613997892457936451903530140172288",
+      "signed_cubic": "4724022430657827330494872628321/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth1_seed401",
+    "kind": "max_residual",
+    "point": "849/8192",
+    "signed_error_lower": "2462927484880913358774335897190169653/348449143727040986586495598010130648530944",
+    "signed_error_upper": "4925854969761826717548671794380339395/696898287454081973172991196020261297061888",
+    "absolute_error_lower": "2462927484880913358774335897190169653/348449143727040986586495598010130648530944",
+    "absolute_error_upper": "4925854969761826717548671794380339395/696898287454081973172991196020261297061888",
+    "high_precision_error": "706825523672475239240524671130810894308595066909085485570288617912483051206432314460944259258722620698133/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "5012537706156747181531794812857/664613997892457936451903530140172288",
+      "signed_cubic": "4724022430657827330494872628321/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth1_seed401",
+    "kind": "min_residual",
+    "point": "1",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "5012537706156747181531794812857/664613997892457936451903530140172288",
+      "signed_cubic": "4724022430657827330494872628321/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth1_seed401",
+    "kind": "one_third",
+    "point": "1365/4096",
+    "signed_error_lower": "-177244875939428924175236219728259879/43556142965880123323311949751266331066368",
+    "signed_error_upper": "-354489751878857848350472439456519733/87112285931760246646623899502532662132736",
+    "absolute_error_lower": "354489751878857848350472439456519733/87112285931760246646623899502532662132736",
+    "absolute_error_upper": "177244875939428924175236219728259879/43556142965880123323311949751266331066368",
+    "high_precision_error": "-635834809506213043002409260948559399967968615883085171983630445249703981757648568677909942613422669299/156250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "5012537706156747181531794812857/664613997892457936451903530140172288",
+      "signed_cubic": "4724022430657827330494872628321/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth1_seed402",
+    "kind": "max_abs_error",
+    "point": "2105/8192",
+    "signed_error_lower": "-1840119482551292856661702517702399215/174224571863520493293247799005065324265472",
+    "signed_error_upper": "-230014935318911607082712814712799895/21778071482940061661655974875633165533184",
+    "absolute_error_lower": "230014935318911607082712814712799895/21778071482940061661655974875633165533184",
+    "absolute_error_upper": "1840119482551292856661702517702399215/174224571863520493293247799005065324265472",
+    "high_precision_error": "-10561767854380251962270579830435229017545433189578751664372911499999555888928148386209307957228751981999/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "7350407774743001814321084028593/664613997892457936451903530140172288",
+      "signed_cubic": "7024148256390027949708768828451/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth1_seed402",
+    "kind": "max_residual",
+    "point": "983/1024",
+    "signed_error_lower": "216846735522009514760863840706124781/348449143727040986586495598010130648530944",
+    "signed_error_upper": "54211683880502378690215960176531201/87112285931760246646623899502532662132736",
+    "absolute_error_lower": "216846735522009514760863840706124781/348449143727040986586495598010130648530944",
+    "absolute_error_upper": "54211683880502378690215960176531201/87112285931760246646623899502532662132736",
+    "high_precision_error": "622319610840763786648403195971386146581615238577129420552197699230824860331844272773648005053477451643837/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "7350407774743001814321084028593/664613997892457936451903530140172288",
+      "signed_cubic": "7024148256390027949708768828451/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth1_seed402",
+    "kind": "min_residual",
+    "point": "1",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "7350407774743001814321084028593/664613997892457936451903530140172288",
+      "signed_cubic": "7024148256390027949708768828451/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth1_seed402",
+    "kind": "one_third",
+    "point": "1365/4096",
+    "signed_error_lower": "-699304014466099013612100071140459543/174224571863520493293247799005065324265472",
+    "signed_error_upper": "-349652007233049506806050035570229741/87112285931760246646623899502532662132736",
+    "absolute_error_lower": "349652007233049506806050035570229741/87112285931760246646623899502532662132736",
+    "absolute_error_upper": "699304014466099013612100071140459543/174224571863520493293247799005065324265472",
+    "high_precision_error": "-200690409793028958107777970853995362414161071607262359733593231266461975852487675354650924344384388316893/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "7350407774743001814321084028593/664613997892457936451903530140172288",
+      "signed_cubic": "7024148256390027949708768828451/664613997892457936451903530140172288"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth2_seed401",
+    "kind": "max_abs_error",
+    "point": "2383/8192",
+    "signed_error_lower": "-1353071499058071782078366845976930403/87112285931760246646623899502532662132736",
+    "signed_error_upper": "-2706142998116143564156733691953860759/174224571863520493293247799005065324265472",
+    "absolute_error_lower": "2706142998116143564156733691953860759/174224571863520493293247799005065324265472",
+    "absolute_error_upper": "1353071499058071782078366845976930403/87112285931760246646623899502532662132736",
+    "high_precision_error": "-9707811910408981279245214704572137275704139152617930927660670444410083061177769084256070176945906928013/625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "2944450759159308322051282018693/166153499473114484112975882535043072",
+      "signed_cubic": "5174799892314529512826845700523/332306998946228968225951765070086144"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth2_seed401",
+    "kind": "max_residual",
+    "point": "883/8192",
+    "signed_error_lower": "8968721357605841729561423581477291035/696898287454081973172991196020261297061888",
+    "signed_error_upper": "2242180339401460432390355895369322779/174224571863520493293247799005065324265472",
+    "absolute_error_lower": "8968721357605841729561423581477291035/696898287454081973172991196020261297061888",
+    "absolute_error_upper": "2242180339401460432390355895369322779/174224571863520493293247799005065324265472",
+    "high_precision_error": "128694839965391406431950348555898837878827229036975214243449112591498122491242363213668974878309944711567/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "2944450759159308322051282018693/166153499473114484112975882535043072",
+      "signed_cubic": "5174799892314529512826845700523/332306998946228968225951765070086144"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth2_seed401",
+    "kind": "min_residual",
+    "point": "0",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "2944450759159308322051282018693/166153499473114484112975882535043072",
+      "signed_cubic": "5174799892314529512826845700523/332306998946228968225951765070086144"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth2_seed401",
+    "kind": "one_third",
+    "point": "1365/4096",
+    "signed_error_lower": "-1091491670769485056054847077229166805/87112285931760246646623899502532662132736",
+    "signed_error_upper": "-2182983341538970112109694154458333557/174224571863520493293247799005065324265472",
+    "absolute_error_lower": "2182983341538970112109694154458333557/174224571863520493293247799005065324265472",
+    "absolute_error_upper": "1091491670769485056054847077229166805/87112285931760246646623899502532662132736",
+    "high_precision_error": "-25059419784357613314991768151604473863046326853102452634677051643613443595439798776401778009191498762369/2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "2944450759159308322051282018693/166153499473114484112975882535043072",
+      "signed_cubic": "5174799892314529512826845700523/332306998946228968225951765070086144"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth2_seed402",
+    "kind": "max_abs_error",
+    "point": "231/2048",
+    "signed_error_lower": "5402013373707808777015164498803260603/348449143727040986586495598010130648530944",
+    "signed_error_upper": "10804026747415617554030328997606521313/696898287454081973172991196020261297061888",
+    "absolute_error_lower": "5402013373707808777015164498803260603/348449143727040986586495598010130648530944",
+    "absolute_error_upper": "10804026747415617554030328997606521313/696898287454081973172991196020261297061888",
+    "high_precision_error": "155030180758300192464397384961481855406435765754459310503628222290769007368119582127916075188022148413127/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "3016290755806582854266942482393/166153499473114484112975882535043072",
+      "signed_cubic": "323045467764912641710395855923/20769187434139310514121985316880384"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth2_seed402",
+    "kind": "max_residual",
+    "point": "7947/8192",
+    "signed_error_lower": "-42682719397072513733683974383066179/174224571863520493293247799005065324265472",
+    "signed_error_upper": "-85365438794145027467367948766132327/348449143727040986586495598010130648530944",
+    "absolute_error_lower": "85365438794145027467367948766132327/348449143727040986586495598010130648530944",
+    "absolute_error_upper": "42682719397072513733683974383066179/174224571863520493293247799005065324265472",
+    "high_precision_error": "-122493397287577181153785465764360552768788911240542081504231532208080259833484104366343419620035069575471/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "3016290755806582854266942482393/166153499473114484112975882535043072",
+      "signed_cubic": "323045467764912641710395855923/20769187434139310514121985316880384"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth2_seed402",
+    "kind": "min_residual",
+    "point": "1",
+    "signed_error_lower": "0",
+    "signed_error_upper": "0",
+    "absolute_error_lower": "0",
+    "absolute_error_upper": "0",
+    "high_precision_error": "0",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "3016290755806582854266942482393/166153499473114484112975882535043072",
+      "signed_cubic": "323045467764912641710395855923/20769187434139310514121985316880384"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  },
+  {
+    "network": "poly_quintic_42x5_depth2_seed402",
+    "kind": "one_third",
+    "point": "1365/4096",
+    "signed_error_lower": "-354954389090176371602891701742346395/43556142965880123323311949751266331066368",
+    "signed_error_upper": "-709908778180352743205783403484692755/87112285931760246646623899502532662132736",
+    "absolute_error_lower": "709908778180352743205783403484692755/87112285931760246646623899502532662132736",
+    "absolute_error_upper": "354954389090176371602891701742346395/43556142965880123323311949751266331066368",
+    "high_precision_error": "-162987062177765048972744551411998383416141264552817050615552113134871356340812594514874733223362579424033/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "contains_high_precision_error": true,
+    "saved_upper": {
+      "signed_quadratic": "3016290755806582854266942482393/166153499473114484112975882535043072",
+      "signed_cubic": "323045467764912641710395855923/20769187434139310514121985316880384"
+    },
+    "point_proved_below_saved_upper": {
+      "signed_quadratic": true,
+      "signed_cubic": true
+    },
+    "point_proved_above_saved_upper": {
+      "signed_quadratic": false,
+      "signed_cubic": false
+    }
+  }
+]

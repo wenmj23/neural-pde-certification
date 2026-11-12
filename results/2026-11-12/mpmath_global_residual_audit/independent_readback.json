@@ -1,0 +1,14 @@
+{
+  "records": 36,
+  "point_checks": 48,
+  "cases": 36,
+  "saved_reference_contained": 36,
+  "high_precision_points_contained": 48,
+  "median_upper_over_reference": {
+    "64": 14147.678725391666,
+    "256": 3639.514796730465,
+    "1024": 1003.8050928505972
+  },
+  "readback_script_sha256": "6fde2818b17e9fb479165e117bf2899b016ff5922fa526aadef76a7dce2ff1cc",
+  "scope": "post-exit hash/manifest/rational arithmetic; conditional mpmath interval result and finite-point diagnostics, not independent formal audit"
+}

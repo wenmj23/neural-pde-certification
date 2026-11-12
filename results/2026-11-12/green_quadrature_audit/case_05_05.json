@@ -1,0 +1,25 @@
+{
+  "network": "poly_cubic_20x3_depth1_seed402",
+  "point": "3/4",
+  "results": [
+    {
+      "digits": 40,
+      "green": "0.000006139930329362790994914372378194958",
+      "direct_error": "0.000006139930329362790994914372378194958",
+      "difference": "1.168332595e-41",
+      "quad_error_estimate": "7.5e-44",
+      "elapsed_seconds": 0.22435317899999063
+    },
+    {
+      "digits": 70,
+      "green": "0.000006139930329362790994914372378194957641133766222806339281867043342",
+      "direct_error": "0.000006139930329362790994914372378194957641133766222806339281867043342",
+      "difference": "2.428076062e-72",
+      "quad_error_estimate": "2.5e-79",
+      "elapsed_seconds": 0.37482858299972577
+    }
+  ],
+  "green_cross_precision_difference": "3.58866233777e-40",
+  "direct_below_saved_cubic_upper": true,
+  "saved_cubic_upper_fraction": "1653466844642163671931168490719/83076749736557242056487941267521536"
+}

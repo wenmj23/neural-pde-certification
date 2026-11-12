@@ -1,0 +1,7 @@
+{
+  "expected": 7,
+  "records": 7,
+  "script_sha256": "b132b88016eb48dfa9101c7d9bc0e44be0e83c3e5c8d5109dc3c16f8f205dd12",
+  "records_sha256": "6158df7d12e3abe70cc26d8feff3f7cf268f2cce8a159e7fcb809543c75d3244",
+  "scope": "constructed nonnegative triangular residuals with exact rational arithmetic; not trained PINNs or execution of the neural certifier"
+}

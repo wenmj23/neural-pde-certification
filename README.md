@@ -2,7 +2,9 @@
 
 一维 Poisson 神经求解器的后验最大误差认证：学习、推导、实验与中期报告记录。
 
-工作入口与阶段归档更新：2026-10-30。中期报告截止：2026-11-13。
+工作入口更新：2026-11-12。中期报告已完成；后续研究以[当前计划](docs/post_midterm_research_plan_2026-11-12.md)为准。
+
+先读 [START_HERE.md](START_HERE.md)、[HANDOFF.md](HANDOFF.md) 和 [NEXT_STEPS.md](NEXT_STEPS.md)。新增[11 月 12 日研究与限制](reports/residual_structure_cross_backend_2026-11-12.md)、[实验材料与只读核查](results/2026-11-12/README.md)、[去个人页眉的定稿正文](reports/midterm_final_body_2026-11-12.md)。下方为历史阶段说明。
 
 **新对话接续：**先读[接续说明](HANDOFF.md)和[10月30日日终总结](reports/research_summary_2026-10-30.md)；今天的[精选结果](results/2026-10-30/README.md)与[两个新冻结网络案例](docs/holdout_cases_2026-10-30.md)可直接查看。
 

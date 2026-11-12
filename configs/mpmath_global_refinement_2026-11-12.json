@@ -1,0 +1,16 @@
+{
+  "fixture_path": "results/2026-11-02/new_forcing_study/training_metadata/frozen_networks.json",
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "prior_path": "results/2026-11-12/mpmath_global_residual_audit/records.json",
+  "prior_sha256": "bc46843d12274f64a099b9d057f4280e7fb38ab545a8a68e7313c07e1ab2e809",
+  "selected_networks": [
+    "poly_quadratic_12x2_depth1_seed401",
+    "poly_quadratic_12x2_depth2_seed401",
+    "poly_quintic_42x5_depth1_seed401",
+    "poly_quintic_42x5_depth2_seed401"
+  ],
+  "precision_digits": 40,
+  "meshes": [4096, 16384, 32768],
+  "stop_ratio_to_old_global_bound": "11/10",
+  "scope": "Post-hoc selection of four previously studied networks after reviewing initial 64/256/1024 results. Sequential mpmath.iv residual bounds; stop when the new upper bound is at most 1.10 times the earlier 64-cell Arb global upper bound, or when budget is exhausted. Both are conditional global upper bounds, not estimates of exact error."
+}

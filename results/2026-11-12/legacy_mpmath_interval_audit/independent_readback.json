@@ -1,0 +1,20 @@
+{
+  "checks": 94,
+  "analytic_controls": 13,
+  "interval_configurations": 6,
+  "continuous_reference_contained": 6,
+  "decision_statuses": [
+    "accept",
+    "reject"
+  ],
+  "file_sha256": {
+    "audit_summary.json": "303f4ca02617b35d59288f0c93431ad6bd9a755e72d51f45d0abcece2fe3dfb2",
+    "checks.json": "45c3b8c900a0c0786c91e91ac978313d9af8f6d3764feb723757fd0a725bbfd8",
+    "certificates.json": "22ebb16c6bdf74224fd8fe4848675547b231f00aa2fff7e74b601d5d2b3e22c1",
+    "analytic_checks.json": "090af78493c15cc97c56a528c2cdbfe0825091a56d4653c0414a8536b046be48",
+    "continuous_reference.json": "5ed706ba42c2c779f18a9a6a4c72d3def62a1b36ee827c142deb49e04712704a",
+    "decisions.json": "9b594af1ab65947800a937dc0368472ec0e1ab1639b512a7a777ed843b6d6c27"
+  },
+  "readback_script_sha256": "8416b5a4aeeb25985c4e56f28082fa99693b48a6e015ad7cbdf22cc79b4e315b",
+  "scope": "post-exit count, input/source hashes, rational endpoint/export and stored-decision checks; one irrational control checked numerically; same interval backend, no independent formal audit"
+}

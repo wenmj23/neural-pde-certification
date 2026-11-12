@@ -1,0 +1,10 @@
+{
+  "records": 84,
+  "case_file_checks": 84,
+  "point_precision_checks": 168,
+  "below_saved_upper": 84,
+  "max_green_direct_difference_as_saved": 1e-39,
+  "max_green_cross_precision_difference_as_saved": 4.2061002068551636e-39,
+  "readback_script_sha256": "cb3a785b7a59d9e2881cf38ee90c3daeadf7c9e98cc4792d9882f98b60053013",
+  "scope": "post-exit input and per-case hash, record keys, stored decimal arithmetic; finite-point numerical diagnostic only"
+}

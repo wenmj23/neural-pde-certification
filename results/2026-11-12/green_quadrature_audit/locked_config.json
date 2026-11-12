@@ -1,0 +1,10 @@
+{
+  "fixture_path": "results/2026-11-02/new_forcing_study/training_metadata/frozen_networks.json",
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "baseline_path": "results/2026-11-02/new_pinn_baselines/accuracy/records.json",
+  "baseline_sha256": "2bffa51e1f00430e9bf7b6fd91306f690f9250a529b0b02370668d6fc07dc659",
+  "grid_intervals_for_saved_certificate": 64,
+  "points": ["1/8", "1/4", "3/8", "1/2", "5/8", "3/4", "7/8"],
+  "digits": [40, 70],
+  "scope": "Retrospective high-precision point checks on the same 12 studied polynomial PINNs. Numerical Green integration is finite-point, finite-precision diagnostics, not a validated continuous certificate, full software audit, or new training run."
+}

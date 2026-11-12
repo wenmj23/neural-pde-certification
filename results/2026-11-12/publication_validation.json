@@ -1,0 +1,49 @@
+{
+  "manifest_files_checked": 370,
+  "readbacks": [
+    {
+      "script": "295_verify_residual_gap_audit_20261112.py",
+      "readback_equal": true
+    },
+    {
+      "script": "297_verify_green_quadrature_audit_20261112.py",
+      "readback_equal": true
+    },
+    {
+      "script": "299_verify_nonnegative_residual_exact_20261112.py",
+      "readback_equal": true
+    },
+    {
+      "script": "301_verify_sine_green_quadrature_20261112.py",
+      "readback_equal": true
+    },
+    {
+      "script": "303_verify_polynomial_peak_audit_20261112.py",
+      "readback_equal": true
+    },
+    {
+      "script": "305_verify_extra_polynomial_green_20261112.py",
+      "readback_equal": true
+    },
+    {
+      "script": "306_verify_legacy_interval_replay_20261112.py",
+      "readback_equal": true
+    },
+    {
+      "script": "308_verify_mpmath_global_residual_20261112.py",
+      "readback_equal": true
+    },
+    {
+      "script": "310_verify_mpmath_global_refinement_20261112.py",
+      "readback_equal": true
+    },
+    {
+      "script": "312_verify_mpmath_point_error_checks_20261112.py",
+      "readback_equal": true
+    }
+  ],
+  "python": "3.12.14",
+  "scope": "file hashes and ten original stored-result readbacks; no numerical-kernel rerun, Windows test, or continuous-domain proof",
+  "base_commit": "a627089dbe4a77ad432790022cc0a6591d53847b",
+  "manifest_sha256": "08117242e99da310f73056078ee5ade9487139ffab70a4c31cae09709c83e516"
+}

@@ -1,0 +1,8 @@
+{
+  "records": 7,
+  "symbolic_equation_and_boundary_checks": 7,
+  "ratio_first": 25.28395061728395,
+  "ratio_last": 357930283.4127996,
+  "readback_script_sha256": "04243c105f9288a67ff3981bba1f4f88f654e270df4ac17f790b0cef24bea94f",
+  "scope": "exact symbolic algebra and rational readback for artificial piecewise-polynomial residuals; not a trained-network validation"
+}

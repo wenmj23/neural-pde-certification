@@ -1,0 +1,10 @@
+{
+  "records": 12,
+  "case_file_checks": 12,
+  "numerical_peaks_within_reference": 12,
+  "local_max_curvature_checks": 12,
+  "max_root_cross_precision_difference": 4.06376592870811e-75,
+  "max_green_direct_discrepancy_as_saved": 0.0,
+  "readback_script_sha256": "d3a6831dfdf78ea5d59be25867aed84fa90df5a97be0bbb3516cacf372750182",
+  "scope": "post-exit hash and stored arithmetic for selected numerical roots; no proof of global maxima"
+}

@@ -1,0 +1,23 @@
+{
+  "expected_records": 60,
+  "records": 60,
+  "expected_spots": 48,
+  "spots": 48,
+  "expected_synthetic": 9,
+  "synthetic": 9,
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "baseline_sha256": "2bffa51e1f00430e9bf7b6fd91306f690f9250a529b0b02370668d6fc07dc659",
+  "script_sha256": "b209719bd0e53bbc498c8c4e2ac49020dc78fee2a4bfce401ebae36f06c9cc22",
+  "config_sha256": "0114becc1d0b04f6a2ea70d3f16c236c26bc22463ff0c6a24aea0af6e703cfc9",
+  "result_sha256": {
+    "records.json": "f89a0f0f7be0523086ef5d8f99772e0dc2a354c0268d80ba333b0c05a0691873",
+    "spot_checks.json": "9223c45c087736dc78602c1438adca928f23712d23e854d0d495fa919a32a66b",
+    "synthetic.json": "b92d6719b9ffaf5b41921b8e63bbe0b89780adf67902619a3363e8d9b73dd4c8"
+  },
+  "elapsed_seconds": 6.556356092999977,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "numpy_version": "2.3.5",
+  "mpmath_version": "1.3.0",
+  "scope": "Retrospective diagnostics for 12 previously studied polynomial PINNs and constructed sine controls. Finite grid quadrature and ordinary float arithmetic are not continuous certificates or an independent formal audit."
+}

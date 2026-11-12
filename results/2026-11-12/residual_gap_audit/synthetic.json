@@ -1,0 +1,83 @@
+[
+  {
+    "frequency": 1,
+    "grid_intervals": 8192,
+    "exact_error_max": 1.0,
+    "exact_global_ratio": 1.2337005501361697,
+    "green_signed_max": 0.9999999877442869,
+    "sampled_abs_green_max": 0.9999999877442869,
+    "max_point_difference": 1.2255713111031241e-08
+  },
+  {
+    "frequency": 3,
+    "grid_intervals": 8192,
+    "exact_error_max": 1.0,
+    "exact_global_ratio": 11.103304951225528,
+    "green_signed_max": 0.9999998896985871,
+    "sampled_abs_green_max": 7.283185427855347,
+    "max_point_difference": 1.1030141289225526e-07
+  },
+  {
+    "frequency": 5,
+    "grid_intervals": 8192,
+    "exact_error_max": 1.0,
+    "exact_global_ratio": 30.842513753404244,
+    "green_signed_max": 0.9999996936071973,
+    "sampled_abs_green_max": 19.849556308077503,
+    "max_point_difference": 3.0639280268474067e-07
+  },
+  {
+    "frequency": 7,
+    "grid_intervals": 8192,
+    "exact_error_max": 1.0,
+    "exact_global_ratio": 60.45132695667232,
+    "green_signed_max": 0.9999993994702329,
+    "sampled_abs_green_max": 38.6991126284108,
+    "max_point_difference": 6.005297671363152e-07
+  },
+  {
+    "frequency": 9,
+    "grid_intervals": 8192,
+    "exact_error_max": 1.0,
+    "exact_global_ratio": 99.92974456102975,
+    "green_signed_max": 0.9999990072877828,
+    "sampled_abs_green_max": 63.83185438885552,
+    "max_point_difference": 9.927122172070924e-07
+  },
+  {
+    "frequency": 11,
+    "grid_intervals": 8192,
+    "exact_error_max": 1.0,
+    "exact_global_ratio": 149.27776656647652,
+    "green_signed_max": 0.9999985170599481,
+    "sampled_abs_green_max": 95.24778528361918,
+    "max_point_difference": 1.4829400518667768e-06
+  },
+  {
+    "frequency": 21,
+    "grid_intervals": 8192,
+    "exact_error_max": 1.0,
+    "exact_global_ratio": 544.0619426100509,
+    "green_signed_max": 0.999994595247732,
+    "sampled_abs_green_max": 346.5751991938748,
+    "max_point_difference": 5.4047522679567805e-06
+  },
+  {
+    "frequency": 33,
+    "grid_intervals": 8192,
+    "exact_error_max": 1.0,
+    "exact_global_ratio": 1343.499899098289,
+    "green_signed_max": 0.9999866536344635,
+    "sampled_abs_green_max": 855.5133861492978,
+    "max_point_difference": 1.3346365536515137e-05
+  },
+  {
+    "frequency": 65,
+    "grid_intervals": 8192,
+    "exact_error_max": 1.0,
+    "exact_global_ratio": 5212.384824325317,
+    "green_signed_max": 0.9999482212178492,
+    "sampled_abs_green_max": 3318.521912368409,
+    "max_point_difference": 5.17787821507909e-05
+  }
+]

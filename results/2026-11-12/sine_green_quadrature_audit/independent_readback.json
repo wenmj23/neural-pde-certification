@@ -1,0 +1,10 @@
+{
+  "records": 60,
+  "case_file_checks": 60,
+  "point_precision_checks": 120,
+  "below_saved_upper": 60,
+  "max_green_direct_difference_as_saved": 2e-41,
+  "max_green_cross_precision_difference_as_saved": 4.036045111076744e-34,
+  "readback_script_sha256": "83d49be886c65148e8698a21e46242aa86ab44d549d896ee9b7a3173b257ce50",
+  "scope": "post-exit hashes, manifests, and arithmetic on stored decimal outputs; finite-point numerical check, not an interval proof"
+}

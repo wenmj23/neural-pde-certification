@@ -1,0 +1,11 @@
+{
+  "fixture_path": "results/2026-11-02/new_forcing_study/training_metadata/frozen_networks.json",
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "baseline_path": "results/2026-11-02/new_pinn_baselines/accuracy/records.json",
+  "baseline_sha256": "2bffa51e1f00430e9bf7b6fd91306f690f9250a529b0b02370668d6fc07dc659",
+  "spots_path": "results/2026-11-12/residual_gap_audit/spot_checks.json",
+  "spots_sha256": "ffc23ec07a09d914599e00e714212bb8921bc344ab663b94952bc3b6bc20bffd",
+  "digits": 40,
+  "meshes": [64, 256, 1024],
+  "scope": "Cross-backend global residual upper bounds for 12 previously studied polynomial PINNs, with original binary64 weights treated as exact. Bounds conditional on mpmath 1.3.0 interval operations, exp, implementation and PDE assumptions; not formal software verification."
+}

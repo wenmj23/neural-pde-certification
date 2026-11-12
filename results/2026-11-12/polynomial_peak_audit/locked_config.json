@@ -1,0 +1,11 @@
+{
+  "fixture_path": "results/2026-11-02/new_forcing_study/training_metadata/frozen_networks.json",
+  "fixture_sha256": "28c3c7a9da832b21af635dee344cc25835e5f9fd0e74e5e83301aa0657c83795",
+  "references_path": "results/2026-11-02/new_forcing_study/certificates/references.json",
+  "references_sha256": "754239efccfe61e870f7caf5fe82b180baab84fbddf8b8580ba2b351ae9cd20b",
+  "spots_path": "results/2026-11-12/residual_gap_audit/spot_checks.json",
+  "spots_sha256": "ffc23ec07a09d914599e00e714212bb8921bc344ab663b94952bc3b6bc20bffd",
+  "root_digits": [80, 110],
+  "quadrature_digits": [40, 70],
+  "scope": "Retrospective numerically located peak candidate per previously studied network, selected using an 8192-cell scan. Finite-precision root solving and quadrature do not prove global optimality or certificate correctness."
+}

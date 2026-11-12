@@ -1,0 +1,17 @@
+{
+  "records": 60,
+  "spot_checks": 48,
+  "synthetic_controls": 9,
+  "both_signs_at_grid_nodes": 12,
+  "sample_error_below_saved_cubic": 12,
+  "sample_abs_green_below_saved_spatial": 12,
+  "median_sampled_global_over_error": 149.5359588309878,
+  "median_sampled_absolute_green_over_error": 17.510863527790747,
+  "median_sampled_global_over_absolute_green": 8.90760317969844,
+  "median_green_point_difference": 2.305516357507261e-11,
+  "max_green_point_difference": 6.667449910133147e-11,
+  "max_float_residual_discrepancy": 9.180156634869263e-15,
+  "max_float_error_discrepancy": 2.6262934155977385e-16,
+  "readback_script_sha256": "90d5e4f2c58b19f7aa0a4834ae9be3bdeca62c3fadcb22c3b4bafc60a4631ba9",
+  "scope": "post-exit hash, manifests, stored arithmetic and precision-string comparisons; not an independent continuous-domain proof or rerun of the numerical kernel"
+}

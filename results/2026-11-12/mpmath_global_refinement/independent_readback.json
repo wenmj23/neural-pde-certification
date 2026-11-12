@@ -1,0 +1,58 @@
+{
+  "records": 9,
+  "networks": 4,
+  "groups": {
+    "poly_quadratic_12x2_depth1_seed401": {
+      "meshes": [
+        4096
+      ],
+      "ratios": [
+        1.0988365766484627
+      ],
+      "goal_met": true,
+      "sum_cell_seconds": 7.369860423999853
+    },
+    "poly_quadratic_12x2_depth2_seed401": {
+      "meshes": [
+        4096,
+        16384
+      ],
+      "ratios": [
+        1.102910126220863,
+        1.0256063853393556
+      ],
+      "goal_met": true,
+      "sum_cell_seconds": 155.80169983899987
+    },
+    "poly_quintic_42x5_depth1_seed401": {
+      "meshes": [
+        4096,
+        16384,
+        32768
+      ],
+      "ratios": [
+        5.5551199114983785,
+        2.1349306574541638,
+        1.5647821206148527
+      ],
+      "goal_met": false,
+      "sum_cell_seconds": 108.34051154899998
+    },
+    "poly_quintic_42x5_depth2_seed401": {
+      "meshes": [
+        4096,
+        16384,
+        32768
+      ],
+      "ratios": [
+        4.492766601298043,
+        1.611606268857955,
+        1.131410601347926
+      ],
+      "goal_met": false,
+      "sum_cell_seconds": 383.00472233200026
+    }
+  },
+  "readback_script_sha256": "9ba10ae68fe75cd2cb025944d48054feb950a05856a444720d3449a6bf0d4991",
+  "scope": "post-exit hashes, exact rational arithmetic and stopping-rule readback; mathematical guarantee remains conditional on IV backend and implementation"
+}

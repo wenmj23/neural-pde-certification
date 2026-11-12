@@ -1,0 +1,26 @@
+{
+  "network": "sine_k5_depth2_seed501",
+  "frequency": 5,
+  "point": "1/3",
+  "results": [
+    {
+      "digits": 40,
+      "green": "0.007191491103264751486862151808595809",
+      "direct_error": "0.007191491103264751486862151808595809",
+      "difference": "3.946056476e-42",
+      "quad_error_estimate": "6.666666667e-43",
+      "elapsed_seconds": 4.8177645519999714
+    },
+    {
+      "digits": 70,
+      "green": "0.007191491103264751486862151808595809023981155709666417918285761056",
+      "direct_error": "0.007191491103264751486862151808595809023981155709666417918285761056",
+      "difference": "1.089511389e-71",
+      "quad_error_estimate": "6.666666667e-92",
+      "elapsed_seconds": 15.943254062000051
+    }
+  ],
+  "green_cross_precision_difference": "2.39811557097e-38",
+  "direct_below_saved_cubic_upper": true,
+  "saved_cubic_upper_fraction": "8586082188517894156446184243537/649037107316853453566312041152512"
+}
