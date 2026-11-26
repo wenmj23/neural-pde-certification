@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "case_name": "deep_sine",
+  "error_norm": "Linf_absolute",
+  "problem": {
+    "operator": "-u_dd",
+    "source": "(k*pi)^2*sin(k*pi*x)",
+    "frequency": 5,
+    "domain": [
+      0,
+      1
+    ],
+    "boundary": [
+      0,
+      0
+    ]
+  },
+  "settings": {
+    "degree": 3,
+    "mesh": "uniform",
+    "goal": "decision",
+    "gap_ratio": "1.02",
+    "error_tolerance": "1e-4",
+    "initial_intervals": 16,
+    "max_intervals": 32,
+    "max_attempts": 9,
+    "time_limit_seconds": "30",
+    "precision_bits": 103
+  },
+  "network": {
+    "label": "depth3_k5_seed7",
+    "hidden_widths": [
+      16,
+      16,
+      16
+    ],
+    "fixture_sha256": "58c6c7532f4bb61d9d6c715cb32be568a103ed2ea2fe249fee6d4bf9b5a910d8",
+    "output_transform": "x*(1-x)*raw_network(x)"
+  },
+  "stop_reason": "mesh_limit",
+  "enclosure": {
+    "lower": {
+      "numerator": "0",
+      "denominator": "1",
+      "decimal_outward": "0",
+      "decimal_rounding": "down"
+    },
+    "upper": {
+      "numerator": "519397312766121810286869939959",
+      "denominator": "1267650600228229401496703205376",
+      "decimal_outward": "0.4097322343180438424235794",
+      "decimal_rounding": "up"
+    },
+    "z_lower": {
+      "numerator": "9512941576235978137484716459927",
+      "denominator": "2596148429267413814265248164610048",
+      "decimal_outward": "0.003664251808175836230291316",
+      "decimal_rounding": "down"
+    },
+    "z_upper": {
+      "numerator": "4759249175552741265822578199741",
+      "denominator": "1298074214633706907132624082305024",
+      "decimal_outward": "0.003666392199998915627813318",
+      "decimal_rounding": "up"
+    },
+    "remainder_upper": {
+      "numerator": "8235993735889937382311441254973",
+      "denominator": "20282409603651670423947251286016",
+      "decimal_outward": "0.4060658421180449267957661",
+      "decimal_rounding": "up"
+    },
+    "intervals": 32,
+    "residual_evaluations": 97,
+    "derivative_interval_evaluations": 48
+  },
+  "attempts": 2,
+  "accuracy_decision": "undetermined",
+  "gap_target_met": false,
+  "goal_met": false,
+  "gap_ratio_upper": null,
+  "work": {
+    "residual_evaluations": 97,
+    "derivative_interval_evaluations": 48
+  },
+  "wall_seconds": 0.10481458999993265,
+  "versions": {
+    "python": "3.12.14",
+    "python_flint": "0.9.0",
+    "flint": "3.6.0",
+    "mpmath": "1.3.0"
+  },
+  "input_sha256": {
+    "original_case": "a0d2f5267377593a05aa8fc1f128c2e38d0a9fc3f0e1f16967ccf376294b9346",
+    "replay_case": "8d7175b5b7d4264a650be2fb19c0a4328a9d5d0a18102b834ba8d111abca3969"
+  },
+  "source_sha256": {
+    "certify.py": "d815702c618606235933823974588e53889b75cb9067a2b95401d1a486fbc8d5",
+    "certification_pipeline.py": "7af6d1ce359347d7ca4127df7d2dbd5830b996fb80097899fd33228d1fb79f64",
+    "arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+    "arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+    "arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+    "arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+    "arb_problem_families.py": "ec72ac0d015bee596abd52b295d87f40af899cdb16e87573e0de872c31ed7fab",
+    "interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca"
+  },
+  "assumptions": [
+    "Unit interval, -u_dd=(k*pi)^2*sin(k*pi*x), zero Dirichlet data.",
+    "Exact mathematical dense tanh network with frozen binary64 weights and output x*(1-x)*N(x).",
+    "Quadratic requires residual C3; cubic requires residual C4. These tanh/sine cases are smooth.",
+    "Bounds are conditional on the stated mathematics and interval backend inclusion correctness; no independent/formal software audit."
+  ],
+  "trace": [
+    {
+      "attempt": 1,
+      "intervals": 16,
+      "status": "finite",
+      "enclosure": {
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "2542082811514910509270560291069",
+          "denominator": "309485009821345068724781056",
+          "decimal_outward": "8213.912567146197143618431",
+          "decimal_rounding": "up"
+        },
+        "z_lower": {
+          "numerator": "2907114854350823831927243657499",
+          "denominator": "649037107316853453566312041152512",
+          "decimal_outward": "0.004479119639813751519626998",
+          "decimal_rounding": "down"
+        },
+        "z_upper": {
+          "numerator": "182376473429529436317989210107",
+          "denominator": "40564819207303340847894502572032",
+          "decimal_outward": "0.004495927185019824953601041",
+          "decimal_rounding": "up"
+        },
+        "remainder_upper": {
+          "numerator": "5084162840185682994715493171413",
+          "denominator": "618970019642690137449562112",
+          "decimal_outward": "8213.908071219012123793477",
+          "decimal_rounding": "up"
+        },
+        "intervals": 16,
+        "residual_evaluations": 49,
+        "derivative_interval_evaluations": 16
+      },
+      "accuracy_decision": "undetermined",
+      "gap_target_met": false,
+      "goal_met": false,
+      "gap_ratio_upper": null,
+      "elapsed_seconds": 0.03925957199999175
+    },
+    {
+      "attempt": 2,
+      "intervals": 32,
+      "status": "finite",
+      "enclosure": {
+        "lower": {
+          "numerator": "0",
+          "denominator": "1",
+          "decimal_outward": "0",
+          "decimal_rounding": "down"
+        },
+        "upper": {
+          "numerator": "519397312766121810286869939959",
+          "denominator": "1267650600228229401496703205376",
+          "decimal_outward": "0.4097322343180438424235794",
+          "decimal_rounding": "up"
+        },
+        "z_lower": {
+          "numerator": "9512941576235978137484716459927",
+          "denominator": "2596148429267413814265248164610048",
+          "decimal_outward": "0.003664251808175836230291316",
+          "decimal_rounding": "down"
+        },
+        "z_upper": {
+          "numerator": "4759249175552741265822578199741",
+          "denominator": "1298074214633706907132624082305024",
+          "decimal_outward": "0.003666392199998915627813318",
+          "decimal_rounding": "up"
+        },
+        "remainder_upper": {
+          "numerator": "8235993735889937382311441254973",
+          "denominator": "20282409603651670423947251286016",
+          "decimal_outward": "0.4060658421180449267957661",
+          "decimal_rounding": "up"
+        },
+        "intervals": 32,
+        "residual_evaluations": 97,
+        "derivative_interval_evaluations": 48
+      },
+      "accuracy_decision": "undetermined",
+      "gap_target_met": false,
+      "goal_met": false,
+      "gap_ratio_upper": null,
+      "elapsed_seconds": 0.057182988000022306
+    }
+  ]
+}
