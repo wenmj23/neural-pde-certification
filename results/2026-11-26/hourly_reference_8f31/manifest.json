@@ -1,0 +1,11 @@
+{
+  "tighten.py": "311a18ad8b2f6c6f58bcb685d627244a0d1a0d873dd1003d1857ee8a1ae9b057",
+  "HANDOFF.md": "12bfb918068c58900df3892e8a7b294f4f46b1b4012472bc1fdf03752577e4b2",
+  "config.json": "efec2717849f094a3d4391590397d5f8b4b805e187cbab4b33ffa74166668151",
+  "comparison.json": "8a7ef7eee19614f886b4e14453c200683440457dbe688272bc1784e6a61adfb8",
+  "reference.json": "461ec92b9ac7fb1608fe66fa113c5b15694c962c4505655757ba11cee798c5bc",
+  "sources/18_continuous_reference_crosscheck.py": "01623b8c7218d03d83f60136f80d0577069e9969cdbad7adfc850f61e88a1c4d",
+  "sources/24_depth_continuous_reference.py": "564a2f20fa7f52cd8e0fff9ec028870d9582a2b2f8a49931a6bf92a3238250b1",
+  "sources/interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca",
+  "sources/321_fixed_testset_references_20261112.py": "06bdd68ed3363969d581d0e26b1bfce69f1a1b32b2f1e2f8475c5ad20b032385"
+}

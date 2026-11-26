@@ -1,0 +1,23 @@
+{
+  "lower": {
+    "numerator": "3989844614024757633783875876429314198480579",
+    "denominator": "11972621413014756705924586149611790497021399392059392",
+    "decimal_outward": "3.332473713473996741272187E-10",
+    "decimal_rounding": "down"
+  },
+  "upper": {
+    "numerator": "267753939586284205827958154481337189785352759160617",
+    "denominator": "803469022129495137770981046170581301261101496891396417650688",
+    "decimal_outward": "3.332473713505911514322155E-10",
+    "decimal_rounding": "up"
+  },
+  "converged": true,
+  "splits": 1814,
+  "error_point_evaluations": 1879,
+  "residual_interval_evaluations": 3692,
+  "elapsed_s": 8.856348591,
+  "bits": 169,
+  "domain_coverage": "64 initial cells, all active upper bounds retained; discarded cells below global lower",
+  "known_solution_used": true,
+  "used_by_certifier": false
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "mode": "uniform",
+    "contained": true,
+    "overlap": true
+  },
+  {
+    "mode": "adaptive",
+    "contained": true,
+    "overlap": true
+  }
+]

@@ -1,0 +1,13 @@
+fixed_sine_k2_d1_s3701
+fixed_sine_k2_d1_s3702
+fixed_sine_k2_d2_s3701
+fixed_sine_k2_d2_s3702
+fixed_fractional_cubic_d1_s3701
+fixed_fractional_cubic_d1_s3702
+fixed_fractional_cubic_d2_s3701
+fixed_fractional_cubic_d2_s3702
+fixed_fractional_quintic_d1_s3701
+fixed_fractional_quintic_d1_s3702
+fixed_fractional_quintic_d2_s3701
+fixed_fractional_quintic_d2_s3702
+{"expected": 96, "records": 96, "errors": 0, "fixture_sha256": "88afaef202cbfc15ab72ced056d619888f181375dc0610d23eb22e96ede23c1d", "protocol_sha256": "3208d480a0a847097e8d7494b0cca50c3fce95cf344680a73cf17c3484fe1ee8", "run_sha256": "261f9f0c62aadd025902f39eaa95e67fad917003443e07ca8b57ee6693de1544", "records_sha256": "c63f38014fc3a6b153336a306b03b7f2d87afcfd70729a523236f3a882fbcaf2"}

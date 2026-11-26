@@ -1,0 +1,866 @@
+[
+  {
+    "network": "fixed_sine_k2_d1_s3701",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3701",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3701",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3701",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3701",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3701",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3701",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3701",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3702",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3702",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3702",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3702",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3702",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3702",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3702",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3702",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3701",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3701",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3701",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3701",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3701",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3701",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3701",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3701",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3702",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3702",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3702",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3702",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3702",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3702",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3702",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3702",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3701",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3701",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3701",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3701",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3701",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3701",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3701",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3701",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3702",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3702",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3702",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3702",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3702",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3702",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3702",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3702",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3701",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3701",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3701",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3701",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3701",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3701",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3701",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3701",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3702",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3702",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3702",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3702",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3702",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3702",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": false,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3702",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3702",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": false,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3701",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3701",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3701",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3701",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3701",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3701",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3701",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3701",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3702",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3702",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3702",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3702",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3702",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3702",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3702",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3702",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3701",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3701",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3701",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3701",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3701",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3701",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3701",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3701",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3702",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3702",
+    "degree": 2,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3702",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3702",
+    "degree": 2,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3702",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3702",
+    "degree": 3,
+    "mode": "uniform",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3702",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 128,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3702",
+    "degree": 3,
+    "mode": "adaptive",
+    "budget": 192,
+    "reference_fully_contained": true,
+    "overlap": true,
+    "certificate_contained_in_reference": false
+  }
+]

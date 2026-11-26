@@ -1,0 +1,36 @@
+{
+  "expected": 96,
+  "records": 96,
+  "errors": 0,
+  "fixture_sha256": "88afaef202cbfc15ab72ced056d619888f181375dc0610d23eb22e96ede23c1d",
+  "protocol_sha256": "3208d480a0a847097e8d7494b0cca50c3fce95cf344680a73cf17c3484fe1ee8",
+  "run_sha256": "261f9f0c62aadd025902f39eaa95e67fad917003443e07ca8b57ee6693de1544",
+  "records_sha256": "c63f38014fc3a6b153336a306b03b7f2d87afcfd70729a523236f3a882fbcaf2",
+  "sources": {
+    "320_evaluate_fixed_testset_20261112.py": "e59c20859a05bcb858ca60e9a381bb61f175aff38a01c5242a2928bbd4c88ae4",
+    "arb_polynomial_forcing.py": "2646b4f2af40d31ee4dff15a7f0544b7b2428ea585de376e95eec5436ce9e074",
+    "225_derivative_split_20261105.py": "2835bb7c7de9228d02fadfb172d0b0bd3d751ac3490c6eb27c180fe366bdf792",
+    "151_new_pinn_matched_baselines_20261102.py": "6f3da27f670c4b64f4741e7ad1f963f2e6a4188622752b559c233186acc14a1f",
+    "arb_cubic_reconstruction.py": "8d842983e88cfa1b1c9e15c63d85bb527aa1d52d40de1ea576a312075d91026d",
+    "arb_shaped_remainder.py": "7d525ce0af3f712227dec591dec964bdd80220747048bdfba43634fbf64c4c11",
+    "arb_deep_network.py": "04df94d74ba823ffe6548a7c944d3081353f1fecfaa767019a04b07509342a13",
+    "arb_reconstruction.py": "a42e78ea8d0d432386db744a9687098c661b8c54bf328dbf7ddad16afc69eda5",
+    "arb_certification.py": "da846c6315ede24c3d083b36dcee5b416eb9d732c12eb2b94ea54d36f14a1917",
+    "arb_problem_families.py": "ec72ac0d015bee596abd52b295d87f40af899cdb16e87573e0de872c31ed7fab",
+    "interval_certification.py": "24ba50caac77887dd401ecaed8551910fee1be0c44edba2242546e3a246d65ca"
+  },
+  "cases": {
+    "case_fixed_fractional_quintic_d2_s3702.json": "9186cd8d03ab12497f6fbc6f22be8df1ea501b7f72a93c4e4605bcb62b3b5dd8",
+    "case_fixed_fractional_cubic_d2_s3702.json": "76f967b450ad50245ffe81fc243136b3d50b6bec8fd9caf73ab7bfb7f9e41453",
+    "case_fixed_fractional_cubic_d1_s3701.json": "89a7b35fd86a83ee9eac6701e4055a4265fcf97ed23d427bbeda8c4fcfb6bf1d",
+    "case_fixed_fractional_quintic_d1_s3701.json": "8991439b3b4ecb94f0ebf42f5f83e92ea3ff2e85132777d011b6d237671639a8",
+    "case_fixed_fractional_cubic_d2_s3701.json": "21eab6c0fbaa54ccc56b6b7559b2988140e5cbd58ec4ae6e127bf5f58e604888",
+    "case_fixed_fractional_quintic_d1_s3702.json": "3e758d8ce85f518828033c0aec227f62d3fd352e607ece19b4b3a5c756fb41aa",
+    "case_fixed_sine_k2_d2_s3701.json": "bf679b8b767e9c46b1dda5b484a6b70d14f2fb21708e18dcc767443fa3f63b27",
+    "case_fixed_fractional_quintic_d2_s3701.json": "f654af0466c69f6be90459f5133eb07c64f61e7c4318a5d090aecf2b44fd5659",
+    "case_fixed_fractional_cubic_d1_s3702.json": "9ab911b9fe625f99df858b692660213a65464fa5a0e627e42ad67af031f04c49",
+    "case_fixed_sine_k2_d1_s3702.json": "822379adff65968b074a98a71b0c3439e6c3a61e3e2ca27e8411ada1f071f275",
+    "case_fixed_sine_k2_d1_s3701.json": "c5cf8faeb2d0b3fcc09c25b3a92e672edb43eb7961ac86980a0926ea97407c28",
+    "case_fixed_sine_k2_d2_s3702.json": "f457d5826e741161923b3a69517f403c6c076d53e02adee04038f32f623b5944"
+  }
+}

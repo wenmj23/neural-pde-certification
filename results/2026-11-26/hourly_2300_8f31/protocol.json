@@ -1,0 +1,20 @@
+{
+  "question": "Do previously observed mesh width rankings persist at higher fixed budgets on the same frozen networks?",
+  "degrees": [
+    2,
+    3
+  ],
+  "mesh_modes": [
+    "uniform",
+    "adaptive"
+  ],
+  "budgets": [
+    128,
+    192
+  ],
+  "initial_intervals": 16,
+  "precision_bits": 103,
+  "bernstein_depth": 2,
+  "expected": 96,
+  "scope": "12 previously studied nonconverged networks; exploratory budgets selected after earlier results, no new training; timings single fixed order"
+}

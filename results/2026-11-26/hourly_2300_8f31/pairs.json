@@ -1,0 +1,434 @@
+[
+  {
+    "network": "fixed_sine_k2_d1_s3701",
+    "degree": 2,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3701",
+    "degree": 2,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3701",
+    "degree": 3,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3701",
+    "degree": 3,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3702",
+    "degree": 2,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3702",
+    "degree": 2,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3702",
+    "degree": 3,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_sine_k2_d1_s3702",
+    "degree": 3,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3701",
+    "degree": 2,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3701",
+    "degree": 2,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3701",
+    "degree": 3,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3701",
+    "degree": 3,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3702",
+    "degree": 2,
+    "budget": 128,
+    "winner": "adaptive",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3702",
+    "degree": 2,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3702",
+    "degree": 3,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_sine_k2_d2_s3702",
+    "degree": 3,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3701",
+    "degree": 2,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3701",
+    "degree": 2,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3701",
+    "degree": 3,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3701",
+    "degree": 3,
+    "budget": 192,
+    "winner": "adaptive",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3702",
+    "degree": 2,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3702",
+    "degree": 2,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3702",
+    "degree": 3,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_cubic_d1_s3702",
+    "degree": 3,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3701",
+    "degree": 2,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3701",
+    "degree": 2,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3701",
+    "degree": 3,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3701",
+    "degree": 3,
+    "budget": 192,
+    "winner": "adaptive",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3702",
+    "degree": 2,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3702",
+    "degree": 2,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3702",
+    "degree": 3,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_cubic_d2_s3702",
+    "degree": 3,
+    "budget": 192,
+    "winner": "adaptive",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3701",
+    "degree": 2,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3701",
+    "degree": 2,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3701",
+    "degree": 3,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3701",
+    "degree": 3,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3702",
+    "degree": 2,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3702",
+    "degree": 2,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3702",
+    "degree": 3,
+    "budget": 128,
+    "winner": "adaptive",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_quintic_d1_s3702",
+    "degree": 3,
+    "budget": 192,
+    "winner": "adaptive",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3701",
+    "degree": 2,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3701",
+    "degree": 2,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3701",
+    "degree": 3,
+    "budget": 128,
+    "winner": "adaptive",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3701",
+    "degree": 3,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3702",
+    "degree": 2,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3702",
+    "degree": 2,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3702",
+    "degree": 3,
+    "budget": 128,
+    "winner": "equal",
+    "nodes_different": false,
+    "adaptive_derivative_calls": 240,
+    "uniform_derivative_calls": 128
+  },
+  {
+    "network": "fixed_fractional_quintic_d2_s3702",
+    "degree": 3,
+    "budget": 192,
+    "winner": "uniform",
+    "nodes_different": true,
+    "adaptive_derivative_calls": 368,
+    "uniform_derivative_calls": 192
+  }
+]

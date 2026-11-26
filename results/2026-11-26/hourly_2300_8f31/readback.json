@@ -1,0 +1,39 @@
+{
+  "records": 96,
+  "networks": 12,
+  "counts": {
+    "reference_contained": 94,
+    "1/10000:within": 96,
+    "1/1000000:exceeds": 43,
+    "1/10000000:exceeds": 58,
+    "1/1000000:unknown": 7,
+    "1/10000000:unknown": 6,
+    "1/1000000:within": 46,
+    "1/10000000:within": 32
+  },
+  "pairs": 48,
+  "winners": {
+    "equal": 21,
+    "uniform": 20,
+    "adaptive": 7
+  },
+  "nodes_different": 27,
+  "adaptive_more_derivative_calls": 48,
+  "groups": {
+    "2_128": {
+      "equal": 11,
+      "adaptive": 1
+    },
+    "2_192": {
+      "uniform": 12
+    },
+    "3_128": {
+      "equal": 10,
+      "adaptive": 2
+    },
+    "3_192": {
+      "uniform": 8,
+      "adaptive": 4
+    }
+  }
+}
