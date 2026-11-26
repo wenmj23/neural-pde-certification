@@ -1,0 +1,18 @@
+{
+  "rational_controls": 150,
+  "new_contains": 150,
+  "legacy_misses": 46,
+  "integer_certificates_equal": 24,
+  "invalid_inputs_rejected": 7,
+  "fixture_sha256": "de2287ec159eb520d6ed18a0b4c32d5d2516b7b5051fb5eaa46c75b50bcdb460",
+  "source_sha256": {
+    "scripts/74_polynomial_forcing_prototype.py": "26329a98a05f0201bc02034482edc3d0843a7c5ce7260daf4140d7afc12fbd85",
+    "scripts/arb_polynomial_forcing.py": "2646b4f2af40d31ee4dff15a7f0544b7b2428ea585de376e95eec5436ce9e074",
+    "scripts/316_audit_polynomial_coefficients_20261112.py": "4b16c82cb7e8cb826cedd903e8ae6412f1c9b1e80925d24a240639c77888e316"
+  },
+  "files": {
+    "integer_compatibility.json": "38e3c38503992ba4e73a1224747e3a290312dbc9970dfd64eab45a64e10490f4",
+    "source_controls.json": "804a980e8c3cd628e565ef8ad9e14a8ab9cd4eb038bda29db8996e223481d024"
+  },
+  "scope": "Legacy adapter floor-divides noninteger coefficients; published integer cases are unchanged in this comparison. New adapter is research-only; public CLI untouched."
+}
