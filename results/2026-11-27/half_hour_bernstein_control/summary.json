@@ -1,0 +1,9 @@
+{
+  "checks": 90,
+  "valid": 90,
+  "errors": [],
+  "controls": {
+    "depth_invalid": true
+  },
+  "precision_bits": 103
+}
